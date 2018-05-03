@@ -1,0 +1,66 @@
+%---- Header (mit Formateinstellugen) laden ------------------------------------------
+
+\input{hawmt-abschlussarbeits-header}
+
+\usepackage[latin1]{inputenc} % Inputencoding für PC/Win
+
+
+%---- Titelblatt-Layout laden --------------------------------------------------------
+
+\input{hawmt-bachelor-titelblatt}
+
+
+%---------------------------- Titeldefinitionen --------------------------------------
+
+\newcommand{\vorname}{Matthias}
+\newcommand{\nachname}{Held}
+\newcommand{\matrikelnummer}{2182712}
+
+\newcommand{\titel}{Red Tail\\[0.2ex] 
+				\Large Untertitel Untertitel Untertitel Untertitel}
+
+\newcommand{\erstpruef}{Prof. Dr. Roland Greule}
+\newcommand{\zweitpruef}{Matthias Allhoff}
+
+%\date{vorläufige Fassung vom \today}   % praktisch für Vorab-Versionen. 
+\date{\sffamily Hamburg, 2. 2. 2020}  % Abgabedatum!
+
+
+%----------------------------- hier gehts los! --------------------------------------
+
+\begin{document}
+\selectlanguage{ngerman}
+\maketitle           % Titelseite erzeugen
+\tableofcontents % Inhaltsverzeichnis erzeugen
+\clearpage          % Seitenumbruch
+
+
+%------------ Zusammenfassung / Abstract -------------------------------------------
+
+\thispagestyle{empty}
+\selectlanguage{english}
+\section*{\centering\abstractname}
+\label{sec:Abstract}
+englisch text englisch text englisch text englisch text
+englisch text englisch text englisch text englisch text
+englisch text englisch text englisch text englisch text
+
+
+\selectlanguage{ngerman}
+\section*{\centering\abstractname}
+\label{sec:Zusammenfassung}
+Diese \LaTeX-Vorlage berücksichtigt in Form und Layout die Vorgaben f�r Abschlussarbeiten im Department Medientechnik \glqq Richtlinien zur Erstellung schriftlicher Arbeiten, vorrangig Bachelor-Thesis (BA) und Master-Thesis (MA) im Department Medientechnik in der Fakult�t DMI an der HAW Hamburg\grqq, Fassung vom 6. Dezember 2012 von Prof. Wolfgang Willaschek.
+ 
+Der Ausdruck soll einseitig erfolgen (Simplex). Je nach Bindung ist ggf. die Bindekorrektur (Verlust am linken Seitenrand durch die Bindung) noch anzupassen. In dieser Vorlage ist eine Bindekorrektur im header der \LaTeX-Datei mit BCOR=1mm f�r Klebebindung eingestellt.
+
+{\bfseries Das ist die deutsche Version der vorangestellten Zusammenfassung. Beide Versionen -- englisch und deutsch -- sind verbindlich!}
+
+
+%--------------------------- Text -------------------------------
+
+\chapter{Ein Kapitel}
+\label{chapter:Menschliches Sehen}
+
+\section{Unterkapitel mit Mathematik, Bildern und Querverweisen}
+
+\end{document}
