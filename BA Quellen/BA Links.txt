@@ -3,3 +3,38 @@ https://www.production-partner.de/basics/farbwiedergabe-tm-30-15-cri-und-co/
 https://www.gigahertz-optik.de/de-de/grundlagen-lichtmesstechnik/licht-farbe/farbmetrik/
 
 http://www.hbernstaedt.de/knowhow/led/led_weiss.htm
+
+
+Weiﬂlichtkombination aus RGBA wird mit den Schwankungen getestet. Probleme erkennbar:
+https://www.hindawi.com/journals/aoe/2010/437564/
+
+Welche Weiﬂlichtkombination mit mehreren LED ist effizient und weiﬂ ? PC-Simulation
+https://www.hindawi.com/journals/aoe/2010/596825/
+
+How LEDs produce white light
+http://www.photonstartechnology.com/learn/how_leds_produce_white_light
+
+How LEDs produce tunable white light
+http://www.photonstartechnology.com/learn/how_leds_produce_tunable_white_light
+
+
+https://www.digikey.com/en/articles/techzone/2013/apr/defining-the-color-characteristics-of-white-leds
+
+http://www.mdpi.com/1424-8220/10/4/3961/htm
+
+TM-30
+https://www.tandfonline.com/doi/full/10.1080/15502724.2015.1092752
+
+TM-30
+https://www.energy.gov/sites/prod/files/2016/04/f30/tm-30_fact-sheet.pdf
+
+TM-30
+https://www.energy.gov/eere/ssl/webinar-understanding-and-applying-tm-30-15
+
+TM-30
+https://www.energy.gov/sites/prod/files/2015/09/f26/tm30-intro-webinar_9-15-15.pdf
+
+
+
+Software um Bilder zu Vergleichen
+https://juxtapose.knightlab.com/
