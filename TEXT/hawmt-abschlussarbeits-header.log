@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.18)  3 MAY 2018 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.18)  16 MAY 2018 16:26
 entering extended mode
-**"./BA Red Tail.tex"
-("BA Red Tail.tex"
+**./hawmt-abschlussarbeits-header.tex
+(hawmt-abschlussarbeits-header.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-(hawmt-abschlussarbeits-header.tex
+
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-scrip
 t\scrreprt.cls"
 Document Class: scrreprt 2018/03/30 v3.25 KOMA-Script document class (report)
@@ -39,74 +39,6 @@ Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             for `toc' on input line 136.
 Package tocbasic Info: defining new hook before heading of `' on input line 166
 7.
-Package scrreprt Info: You've used standard option `12pt'.
-(scrreprt)             This is correct!
-(scrreprt)             Internally I'm using `fontsize=12pt'.
-(scrreprt)             If you'd like to set the option with \KOMAoptions,
-(scrreprt)             you'd have to use `fontsize=12pt' there
-(scrreprt)             instead of `12pt', too.
-
-
-Class scrreprt Warning: You've used obsolete option `pointlessnumbers'.
-(scrreprt)              Usage of this option indicates an old document
-(scrreprt)              and changes compatibility level using
-(scrreprt)              `numbers=noenddot,version=first,
-(scrreprt)              enabledeprecatedfontcommands' that may result
-(scrreprt)              in further warnings.
-(scrreprt)              If you don't want this, you should simply
-(scrreprt)              replace option `pointlessnumbers' by `numbers=noenddot'
-.
-
-Class scrreprt Info: Switching compatibility level to `first'.
-
-Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
-(scrreprt)              Note, that this option was already depreacted when
-(scrreprt)              it has been defined. Support for old font commands
-(scrreprt)              has been removed from KOMA-Script more than one
-(scrreprt)              decade ago. It is not recommended to use them any
-(scrreprt)              longer. Therefore usage of this class option also
-(scrreprt)              is not recommended.
-
-
-Class scrreprt Warning: You've used obsolete option `bibtotoc'.
-(scrreprt)              Usage of this option indicates an old document
-(scrreprt)              and changes compatibility level using
-(scrreprt)              `bibliography=totoc,version=first,
-(scrreprt)              enabledeprecatedfontcommands' that may result
-(scrreprt)              in further warnings.
-(scrreprt)              If you don't want this, you should simply
-(scrreprt)              replace option `bibtotoc' by `bibliography=totoc'.
-
-Class scrreprt Info: Switching compatibility level to `first'.
-
-Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
-(scrreprt)              Note, that this option was already depreacted when
-(scrreprt)              it has been defined. Support for old font commands
-(scrreprt)              has been removed from KOMA-Script more than one
-(scrreprt)              decade ago. It is not recommended to use them any
-(scrreprt)              longer. Therefore usage of this class option also
-(scrreprt)              is not recommended.
-
-
-Class scrreprt Warning: You've used obsolete option `liststotoc'.
-(scrreprt)              Usage of this option indicates an old document
-(scrreprt)              and changes compatibility level using
-(scrreprt)              `listof=totoc,version=first,
-(scrreprt)              enabledeprecatedfontcommands' that may result
-(scrreprt)              in further warnings.
-(scrreprt)              If you don't want this, you should simply
-(scrreprt)              replace option `liststotoc' by `listof=totoc'.
-
-Class scrreprt Info: Switching compatibility level to `first'.
-
-Class scrreprt Warning: deprecated option `enabledeprecatedfontcommands'.
-(scrreprt)              Note, that this option was already depreacted when
-(scrreprt)              it has been defined. Support for old font commands
-(scrreprt)              has been removed from KOMA-Script more than one
-(scrreprt)              decade ago. It is not recommended to use them any
-(scrreprt)              longer. Therefore usage of this class option also
-(scrreprt)              is not recommended.
-
 Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
 ine 2328.
 
@@ -169,8 +101,6 @@ Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 6264.
 \c@table=\count88
-Class scrreprt Info: Using old \@makefntext due to compatibility level
-(scrreprt)           less than 3.22 on input line 6420.
 Class scrreprt Info: Redefining `\numberline' on input line 6433.
 \bibindent=\dimen102
 )
@@ -478,228 +408,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip63
 ))
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\input
-enc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+! Emergency stop.
+<*> ./hawmt-abschlussarbeits-header.tex
+                                       
+*** (job aborted, no legal \end found)
 
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin
-1.def"
-File: latin1.def 2015/03/17 v1.2c Input encoding file
-)) (hawmt-bachelor-titelblatt.tex) ("BA Red Tail.aux")
-\openout1 = `"BA Red Tail.aux"'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 31.
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.f
-d"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\sup
-p-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen125
-\scratchbox=\box28
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen126
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks20
-)
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\e
-pstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\g
-rfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 31.
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\n
-ameref.sty"
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
-\gettitlestring.sty"
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count113
-)
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
- ("BA Red Tail.out") ("BA Red Tail.out")
-\@outlinefile=\write3
-\openout3 = `"BA Red Tail.out"'.
-
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 34.
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmss.
-fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 34.
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.
-fd"
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 34.
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.
-fd"
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 34.
-
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy
-.fd"
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 34.
-
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex
-.fd"
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 34.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 34.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 34.
-<HAW_wuerfel.jpg, id=11, 516.93124pt x 504.88625pt>
-File: HAW_wuerfel.jpg Graphic file (type jpg)
-<use HAW_wuerfel.jpg>
-Package pdftex.def Info: HAW_wuerfel.jpg  used on input line 34.
-(pdftex.def)             Requested size: 56.39917pt x 55.08311pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 34.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 34.
- [1
-
-
-{C:/Users/Matthias Held/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./H
-AW_wuerfel.jpg>] ("BA Red Tail.toc"
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 6.
-)
-\tf@toc=\write4
-\openout4 = `"BA Red Tail.toc"'.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 35.
- [2
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
- [3
-
-]
-chapter 1.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 64.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 64.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 66.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 66.
-[4
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
- ("BA Red Tail.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
-Package rerunfilecheck Info: File `"BA Red Tail".out' has not changed.
-(rerunfilecheck)             Checksum: 1A4D9323CC4692072223D1023F32D3D7;148.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 9234 strings out of 493305
- 151922 string characters out of 3126320
- 340115 words of memory out of 3000000
- 12642 multiletter control sequences out of 15000+200000
- 60156 words of font info for 45 fonts, out of 3000000 for 9000
+ 8355 strings out of 493305
+ 136306 string characters out of 3126320
+ 336805 words of memory out of 3000000
+ 11857 multiletter control sequences out of 15000+200000
+ 4702 words of font info for 16 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,66p,9132b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-ec.enc}{C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-rm.enc}<C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmbx12.pfb><C:/Users/Matthias Held/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Matthias Held/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Matthias Held/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/Matthi
-as Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/
-Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lms
-sbx10.pfb>
-Output written on "BA Red Tail.pdf" (4 pages, 173333 bytes).
-PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 45i,1n,66p,9110b,138s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
