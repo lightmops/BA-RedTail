@@ -2,13 +2,15 @@
 %---- LaTeX-Header fuer Abschlussarbeiten, Prof. Thomas Goerne, Dez. 2012/Aug. 2013 ----
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[pagesize,paper=A4,fontsize=12pt,numbers=noenddot,bibliography=totoc,listof=totoc,DIV=11,BCOR=1mm]{scrreprt}
+\documentclass[pagesize,paper=A4,fontsize=12pt,utf8,ansinew,numbers=noenddot,bibliography=totoc,listof=totoc,DIV=11,BCOR=1mm]{scrreprt}
 % BCOR ist die Bindekorrektur (verlorener Rand am linken Blattrand)! Wert haengt von der Art der Heftung ab!!
 % DIV ist eine Satzspiegeleinstellung von KOMA-Script / sccreprt.
 
 \pagestyle{headings}
 
-\usepackage[T1]{fontenc} % Font Encoding fuer europaeische Schriften mit Umlauten (Unterstuetzung der Worttrennung)
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+\usepackage[utf8]{inputenc} % Font Encoding fuer europaeische Schriften mit Umlauten (Unterstuetzung der Worttrennung)
 \usepackage{lmodern} % PostScript-Varianten der TeX Computer Modern-Schriften laden
 \usepackage[english,ngerman]{babel} % Spracheinstellungen fuer Englisch und Neudeutsch laden
 
