@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.18)  23 MAY 2018 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.18)  24 MAY 2018 09:38
 entering extended mode
 **./LaTeX-Win-Abschlussarbeits-Template.tex
 (LaTeX-Win-Abschlussarbeits-Template.tex
@@ -732,57 +732,25 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip63
-))
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fonte
-nc.sty"
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc
-.def"
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-
-! LaTeX Error: Option clash for package inputenc.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 
-     
-The package inputenc has already been loaded with options:
-  [utf8]
-There has now been an attempt to load it with options
-  [ansinew]
-Adding the global options:
-  utf8,ansinew
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-(hawmt-bachelor-titelblatt.tex)
-
-LaTeX Warning: Unused global option(s):
-    [ansinew].
-
+)) (hawmt-bachelor-titelblatt.tex)
 (LaTeX-Win-Abschlussarbeits-Template.aux)
 \openout1 = `LaTeX-Win-Abschlussarbeits-Template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 34.
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.f
 d"
@@ -819,7 +787,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 34.
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\n
 ameref.sty"
@@ -831,40 +799,40 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count113
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (LaTeX-Win-Abschlussarbeits-Template.out)
 (LaTeX-Win-Abschlussarbeits-Template.out)
 \@outlinefile=\write3
 \openout3 = `LaTeX-Win-Abschlussarbeits-Template.out'.
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 40.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 37.
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmss.
 fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 37.
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.
 fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 40.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 37.
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.
 fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 37.
 
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy
 .fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 40.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 37.
 
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex
@@ -872,24 +840,24 @@ LaTeX Font Info:    Try loading font information for OMX+lmex on input line 40.
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 40.
+(Font)              <17.28> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 40.
+(Font)              <12> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 40.
+(Font)              <10> on input line 37.
 <HAW_wuerfel.jpg, id=55, 516.93124pt x 504.88625pt>
 File: HAW_wuerfel.jpg Graphic file (type jpg)
 <use HAW_wuerfel.jpg>
-Package pdftex.def Info: HAW_wuerfel.jpg  used on input line 40.
+Package pdftex.def Info: HAW_wuerfel.jpg  used on input line 37.
 (pdftex.def)             Requested size: 56.39917pt x 55.08311pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 40.
+(babel)             in language  on input line 37.
  [1
 
 
@@ -905,93 +873,93 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout4 = `LaTeX-Win-Abschlussarbeits-Template.toc'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 38.
  [2
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 64.
  [3
 
 ]
 chapter 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 66.
 <bilder/drums.jpg, id=96, 2569.6pt x 1927.2pt>
 File: bilder/drums.jpg Graphic file (type jpg)
 <use bilder/drums.jpg>
-Package pdftex.def Info: bilder/drums.jpg  used on input line 80.
+Package pdftex.def Info: bilder/drums.jpg  used on input line 77.
 (pdftex.def)             Requested size: 345.98688pt x 259.48442pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 84.
 [4
 
  <./bilder/drums.jpg>]
 <bilder/3x_richtchars.jpg, id=104, 375.804pt x 103.40633pt>
 File: bilder/3x_richtchars.jpg Graphic file (type jpg)
 <use bilder/3x_richtchars.jpg>
-Package pdftex.def Info: bilder/3x_richtchars.jpg  used on input line 91.
+Package pdftex.def Info: bilder/3x_richtchars.jpg  used on input line 88.
 (pdftex.def)             Requested size: 432.48195pt x 119.00786pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 124.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 124.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 124.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 124.
  [5 <./bilder/3x_richtchars.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 132.
  [6]
 chapter 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 134.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 139.
+(Font)              <7> on input line 136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 139.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 144.
+(Font)              <5> on input line 136.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 141.
 
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.
@@ -999,190 +967,190 @@ fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 144.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 141.
 
-Overfull \hbox (20.8934pt too wide) in paragraph at lines 155--156
+Overfull \hbox (20.8934pt too wide) in paragraph at lines 152--153
 []\T1/lmr/m/n/12 Aufzählungen kön-nen auch ver-schach-telt wer-den. Als Bei-spi
 el dient hier ei-ne enumerate-
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 182--182
+Underfull \hbox (badness 1127) in paragraph at lines 179--179
 []|\T1/lmr/m/n/12 Hertha BSC Ber-lin (Ball-sport-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 206.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 206.
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 209.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 209.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 209.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 212.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 212.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 209.
 [7
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 220.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 220.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 220.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 220.
  [8]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 222.
  [9]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 230.
 [10
 
 ]
 chapter A.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 233.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 235.
+(babel)             in language  on input line 232.
 
-Overfull \hbox (0.52693pt too wide) in paragraph at lines 236--237
+Overfull \hbox (0.52693pt too wide) in paragraph at lines 233--234
 \T1/lmr/m/n/12 Skiz-zen zu Ver-suchsauf-bau-ten und ähn-li-ches Ma-te-ri-al zur
  Ar-beit. Im L[]T[]X-Dokument
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 239.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 239.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 239.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 239.
 [11
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 239.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 242.
+(babel)             in language  on input line 239.
  (LaTeX-Win-Abschlussarbeits-Template.lof)
 \tf@lof=\write5
 \openout5 = `LaTeX-Win-Abschlussarbeits-Template.lof'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 243.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 243.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 243.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 243.
+(babel)             in language  on input line 240.
  [12
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 243.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 243.
+(babel)             in language  on input line 240.
 
 (LaTeX-Win-Abschlussarbeits-Template.lot)
 \tf@lot=\write6
 \openout6 = `LaTeX-Win-Abschlussarbeits-Template.lot'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 245.
  [13
 
 ]
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 248.
+(babel)             in language  on input line 245.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 248.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 256.
+(babel)             in language  on input line 245.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 253.
 
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.
 fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
 \T1/lmtt/m/n/12 Assets / downloadablefile / 2b _ bdrom _ audiovisualapplication
  _ 0305 -[] 12955 -[]
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 287.
 [14
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 290.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 290.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 290.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 293.
+(babel)             in language  on input line 290.
  [15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
  (LaTeX-Win-Abschlussarbeits-Template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `LaTeX-Win-Abschlussarbeits-Template.out' has
  not changed.
 (rerunfilecheck)             Checksum: C1CC4F1B01D86BF17D59AB7C28948E24;937.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 293.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 9725 strings out of 493305
- 158139 string characters out of 3126320
- 349499 words of memory out of 3000000
- 13050 multiletter control sequences out of 15000+200000
+ 9717 strings out of 493305
+ 157755 string characters out of 3126320
+ 349468 words of memory out of 3000000
+ 13047 multiletter control sequences out of 15000+200000
  83927 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,12n,66p,9154b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1211,7 +1179,7 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Matthias He
 ld/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/
 Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pf
 b>
-Output written on LaTeX-Win-Abschlussarbeits-Template.pdf (15 pages, 2749884 by
+Output written on LaTeX-Win-Abschlussarbeits-Template.pdf (15 pages, 2749650 by
 tes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
