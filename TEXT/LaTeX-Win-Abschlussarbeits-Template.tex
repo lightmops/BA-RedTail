@@ -70,9 +70,54 @@ Bei der Auswertung werden die gemessenen lichttechnischen Parameter betrachtet u
 
 \chapter{Grundlagen und Kenngrößen der Lichttechnik}
 
-\section{Wie sehen wir Licht}
+
+
+\section{Wie sehen wir Licht} \label{sec_wiesehenwir}
+Für den Menschen sind elektromagnetische Wellenlänge im Bereich von 380nm - 780nm sichtbar (Abb. \ref{b_sichtbareslicht}). 
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.7\textwidth]{bilder/sichtbares_licht} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Für das menschliche Auge sichtbarer Bereich des elektromagnetischen Spektrums\protect\footnotemark}\label{b_sichtbareslicht}
+\end{figure}
+
+\footnotetext{\url{https://www.allmystery.de/i/t4f0016_sichtbares_licht.jpg}}
+
+Ein Selbstleuchter ist eine natürliche oder künstliche Lichtquelle, die Licht im sichtbaren Bereich emittiert. Körperfarben hingegen entstehen durch Reflexion oder Transmission von Licht auf einen nichtselbstleuchtenden Gegenstand. Bei der Beobachtung der Körperfarben hinsichtlich ihrer Beleuchtung wird die Farbewiedergabe des Lichts bestimmt\citep[S.103]{hentschel}.
+
+
+
+\section{test}
 
 \section{Farben und Farbmischungen}
+Eine Farbe kann mit den drei Bestimmungsstücken Helligkeit, Farbton und Sättigung beschrieben werden. Die Helligkeit wird als Äquivalent zu der Leuchtdichte bei Selbstleuchtern (zum Leuchtedichtefaktor bei Körperfarben) gesehen. Die empfundene Helligkeit von Licht ist immer durch die V($\lambda$)-Kurve bewertet (siehe Abschnitt\ref{sec_wiesehenwir}).
+Der Farbton ist das Äquivalent der Farbempfindung. Mit ihm wird ausgedrückt, welcher Farbname der Farbe zugeordnet wird.
+Die Sättigung bestimmt wie groß der Anteil eines Farbtons einer Farbe ist. Weiß und Schwarz haben eine Sättigung von 0 und werden daher unbunte Farben genannt \citep[S.102-103]{hentschel}.
+
+
+Für die additive Farbmischung gelten nach Grassmann (1853) folgende drei Regeln:
+
+\begin{enumerate}\setlength{\itemsep}{0ex}
+\item Für das Ergebnis einer additiven Farbmischung ist nur das Aussehen, nicht die spektrale Zusammensetzung der Komponenten maßgebend.
+\item Alle Farbmischungen verlaufen stetig.
+\item Zum Festlegen einer Farbe sind drei Bestimmungsstücke notwendig und hinreichend 
+\end{enumerate}
+
+Die erste Regel bedeutet, dass das bloße Auge nicht erkennen kann aus welchen sprektralen Komponenten Licht besteht. Ein orangenes Licht einer amberfarbenen LED kann (bei gleicher Helligkeit, Farbton und Sättigung) nicht von einem orangen Licht unterschieden werden, dass aus einer roten und einer grünen LED gemischt wurde.
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.7\textwidth]{bilder/additve_und_subtraktive_Farben} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Additive Farbmischung mit rot, grün und blau (l.) und Subtraktive Farbmischung mit cyan, magenta und gelb (r.) \protect\footnotemark}
+\end{figure}
+
+\footnotetext{\url{https://www.axel-venn.de/s/cc_images/teaserbox_23365996.jpg?t=1415014980}}
+
+
+
+Die Gesichtsempfindung "Farbe" entsteht durch Lichtreize von Selbstleuchtern oder Körperfarben. Um eine solche Farbe zu beschreiben sind nach dem 3. Graßmannschen Satz \emph{\glqq drei Bestimmungsstücke notwendig und ausreichend\grqq} \citep[S.102-103]{hentschel}
 
 \section{Farbräume}
 
@@ -124,7 +169,7 @@ Production Partner:
 \url{https://www.production-partner.de/basics/farbwiedergabe-tm-30-15-cri-und-co/}, 22.02.2018, letzter Zugriff 20.06.2018
 
 
-\bibitem[Gigahertz-Optik]{Gigahertz}
+\bibitem[Gigahertz-Optik(2012)]{Gigahertz}
 Gigahertz-Optik:
 \emph{\glqq Grundladen der Lichtmesstechnik\grqq}
 \url{https://www.gigahertz-optik.de/de-de/grundlagen-lichtmesstechnik/}, letzter Zugriff 20.06.2018

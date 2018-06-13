@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.18)  13 JUN 2018 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.18)  13 JUN 2018 12:42
 entering extended mode
-**./LaTeX-Win-Abschlussarbeits-Template.tex
-(LaTeX-Win-Abschlussarbeits-Template.tex
+**"./LaTeX-Win-Abschlussarbeits-Template - Kopie.tex"
+("LaTeX-Win-Abschlussarbeits-Template - Kopie.tex"
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 (hawmt-abschlussarbeits-header.tex
@@ -733,8 +733,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip63
 )) (hawmt-bachelor-titelblatt.tex)
-(LaTeX-Win-Abschlussarbeits-Template.aux)
-\openout1 = `LaTeX-Win-Abschlussarbeits-Template.aux'.
+No file "LaTeX-Win-Abschlussarbeits-Template - Kopie".aux.
+\openout1 = `"LaTeX-Win-Abschlussarbeits-Template - Kopie.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
@@ -802,10 +802,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 34.
 LaTeX Info: Redefining \pageref on input line 34.
 LaTeX Info: Redefining \nameref on input line 34.
- (LaTeX-Win-Abschlussarbeits-Template.out)
-(LaTeX-Win-Abschlussarbeits-Template.out)
+ ("LaTeX-Win-Abschlussarbeits-Template - Kopie.out")
+("LaTeX-Win-Abschlussarbeits-Template - Kopie.out")
 \@outlinefile=\write3
-\openout3 = `LaTeX-Win-Abschlussarbeits-Template.out'.
+\openout3 = `"LaTeX-Win-Abschlussarbeits-Template - Kopie.out"'.
 
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 37.
 
@@ -845,7 +845,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 37.
-<HAW_wuerfel.jpg, id=91, 516.93124pt x 504.88625pt>
+<HAW_wuerfel.jpg, id=55, 516.93124pt x 504.88625pt>
 File: HAW_wuerfel.jpg Graphic file (type jpg)
 <use HAW_wuerfel.jpg>
 Package pdftex.def Info: HAW_wuerfel.jpg  used on input line 37.
@@ -863,14 +863,12 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 {C:/Users/Matthias Held/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./H
-AW_wuerfel.jpg>] (LaTeX-Win-Abschlussarbeits-Template.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 6.
-)
+AW_wuerfel.jpg>]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write4
-\openout4 = `LaTeX-Win-Abschlussarbeits-Template.toc'.
+\openout4 = `"LaTeX-Win-Abschlussarbeits-Template - Kopie.toc"'.
 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 38.
@@ -880,365 +878,385 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 38.
- [2
+[2
 
 ]
-Overfull \hbox (6.96713pt too wide) in paragraph at lines 56--60
-\T1/lmr/m/n/12 denRed Tail si-mu-lie-ren soll, auf einen Mess-punkt aus-ge-ri
-ch-tet. Der LED-Scheinwerfer
- []
-
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 46.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 66.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 66.
-[3
+(babel)             in language  on input line 64.
+ [3
 
 ]
 chapter 1.
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 64.
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 66.
+
+LaTeX Warning: Reference `b_trommelmik' on page 4 undefined on input line 68.
+
+
+LaTeX Warning: Reference `b_trommelmik' on page 4 undefined on input line 70.
+
+
+LaTeX Warning: Reference `b_richtch' on page 4 undefined on input line 70.
+
+
+LaTeX Warning: Reference `b_richtch' on page 4 undefined on input line 70.
+
+
+LaTeX Warning: Reference `sec_fussnot' on page 4 undefined on input line 72.
+
+<bilder/drums.jpg, id=78, 2569.6pt x 1927.2pt>
+File: bilder/drums.jpg Graphic file (type jpg)
+<use bilder/drums.jpg>
+Package pdftex.def Info: bilder/drums.jpg  used on input line 77.
+(pdftex.def)             Requested size: 345.98688pt x 259.48442pt.
+
+LaTeX Warning: Reference `b_richtch' on page 4 undefined on input line 83.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 71.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 71.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 84.
 [4
 
-]
+ <./bilder/drums.jpg>]
+<bilder/3x_richtchars.jpg, id=84, 375.804pt x 103.40633pt>
+File: bilder/3x_richtchars.jpg Graphic file (type jpg)
+<use bilder/3x_richtchars.jpg>
+Package pdftex.def Info: bilder/3x_richtchars.jpg  used on input line 88.
+(pdftex.def)             Requested size: 432.48195pt x 119.00786pt.
+
+
+LaTeX Warning: Reference `gl_fourier' on page 5 undefined on input line 94.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 118.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 118.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 124.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 124.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 124.
+[5 <./bilder/3x_richtchars.jpg>]
+
+Package natbib Warning: Citation `sowodniok' on page 6 undefined on input line 
+124.
+
+
+Package natbib Warning: Citation `sowodniok' on page 6 undefined on input line 
+128.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 132.
+[6]
 chapter 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 71.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 75.
-<bilder/sichtbares_licht.jpg, id=141, 501.875pt x 504.88625pt>
-File: bilder/sichtbares_licht.jpg Graphic file (type jpg)
-<use bilder/sichtbares_licht.jpg>
-Package pdftex.def Info: bilder/sichtbares_licht.jpg  used on input line 80.
-(pdftex.def)             Requested size: 302.73604pt x 304.5673pt.
+(babel)             in language  on input line 134.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 85.
+(Font)              <7> on input line 136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 85.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 85.
+(Font)              <5> on input line 136.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 141.
+
+
+("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.
+fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 141.
+
+Overfull \hbox (20.8934pt too wide) in paragraph at lines 152--153
+[]\T1/lmr/m/n/12 Aufzählungen kön-nen auch ver-schach-telt wer-den. Als Bei-spi
+el dient hier ei-ne enumerate-
+ []
+
+
+LaTeX Warning: Reference `t_buli' on page 7 undefined on input line 165.
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 179--179
+[]|\T1/lmr/m/n/12 Hertha BSC Ber-lin (Ball-sport-
+ []
+
+
+LaTeX Warning: Reference `t_buli2' on page 7 undefined on input line 186.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 206.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 206.
+
+Package natbib Warning: Citation `bluray' on page 7 undefined on input line 208
+.
+
+
+Package natbib Warning: Citation `dooley_streicher' on page 7 undefined on inpu
+t line 208.
+
+
+Package natbib Warning: Citation `stephenson' on page 7 undefined on input line
+ 208.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 209.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 209.
+[7
+
+]
+
+Package natbib Warning: Citation `kuttruff' on page 8 undefined on input line 2
+10.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 220.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 220.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 220.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 220.
+[8]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 222.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 222.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 222.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 222.
+ [9]
+chapter 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 222.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 222.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 230.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 230.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 230.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 230.
+[10
+
+]
+chapter A.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 230.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 230.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 232.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 232.
+
+Overfull \hbox (0.52693pt too wide) in paragraph at lines 233--234
+\T1/lmr/m/n/12 Skiz-zen zu Ver-suchsauf-bau-ten und ähn-li-ches Ma-te-ri-al zur
+ Ar-beit. Im L[]T[]X-Dokument
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 239.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 239.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 239.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 239.
+[11
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 239.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 239.
+
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
+\tf@lof=\write5
+\openout5 = `"LaTeX-Win-Abschlussarbeits-Template - Kopie.lof"'.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 240.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 240.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 240.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 240.
+[12
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 240.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 240.
+
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
+\tf@lot=\write6
+\openout6 = `"LaTeX-Win-Abschlussarbeits-Template - Kopie.lot"'.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 245.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 245.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 245.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 245.
+[13
+
+]
+chapter without number
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 245.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 245.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 253.
+
 
 ("C:\Users\Matthias Held\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmtt.
 fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (33.31628pt too wide) in paragraph at lines 87--88
-\T1/lmr/m/n/12 Trans-mis-si-on von Licht auf einen nicht-selbst-leuch-ten-den G
-e-gen-stand([][]Hentschel[][] [][]1993[][]:S.103). 
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+\T1/lmtt/m/n/12 Assets / downloadablefile / 2b _ bdrom _ audiovisualapplication
+ _ 0305 -[] 12955 -[]
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 91.
+(babel)             in language  on input line 287.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 91.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 95.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 95.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 95.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 95.
-[5
-
- <./bilder/sichtbares_licht.jpg>]
-<bilder/additve_und_subtraktive_Farben.jpg, id=160, 216.81pt x 110.0913pt>
-File: bilder/additve_und_subtraktive_Farben.jpg Graphic file (type jpg)
-<use bilder/additve_und_subtraktive_Farben.jpg>
-Package pdftex.def Info: bilder/additve_und_subtraktive_Farben.jpg  used on inp
-ut line 109.
-(pdftex.def)             Requested size: 302.73604pt x 153.74203pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 119.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 119.
- [6 <./bilder/additve_und_subtraktive_Farben.jpg>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 120.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 120.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
- [7]
-chapter 3.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 124.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 124.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
-[8
+(babel)             in language  on input line 287.
+[14
 
 ]
-chapter 4.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 290.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 290.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 290.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 130.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 130.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 130.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 130.
-[9
+(babel)             in language  on input line 290.
+[15
 
 ]
-chapter 5.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 130.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 130.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 132.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 132.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
-[10
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
+ ("LaTeX-Win-Abschlussarbeits-Template - Kopie.aux"
 
-]
-chapter 6.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 138.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 138.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 138.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 138.
-[11
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
 
-]
-chapter 7.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 138.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 138.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 140.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 140.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
-[12
-
-]
-chapter 8.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 144.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 144.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 152.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 152.
-[13
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 152.
- (LaTeX-Win-Abschlussarbeits-Template.lof)
-\tf@lof=\write5
-\openout5 = `LaTeX-Win-Abschlussarbeits-Template.lof'.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
- [14
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
-
-(LaTeX-Win-Abschlussarbeits-Template.lot)
-\tf@lot=\write6
-\openout6 = `LaTeX-Win-Abschlussarbeits-Template.lot'.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 158.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 158.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 158.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 158.
- [15
-
-]
-chapter without number
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 158.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 158.
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--168
-\T1/lmtt/m/n/12 production -[] partner . de / basics / farbwiedergabe -[] tm -[
-] 30 -[] 15 -[] cri -[] und -[] co/$[][]\T1/lmr/m/n/12 ,
- []
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package rerunfilecheck Info: File `"LaTeX-Win-Abschlussarbeits-Template - Kopie
+".out' has not changed.
+(rerunfilecheck)             Checksum: C1CC4F1B01D86BF17D59AB7C28948E24;937.
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 171--174
-[]\T1/lmr/m/n/12 Gigahertz-Optik: \T1/lmr/m/it/12 Grund-la-den der Licht-mess-
-tech-nik [][]$\T1/lmtt/m/n/12 https : / / www . gigahertz -[]
- []
+LaTeX Warning: There were undefined references.
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 217.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 217.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 217.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 217.
-[16
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 220.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 220.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 220.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 220.
- [17
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
- (LaTeX-Win-Abschlussarbeits-Template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
-Package rerunfilecheck Info: File `LaTeX-Win-Abschlussarbeits-Template.out' has
- not changed.
-(rerunfilecheck)             Checksum: C9C6FEB44F6F04F7362EC13829748B79;1564.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 9718 strings out of 493305
- 157790 string characters out of 3126320
- 345206 words of memory out of 3000000
- 13041 multiletter control sequences out of 15000+200000
- 84019 words of font info for 58 fonts, out of 3000000 for 9000
+ 9700 strings out of 493305
+ 157122 string characters out of 3126320
+ 348657 words of memory out of 3000000
+ 13038 multiletter control sequences out of 15000+200000
+ 83927 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,12n,66p,9154b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--ec.enc}{C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
-ps/lm/lm-mathit.enc}<C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/lm/lmbx12.pfb><C:/Users/Matthias Held/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Matthias Held/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Matthias Held/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Mat
-thias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:
-/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lm
-r8.pfb><C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmri12.pfb><C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmro12.pfb><C:/Users/Matthias Held/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/Matthias Held/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Users/Matthias Held/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/M
-atthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb
-><C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
-m/lmtt12.pfb>
-Output written on LaTeX-Win-Abschlussarbeits-Template.pdf (17 pages, 689609 byt
-es).
+ 47i,12n,66p,9164b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-ec.enc}{C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathsy.enc}{C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9
+/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Matthias Held/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Matthias Held/AppData/Local
+/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users/Matthias Held/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Mat
+thias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><
+C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
+lmmi12.pfb><C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/lm/lmmi8.pfb><C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/lm/lmr10.pfb><C:/Users/Matthias Held/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Matthias Held/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Matthias Held/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Matt
+hias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/
+Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr
+i12.pfb><C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmro12.pfb><C:/Users/Matthias Held/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/lm/lmss12.pfb><C:/Users/Matthias Held/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Matthias Held/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Matthias He
+ld/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/
+Matthias Held/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pf
+b>
+Output written on "LaTeX-Win-Abschlussarbeits-Template - Kopie.pdf" (15 pages, 
+2741528 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
