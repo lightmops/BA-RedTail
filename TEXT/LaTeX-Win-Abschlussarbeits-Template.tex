@@ -65,65 +65,80 @@ Bei der Auswertung werden die gemessenen lichttechnischen Parameter betrachtet u
 
 \chapter{Einleitung}
 
-\section{Unterkapitel mit Mathematik, Bildern und Querverweisen}
+\chapter{Grundlagen und Kenngrößen der Lichttechnik} 
+
+\section{Lichtstrom $\Phi$} \label{sec_lumen}
+
+\section{Beleuchtungsstärke E}\label{sec_lux}
+
+\section{Lichtstärke I}\label{sec_candela}
+
+\section{Leuchtdichte L}\label{sec_candelamm}
+
+\chapter{Farbe und Farbräume}
+
+\section{Sehen mit dem Auge} \label{sec_auge}
+Um Farben und Farbräume erklären zu können, werden in diesem Kapitel die Grundlagen der Farbwahrnehmung beschrieben.\\
+Im Auge gibt es zwei Arten von lichtempfindlichen Rezeptoren in der Netzhaut, die für unsere Farbwahrnehmung verantwortlich sind: Zapfen und Stäbchen.\\
+Die Stäbchen nehmen verschiedene Helligkeitseindrücke wahr, können aber keine Farben unterscheiden. Daher sind sie für das skotopische Sehen (von 3 x $10^{-6} \frac{cd}{m^{2}}$ bis 0,03$\frac{cd}{m^{2}}$) verantwortlich \footnote{\cite{doccheck sko}}.
+Die verschiedenen spektralen Anteile des Lichts wirken sich auf die Zapfen aus und verantworten so den Farbeindruck. Außerdem sind die Zapfen für das photopische Sehen (ab einer Leuchtdichte von 3$\frac{cd}{m^{2}}$) zuständig \footnote{\cite{doccheck pho}}.
+  
 
 
-\chapter{Grundlagen und Kenngrößen der Lichttechnik}
-
-
-
-\section{Wie sehen wir Licht} \label{sec_wiesehenwir}
-Für den Menschen sind elektromagnetische Wellenlänge im Bereich von 380nm - 780nm sichtbar (Abb. \ref{b_sichtbareslicht}). 
 
 \begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
 \centering
-\includegraphics[width=0.7\textwidth]{bilder/sichtbares_licht} 
+\includegraphics[width=0.7\textwidth]{bilder/augespek} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Für das menschliche Auge sichtbarer Bereich des elektromagnetischen Spektrums\protect\footnotemark}\label{b_sichtbareslicht}
+\caption {Zapfen und Stäbchen im Auge\protect\footnotemark}\label{b_augespek}
 \end{figure}
 
-\footnotetext{\url{https://www.allmystery.de/i/t4f0016_sichtbares_licht.jpg}}
-
-Ein Selbstleuchter ist eine natürliche oder künstliche Lichtquelle, die Licht im sichtbaren Bereich emittiert. Körperfarben hingegen entstehen durch Reflexion oder Transmission von Licht auf einen nichtselbstleuchtenden Gegenstand. Bei der Beobachtung der Körperfarben hinsichtlich ihrer Beleuchtung wird die Farbewiedergabe des Lichts bestimmt\citep[S.103]{hentschel}.
+\footnotetext{\url{https://www.gigahertz-optik.de/assets/Uploads/Abb.-II.13-neu-v03.png}}
 
 
+\section{Sichtbares Spektrum} \label{sec_spektrum}
 
-\section{test}
+\section{Farbe} \label{sec_farbe}
 
-\section{Farben und Farbmischungen}
-Eine Farbe kann mit den drei Bestimmungsstücken Helligkeit, Farbton und Sättigung beschrieben werden. Die Helligkeit wird als Äquivalent zu der Leuchtdichte bei Selbstleuchtern (zum Leuchtedichtefaktor bei Körperfarben) gesehen. Die empfundene Helligkeit von Licht ist immer durch die V($\lambda$)-Kurve bewertet (siehe Abschnitt\ref{sec_wiesehenwir}).
-Der Farbton ist das Äquivalent der Farbempfindung. Mit ihm wird ausgedrückt, welcher Farbname der Farbe zugeordnet wird.
-Die Sättigung bestimmt wie groß der Anteil eines Farbtons einer Farbe ist. Weiß und Schwarz haben eine Sättigung von 0 und werden daher unbunte Farben genannt \citep[S.102-103]{hentschel}.
+\section{RGB Farbraum} \label{sec_rgb}
 
+\section{CIE-XYZ Farbraum} \label{sec_xyz}
 
-Für die additive Farbmischung gelten nach Grassmann (1853) folgende drei Regeln:
+\section{CIE-LUV Farbraum} \label{sec_luv}
 
-\begin{enumerate}\setlength{\itemsep}{0ex}
-\item Für das Ergebnis einer additiven Farbmischung ist nur das Aussehen, nicht die spektrale Zusammensetzung der Komponenten maßgebend.
-\item Alle Farbmischungen verlaufen stetig.
-\item Zum Festlegen einer Farbe sind drei Bestimmungsstücke notwendig und hinreichend 
-\end{enumerate}
+\section{CIE-LAB Farbraum} \label{sec_lab}
 
-Die erste Regel bedeutet, dass das bloße Auge nicht erkennen kann aus welchen sprektralen Komponenten Licht besteht. Ein orangenes Licht einer amberfarbenen LED kann (bei gleicher Helligkeit, Farbton und Sättigung) nicht von einem orangen Licht unterschieden werden, dass aus einer roten und einer grünen LED gemischt wurde.
+\chapter{Lichtechnische Parameter}
 
-\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
-\centering
-\includegraphics[width=0.7\textwidth]{bilder/additve_und_subtraktive_Farben} 
-% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Additive Farbmischung mit rot, grün und blau (l.) und Subtraktive Farbmischung mit cyan, magenta und gelb (r.) \protect\footnotemark}
-\end{figure}
+\section{Color Rendering Index (CRI)} \label{sec_cri}
 
-\footnotetext{\url{https://www.axel-venn.de/s/cc_images/teaserbox_23365996.jpg?t=1415014980}}
+\section{Color Quality Scale (CQS)} \label{sec_cqs}
 
+\section{Television Lighting Consistency Index (TLCI)} \label{sec_tlci}
 
+\section{IES Method for Evaluating Light Source Color Rendition (TM-30-15)} \label{sec_tm30}
 
-Die Gesichtsempfindung "Farbe" entsteht durch Lichtreize von Selbstleuchtern oder Körperfarben. Um eine solche Farbe zu beschreiben sind nach dem 3. Graßmannschen Satz \emph{\glqq drei Bestimmungsstücke notwendig und ausreichend\grqq} \citep[S.102-103]{hentschel}
+\chapter{Leuchtmittel}
 
-\section{Farbräume}
+\section{Glühlampe} \label{sec_glühlampe}
 
-\chapter{Messungen}
+\section{Halogenglühlampe} \label{sec_halogenglühlampe}
 
-\section{Unterkapitel mit Mathematik, Bildern und Querverweisen}
+\section{Entladungslampen} \label{sec_entladungslampe}
+
+\section{LEDs} \label{sec_led}
+
+\chapter{Vormessungen}
+
+\section{Ziel}
+
+\section{Aufbau}
+
+\section{Fazit aus der Vormessung}
+
+\chapter{Hauptmessung}
+
+\section{Messaufbau}
 
 \chapter{Messergebnisse}
 
@@ -162,6 +177,16 @@ Die Gesichtsempfindung "Farbe" entsteht durch Lichtreize von Selbstleuchtern ode
 % Formatierung für Internetquelle
 % Grundregel: Name, Vorname (falls vorhanden), VÖ-Jahr (falls vorhanden), Titel in Anführungszeichen, URL, Datum des letzten Aufrufs
 % zur Formatierung der URL unbedingt den url-Befehl benutzen!!!
+
+\bibitem[DocCheck Flexikon(2014)]{doccheck sko}
+DocCheck Flexikon:
+\emph{\glqq Skotopisches Sehen \glqq}
+\url{http://flexikon.doccheck.com/de/Skotopisches_Sehen}, 24.01.2014, letzter Zugriff 18.06.2018
+
+\bibitem[DocCheck Flexikon(2014)]{doccheck pho}
+DocCheck Flexikon:
+\emph{\glqq Photopisches Sehen \glqq}
+\url{http://flexikon.doccheck.com/de/Photopisches_Sehen}, 10.05.2016, letzter Zugriff 18.06.2018
 
 \bibitem[Production Partner(2018)]{production partner}
 Production Partner:

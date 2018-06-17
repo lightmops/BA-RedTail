@@ -1,22 +1,43 @@
 \BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.1}% 2
-\BOOKMARK [0][-]{chapter.2}{Grundlagen und Kenngr\366\337en der Lichttechnik}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Wie sehen wir Licht}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{test}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.3}{Farben und Farbmischungen}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.4}{Farbr\344ume}{chapter.2}% 7
-\BOOKMARK [0][-]{chapter.3}{Messungen}{}% 8
-\BOOKMARK [1][-]{section.3.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.3}% 9
-\BOOKMARK [0][-]{chapter.4}{Messergebnisse}{}% 10
-\BOOKMARK [1][-]{section.4.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.4}% 11
-\BOOKMARK [0][-]{chapter.5}{Umfrage}{}% 12
-\BOOKMARK [1][-]{section.5.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.5}% 13
-\BOOKMARK [0][-]{chapter.6}{Umfrageergebnisse}{}% 14
-\BOOKMARK [1][-]{section.6.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.6}% 15
-\BOOKMARK [0][-]{chapter.7}{Auswertung aller Ergebnisse}{}% 16
-\BOOKMARK [1][-]{section.7.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.7}% 17
-\BOOKMARK [0][-]{chapter.8}{Fazit}{}% 18
-\BOOKMARK [1][-]{section.8.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.8}% 19
-\BOOKMARK [0][-]{chapter*.4}{Abbildungsverzeichnis}{}% 20
-\BOOKMARK [0][-]{chapter*.5}{Tabellenverzeichnis}{}% 21
-\BOOKMARK [0][-]{chapter*.6}{Literaturverzeichnis}{}% 22
+\BOOKMARK [0][-]{chapter.2}{Grundlagen und Kenngr\366\337en der Lichttechnik}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Lichtstrom }{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Beleuchtungsst\344rke E}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Lichtst\344rke I}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Leuchtdichte L}{chapter.2}% 6
+\BOOKMARK [0][-]{chapter.3}{Farbe und Farbr\344ume}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Sehen mit dem Auge}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{Sichtbares Spektrum}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{Farbe}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.4}{RGB Farbraum}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.5}{CIE-XYZ Farbraum}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.6}{CIE-LUV Farbraum}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.7}{CIE-LAB Farbraum}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Lichtechnische Parameter}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Color Rendering Index \(CRI\)}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Color Quality Scale \(CQS\)}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Television Lighting Consistency Index \(TLCI\)}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.4}{IES Method for Evaluating Light Source Color Rendition \(TM-30-15\)}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Leuchtmittel}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Gl\374hlampe}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Halogengl\374hlampe}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.3}{Entladungslampen}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.4}{LEDs}{chapter.5}% 24
+\BOOKMARK [0][-]{chapter.6}{Vormessungen}{}% 25
+\BOOKMARK [1][-]{section.6.1}{Ziel}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.2}{Aufbau}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.3}{Fazit aus der Vormessung}{chapter.6}% 28
+\BOOKMARK [0][-]{chapter.7}{Hauptmessung}{}% 29
+\BOOKMARK [1][-]{section.7.1}{Messaufbau}{chapter.7}% 30
+\BOOKMARK [0][-]{chapter.8}{Messergebnisse}{}% 31
+\BOOKMARK [1][-]{section.8.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.8}% 32
+\BOOKMARK [0][-]{chapter.9}{Umfrage}{}% 33
+\BOOKMARK [1][-]{section.9.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.9}% 34
+\BOOKMARK [0][-]{chapter.10}{Umfrageergebnisse}{}% 35
+\BOOKMARK [1][-]{section.10.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.10}% 36
+\BOOKMARK [0][-]{chapter.11}{Auswertung aller Ergebnisse}{}% 37
+\BOOKMARK [1][-]{section.11.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.11}% 38
+\BOOKMARK [0][-]{chapter.12}{Fazit}{}% 39
+\BOOKMARK [1][-]{section.12.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.12}% 40
+\BOOKMARK [0][-]{chapter*.4}{Abbildungsverzeichnis}{}% 41
+\BOOKMARK [0][-]{chapter*.5}{Tabellenverzeichnis}{}% 42
+\BOOKMARK [0][-]{chapter*.6}{Literaturverzeichnis}{}% 43

@@ -2,25 +2,46 @@
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
 \babel@toc {ngerman}{}
-\contentsline {chapter}{\numberline {1}Einleitung}{4}{chapter.1}
-\contentsline {section}{\numberline {1.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{4}{section.1.1}
-\contentsline {chapter}{\numberline {2}Grundlagen und Kenngr\IeC {\"o}\IeC {\ss }en der Lichttechnik}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Wie sehen wir Licht}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}test}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Farben und Farbmischungen}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Farbr\IeC {\"a}ume}{7}{section.2.4}
-\contentsline {chapter}{\numberline {3}Messungen}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{8}{section.3.1}
-\contentsline {chapter}{\numberline {4}Messergebnisse}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{9}{section.4.1}
-\contentsline {chapter}{\numberline {5}Umfrage}{10}{chapter.5}
-\contentsline {section}{\numberline {5.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{10}{section.5.1}
-\contentsline {chapter}{\numberline {6}Umfrageergebnisse}{11}{chapter.6}
-\contentsline {section}{\numberline {6.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{11}{section.6.1}
-\contentsline {chapter}{\numberline {7}Auswertung aller Ergebnisse}{12}{chapter.7}
-\contentsline {section}{\numberline {7.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{12}{section.7.1}
-\contentsline {chapter}{\numberline {8}Fazit}{13}{chapter.8}
+\contentsline {chapter}{\numberline {1}Einleitung}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}Grundlagen und Kenngr\IeC {\"o}\IeC {\ss }en der Lichttechnik}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Lichtstrom $\Phi $}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Beleuchtungsst\IeC {\"a}rke E}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Lichtst\IeC {\"a}rke I}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Leuchtdichte L}{6}{section.2.4}
+\contentsline {chapter}{\numberline {3}Farbe und Farbr\IeC {\"a}ume}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Sehen mit dem Auge}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Sichtbares Spektrum}{8}{section.3.2}
+\contentsline {section}{\numberline {3.3}Farbe}{8}{section.3.3}
+\contentsline {section}{\numberline {3.4}RGB Farbraum}{8}{section.3.4}
+\contentsline {section}{\numberline {3.5}CIE-XYZ Farbraum}{8}{section.3.5}
+\contentsline {section}{\numberline {3.6}CIE-LUV Farbraum}{8}{section.3.6}
+\contentsline {section}{\numberline {3.7}CIE-LAB Farbraum}{8}{section.3.7}
+\contentsline {chapter}{\numberline {4}Lichtechnische Parameter}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Color Rendering Index (CRI)}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Color Quality Scale (CQS)}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}Television Lighting Consistency Index (TLCI)}{9}{section.4.3}
+\contentsline {section}{\numberline {4.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{9}{section.4.4}
+\contentsline {chapter}{\numberline {5}Leuchtmittel}{10}{chapter.5}
+\contentsline {section}{\numberline {5.1}Gl\IeC {\"u}hlampe}{10}{section.5.1}
+\contentsline {section}{\numberline {5.2}Halogengl\IeC {\"u}hlampe}{10}{section.5.2}
+\contentsline {section}{\numberline {5.3}Entladungslampen}{10}{section.5.3}
+\contentsline {section}{\numberline {5.4}LEDs}{10}{section.5.4}
+\contentsline {chapter}{\numberline {6}Vormessungen}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ziel}{11}{section.6.1}
+\contentsline {section}{\numberline {6.2}Aufbau}{11}{section.6.2}
+\contentsline {section}{\numberline {6.3}Fazit aus der Vormessung}{11}{section.6.3}
+\contentsline {chapter}{\numberline {7}Hauptmessung}{12}{chapter.7}
+\contentsline {section}{\numberline {7.1}Messaufbau}{12}{section.7.1}
+\contentsline {chapter}{\numberline {8}Messergebnisse}{13}{chapter.8}
 \contentsline {section}{\numberline {8.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{13}{section.8.1}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{14}{chapter*.4}
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{15}{chapter*.5}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{16}{chapter*.6}
+\contentsline {chapter}{\numberline {9}Umfrage}{14}{chapter.9}
+\contentsline {section}{\numberline {9.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{14}{section.9.1}
+\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{15}{chapter.10}
+\contentsline {section}{\numberline {10.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{15}{section.10.1}
+\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{16}{chapter.11}
+\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{16}{section.11.1}
+\contentsline {chapter}{\numberline {12}Fazit}{17}{chapter.12}
+\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{17}{section.12.1}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{18}{chapter*.4}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{19}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{20}{chapter*.6}
