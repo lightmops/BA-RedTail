@@ -112,7 +112,61 @@ Die verschiedenen spektralen Anteile des Lichts wirken sich auf die Zapfen aus u
 
 \section{Color Rendering Index (CRI)} \label{sec_cri}
 
+Da der Farbort allein keine eindeutige Aussage über die Zusammensetzung des Spektrums zulässt, wurde 1931 von der CIE ein Testverfahren entwickelt, mit dem man die Farbwiedergabe (Color Rendering Index) einer Leuchte bestimmen kann. Dafür hat man acht Referenzfarben festgelegt. Bei einer CRI-Messung überprüft man also, wie gut eine Lichtquelle diese Körperfarben wiedergeben kann. Es wird dabei zwischen einem schwarzen Strahler(< 5000K) und Tageslicht(> 5000K) differenziert. Die gemessenen Unterschiede zu den Referenzfarben werden mit Werten von 0 bis 100 gewichtet($R_{1}$-$R_{8}$), wobei ein Wert von 100 aussagt, dass die Farbe bestmöglich wiedergegeben wird. Zuerst werden die einzelnen Indexwerte $R_{i}$ aus den Farbdifferenzen $\Delta E_{i}$ berechnet (Gleichung \ref{gl_cri1})\footnote{\cite{davis_ohno}}.
+
+	\begin{equation}\label{gl_cri1}
+		R_{i} = 100 - 4,6 \cdot \Delta E_{i}
+	\end{equation}
+Diese acht Werte werden schließlich arithmetisch gemittelt und es ergibt sich der Gesamtwert $R_{a}$ (Gleichung \ref{gl_cri2})\footnote{\cite{production partner}}.
+	\begin{equation}\label{gl_cri2}
+		R_{a} =\frac{1}{8} \sum_{i=1}^{8} R_{i}
+	\end{equation}
+In der DIN 6169 werden zur besseren Beurteilung der Farbwiedergabe die $R_{a}$-Werte in verschiedene Stufen unterteilt (Tabelle \ref{t_cri}).
+
+	\begin{table}[htp] 
+		\rowcolors{1}{}{lgray} 
+		\centering
+		\begin{tabular}{rlcc}  % Spalten nach Ausrichtung: l, c, r, p{breite} 
+		\toprule
+		\multicolumn{3}{c}{\large\sffamily Stufen des CRI}\\ 							
+		\midrule
+		1A & $R_{a} \geq 90$ & sehr hohe Anforderung\\ 
+		1B & 90 > $R_{a} \geq 80$ & sehr hohe Anforderung\\
+		2A & 80 > $R_{a} \geq 70$ & hohe Anforderung\\
+		2B & 70 > $R_{a} \geq 60$ & hohe Anforderung\\
+		3 & 60 > $R_{a} \geq 40$ & mittlere Anforderung\\
+		4 & 40 > $R_{a} \geq 20$ & geringe Anforderung\\
+		\bottomrule
+		\end{tabular}
+		\caption{$R_{a}$ eingeteilt in verschiedene Stufen\protect\footnotemark}	
+		\label{t_cri}
+	\end{table}
+	\footnotetext{\cite[111]{hentschel}}
+
+Ein hoher $R_{a}$-Wert beschreibt aber nur bedingt die Farbwiedergabe einer Leuchte, da beispielsweise keine Angabe über die Sättigung der Farben gemacht wird. Außerdem sind die acht Referenzfarben nur Pastelltöne, weil der CRI damals für Glühlicht entwickelt wurde. Gesättigte Farben fließen nicht in die Bewertung mit ein.
+Das wirkt sich auch auf die Vergleichbarkeit von Leuchten aus. Zwei Scheinwerfer mit dem selben $R_{a}$-Wert von 90 können sehr unterschiedliche Spektren haben und damit sehr unterschiedlich Farben darstellen, trotz gleichem Farbwiedergabeindex.
+Außerdem kann man nur schwer eine Aussage darüber machen, ob sich eine Leuchte mit einem guten CRI für Personenbeleuchtung eignet, weil Rottöne und Hauttöne in diesem Bewertungsverfahren fehlen.\\\\
+Als immer mehr Leuchtstofflampen zur Beleuchtung genutzt wurden, sah sich die CIE gezwungen den Farbwiedergabeindex zu erweitern, weil Leuchtstofflampen durch gezielte schmalbandige Peaks im Spektrum zwar die Referenzfarben treffen und somit hohe CRI-Werte erreichen, aber auf diese Weise kein breitbandiges und ausgefülltes Lichtspektrum entsteht. Daher werden in dem neueren $R_{e}$-Wert gesättigte Farben und schließlich auch eine Hautfarbe miteinbezogen (Abb. \ref{b_cri}).
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.8\textwidth]{bilder/cri} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Alle Referenzfarben des Farbwiedergabeindexes: $R_{1}$ Altrosa, $R_{2}$ Senfgelb, $R_{3}$ Gelbgrün, $R_{4}$ Hellgrün, $R_{5}$ Türkisblau, $R_{6}$ Himmelblau, $R_{7}$ Asterviolett, $R_{8}$ Fliederviolett, $R_{9}$ Rot gesättigt, $R_{10}$ Gelb gesättigt, $R_{11}$ Grün gesättigt, $R_{12}$ Blau gesättigt und $R_{13}$ Rosa (Hautfarbe), $R_{14}$ Blattgrün \protect\footnotemark}\label{b_cri}
+\end{figure}
+
+\footnotetext{\url{https://www.elementalled.com/wp/wp-content/uploads/2015/08/CRI_chart.jpg}}
+
+Der $R_{e}$-Wert ist folglich schlechter als der $R_{a}$-Wert. Auch mit einem einzigen Rot- und Hautton ist der CRI zu wenig ausschlaggebend, um damit eine Leuchte für Personenbeleuchtung zu bewerten (Kap. \ref{sec_auge}). Zusätzlich entsteht bei LED-Leuchtmitteln ein ähnliches Problem, wie bei den Leuchstoffröhren. Man kann das Spektrum mit den Peaks gut auf die Referenzfarben ausrichten, ohne das Gesamte Spektrum abdecken zu müssen. Gerade bei LED-Leuchten kann dieses Verhalten des CRI ausgenutzt werden, um kritische Bereiche zu verschleiern. Zusätzlich wird dies durch die arithmetische Mittlung der Referenzfarbwerte begünstigt. Ein, zwei schlechtere Werte mindern den $R_{a}$-Wert nicht beträchtlich. Beispielsweise wird bei Weißen-LEDs  der fehlende Rotanteil nur am niedrigen $R_{9}$-Wert sichtbar, aber im im CRI-Wert sind diese Schwächen einer LED-Leuchte kaum erkennbar \footnote{\cite{davis_ohno}}. Der CRI kann daher eher als richtungsweisend betrachtet werden: Eine Leuchte mit guter Farbwiedergabe wird auch immer einen guten CRI-Wert haben. Zum Vergleich für Leuchten eignen sich andere Farbwiedergabewerte heutzutage besser \footnote{\cite{production partner}}.\\\\
+Aus diesen Gründen und der Schlussfolgerung der CIE, \emph{\glqq dass die CRI-Methode generell nicht anwendbar ist, um eine Anzahl von Lichtquellen gemäß ihrer Farbwiedergabe einzuordnen, wenn weiße LEDs darunter sind\grqq} \citep[VI]{CIE}, wird sich diese Arbeit hauptsächlich auf andere Farbwiedergabewerte konzentrieren, den CRI aber mit aufführen, weil er in der Scheinwerfer- und Fernsehbranche (noch) einen hohen Stellenwert inne hat.
+
+
+
+
+
 \section{Color Quality Scale (CQS)} \label{sec_cqs}
+
+Bei dem Color Quality Scale wird versucht an der Grundidee des CRI festzuhalten und  dessen Probleme anzugehen. So benutzt der CQS fünfzehn voll saturierte Farben.
 
 \section{Television Lighting Consistency Index (TLCI)} \label{sec_tlci}
 
@@ -178,19 +232,30 @@ Die verschiedenen spektralen Anteile des Lichts wirken sich auf die Zapfen aus u
 % Grundregel: Name, Vorname (falls vorhanden), VÖ-Jahr (falls vorhanden), Titel in Anführungszeichen, URL, Datum des letzten Aufrufs
 % zur Formatierung der URL unbedingt den url-Befehl benutzen!!!
 
+
+\bibitem[Commission Internationale de l'Eclairage(2007)]{CIE}
+Commission Internationale de l'Eclairage:
+\emph{\glqq Technical Report 177:2007 : Color Rendering of White LED Light Sources\grqq}
+\url{https://de.scribd.com/document/125319182/CIE-177-2007}, 2007, letzter Zugriff 20.06.2018
+
+\bibitem[Davis \& Ohno(2006)]{davis_ohno}
+Davis, Wendy L. \& Ohno, Yoshihiro:
+\emph{\glqq Development of a Color Quality Scale\grqq}
+\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.568.8399&rep=rep1&type=pdf}, 08.02.2006, letzter Zugriff 20.06.2018
+
 \bibitem[DocCheck Flexikon(2014)]{doccheck sko}
 DocCheck Flexikon:
-\emph{\glqq Skotopisches Sehen \glqq}
+\emph{\glqq Skotopisches Sehen\grqq}
 \url{http://flexikon.doccheck.com/de/Skotopisches_Sehen}, 24.01.2014, letzter Zugriff 18.06.2018
 
 \bibitem[DocCheck Flexikon(2014)]{doccheck pho}
 DocCheck Flexikon:
-\emph{\glqq Photopisches Sehen \glqq}
+\emph{\glqq Photopisches Sehen\grqq}
 \url{http://flexikon.doccheck.com/de/Photopisches_Sehen}, 10.05.2016, letzter Zugriff 18.06.2018
 
 \bibitem[Production Partner(2018)]{production partner}
 Production Partner:
-\emph{\glqq Farbwiedergabe: TM-30-15, CRI und Co.\glqq}
+\emph{\glqq Farbwiedergabe: TM-30-15, CRI und Co.\grqq}
 \url{https://www.production-partner.de/basics/farbwiedergabe-tm-30-15-cri-und-co/}, 22.02.2018, letzter Zugriff 20.06.2018
 
 

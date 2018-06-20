@@ -18,30 +18,30 @@
 \contentsline {section}{\numberline {3.7}CIE-LAB Farbraum}{8}{section.3.7}
 \contentsline {chapter}{\numberline {4}Lichtechnische Parameter}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Color Rendering Index (CRI)}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}Color Quality Scale (CQS)}{9}{section.4.2}
-\contentsline {section}{\numberline {4.3}Television Lighting Consistency Index (TLCI)}{9}{section.4.3}
-\contentsline {section}{\numberline {4.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{9}{section.4.4}
-\contentsline {chapter}{\numberline {5}Leuchtmittel}{10}{chapter.5}
-\contentsline {section}{\numberline {5.1}Gl\IeC {\"u}hlampe}{10}{section.5.1}
-\contentsline {section}{\numberline {5.2}Halogengl\IeC {\"u}hlampe}{10}{section.5.2}
-\contentsline {section}{\numberline {5.3}Entladungslampen}{10}{section.5.3}
-\contentsline {section}{\numberline {5.4}LEDs}{10}{section.5.4}
-\contentsline {chapter}{\numberline {6}Vormessungen}{11}{chapter.6}
-\contentsline {section}{\numberline {6.1}Ziel}{11}{section.6.1}
-\contentsline {section}{\numberline {6.2}Aufbau}{11}{section.6.2}
-\contentsline {section}{\numberline {6.3}Fazit aus der Vormessung}{11}{section.6.3}
-\contentsline {chapter}{\numberline {7}Hauptmessung}{12}{chapter.7}
-\contentsline {section}{\numberline {7.1}Messaufbau}{12}{section.7.1}
-\contentsline {chapter}{\numberline {8}Messergebnisse}{13}{chapter.8}
-\contentsline {section}{\numberline {8.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{13}{section.8.1}
-\contentsline {chapter}{\numberline {9}Umfrage}{14}{chapter.9}
-\contentsline {section}{\numberline {9.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{14}{section.9.1}
-\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{15}{chapter.10}
-\contentsline {section}{\numberline {10.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{15}{section.10.1}
-\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{16}{chapter.11}
-\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{16}{section.11.1}
-\contentsline {chapter}{\numberline {12}Fazit}{17}{chapter.12}
-\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{17}{section.12.1}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{18}{chapter*.4}
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{19}{chapter*.5}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{20}{chapter*.6}
+\contentsline {section}{\numberline {4.2}Color Quality Scale (CQS)}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Television Lighting Consistency Index (TLCI)}{11}{section.4.3}
+\contentsline {section}{\numberline {4.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{11}{section.4.4}
+\contentsline {chapter}{\numberline {5}Leuchtmittel}{12}{chapter.5}
+\contentsline {section}{\numberline {5.1}Gl\IeC {\"u}hlampe}{12}{section.5.1}
+\contentsline {section}{\numberline {5.2}Halogengl\IeC {\"u}hlampe}{12}{section.5.2}
+\contentsline {section}{\numberline {5.3}Entladungslampen}{12}{section.5.3}
+\contentsline {section}{\numberline {5.4}LEDs}{12}{section.5.4}
+\contentsline {chapter}{\numberline {6}Vormessungen}{13}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ziel}{13}{section.6.1}
+\contentsline {section}{\numberline {6.2}Aufbau}{13}{section.6.2}
+\contentsline {section}{\numberline {6.3}Fazit aus der Vormessung}{13}{section.6.3}
+\contentsline {chapter}{\numberline {7}Hauptmessung}{14}{chapter.7}
+\contentsline {section}{\numberline {7.1}Messaufbau}{14}{section.7.1}
+\contentsline {chapter}{\numberline {8}Messergebnisse}{15}{chapter.8}
+\contentsline {section}{\numberline {8.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{15}{section.8.1}
+\contentsline {chapter}{\numberline {9}Umfrage}{16}{chapter.9}
+\contentsline {section}{\numberline {9.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{16}{section.9.1}
+\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{17}{chapter.10}
+\contentsline {section}{\numberline {10.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{17}{section.10.1}
+\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{18}{chapter.11}
+\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{18}{section.11.1}
+\contentsline {chapter}{\numberline {12}Fazit}{19}{chapter.12}
+\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{19}{section.12.1}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{20}{chapter*.4}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{21}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{22}{chapter*.6}
