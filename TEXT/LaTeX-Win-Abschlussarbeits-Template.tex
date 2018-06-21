@@ -146,7 +146,7 @@ In der DIN 6169 werden zur besseren Beurteilung der Farbwiedergabe die $R_{a}$-W
 Ein hoher $R_{a}$-Wert beschreibt aber nur bedingt die Farbwiedergabe einer Leuchte, da beispielsweise keine Angabe über die Sättigung der Farben gemacht wird. Außerdem sind die acht Referenzfarben nur Pastelltöne, weil der CRI damals für Glühlicht entwickelt wurde. Gesättigte Farben fließen nicht in die Bewertung mit ein.
 Das wirkt sich auch auf die Vergleichbarkeit von Leuchten aus. Zwei Scheinwerfer mit dem selben $R_{a}$-Wert von 90 können sehr unterschiedliche Spektren haben und damit sehr unterschiedlich Farben darstellen, trotz gleichem Farbwiedergabeindex.
 Außerdem kann man nur schwer eine Aussage darüber machen, ob sich eine Leuchte mit einem guten CRI für Personenbeleuchtung eignet, weil Rottöne und Hauttöne in diesem Bewertungsverfahren fehlen.\\\\
-Als immer mehr Leuchtstofflampen zur Beleuchtung genutzt wurden, sah sich die CIE gezwungen den Farbwiedergabeindex zu erweitern, weil Leuchtstofflampen durch gezielte schmalbandige Peaks im Spektrum zwar die Referenzfarben treffen und somit hohe CRI-Werte erreichen, aber auf diese Weise kein breitbandiges und ausgefülltes Lichtspektrum entsteht. Daher werden in dem neueren $R_{e}$-Wert gesättigte Farben und schließlich auch eine Hautfarbe miteinbezogen (Abb. \ref{b_cri}).
+Leuchtstofflampen nutzten den CRI aus, indem durch gezielte schmalbandige Peaks im Spektrum die Referenzfarben getroffen werden. Auf diese Weise kann zwar ein hoher CRI-Werte erreicht werden, aber kein breitbandiges und ausgefülltes Lichtspektrum entstehen. Daher sah sich die CIE gezwungen den Farbwiedergabeindex zu erweitern. In dem neueren $R_{e}$-Wert gibt es nun auch gesättigte Farben und eine Hautfarbe wird miteinbezogen (Abb. \ref{b_cri}).
 
 \begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
 \centering
@@ -158,17 +158,37 @@ Als immer mehr Leuchtstofflampen zur Beleuchtung genutzt wurden, sah sich die CI
 \footnotetext{\url{https://www.elementalled.com/wp/wp-content/uploads/2015/08/CRI_chart.jpg}}
 
 Der $R_{e}$-Wert ist folglich schlechter als der $R_{a}$-Wert. Auch mit einem einzigen Rot- und Hautton ist der CRI zu wenig ausschlaggebend, um damit eine Leuchte für Personenbeleuchtung zu bewerten (Kap. \ref{sec_auge}). Zusätzlich entsteht bei LED-Leuchtmitteln ein ähnliches Problem, wie bei den Leuchstoffröhren. Man kann das Spektrum mit den Peaks gut auf die Referenzfarben ausrichten, ohne das Gesamte Spektrum abdecken zu müssen. Gerade bei LED-Leuchten kann dieses Verhalten des CRI ausgenutzt werden, um kritische Bereiche zu verschleiern. Zusätzlich wird dies durch die arithmetische Mittlung der Referenzfarbwerte begünstigt. Ein, zwei schlechtere Werte mindern den $R_{a}$-Wert nicht beträchtlich. Beispielsweise wird bei Weißen-LEDs  der fehlende Rotanteil nur am niedrigen $R_{9}$-Wert sichtbar, aber im im CRI-Wert sind diese Schwächen einer LED-Leuchte kaum erkennbar \footnote{\cite{davis_ohno}}. Der CRI kann daher eher als richtungsweisend betrachtet werden: Eine Leuchte mit guter Farbwiedergabe wird auch immer einen guten CRI-Wert haben. Zum Vergleich für Leuchten eignen sich andere Farbwiedergabewerte heutzutage besser \footnote{\cite{production partner}}.\\\\
-Aus diesen Gründen und der Schlussfolgerung der CIE, \emph{\glqq dass die CRI-Methode generell nicht anwendbar ist, um eine Anzahl von Lichtquellen gemäß ihrer Farbwiedergabe einzuordnen, wenn weiße LEDs darunter sind\grqq} \citep[VI]{CIE}, wird sich diese Arbeit hauptsächlich auf andere Farbwiedergabewerte konzentrieren, den CRI aber mit aufführen, weil er in der Scheinwerfer- und Fernsehbranche (noch) einen hohen Stellenwert inne hat.
+Aus diesen Gründen und der Schlussfolgerung der CIE, \emph{\glqq dass die CRI-Methode generell nicht anwendbar ist, um eine Anzahl von Lichtquellen gemäß ihrer Farbwiedergabe einzuordnen, wenn weiße LEDs darunter sind\grqq}\footnote{\citep[VI]{CIE}}, wird sich diese Arbeit hauptsächlich auf andere Farbwiedergabewerte konzentrieren, den CRI aber mit aufführen, weil dieser in der Scheinwerfer- und Fernsehbranche (noch) einen hohen Stellenwert inne hat.
 
-
+\section{Gamut Area Index (GAI)} \label{sec_gai}
 
 
 
 \section{Color Quality Scale (CQS)} \label{sec_cqs}
 
-Bei dem Color Quality Scale wird versucht an der Grundidee des CRI festzuhalten und  dessen Probleme anzugehen. So benutzt der CQS fünfzehn voll saturierte Farben.
+Der Color Quality Scale, der von dem National Institute of Standards and Technology (NIST) erarbeitet wurde,orientiert sich an der Grundidee des CRI und versucht dessen Probleme anzugehen und ihn zu ersetzen. So gibt es fünfzehn voll saturierte Referenzfarben, die auch auf LED-Leuchten anwendbar sind. Über Skaleneffekte soll der CQS auch indirekt eine Aussage über die Farbwiedergabe von Pastelltönen ermöglichen. 
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.8\textwidth]{bilder/cqs} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Alle Referenzfarben des CQS mit voller Sättigung\protect\footnotemark}\label{b_cri}
+\end{figure}
+
+\footnotetext{\url{https://www.lemoledlight.com/wp-content/uploads/2016/04/LED-Lighting-CRI-5.jpg}}
+Bei dem Farbvergleich des CRI wurden weniger Punkte für eine Farbe vergeben, wenn diese übersättigt wurde, also die Leuchte eine höhere Farbigkeit hatte als das Referenzlicht des CRI. Wenn beispielsweise eine Oberfläche eines Objekts beleuchtet wird, kann eine übersättigte Farbe jedoch hilfreich sein und ist daher nicht pauschal negativ einzuordnen. Daher wertet der CQS eine Übersättigung der Farbe nicht, nur eine Abweichung von Farbton oder Helligkeit wird bestraft. Außerdem errechnet sich der CQS aus dem quadratischen Mittel (root-means-square) der einzelnen Farben und es ist deutlicher erkennbarer, wenn einzelne Farbe schlechte Werte erzielen (Gleichung \ref{gl_cqs1})\footnote{\cite{davis_ohno}}.
+
+\begin{equation}\label{gl_cqs1}
+		\Delta E_{RMS} = \sqrt{\frac{1}{15} \sum_{i=1}^{15} \Delta E_{i} ^{2}} 
+\end{equation}
+
+Schließlich wird beim CQS verhindert, dass negative Werte vorkommen, die beim CRI stets schwierig zu interpretieren sind. 
+
+
 
 \section{Television Lighting Consistency Index (TLCI)} \label{sec_tlci}
+
+
 
 \section{IES Method for Evaluating Light Source Color Rendition (TM-30-15)} \label{sec_tm30}
 
