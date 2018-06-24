@@ -157,7 +157,19 @@ Leuchtstofflampen nutzten den CRI aus, indem durch gezielte schmalbandige Peaks 
 
 \footnotetext{\url{https://www.elementalled.com/wp/wp-content/uploads/2015/08/CRI_chart.jpg}}
 
-Der $R_{e}$-Wert ist folglich schlechter als der $R_{a}$-Wert. Auch mit einem einzigen Rot- und Hautton ist der CRI zu wenig ausschlaggebend, um damit eine Leuchte für Personenbeleuchtung zu bewerten (Kap. \ref{sec_auge}). Zusätzlich entsteht bei LED-Leuchtmitteln ein ähnliches Problem, wie bei den Leuchstoffröhren. Man kann das Spektrum mit den Peaks gut auf die Referenzfarben ausrichten, ohne das Gesamte Spektrum abdecken zu müssen. Gerade bei LED-Leuchten kann dieses Verhalten des CRI ausgenutzt werden, um kritische Bereiche zu verschleiern. Zusätzlich wird dies durch die arithmetische Mittlung der Referenzfarbwerte begünstigt. Ein, zwei schlechtere Werte mindern den $R_{a}$-Wert nicht beträchtlich. Beispielsweise wird bei Weißen-LEDs  der fehlende Rotanteil nur am niedrigen $R_{9}$-Wert sichtbar, aber im CRI-Wert sind diese Schwächen einer LED-Leuchte kaum erkennbar \footnote{\cite{davis_ohno}}. Der CRI kann daher eher als richtungsweisend betrachtet werden: Eine Leuchte mit guter Farbwiedergabe wird auch immer einen guten CRI-Wert haben. Zum Vergleich für Leuchten eignen sich andere Farbwiedergabewerte heutzutage besser \footnote{\cite{production partner}}.\\\\
+
+Bei einer warmweißen LED konnte ein CRI von 82 gemessen werden (Abbildung \ref{b_cri2}). Der $R_{e}$-Wert ist naturgemäß schlechter als der $R_{a}$-Wert, aber auch dieser ist mit 77 noch akzeptabel, wenn man bedenkt, dass der $R_{9}$-Wert nur 15 Punkte erbringt. Diese Leuchte entspricht \glqq sehr hohen Anforderungen\grqq (Tabelle \ref{t_cri}) und ist damit nach Definition sehr gut in der Farbwiedergabe. Jedoch ist der $R_{9}$-Wert ein Hinweis darauf, dass man mit dieser Aussage vorsichtig sein sollte.
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/cri2} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Messung einer warmweißen LED-Leuchte (Ausschnitt aus dem Demofile des Programmes \glqq LiVal\grqq von der Firma JETI): Links ist das Lichtspektrum der Leuchte dargestellt, rechts die gemessenen CRI-Werte  \protect\footnotemark}\label{b_cri2}
+\end{figure}
+
+ 
+
+ Daher ist auch mit einem einzigen Rot- und Hautton der CRI zu wenig ausschlaggebend, um damit eine Leuchte für Personenbeleuchtung zu bewerten (Kap. \ref{sec_auge}). Zusätzlich entsteht bei LED-Leuchtmitteln ein ähnliches Problem, wie bei den Leuchstoffröhren. Man kann das Spektrum mit den Peaks gut auf die Referenzfarben ausrichten, ohne das Gesamte Spektrum abdecken zu müssen. Gerade bei LED-Leuchten kann dieses Verhalten des CRI ausgenutzt werden, um kritische Bereiche zu verschleiern. Zusätzlich wird dies durch die arithmetische Mittlung der Referenzfarbwerte begünstigt. Ein, zwei schlechtere Werte mindern den $R_{a}$-Wert nicht beträchtlich. Beispielsweise wird bei Weißen-LEDs  der fehlende Rotanteil nur am niedrigen $R_{9}$-Wert sichtbar, aber im CRI-Wert sind diese Schwächen einer LED-Leuchte kaum erkennbar \footnote{\cite{davis_ohno}}. Der CRI kann daher eher als richtungsweisend betrachtet werden: Eine Leuchte mit guter Farbwiedergabe wird auch immer einen guten CRI-Wert haben. Zum Vergleich für Leuchten eignen sich andere Farbwiedergabewerte heutzutage besser \footnote{\cite{production partner}}.\\\\
 Aus diesen Gründen und der Erkenntnis der CIE, \emph{\glqq dass die CRI-Methode generell nicht anwendbar ist, um eine Anzahl von Lichtquellen gemäß ihrer Farbwiedergabe einzuordnen, wenn weiße LEDs darunter sind\grqq}\footnote{\citep[VI]{CIE}}, wird sich diese Arbeit hauptsächlich auf andere Farbwiedergabewerte konzentrieren, den CRI aber mit aufführen, weil dieser in der Scheinwerfer- und Fernsehbranche (noch) einen hohen Stellenwert inne hat.
 
 \section{Color Quality Scale (CQS)} \label{sec_cqs}
@@ -208,13 +220,73 @@ Der CQS wird mit seinen fünfzehn Referenzfarborten (abhängig von der Farbtempe
 
 Auf die in den Abbildung \ref{b_cqs2a} und \ref{b_cqs2b} erwähnten Werte $Q_{a}$ (optimierter CQS-Wert für kaum übersättigte Farben), $Q_{p}$ (optimierter CQS-Wert für viele übersättigte Farben) und $Q_{g}$(optimierter CQS-Wert im Zusammenhang mit dem Gamut Area Index) wird in dieser Arbeit nicht weiter eingegangen, weil sie über den Rahmen dieser Bachelorarbeit hinaus gehen\footnote{\cite[60-62]{khanh}}. 
 
-
-
- 
-
-
+\newpage 
 \section{Television Lighting Consistency Index (TLCI)} \label{sec_tlci}
 Der CRI-Wert einer Leuchte ist im Fernsehbereich kaum aussagekräftig, weil kein Bezug zur Videokamera besteht und die Farbwiedergabe von menschlichen Hauttöne kaum gemessen wird. Daher hat die European Broadcast Union (EBU) 2012 einen neuen Farbewiedergabe bestimmt, der auf den Film- und Fernsehbereich zugeschnitten ist, den Television Lighting Consistency Index.  
+Wie eine Messung des TLCI vonstattengeht ist in diesem Blockschaltbild der EBU verdeutlicht (\ref{b_tlci1}):
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/tlci1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Blockschaltbild einer TLCI-Wertbestimmung \protect\footnotemark}\label{b_tlci1}
+\end{figure}
+\footnotetext{\citep[15]{roberts}}
+Die von der Kamera gefilmten Farben werden dann in einem Datenfile gespeichert. Die Daten werden analysiert, um die Farbtemperatur zu bestimmen und so die Referenzdaten zu erstellen.
+
+Zur Ermittlung des TLCI wird eine Testtafel mit 24 Farben von einer \glqq Standartkamera\grqq gefilmt. Diese Tafel wird von der zu testenden Leuchte bestrahlt. Die Kamera ist an einen \glqq Standartbildschirm\grqq angeschlossen, auf dem die TLCI-Merssergebnisse angezeigt werden.
+Im ersten Schritt gewichtet die Kamera die reflektierten Farben mit ihren $\bar{r}$-, $\bar{g}$- und $\bar{b}$-Kamerakurven und die Farbtemperatur wird bestimmt. Die so entstandenen $R_{C}$, $G_{C}$ und $B_{C}$-Werte werden dann im zweiten Schritt farblich abgeglichen ($R_{Cb}$, $G_{Cb}$ und $B_{Cb}$) und mit einer linearen Matrix M bewertet, um die Werte des RGB-Signals zu erhalten .
+\begin{equation}\label{gl_tlci1}
+\begin{bmatrix} R \\ G \\ B \end{bmatrix}= 
+\begin{bmatrix} 1,182 & -0,209 & 0,027 \\ 0,107 & 0,890 & 0,003 \\ 0,004 & -0,134 & 1,094 \end{bmatrix}
+\begin{bmatrix} R_{Cb} \\ G_{Cb} \\ B_{Cb} \end{bmatrix}
+\end{equation}\\
+Ein Weißabgleich wird vorgenommen und die RGB-Werte werden in einer zweiten Matrix verrechnet, damit die Sättigungswerte der Farben stimmen (Empfehlung der EBU: 90 \% Sättigung). Im nächsten Schritt werden die $R_{M}$, $G_{M}$ und $B_{M}$-Werte der einzelnen Farben von der Gammakurve der Kamera vorverzerrt.
+Beim Bildschirm angekommen werden die R'G'B'-Werte der Farben mit der Gammakurve des Bildschirm wieder entzerrt (Empfehlung der EBU: $\gamma$ = 2,4). Für die 24 Farben werden dann im vorletzten Schritt mit der XYZ()-Matrix  die Farbkoordinaten X,Y und Z für den Bildschirm errechnet. Schließlich wird mit den Referenzenfarbwerten der selben Farbtemperatur die Farbunterschiede ermittelt (Gleichung \ref{gl_tlci1}).
+\begin{equation}\label{gl_tlci1}
+		\Delta E_{a} ^{*} = \left( {\sum_{i=1}^{18}(\Delta E_{i} ^{*})^{4}}  \right)^{\frac{1}{4}} 
+\end{equation}
+Das Ergebnis wird als TLCI-Wert ausgegeben. Für optimale Werte wird mit $k = 3,16$ (eine Tageslichtleuchtstoffröhre erreicht dabei den TLCI-Wert 50) und $p = 4$ (für ein balanciertes Verhältnis zwischen hohen und niedrigen Werten) gerechnet\footnote{\cite[16-22]{roberts}} (Gleichung \ref{gl_tlci2}).
+
+\begin{equation}\label{gl_tlci2}
+		Q = \frac{100}{1+(\frac{\Delta E^{*}}{k})^{p}}
+\end{equation}
+
+Der TLCI lässt wie der CQS keine negativen Ergebnisse zu (Kapitel \ref{sec_cqs}) und die Werte von 0-100 sind für den Coloristen in der Nachbearbeitung des Videomaterials wie folgt zu deuten(Tabelle \ref{t_tlci}):
+
+	\begin{table}[htp] 
+		\rowcolors{1}{}{lgray} 
+		\centering
+		\begin{tabular}{rlcc}  % Spalten nach Ausrichtung: l, c, r, p{breite} 
+		\toprule
+		\multicolumn{2}{c}{\large\sffamily Abstufungen des TLCI}\\ 							
+		\midrule
+		$100 \geq  Q_{a} \geq 85$  & Farben korrigierbar bzw. nicht notwendig\\ 
+		$85 > Q_{a} \geq 75$ & nach Korrektur noch akzeptabel\\
+		$75 > Q_{a} \geq 50$ & Aufbereitung sehr zeitaufwendig\\
+		$50 > Q_{a} \geq 25$ & nicht mehr zu retten - verbesserbar\\
+		$25 > Q_{a} \geq 0$ & ist und bleibt nicht akzeptierbar\\
+		\bottomrule
+		\end{tabular}
+		\caption{$Q_{a}$ eingeteilt in verschiedene Stufen\protect\footnotemark}	
+		\label{t_tlci}
+	\end{table}
+	\footnotetext{\cite{production partner}}
+Anhand der Tabelle ist eine Art Kostenvergleich möglich, in dem die Farbwiedergabequalität einer Leuchte gegen den Nachbearbeitungsaufwand des Coloristen gegengerechnet werden kann. Der TLCI gibt sogar eine Empfehlung ab, an welchen Paramtern der Colorist Verbesserungen vornehmen muss (Abbildung \ref{b_tlci2}).\newpage 
+
+Die Messung des TLCI-Werts ergibt ein Ergebnisprotokoll, bestehend aus drei Abschnitten: eine Farbtafel mit den 24 Farbfeldern, eine Empfehlung für den Coloristen zur nachträglichen Bildbearbeitung und ein Vergleich von Referenz- und Testspektrum (Abbildung \ref{b_tlci2}):\\ 
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/tlci2} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {TLCI-Ergebnisprotokoll eines Arri L7-C LED Fresnelscheinwerfers\protect\footnotemark}\label{b_tlci2}
+\end{figure}
+\footnotetext{\url{https://tech.ebu.ch/tlci-2012}}
+Oben links ist der Name der Leuchte angegeben, die gemessene korrelierte Farbtemperatur (CCT) und die Abweichung vom Plank'schen Kurvenzug (\ref{sec_spektrum}) mit einer Gewichtung von 0.0054 (Empfehlung EBU). Ist der Abweichungswert kleiner als -1 wird die Zahl in magenta dargestellt (magentastichtiges weiß), ist sie größer als +1, in grün (grünstichiges weiß). Im Beispiel ist die Zahl daher schwarz. Eine Zeile darunter steht der gemessene TLCI-Wert. Der Arri L7-C ist mit $Q_{a}=86$ in die beste Farbwiedergabekategorie einzuordnen (Tabelle \ref{t_tlci}).\\
+Oben rechts ist eine Tabelle mit Korrekturwerten für den Coloristen angegeben. Für 12 verschiedene Farbtöne wird jeweils ein Verbesserungsvorschlag für die Helligkeit, die Sättigung und die Farbtonabweichung angegeben. Da es nicht möglich ist, die Abweichung der Werte mit exakten Zahlen zu definieren, werden mit \glqq +\grqq, \glqq 0\grqq und \glqq -\grqq die verschiedenen Korrekturrichtungen aufgezeigt. Eine \glqq 0\grqq zeigt an, dass der Fehler zu klein ist, um ihn zu korrigieren. Die Anzahl der \glqq +\grqq und \glqq -\grqq wiederum ist ein Hinweis darauf, wie viel Aufwand der Colorist für die Anpassung benötigt. Der Arri L7-C hat beispielsweise Bedarf es vorallem im Bereich des Cyan, Blau/Magenta, Magenta und Magenta/Rot in der Farbtonabweichung einer Aufbesserung. Auch im Green/Cyan- und Cyan/Blau-Bereich sollte der Farbton angepasst werden. Die restlichen Verbesserungsvorschläge bei Helligkeit und Sättigung sollte der Colorist zügig bewältigen können.\\
+Links unten ist eine Farbtafel mit den 24 Farben des TLCI sichtbar. Im großen Farbfeld ist die Farbe zusehen, wie das Licht des Arri L7-C diese Farbe wiedergibt. In der Mitte jeder Farbtafel ist ein kleineres Viereck, in dem die Referenzfarbe gezeigt wird. Je deutlicher also das Referenzviereck in dem Farbfeld zu sehen ist, desto schlechter ist die Farbwiedergabe der Testleuchte. Im Beispiel  ist im roten Farbfeld zu erkennen, dass der Arri L7-C diese Farbe nicht so gut wiedergibt wie andere Farben.\\ 
+Rechts unten ist auf dem TLCI-Ergebnisprotokoll das Referenzspektrum von 380nm bis 740nm Wellenlänge abgebildet (schwarz) und dazu wird das geteste Spektrum geplotet (cyan). In dieser Ansicht kann man gut erkennen, inwieweit das Licht des Arri L7-C das Referenzspektrum abdeckt \footnote{\cite[15]{roberts}}.  
 
 
 \section{IES Method for Evaluating Light Source Color Rendition (TM-30-15)} \label{sec_tm30}

@@ -1,0 +1,29 @@
+TLCI startup procedure.
+
+THIS IS IMPORTANT.
+
+DO NOT DELETE FILES FROM THIS FOLDER, OTHERS WILL WANT THEM AS WELL.
+
+DO NOT RUN THE SOFTWARE FROM THIS FOLDER. It will generate files which could interfere with other users of the software.
+
+COPY the entire contents of this folder to a single folder on your PC. 
+
+Full instructions on how to use the software are in the pdf help files.
+
+The software is written in BBC Basic for Windows, and tested on Windows XP and Windows 7. It may well work on other Windows versions, but there is no guarantee.
+
+This is the full version of the software, which can be passed on to others. Only 'User' functions are available without payment.
+
+The 'Engineering' version allows many more display modes than does the 'User' version, and full control over all the mathematics of the TLCI and CRI.
+Normally, to access the Engineering mode (needed only for exploration of the concepts), please contact either:
+
+Alan Roberts at roberts.mugswell@btinternet.com
+
+or:
+
+John Emmett at je@bpr.org.uk
+
+There is a charge of £100 for the instructions on how to access Engineering mode, to defray some of the cost of developing the software and the algorithm.
+
+The versions of the software here are beta, prior to publication. I believe them to be bug-free, but if you have evidence to the contrary, please let me know and I'll investigate.
+
