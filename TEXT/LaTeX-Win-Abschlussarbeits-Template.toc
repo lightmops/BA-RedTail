@@ -17,9 +17,9 @@
 \contentsline {section}{\numberline {3.6}CIE-LUV Farbraum}{8}{section.3.6}
 \contentsline {section}{\numberline {3.7}CIE-LAB Farbraum}{8}{section.3.7}
 \contentsline {chapter}{\numberline {4}Lichtechnische Parameter}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}Color Rendering Index (CRI)}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}Color Quality Scale (CQS)}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}Television Lighting Consistency Index (TLCI)}{15}{section.4.3}
+\contentsline {section}{\numberline {4.1}CIE: Color Rendering Index (CRI)}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}NIST: Color Quality Scale (CQS)}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}EBU: Television Lighting Consistency Index (TLCI)}{15}{section.4.3}
 \contentsline {section}{\numberline {4.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{18}{section.4.4}
 \contentsline {chapter}{\numberline {5}Leuchtmittel}{19}{chapter.5}
 \contentsline {section}{\numberline {5.1}Gl\IeC {\"u}hlampe}{19}{section.5.1}

@@ -110,9 +110,9 @@ Die verschiedenen spektralen Anteile des Lichts wirken sich auf die Zapfen aus u
 
 \chapter{Lichtechnische Parameter}
 
-\section{Color Rendering Index (CRI)} \label{sec_cri}
+\section{CIE: Color Rendering Index (CRI)} \label{sec_cri}
 
-Da der Farbort allein keine eindeutige Aussage über die Zusammensetzung des Spektrums zulässt, wurde 1931 von der Commission Internationale de l'Eclairage ein Testverfahren entwickelt, mit dem man die Farbwiedergabe (Color Rendering Index) einer Leuchte bestimmen kann. Dafür hat man acht Referenzfarben festgelegt. Bei einer CRI-Messung überprüft man also, wie gut eine Lichtquelle diese Körperfarben wiedergeben kann. Es wird dabei zwischen einem schwarzen Strahler(< 5000K) und Tageslicht(> 5000K) differenziert. Die gemessenen Unterschiede zu den Referenzfarben werden mit Werten von 0 bis 100 gewichtet($R_{1}$-$R_{8}$), wobei ein Wert von 100 aussagt, dass die Farbe bestmöglich wiedergegeben wird. Zuerst werden die einzelnen Indexwerte $R_{i}$ aus den Farbdifferenzen $\Delta E_{i}$ berechnet (Gleichung \ref{gl_cri1})\footnote{\cite{davis_ohno}}.
+Da der Farbort allein keine eindeutige Aussage über die Zusammensetzung des Spektrums zulässt, wurde 1965 von der Commission Internationale de l'Eclairage ein Testverfahren entwickelt, mit dem man die Farbwiedergabe (Color Rendering Index) einer Leuchte bestimmen kann. Dafür hat man acht Referenzfarben festgelegt. Bei einer CRI-Messung überprüft man also, wie gut eine Lichtquelle diese Körperfarben wiedergeben kann. Es wird dabei zwischen einem schwarzen Strahler(< 5000K) und Tageslicht(> 5000K) differenziert. Die gemessenen Unterschiede zu den Referenzfarben werden mit Werten von 0 bis 100 gewichtet($R_{1}$-$R_{8}$), wobei ein Wert von 100 aussagt, dass die Farbe bestmöglich wiedergegeben wird. Zuerst werden die einzelnen Indexwerte $R_{i}$ aus den Farbdifferenzen $\Delta E_{i}$ berechnet (Gleichung \ref{gl_cri1})\footnote{\cite{davis_ohno}}.
 
 	\begin{equation}\label{gl_cri1}
 		R_{i} = 100 - 4,6 \cdot \Delta E_{i}
@@ -169,10 +169,10 @@ Bei einer warmweißen LED konnte ein CRI von 82 gemessen werden (Abbildung \ref{
 
  
 
- Daher ist auch mit einem einzigen Rot- und Hautton der CRI zu wenig ausschlaggebend, um damit eine Leuchte für Personenbeleuchtung zu bewerten (Kap. \ref{sec_auge}). Zusätzlich entsteht bei LED-Leuchtmitteln ein ähnliches Problem, wie bei den Leuchstoffröhren. Man kann das Spektrum mit den Peaks gut auf die Referenzfarben ausrichten, ohne das Gesamte Spektrum abdecken zu müssen. Gerade bei LED-Leuchten kann dieses Verhalten des CRI ausgenutzt werden, um kritische Bereiche zu verschleiern. Zusätzlich wird dies durch die arithmetische Mittlung der Referenzfarbwerte begünstigt. Ein, zwei schlechtere Werte mindern den $R_{a}$-Wert nicht beträchtlich. Beispielsweise wird bei Weißen-LEDs  der fehlende Rotanteil nur am niedrigen $R_{9}$-Wert sichtbar, aber im CRI-Wert sind diese Schwächen einer LED-Leuchte kaum erkennbar \footnote{\cite{davis_ohno}}. Der CRI kann daher eher als richtungsweisend betrachtet werden: Eine Leuchte mit guter Farbwiedergabe wird auch immer einen guten CRI-Wert haben. Zum Vergleich für Leuchten eignen sich andere Farbwiedergabewerte heutzutage besser \footnote{\cite{production partner}}.\\\\
+ Daher ist auch mit einem einzigen Rot- und Hautton der CRI zu wenig ausschlaggebend, um damit eine Leuchte für Personenbeleuchtung zu bewerten (Kap. \ref{sec_auge}). Zusätzlich entsteht bei LED-Leuchtmitteln ein ähnliches Problem, wie bei den Leuchstoffröhren. Man kann das Spektrum mit den Peaks gut auf die Referenzfarben ausrichten, ohne das Gesamte Spektrum abdecken zu müssen. Gerade bei LED-Leuchten kann dieses Verhalten des CRI ausgenutzt werden, um kritische Bereiche zu verschleiern. Zusätzlich wird dies durch die arithmetische Mittlung der Referenzfarbwerte begünstigt. Ein, zwei schlechtere Werte mindern den $R_{a}$-Wert nicht beträchtlich. Beispielsweise wird bei Weißen-LEDs der fehlende Rotanteil nur am niedrigen $R_{9}$-Wert sichtbar, aber im CRI-Wert sind diese Schwächen einer LED-Leuchte kaum erkennbar \footnote{\cite{davis_ohno}}. Der CRI kann daher eher als richtungsweisend betrachtet werden: Eine Leuchte mit guter Farbwiedergabe wird auch immer einen guten CRI-Wert haben. Zum Vergleich für Leuchten eignen sich andere Farbwiedergabewerte heutzutage besser \footnote{\cite{production partner}}.\\\\
 Aus diesen Gründen und der Erkenntnis der CIE, \emph{\glqq dass die CRI-Methode generell nicht anwendbar ist, um eine Anzahl von Lichtquellen gemäß ihrer Farbwiedergabe einzuordnen, wenn weiße LEDs darunter sind\grqq}\footnote{\citep[VI]{CIE}}, wird sich diese Arbeit hauptsächlich auf andere Farbwiedergabewerte konzentrieren, den CRI aber mit aufführen, weil dieser in der Scheinwerfer- und Fernsehbranche (noch) einen hohen Stellenwert inne hat.
 
-\section{Color Quality Scale (CQS)} \label{sec_cqs}
+\section{NIST: Color Quality Scale (CQS)} \label{sec_cqs}
 
 Der Color Quality Scale, der von dem National Institute of Standards and Technology (NIST) erarbeitet wurde, orientiert sich an der Grundidee des CRI und versucht dessen Probleme anzugehen und ihn zu ersetzen. So gibt es fünfzehn voll saturierte Referenzfarben, die auch auf LED-Leuchten anwendbar sind. Über Skaleneffekte soll der CQS auch indirekt eine Aussage über die Farbwiedergabe von Pastelltönen ermöglichen (Abb. \ref{b_cqs1}). 
 
@@ -221,7 +221,7 @@ Der CQS wird mit seinen fünfzehn Referenzfarborten (abhängig von der Farbtempe
 Auf die in den Abbildung \ref{b_cqs2a} und \ref{b_cqs2b} erwähnten Werte $Q_{a}$ (optimierter CQS-Wert für kaum übersättigte Farben), $Q_{p}$ (optimierter CQS-Wert für viele übersättigte Farben) und $Q_{g}$(optimierter CQS-Wert im Zusammenhang mit dem Gamut Area Index) wird in dieser Arbeit nicht weiter eingegangen, weil sie über den Rahmen dieser Bachelorarbeit hinaus gehen\footnote{\cite[60-62]{khanh}}. 
 
 \newpage 
-\section{Television Lighting Consistency Index (TLCI)} \label{sec_tlci}
+\section{EBU: Television Lighting Consistency Index (TLCI)} \label{sec_tlci}
 Der CRI-Wert einer Leuchte ist im Fernsehbereich kaum aussagekräftig, weil kein Bezug zur Videokamera besteht und die Farbwiedergabe von menschlichen Hauttöne kaum gemessen wird. Daher hat die European Broadcast Union (EBU) 2012 einen neuen Farbewiedergabe bestimmt, der auf den Film- und Fernsehbereich zugeschnitten ist, den Television Lighting Consistency Index.  
 Wie eine Messung des TLCI vonstattengeht ist in diesem Blockschaltbild der EBU verdeutlicht (\ref{b_tlci1}):
 
@@ -290,6 +290,10 @@ Rechts unten ist auf dem TLCI-Ergebnisprotokoll das Referenzspektrum von 380nm b
 
 
 \section{IES Method for Evaluating Light Source Color Rendition (TM-30-15)} \label{sec_tm30}
+
+Auch der TM-30 wurde 2015 von der \glqq Illuminating Engineering Society\grqq (IES) ausgearbeitet um eine Alternative zum CRI zu finden. Wie beim CRI werden ebenso bei der Messung des TM-30 Farbunterschiede zwischen einer Testleuchte und Referenzwerten der selben Farbtemperatur aufgezeigt. Der TM-30 differenziert ähnlich, ob es sich bei der Testleuchte um einen Plank'schen Strahler ($CCT \leq 4500K$) oder einem Tageslicht handelt ($CCT \geq 5500K$). Zwischen 4500K und 5500K wird der proportional überblendet
+
+https://www.energy.gov/sites/prod/files/2016/04/f30/tm-30_fact-sheet.pdf
 
 \chapter{Leuchtmittel}
 
