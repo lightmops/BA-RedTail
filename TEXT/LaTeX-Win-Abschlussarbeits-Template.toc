@@ -21,27 +21,27 @@
 \contentsline {section}{\numberline {4.2}NIST: Color Quality Scale (CQS)}{12}{section.4.2}
 \contentsline {section}{\numberline {4.3}EBU: Television Lighting Consistency Index (TLCI)}{15}{section.4.3}
 \contentsline {section}{\numberline {4.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{18}{section.4.4}
-\contentsline {chapter}{\numberline {5}Leuchtmittel}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Gl\IeC {\"u}hlampe}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Halogengl\IeC {\"u}hlampe}{19}{section.5.2}
-\contentsline {section}{\numberline {5.3}Entladungslampen}{19}{section.5.3}
-\contentsline {section}{\numberline {5.4}LEDs}{19}{section.5.4}
-\contentsline {chapter}{\numberline {6}Vormessungen}{20}{chapter.6}
-\contentsline {section}{\numberline {6.1}Ziel}{20}{section.6.1}
-\contentsline {section}{\numberline {6.2}Aufbau}{20}{section.6.2}
-\contentsline {section}{\numberline {6.3}Fazit aus der Vormessung}{20}{section.6.3}
-\contentsline {chapter}{\numberline {7}Hauptmessung}{21}{chapter.7}
-\contentsline {section}{\numberline {7.1}Messaufbau}{21}{section.7.1}
-\contentsline {chapter}{\numberline {8}Messergebnisse}{22}{chapter.8}
-\contentsline {section}{\numberline {8.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{22}{section.8.1}
-\contentsline {chapter}{\numberline {9}Umfrage}{23}{chapter.9}
-\contentsline {section}{\numberline {9.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{23}{section.9.1}
-\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{24}{chapter.10}
-\contentsline {section}{\numberline {10.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{24}{section.10.1}
-\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{25}{chapter.11}
-\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{25}{section.11.1}
-\contentsline {chapter}{\numberline {12}Fazit}{26}{chapter.12}
-\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{26}{section.12.1}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{27}{chapter*.4}
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{28}{chapter*.5}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{29}{chapter*.6}
+\contentsline {chapter}{\numberline {5}Leuchtmittel}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Gl\IeC {\"u}hlampe}{20}{section.5.1}
+\contentsline {section}{\numberline {5.2}Halogengl\IeC {\"u}hlampe}{20}{section.5.2}
+\contentsline {section}{\numberline {5.3}Entladungslampen}{20}{section.5.3}
+\contentsline {section}{\numberline {5.4}LEDs}{20}{section.5.4}
+\contentsline {chapter}{\numberline {6}Vormessungen}{21}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ziel}{21}{section.6.1}
+\contentsline {section}{\numberline {6.2}Aufbau}{21}{section.6.2}
+\contentsline {section}{\numberline {6.3}Fazit aus der Vormessung}{21}{section.6.3}
+\contentsline {chapter}{\numberline {7}Hauptmessung}{22}{chapter.7}
+\contentsline {section}{\numberline {7.1}Messaufbau}{22}{section.7.1}
+\contentsline {chapter}{\numberline {8}Messergebnisse}{23}{chapter.8}
+\contentsline {section}{\numberline {8.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{23}{section.8.1}
+\contentsline {chapter}{\numberline {9}Umfrage}{24}{chapter.9}
+\contentsline {section}{\numberline {9.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{24}{section.9.1}
+\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{25}{chapter.10}
+\contentsline {section}{\numberline {10.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{25}{section.10.1}
+\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{26}{chapter.11}
+\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{26}{section.11.1}
+\contentsline {chapter}{\numberline {12}Fazit}{27}{chapter.12}
+\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{27}{section.12.1}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{28}{chapter*.4}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{29}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{30}{chapter*.6}

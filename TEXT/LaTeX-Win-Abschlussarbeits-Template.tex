@@ -291,9 +291,19 @@ Rechts unten ist auf dem TLCI-Ergebnisprotokoll das Referenzspektrum von 380nm b
 
 \section{IES Method for Evaluating Light Source Color Rendition (TM-30-15)} \label{sec_tm30}
 
-Auch der TM-30 wurde 2015 von der \glqq Illuminating Engineering Society\grqq (IES) ausgearbeitet um eine Alternative zum CRI zu finden. Wie beim CRI werden ebenso bei der Messung des TM-30 Farbunterschiede zwischen einer Testleuchte und Referenzwerten der selben Farbtemperatur aufgezeigt. Der TM-30 differenziert ähnlich, ob es sich bei der Testleuchte um einen Plank'schen Strahler ($CCT \leq 4500K$) oder einem Tageslicht handelt ($CCT \geq 5500K$). Zwischen 4500K und 5500K wird der proportional überblendet
+Auch der TM-30 wurde 2015 von der \glqq Illuminating Engineering Society\grqq (IES) ausgearbeitet um eine Alternative zum CRI zu finden. Wie beim CRI werden ebenso bei der Messung des TM-30 Farbunterschiede zwischen einer Testleuchte und Referenzwerten der selben korrelierten Farbtemperatur aufgezeigt. Der TM-30 differenziert ähnlich, ob es sich bei der Testleuchte um einen Plank'schen Strahler  oder einem Tageslicht handelt. Zwischen einer CCT von 4500K und 5500K wird die Referenz proportional überblendet, um so zu verhindern, dass es bei 5000K einen \glqq Sprung\grqq gibt. Bei dem CRI konnte es nämlich passieren, dass eine Leuchte 2 unterschiedliche Referenzen bekam, je nach dem ob diese knapp über oder unter 5000K bei der Messung lag. 
+Die 99 Referenzfarben wurden aus einem Pool von 105.000 Farbtönen realer Objekte statistisch ermittelt (Abbildung \ref{b_tm301}). Damit alle Farbtöne gleichmäßig abgedeckt werden, wurde der CAM02-UCS-Farbraum, der für seine Gleichmäßigkeit der Farbaufteilung bekannt ist, in Würfel eingeteilt. Von jedem dieser Würfel wurde dann eine der Referenzfarben bestimmt, die so gewählt ist, dass die unterschiedliche Wahrnehmung verschiedener Wellenlänge minimal ist (Kapitel \ref{sec_auge}). Die große Anzahl der Referenzfarben verhindert, dass Leuchtenhersteller mit gezielten Peaks im Spektrum gute TM-30 Werte zu erreichen.
 
-https://www.energy.gov/sites/prod/files/2016/04/f30/tm-30_fact-sheet.pdf
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/tm301} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Alle 99 Referenzfarben des TM-30\protect\footnotemark}\label{b_tm301}
+\end{figure}
+\footnotetext{\url{https://agustos.com/wp-content/uploads/2017/10/TM30-color-samples-image.png}}
+
+
+
 
 \chapter{Leuchtmittel}
 
@@ -355,6 +365,10 @@ https://www.energy.gov/sites/prod/files/2016/04/f30/tm-30_fact-sheet.pdf
 % Grundregel: Name, Vorname (falls vorhanden), VÖ-Jahr (falls vorhanden), Titel in Anführungszeichen, URL, Datum des letzten Aufrufs
 % zur Formatierung der URL unbedingt den url-Befehl benutzen!!!
 
+\bibitem[U.S. Department of Energy(2015)]{depenergy}
+U.S. Department of Energy:
+\emph{\glqq Evaluating Color Rendition Using IES TM-30-15\grqq}
+\url{https://www.energy.gov/sites/prod/files/2016/04/f30/tm-30_fact-sheet.pdf}, Oktober 2015, letzter Zugriff 25.06.2018
 
 \bibitem[Commission Internationale de l'Eclairage(2007)]{CIE}
 Commission Internationale de l'Eclairage:
