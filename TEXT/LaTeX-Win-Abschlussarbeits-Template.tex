@@ -218,7 +218,9 @@ Der CQS wird mit seinen fünfzehn Referenzfarborten (abhängig von der Farbtempe
 \caption {Ausschnitt aus dem Programm \glqq LiVal\grqq von der Firma JETI: Die fünfzehn Referenzfarben(blau) im CIELAB-Farbraum im Vergleich zu den gemessenen Werten (rot)}\label{b_cqs2b}
 \end{figure}
 
-Auf die in den Abbildung \ref{b_cqs2a} und \ref{b_cqs2b} erwähnten Werte $Q_{a}$ (optimierter CQS-Wert für kaum übersättigte Farben), $Q_{p}$ (optimierter CQS-Wert für viele übersättigte Farben) und $Q_{g}$(optimierter CQS-Wert im Zusammenhang mit dem Gamut Area Index) wird in dieser Arbeit nicht weiter eingegangen, weil sie über den Rahmen dieser Bachelorarbeit hinaus gehen\footnote{\cite[60-62]{khanh}}. 
+Auf die in den Abbildung \ref{b_cqs2a} und \ref{b_cqs2b} erwähnten Werte $Q_{a}$ (optimierter CQS-Wert für kaum übersättigte Farben), $Q_{p}$ (optimierter CQS-Wert für viele übersättigte Farben) und $Q_{g}$(optimierter CQS-Wert im Zusammenhang mit dem Gamut Area Index) wird in dieser Arbeit nicht weiter eingegangen, weil sie über den Rahmen dieser Bachelorarbeit hinaus gehen\footnote{\cite[60-62]{khanh}}. \\
+Da der CQS ähnlich wenige Referenzfarben nutzt wie der CRI, und keine besondere Aussage über die Farbwiedergabe von Hauttönen im TV-Bereich liefert, wird bei den Messungen dieser Arbeit das Hauptaugenmerk nicht auf dem CQS liegen. Der CQS eignet sich besser zur Einschätzung der Farbwiedergabe ohne Bezug zu einer TV-Kamera. 
+
 
 \newpage 
 \section{EBU: Television Lighting Consistency Index (TLCI)} \label{sec_tlci}
@@ -286,15 +288,19 @@ Die Messung des TLCI-Werts ergibt ein Ergebnisprotokoll, bestehend aus drei Absc
 Oben links ist der Name der Leuchte angegeben, die gemessene korrelierte Farbtemperatur (CCT) und die Abweichung vom Plank'schen Kurvenzug (\ref{sec_spektrum}) mit einer Gewichtung von 0.0054 (Empfehlung EBU). Ist der Abweichungswert kleiner als -1 wird die Zahl in magenta dargestellt (magentastichtiges weiß), ist sie größer als +1, in grün (grünstichiges weiß). Im Beispiel ist die Zahl daher schwarz. Eine Zeile darunter steht der gemessene TLCI-Wert. Der Arri L7-C ist mit $Q_{a}=86$ in die beste Farbwiedergabekategorie einzuordnen (Tabelle \ref{t_tlci}).\\
 Oben rechts ist eine Tabelle mit Korrekturwerten für den Coloristen angegeben. Für 12 verschiedene Farbtöne wird jeweils ein Verbesserungsvorschlag für die Helligkeit, die Sättigung und die Farbtonabweichung angegeben. Da es nicht möglich ist, die Abweichung der Werte mit exakten Zahlen zu definieren, werden mit \glqq +\grqq, \glqq 0\grqq und \glqq -\grqq die verschiedenen Korrekturrichtungen aufgezeigt. Eine \glqq 0\grqq zeigt an, dass der Fehler zu klein ist, um ihn zu korrigieren. Die Anzahl der \glqq +\grqq und \glqq -\grqq wiederum ist ein Hinweis darauf, wie viel Aufwand der Colorist für die Anpassung benötigt. Der Arri L7-C hat beispielsweise Bedarf es vorallem im Bereich des Cyan, Blau/Magenta, Magenta und Magenta/Rot in der Farbtonabweichung einer Aufbesserung. Auch im Green/Cyan- und Cyan/Blau-Bereich sollte der Farbton angepasst werden. Die restlichen Verbesserungsvorschläge bei Helligkeit und Sättigung sollte der Colorist zügig bewältigen können.\\
 Links unten ist eine Farbtafel mit den 24 Farben des TLCI sichtbar. Im großen Farbfeld ist die Farbe zusehen, wie das Licht des Arri L7-C diese Farbe wiedergibt. In der Mitte jeder Farbtafel ist ein kleineres Viereck, in dem die Referenzfarbe gezeigt wird. Je deutlicher also das Referenzviereck in dem Farbfeld zu sehen ist, desto schlechter ist die Farbwiedergabe der Testleuchte. Im Beispiel  ist im roten Farbfeld zu erkennen, dass der Arri L7-C diese Farbe nicht so gut wiedergibt wie andere Farben.\\ 
-Rechts unten ist auf dem TLCI-Ergebnisprotokoll das Referenzspektrum von 380nm bis 740nm Wellenlänge abgebildet (schwarz) und dazu wird das geteste Spektrum geplotet (cyan). In dieser Ansicht kann man gut erkennen, inwieweit das Licht des Arri L7-C das Referenzspektrum abdeckt \footnote{\cite[15]{roberts}}.  
+Rechts unten ist auf dem TLCI-Ergebnisprotokoll das Referenzspektrum von 380nm bis 740nm Wellenlänge abgebildet (schwarz) und dazu wird das geteste Spektrum geplotet (cyan). In dieser Ansicht kann man gut erkennen, inwieweit das Licht des Arri L7-C das Referenzspektrum abdeckt \footnote{\cite[15]{roberts}}.\\
+
+Der TLCI sieht die Farben wie eine Kamera und zieht sogar zwei Hauttöne mit in Betracht. Daher eignet sich dieser Farbwiedergabewert sehr gut für die Messung der Auswirkung eines Red Tail.  
+
 
 
 \section{IES Method for Evaluating Light Source Color Rendition (TM-30-15)} \label{sec_tm30}
 
 Auch der TM-30 wurde 2015 von der \glqq Illuminating Engineering Society\grqq (IES) ausgearbeitet um eine Alternative zum CRI zu finden. Wie beim CRI werden ebenso bei der Messung des TM-30 Farbunterschiede zwischen einer Testleuchte und Referenzwerten der selben korrelierten Farbtemperatur aufgezeigt. Der TM-30 differenziert ähnlich, ob es sich bei der Testleuchte um einen Plank'schen Strahler  oder einem Tageslicht handelt. Zwischen einer CCT von 4500K und 5500K wird die Referenz proportional überblendet, um so zu verhindern, dass es bei 5000K einen \glqq Sprung\grqq gibt. Bei dem CRI konnte es nämlich passieren, dass eine Leuchte 2 unterschiedliche Referenzen bekam, je nach dem ob diese knapp über oder unter 5000K bei der Messung lag. 
-Die 99 Referenzfarben wurden aus einem Pool von 105.000 Farbtönen realer Objekte statistisch ermittelt (Abbildung \ref{b_tm301}). Damit alle Farbtöne gleichmäßig abgedeckt werden, wurde der CAM02-UCS-Farbraum, der für seine Gleichmäßigkeit der Farbaufteilung bekannt ist, in Würfel eingeteilt. Von jedem dieser Würfel wurde dann eine der Referenzfarben bestimmt, die so gewählt ist, dass die unterschiedliche Wahrnehmung verschiedener Wellenlänge minimal ist (Kapitel \ref{sec_auge}). Die große Anzahl der Referenzfarben verhindert, dass Leuchtenhersteller mit gezielten Peaks im Spektrum gute TM-30 Werte zu erreichen.
+Die 99 Referenzfarben (Color Evaluation Sample) wurden aus einem Pool von 105.000 Farbtönen realer Objekte statistisch ermittelt (Abbildung \ref{b_tm301}). Damit alle Farbtöne gleichmäßig abgedeckt werden, wurde der CAM02-UCS-Farbraum, der für seine Gleichmäßigkeit der Farbaufteilung bekannt ist, in Würfel eingeteilt. Von jedem dieser Würfel wurde dann eine der Referenzfarben bestimmt, die so gewählt ist, dass die unterschiedliche Wahrnehmung der verschiedener Wellenlänge minimal ist (Kapitel \ref{sec_auge}). Die große Anzahl der Referenzfarben verhindert, dass Leuchtenhersteller mit gezielten Peaks im Spektrum gute TM-30 Werte erreichen \footnote{\cite{usdep}}.
+\newpage
 
-\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
 \includegraphics[width=1.0\textwidth]{bilder/tm301} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
@@ -302,6 +308,40 @@ Die 99 Referenzfarben wurden aus einem Pool von 105.000 Farbtönen realer Objekt
 \end{figure}
 \footnotetext{\url{https://agustos.com/wp-content/uploads/2017/10/TM30-color-samples-image.png}}
 
+
+Im Gegensatz zum CRI spielen beim TM-30 zwei Werte eine große Rolle: $R_{f}$ und $R_{g}$. Der $R_{f}$-Wert bildet analog zum $R_{a}$-Wert des CRI ein Mittel aus den neunundneunzig Farbunterschieden denen einen Wert von 0 - 100 zugeordnet wird. Auch der $R_{f}$-Wert zeigt nicht an, ob die Leuchte übersättigte Farben hat oder einen Farbshift(\footnote{\cite[10]{royerhouser}}). Dazu wird der $R_{g}$-Wert gemessen. Dieser kann zwischen 60 und 140 variieren und zeigt so, ob die Farben übersättigt ($R_{g} > 100$), untersättigt ($R_{g} < 100$) sind oder mit dem Wert $R_{g} = 100$ genau die Farben der Referenzleuchte (bei selbiger Farbtemperatur) treffen. Mit dem $R_{f}$- und $R_{g}$-Wert wird ein X,Y-Koordinatensystem aufgespannt (Abbildung \ref{b_tm302}). Aus diesem Diagramm sind Farbwiedergabeeigenschaften einer Leuchte sehr gut ablesbar. Durch den zusätzlichen $R_{g}$-Wert gibt es nicht mehr nur Leuchten mit \glqq guter\grqq (hoher (hoher $R_{f}$)) oder \glqq schlechter\grqq (niedriger $R_{f}$) Farbwiedergabe. Zum Beispiel verliert eine Leuchte mit $R_{f}=82$ und $R_{g}=127$ gegenüber einer mit $R_{f}=90$ und $R_{g}=98$ nicht unweigerlich. Es kommt im direkten Vergleich viel mehr auf den Anwendungsfall an, in der die Leuchte gebraucht wird. Im sterilen Krankenhaus ist eine natürlich Farbwiedergabe wichtig, dort wäre die zweite Leuchte der Favorit, wohingegen für Superläden, in denen das Obst durch Übersättigung der Farben besser zur Geltung kommt, wäre die erste Lampe attraktiver. 
+Daher ist der TM-30 viel flexibler zu deuten als der CRI, wo es immer nur um den höchsten $R_{a}$-Wert geht. Eine Möglichkeit könnte es sein, das X,Y-Koordinatensystem in verschiedene Bereiche(z.B. Fenster) einzuteilen, um so anwendungsspezifische Entscheidungen treffen zu können (\footnote{\cite[4]{royer}}).  
+
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.5\textwidth]{bilder/tm302} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Koordinatensystem aus $R_{f}$ und $R_{g}$: Die hellgraue Zone steht für TM-30-Werte die nicht auf der Plank'schen Kurve liegen und die dunkelgraue Zone steht für alle Werte, die nicht mehr als \glqq weiß\grqq angesehen werden. \protect\footnotemark}\label{b_tm302}
+\end{figure}
+\footnotetext{\url{https://i.pinimg.com/originals/18/98/de/1898de3bdd8436fb5a1945d72a4c6772.jpg}}
+
+In einer anderen Darstellung des $R_{g}$-Wert ist zu sehen, dass der Farbraum in 16 verschiedene \glqq binnings\grqq eingeteilt wurde. Jedes dieser \glqq binnings\grqq steht übergreifend für die in diesem Bereich liegende Farbtöne. In dieser Darstellung wird mit Pfeilen aufgezeigt, welche Anteile im Farbraum fehlen, welche übersättigt sind und welche den Farbton nicht treffen im Verhältnis zur Referenzfarbwiedergabe (Abbildung \ref{b_tm303}).
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/tm303} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Wie sich die Farben der Testleuchte verhalten ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete.  \protect\footnotemark}\label{b_tm303}
+\end{figure}
+\footnotetext{\cite{usdep}}
+
+Bei der Messung einer Demo warmweiß LED gibt es viel an Messergebnissen zu protokollieren (Abbildung \ref{b_tm304}): Links oben wird gemessene $R_{f}$- und $R_{g}$-Wert angezeigt. Darunter ist die Vektorgraphik des $R_{g}$-Wertes dargestellt und darunter werden die $R_{f}$-Werte der 16 Farbraum-\glqq binnings\grqq  in einem Säulendiagramm präsentiert. In der Mitte ist der TM-30-Wert in seiner Koordinaten Darstellung aufzufinden und darunter werden die farblichen Abweichungen (in Prozenten) in einem Säulendiagramm dargestellt. Rechts oben wird analog zum TLCI das Spektrum der Leuchte im Verhältnis zum Referenzspektrum gezeigt und die gemessene korrelierte Farbtemperatur angegeben. Darunter gibt es eine Tabelle wo die farblichen Abweichung der einzelnen \glqq binnings\grqq als Zahlenwert angegeben werden. Schließlich findet man unter allem bisher genannten eine Säulendiagramm mit allen 99 Farben des TM-30. 
+Das Ergebnis einer Messung ist mit diesen Daten nicht mehr schnell ersichtlich, wie beim CRI-Wert, hilft aber eine deutlich aussagekräftigere Entscheidung über eine Leuchte treffen zu können. 
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/tm304} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Wie sich die Farben der Testleuchte verhalten ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete.  \protect\footnotemark}\label{b_tm304}
+\end{figure}
+
+Der TM-30 
 
 
 
@@ -365,7 +405,12 @@ Die 99 Referenzfarben wurden aus einem Pool von 105.000 Farbtönen realer Objekt
 % Grundregel: Name, Vorname (falls vorhanden), VÖ-Jahr (falls vorhanden), Titel in Anführungszeichen, URL, Datum des letzten Aufrufs
 % zur Formatierung der URL unbedingt den url-Befehl benutzen!!!
 
-\bibitem[U.S. Department of Energy(2015)]{depenergy}
+\bibitem[Royer \& Houser(2015)]{royerhouser}
+Royer, Micheal \& Houser Kevin:
+\emph{\glqq Understanding and Applying TM-30-15\grqq}
+\url{https://www.energy.gov/sites/prod/files/2015/09/f26/tm30-intro-webinar_9-15-15.pdf}, 15.09.2015, letzter Zugriff 26.06.2018
+
+\bibitem[U.S. Department of Energy(2015)]{usdep}
 U.S. Department of Energy:
 \emph{\glqq Evaluating Color Rendition Using IES TM-30-15\grqq}
 \url{https://www.energy.gov/sites/prod/files/2016/04/f30/tm-30_fact-sheet.pdf}, Oktober 2015, letzter Zugriff 25.06.2018
@@ -403,6 +448,13 @@ Gigahertz-Optik:
 
 
 % Formatierung für Aufsatz / Paper: Titel in Anführungszeichen, Zeitschriftentitel kursiv
+
+\bibitem[Royer(2016)]{royer} 
+Royer, Michael P.:
+\glqq IES TM-30-15 Is Approved—Now What?\grqq, 
+\emph{LEUKOS} vol. 12 (1-2, 3-5), 2016
+
+
 \bibitem[Dooley \& Streicher(1982)]{dooley_streicher} 
 Dooley, Wesley L.  \& Streicher, Ronald D.:
 \glqq M--S Stereo: A Powerful Technique for Working in Stereo\grqq, 
