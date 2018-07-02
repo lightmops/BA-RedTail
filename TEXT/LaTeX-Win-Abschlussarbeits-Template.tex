@@ -65,7 +65,7 @@ Bei der Auswertung werden die gemessenen lichttechnischen Parameter betrachtet u
 
 \chapter{Einleitung}
 
-\chapter{Grundlagen und Kenngrößen der Lichttechnik} 
+\chapter{Grundlagen und Kenngrößen der Lichttechnik} \label{chap_grundlagen}
 
 \section{Lichtstrom $\Phi$} \label{sec_lumen}
 
@@ -78,33 +78,92 @@ Bei der Auswertung werden die gemessenen lichttechnischen Parameter betrachtet u
 \chapter{Farbe und Farbräume}
 In diesem Kapitel wird auf die Grundlagen der Farben und Farbräume eingegangen.
 
-\section{Sehen mit dem Auge} \label{sec_auge}
-Um Farben und Farbräume erklären zu können, werden in diesem Kapitel die Grundlagen der Farbwahrnehmung beschrieben.\\
-Im Auge gibt es zwei Arten von lichtempfindlichen Rezeptoren in der Netzhaut, die für unsere Farbwahrnehmung verantwortlich sind: Zapfen und Stäbchen.\\
-Die Stäbchen nehmen verschiedene Helligkeitseindrücke wahr, können aber keine Farben unterscheiden. Daher sind sie für das skotopische Sehen (von 3 x $10^{-6} \frac{cd}{m^{2}}$ bis 0,03$\frac{cd}{m^{2}}$) verantwortlich \footnote{\cite{doccheck sko}}.
-Die verschiedenen spektralen Anteile des Lichts wirken sich auf die Zapfen aus und verantworten so den Farbeindruck. Außerdem sind die Zapfen für das photopische Sehen (ab einer Leuchtdichte von 3$\frac{cd}{m^{2}}$) zuständig \footnote{\cite{doccheck pho}}.\\
-
+\section{Farben mit dem Auge sehen} \label{sec_auge}
+Es gibt zwei verschiedene Fälle, in denen der Mensch die Gesichtsemfpindung Farbe verspürt: Entweder leuchtet ein Objekt von selbst und dessen Lichtspektrum gelangt ins Auge und wird dann im Zusammenspiel mit dem Gehirn ein Farbreiz $\phi(\lambda)$ erkannt. In diesem Fall nennt man das Objekt einen Selbstleuchter. Oder das Objekt wird von einer Lichtquelle beleuchtet und das reflektierte Lichtspektrum wird wahrgenommen. Das Objekt aborbiert und transmittiert bestimme spektrale Anteile des Licht und reflektiert den Rest (Kapitel \ref{chap_grundlagen}). Daher können nur spektralen Anteile des Lichts reflektiert werden, die auch im Spektrum der Lichtquelle vorhanden sind. Ein roter Apfel erscheint deswegen von blauem Licht beleuchtet unbunt, da kein roter Spektralanteil reflektiert werden kann.
+In diesem zweiten Fall spricht man von dem Objekt als Körperfarben\footnote{\cite[103]{hentschel}}.\\     
+Damit ein Mensch einen Farbreiz wahrnehmen kann, gibt es im Auge zwei Arten von lichtempfindlichen Rezeptoren in der Netzhaut, die für unsere Farbwahrnehmung verantwortlich sind: Zapfen und Stäbchen.\\
+Die Stäbchen nehmen verschiedene Helligkeitseindrücke wahr, können aber keine Farben unterscheiden. Daher sind sie für das skotopische Sehen (Nachtsehen) von 3 x $10^{-6} \frac{cd}{m^{2}}$ bis 0,03$\frac{cd}{m^{2}}$ verantwortlich \footnote{\cite{doccheck sko}}.
+Die verschiedenen spektralen Anteile des Lichts wirken sich auf die Zapfen aus und verantworten so den Farbeindruck. Außerdem sind die Zapfen für das photopische Sehen (Tagessehen), ab einer Leuchtdichte von 3$\frac{cd}{m^{2}}$, zuständig \footnote{\cite{doccheck pho}}.\\
+Das menschliche Auge nimmt die sichtbaren Wellenlängen von 380nm bis 780nm jedoch unterschiedlich stark wahr. Grüne Gegenstände (555nm) wirken daher immer heller als blaue (485nm) oder rote (680nm). Dieser Sachverhalt wurde mit der V($\lambda$)-Kurve  aufgezeigt (Abbildung \ref{b_augespek}).
  
 
-
-
-\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
 \includegraphics[width=0.7\textwidth]{bilder/augespek} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Zapfen und Stäbchen im Auge\protect\footnotemark}\label{b_augespek}
+\caption {Die V($\lambda$)-Kurve zeigt wie das Auge die verschiedenen Wellenlänge beim photopischen Sehen gewichtet. Die weiße Kurve (V'($\lambda$)) beschreibt, wie sich das Farbsehen beim Nachtsehen verschiebt. \protect\footnotemark}\label{b_augespek}
 \end{figure}
 
 \footnotetext{\url{https://www.gigahertz-optik.de/assets/Uploads/Abb.-II.13-neu-v03.png}}
 
 
-\section{Sichtbares Spektrum} \label{sec_spektrum}
+Mit den Zapfen und Stäbchen kann ein Mensch bis zu 200 verschiedene Farbtöne wahrnehmen. Wenn man die verschiedenen möglichen Helligkeiten und Weißkombinationen dieser Farbtöne zusätzlich in Betracht zieht, kann man von ca. 20 Millionen unterschiedlichen Farben sprechen, die ein Mensch erkennen kann \footnote{\cite{unimann}}.
+ 
+Um all diese Farben unterscheiden zu können gibt es nach Young und Helmholtz drei Rezeptortypen. Die \glqq Trichromatische Theorie\grqq besagt, dass es grüne, blaue und rote Zapfen gibt, die unterschiedlich empfindlich für die jeweiligen Spektralanteile des Lichtes sind. Also entsteht aus den RGB-Werten ein Farbton. Auf diese Weise lassen sich aber nicht alle Phänomene der Farbwahrnehmung erklären. 1878 hat Hering eine andere Theorie entwickelt, wie Farben wahrgenommen werden: die \glqq Gegenfarbentheorie\grqq. Diese Theorie besagt, dass es immer zwei Farben gibt, die sich gegensätzlich verhalten: rot und grün, blau und gelb und der unbunte Gegensatz schwarz (dunkel) und weiß (hell).\\ Nach ein paar Jahren der Uneinigkeit, welche der Theorie denn nun korrekt ist, hat 1905 v. Kries in seiner \glqq Zonentheorie\grqq herausgestellt, dass beide Theorien zugleich zutreffen. Einerseits wird im Auge nach der \glqq Trichromatische Theorie\grqq eine Farbe als RGB-Stimulus wahrgenommen, dieser wird dann andererseits nach der \glqq Gegenfarbentheorie\grqq im Gehirn mit den drei Farbgegensätzen ausgewertet \footnote{\cite[104]{hentschel}} (Abbildung \ref{b_zonen}).
+%Bücherquellen einfügen und beim text ergänzen
+ 
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.7\textwidth]{bilder/zonen} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Darstellung der Zonentheorie von v. Kries \protect\footnotemark}\label{b_zonen}
+\end{figure}
+\footnotetext{\cite6[153]{greule}}
 
-\section{Farbe} \label{sec_farbe}
+Um eine Farbe entstehen zu lassen gibt es zwei Möglichkeiten:
 
-Das menschliche Auge kann bis zu 200 verschiedene Farbtöne wahrnehmen. Wenn man die verschiedenen möglichen Helligkeiten und Weißkombinationen dieser Farbtöne zusätzlich in Betracht zieht, kann man von ca. 20 Millionen unterschiedlichen Farben sprechen, die ein Mensch erkennen kann \footnote{\cite{unimann}}.
+Bei der additiven Farbmischung werden die Spektralanteile verschiedener Farbtöne als Mischfarbe erkannt. Dies kann auf unterschiedliche Weisen passieren. Entweder treffen zwei verschiedene Spektralanteile auf den gleichen Punkt auf der Netzhaut und lösen so einen Farbreiz aus (örtliche Nähe). Oder derselbe Punkt auf der Netzhaut wird von zwei verschiedenen Spektralanteilen mit einer Wechselfrequenz von $f\geq25Hz$ getroffen (zeitliche Nähe). Oder das Licht verschiedener Wellenlängen trifft auf unterschiedliche Teile der Netzhaut, die so dicht aneinander sind, dass das Auge daraus eine Farbe mischt.\\
+Grundsätzlich werden bei jeder Art der additiven Farbmischung die Strahlungsleistungen der Spektralanteile $\Phi_{e\lambda,i}(\lambda)$ zusammenaddiert\footnote{\cite[83]{greule}}(Gleichung\ref{gl_farbe+}).
+
+	\begin{equation}\label{gl_farbe+}
+		\Phi_{e\lambda}(\lambda) = \Phi_{e\lambda,1}(\lambda) + \Phi_{e\lambda,2}(\lambda) + \Phi_{e\lambda,3}(\lambda)
+	\end{equation}\\
 
 
+1853 hat Grassmann zur additiven Farbmischung drei allgemein gültige Regeln aufgestellt \footnote{\cite[105]{hentschel}}: 
+\newpage
+\begin{enumerate}\setlength{\itemsep}{0ex}
+\item Für das Ergebnis einer additiven Farbmischung ist nur das Aussehen, nicht die spektrale Zusammensetzung der Komponenten maßgebend.
+\item Alle Farbmischungen verlaufen stetig.
+\item Zum Festlegen einer Farbe sind drei Bestimmungsstücke notwendig und hinreichend.
+\end{enumerate}
+
+Die erste Regel beschreibt beispielweise das Verhalten einer Tomate unter gemischtem und ungemischtem magentafarbenen Licht. Wird die Tomate von einem magentanen Licht bestrahlt, dessen Spektrum nur Anteile im Magentabereich hat, so wird die Tomate weitesgehend unbunt erscheinen, weil diese alle spektralen Anteile des Lichts, außer den roten, absorbiert. Falls man aber rotes Licht mit blauem Licht mischt und so die selbe Lichtfarbe wie von dem reinen magentafarbigen Licht erzeugt, so erscheint die Tomate unter diesem Licht wiederum trotzdem rot, da die Rot-Anteile im Spektrum vorhanden sind. Man kann jedoch mit dem bloßen Auge diese beiden Farben nicht unterscheiden (metamere Farben), da der Mensch die spektrale Zusammensetzung von Licht nicht wahrnimmt. 
+
+Die zweite Regel zeigt auf, dass bei der additiven Farbmischung die Farben stets ineinander übergehen und kein Sprung dabei entsteht, wenn zwei Farben zu einer Mischfarbe werden.
+
+Die dritte Regel besagt, dass Farben beispielsweise mit Helligkeit, Farbton und Sättigung ausreichend beschrieben sind, um sie eindeutig zu definieren und reproduzieren zu können. Auch mit den Farbanteilen von den Grundfarben Rot, Blau und Grün können Farben definiert werden (Kapitel \ref{b_farben+}).   
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.5\textwidth]{bilder/farben+} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Die drei Grundfarben Rot, Grün und Blau der additiven Farbmischung ergeben zusammen weiß (unbunt).\protect\footnotemark}\label{b_farben+}
+\end{figure}
+
+\footnotetext{\url{https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Synthese\%2B.svg/420px-Synthese\%2B.svg.png}}
+
+Bei der subtraktiven Farbmischung geht es nicht um die Farbwahrnehmung des Auges, sondern um Licht im rein physikalischen Sinne. Ein subtraktives Farbgemisch entsteht, wenn die Transmissions- und Reflektionseigenschaften zweier Farben miteinander multipliziert werden\footnote{\cite[84]{greule}} (Gleichung \ref{gl_farbe-}).
+
+\begin{equation}\label{gl_farbe-}
+		T(\lambda) = T_{1}(\lambda) \cdot T_{2}(\lambda) \cdot T_{3}(\lambda)
+	\end{equation}
+Die Formel stellt ein Beispiel für das Produkt der Transmissionswerte dar.
+Hierbei handelt es sich um ein wesentlich komplizierteren Prozess, als bei der additiven Farbmischung. Da durch diese Multiplikation der Farben ein spektraler Anteil entfällt, spricht man von einer subtraktiven Farbmischung, obwohl das Produkt der Farbeigenschaften gebildet wird (Abbildung \ref{b_farben-}).
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.5\textwidth]{bilder/farben-} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Die drei Grundfarben Cyan, Magenta und Gelb der subtraktiven Farbmischung ergeben zusammen schwarz (unbunt).\protect\footnotemark}\label{b_farben-}
+\end{figure}
+
+\footnotetext{\url{https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/CMY_ideal_version_rotated.svg/649px-CMY_ideal_version_rotated.svg.png}}
+
+%Überleitung zum RGB Farbraum
+
+
+ 
 \section{RGB Farbraum} \label{sec_rgb}
 
 \section{CIE-XYZ Farbraum} \label{sec_xyz}

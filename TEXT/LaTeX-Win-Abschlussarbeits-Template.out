@@ -5,39 +5,37 @@
 \BOOKMARK [1][-]{section.2.3}{Lichtst\344rke I}{chapter.2}% 5
 \BOOKMARK [1][-]{section.2.4}{Leuchtdichte L}{chapter.2}% 6
 \BOOKMARK [0][-]{chapter.3}{Farbe und Farbr\344ume}{}% 7
-\BOOKMARK [1][-]{section.3.1}{Sehen mit dem Auge}{chapter.3}% 8
-\BOOKMARK [1][-]{section.3.2}{Sichtbares Spektrum}{chapter.3}% 9
-\BOOKMARK [1][-]{section.3.3}{Farbe}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.4}{RGB Farbraum}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.5}{CIE-XYZ Farbraum}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.6}{CIE-LUV Farbraum}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.7}{CIE-LAB Farbraum}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{Lichtechnische Parameter}{}% 15
-\BOOKMARK [1][-]{section.4.1}{CIE: Color Rendering Index \(CRI\)}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{NIST: Color Quality Scale \(CQS\)}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{EBU: Television Lighting Consistency Index \(TLCI\)}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.4}{IES Method for Evaluating Light Source Color Rendition \(TM-30-15\)}{chapter.4}% 19
-\BOOKMARK [0][-]{chapter.5}{Leuchtmittel}{}% 20
-\BOOKMARK [1][-]{section.5.1}{Gl\374hlampe}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.2}{Halogengl\374hlampe}{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.3}{Entladungslampen}{chapter.5}% 23
-\BOOKMARK [1][-]{section.5.4}{LEDs}{chapter.5}% 24
-\BOOKMARK [0][-]{chapter.6}{Vormessungen}{}% 25
-\BOOKMARK [1][-]{section.6.1}{Ziel}{chapter.6}% 26
-\BOOKMARK [1][-]{section.6.2}{Aufbau}{chapter.6}% 27
-\BOOKMARK [1][-]{section.6.3}{Fazit aus der Vormessung}{chapter.6}% 28
-\BOOKMARK [0][-]{chapter.7}{Hauptmessung}{}% 29
-\BOOKMARK [1][-]{section.7.1}{Messaufbau}{chapter.7}% 30
-\BOOKMARK [0][-]{chapter.8}{Messergebnisse}{}% 31
-\BOOKMARK [1][-]{section.8.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.8}% 32
-\BOOKMARK [0][-]{chapter.9}{Umfrage}{}% 33
-\BOOKMARK [1][-]{section.9.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.9}% 34
-\BOOKMARK [0][-]{chapter.10}{Umfrageergebnisse}{}% 35
-\BOOKMARK [1][-]{section.10.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.10}% 36
-\BOOKMARK [0][-]{chapter.11}{Auswertung aller Ergebnisse}{}% 37
-\BOOKMARK [1][-]{section.11.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.11}% 38
-\BOOKMARK [0][-]{chapter.12}{Fazit}{}% 39
-\BOOKMARK [1][-]{section.12.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.12}% 40
-\BOOKMARK [0][-]{chapter*.4}{Abbildungsverzeichnis}{}% 41
-\BOOKMARK [0][-]{chapter*.5}{Tabellenverzeichnis}{}% 42
-\BOOKMARK [0][-]{chapter*.6}{Literaturverzeichnis}{}% 43
+\BOOKMARK [1][-]{section.3.1}{Farben mit dem Auge sehen}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{RGB Farbraum}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{CIE-XYZ Farbraum}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.4}{CIE-LUV Farbraum}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.5}{CIE-LAB Farbraum}{chapter.3}% 12
+\BOOKMARK [0][-]{chapter.4}{Lichtechnische Parameter}{}% 13
+\BOOKMARK [1][-]{section.4.1}{CIE: Color Rendering Index \(CRI\)}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{NIST: Color Quality Scale \(CQS\)}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.3}{EBU: Television Lighting Consistency Index \(TLCI\)}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.4}{IES Method for Evaluating Light Source Color Rendition \(TM-30-15\)}{chapter.4}% 17
+\BOOKMARK [0][-]{chapter.5}{Leuchtmittel}{}% 18
+\BOOKMARK [1][-]{section.5.1}{Gl\374hlampe}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.2}{Halogengl\374hlampe}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.3}{Entladungslampen}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.4}{LEDs}{chapter.5}% 22
+\BOOKMARK [0][-]{chapter.6}{Vormessungen}{}% 23
+\BOOKMARK [1][-]{section.6.1}{Ziel}{chapter.6}% 24
+\BOOKMARK [1][-]{section.6.2}{Aufbau}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.3}{Fazit aus der Vormessung}{chapter.6}% 26
+\BOOKMARK [0][-]{chapter.7}{Hauptmessung}{}% 27
+\BOOKMARK [1][-]{section.7.1}{Messaufbau}{chapter.7}% 28
+\BOOKMARK [0][-]{chapter.8}{Messergebnisse}{}% 29
+\BOOKMARK [1][-]{section.8.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.8}% 30
+\BOOKMARK [0][-]{chapter.9}{Umfrage}{}% 31
+\BOOKMARK [1][-]{section.9.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.9}% 32
+\BOOKMARK [0][-]{chapter.10}{Umfrageergebnisse}{}% 33
+\BOOKMARK [1][-]{section.10.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.10}% 34
+\BOOKMARK [0][-]{chapter.11}{Auswertung aller Ergebnisse}{}% 35
+\BOOKMARK [1][-]{section.11.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.11}% 36
+\BOOKMARK [0][-]{chapter.12}{Fazit}{}% 37
+\BOOKMARK [1][-]{section.12.1}{Unterkapitel mit Mathematik, Bildern und Querverweisen}{chapter.12}% 38
+\BOOKMARK [0][-]{chapter*.4}{Abbildungsverzeichnis}{}% 39
+\BOOKMARK [0][-]{chapter*.5}{Tabellenverzeichnis}{}% 40
+\BOOKMARK [0][-]{chapter*.6}{Literaturverzeichnis}{}% 41

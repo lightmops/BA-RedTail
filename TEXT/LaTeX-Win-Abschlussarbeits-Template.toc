@@ -9,39 +9,37 @@
 \contentsline {section}{\numberline {2.3}Lichtst\IeC {\"a}rke I}{6}{section.2.3}
 \contentsline {section}{\numberline {2.4}Leuchtdichte L}{6}{section.2.4}
 \contentsline {chapter}{\numberline {3}Farbe und Farbr\IeC {\"a}ume}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Sehen mit dem Auge}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Sichtbares Spektrum}{8}{section.3.2}
-\contentsline {section}{\numberline {3.3}Farbe}{8}{section.3.3}
-\contentsline {section}{\numberline {3.4}RGB Farbraum}{8}{section.3.4}
-\contentsline {section}{\numberline {3.5}CIE-XYZ Farbraum}{8}{section.3.5}
-\contentsline {section}{\numberline {3.6}CIE-LUV Farbraum}{8}{section.3.6}
-\contentsline {section}{\numberline {3.7}CIE-LAB Farbraum}{8}{section.3.7}
-\contentsline {chapter}{\numberline {4}Lichtechnische Parameter}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}CIE: Color Rendering Index (CRI)}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}NIST: Color Quality Scale (CQS)}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}EBU: Television Lighting Consistency Index (TLCI)}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{18}{section.4.4}
-\contentsline {chapter}{\numberline {5}Leuchtmittel}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Gl\IeC {\"u}hlampe}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Halogengl\IeC {\"u}hlampe}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Entladungslampen}{23}{section.5.3}
-\contentsline {section}{\numberline {5.4}LEDs}{23}{section.5.4}
-\contentsline {chapter}{\numberline {6}Vormessungen}{24}{chapter.6}
-\contentsline {section}{\numberline {6.1}Ziel}{24}{section.6.1}
-\contentsline {section}{\numberline {6.2}Aufbau}{24}{section.6.2}
-\contentsline {section}{\numberline {6.3}Fazit aus der Vormessung}{24}{section.6.3}
-\contentsline {chapter}{\numberline {7}Hauptmessung}{25}{chapter.7}
-\contentsline {section}{\numberline {7.1}Messaufbau}{25}{section.7.1}
-\contentsline {chapter}{\numberline {8}Messergebnisse}{26}{chapter.8}
-\contentsline {section}{\numberline {8.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{26}{section.8.1}
-\contentsline {chapter}{\numberline {9}Umfrage}{27}{chapter.9}
-\contentsline {section}{\numberline {9.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{27}{section.9.1}
-\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{28}{chapter.10}
-\contentsline {section}{\numberline {10.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{28}{section.10.1}
-\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{29}{chapter.11}
-\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{29}{section.11.1}
-\contentsline {chapter}{\numberline {12}Fazit}{30}{chapter.12}
-\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{30}{section.12.1}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{31}{chapter*.4}
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{32}{chapter*.5}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{33}{chapter*.6}
+\contentsline {section}{\numberline {3.1}Farben mit dem Auge sehen}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}RGB Farbraum}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}CIE-XYZ Farbraum}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}CIE-LUV Farbraum}{12}{section.3.4}
+\contentsline {section}{\numberline {3.5}CIE-LAB Farbraum}{12}{section.3.5}
+\contentsline {chapter}{\numberline {4}Lichtechnische Parameter}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}CIE: Color Rendering Index (CRI)}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}NIST: Color Quality Scale (CQS)}{16}{section.4.2}
+\contentsline {section}{\numberline {4.3}EBU: Television Lighting Consistency Index (TLCI)}{18}{section.4.3}
+\contentsline {section}{\numberline {4.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{22}{section.4.4}
+\contentsline {chapter}{\numberline {5}Leuchtmittel}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Gl\IeC {\"u}hlampe}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Halogengl\IeC {\"u}hlampe}{27}{section.5.2}
+\contentsline {section}{\numberline {5.3}Entladungslampen}{27}{section.5.3}
+\contentsline {section}{\numberline {5.4}LEDs}{27}{section.5.4}
+\contentsline {chapter}{\numberline {6}Vormessungen}{28}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ziel}{28}{section.6.1}
+\contentsline {section}{\numberline {6.2}Aufbau}{28}{section.6.2}
+\contentsline {section}{\numberline {6.3}Fazit aus der Vormessung}{28}{section.6.3}
+\contentsline {chapter}{\numberline {7}Hauptmessung}{29}{chapter.7}
+\contentsline {section}{\numberline {7.1}Messaufbau}{29}{section.7.1}
+\contentsline {chapter}{\numberline {8}Messergebnisse}{30}{chapter.8}
+\contentsline {section}{\numberline {8.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{30}{section.8.1}
+\contentsline {chapter}{\numberline {9}Umfrage}{31}{chapter.9}
+\contentsline {section}{\numberline {9.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{31}{section.9.1}
+\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{32}{chapter.10}
+\contentsline {section}{\numberline {10.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{32}{section.10.1}
+\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{33}{chapter.11}
+\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{33}{section.11.1}
+\contentsline {chapter}{\numberline {12}Fazit}{34}{chapter.12}
+\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{34}{section.12.1}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{35}{chapter*.4}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{37}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{38}{chapter*.6}
