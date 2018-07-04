@@ -77,21 +77,24 @@ Bei der Auswertung werden die gemessenen lichttechnischen Parameter betrachtet u
 
 \chapter{Farbe und Farbräume}
 In diesem Kapitel wird auf die Grundlagen der Farben und Farbräume eingegangen.
+%Einleitung vernünftig schreiben
 
 \section{Farben mit dem Auge sehen} \label{sec_auge}
-Es gibt zwei verschiedene Fälle, in denen der Mensch die Gesichtsemfpindung Farbe verspürt: Entweder leuchtet ein Objekt von selbst und dessen Lichtspektrum gelangt ins Auge und wird dann im Zusammenspiel mit dem Gehirn ein Farbreiz $\phi(\lambda)$ erkannt. In diesem Fall nennt man das Objekt einen Selbstleuchter. Oder das Objekt wird von einer Lichtquelle beleuchtet und das reflektierte Lichtspektrum wird wahrgenommen. Das Objekt aborbiert und transmittiert bestimme spektrale Anteile des Licht und reflektiert den Rest (Kapitel \ref{chap_grundlagen}). Daher können nur spektralen Anteile des Lichts reflektiert werden, die auch im Spektrum der Lichtquelle vorhanden sind. Ein roter Apfel erscheint deswegen von blauem Licht beleuchtet unbunt, da kein roter Spektralanteil reflektiert werden kann.
-In diesem zweiten Fall spricht man von dem Objekt als Körperfarben\footnote{\cite[103]{hentschel}}.\\     
-Damit ein Mensch einen Farbreiz wahrnehmen kann, gibt es im Auge zwei Arten von lichtempfindlichen Rezeptoren in der Netzhaut, die für unsere Farbwahrnehmung verantwortlich sind: Zapfen und Stäbchen.\\
-Die Stäbchen nehmen verschiedene Helligkeitseindrücke wahr, können aber keine Farben unterscheiden. Daher sind sie für das skotopische Sehen (Nachtsehen) von 3 x $10^{-6} \frac{cd}{m^{2}}$ bis 0,03$\frac{cd}{m^{2}}$ verantwortlich \footnote{\cite{doccheck sko}}.
+% Einleitender Satz fehlt
+
+Es gibt zwei verschiedene Fälle, in denen der Mensch die Gesichtsemfpindung Farbe verspürt: Entweder leuchtet ein Objekt von selbst, sodass dessen Licht aus einem Spektralbereich des sichtbaren Spektrums ins Auge gelangt und dann im Zusammenspiel mit dem Gehirn ein Farbreiz $\phi(\lambda)$ erzeugt. In diesem Fall nennt man das Objekt einen Selbstleuchter. Die zweite Möglichkeit ist, dass das Objekt von einer Lichtquelle beleuchtet wird und das reflektierte Lichtspektrum wahrgenommen wird. Der Gegenstand aborbiert und transmittiert bestimme spektrale Anteile des Lichts und reflektiert den für den Farbton verantworlichen Rest (Kapitel \ref{chap_grundlagen}). Daher erscheint beispielsweise ein roter Apfel von blauem Licht beleuchtet unbunt, da kein roter Spektralanteil im blauen Licht vorhanden ist.
+In diesem zweiten Fall spricht man von Körperfarben\footnote{\cite[103]{hentschel}}.\\     
+Damit ein Mensch so einen Farbreiz wahrnehmen kann, gibt es im Auge zwei Arten von lichtempfindlichen Rezeptoren in der Netzhaut, die für unsere Farbwahrnehmung verantwortlich sind: Zapfen und Stäbchen.\\
+Die Stäbchen nehmen verschiedene Helligkeitseindrücke wahr, können aber keine Farben unterscheiden. Daher sind sie für das skotopische Sehen (Nachtsehen) von $3 \cdot 10^{-6} \frac{cd}{m^{2}}$ bis 0,03$\frac{cd}{m^{2}}$ verantwortlich \footnote{\cite{doccheck sko}}.
 Die verschiedenen spektralen Anteile des Lichts wirken sich auf die Zapfen aus und verantworten so den Farbeindruck. Außerdem sind die Zapfen für das photopische Sehen (Tagessehen), ab einer Leuchtdichte von 3$\frac{cd}{m^{2}}$, zuständig \footnote{\cite{doccheck pho}}.\\
-Das menschliche Auge nimmt die sichtbaren Wellenlängen von 380nm bis 780nm jedoch unterschiedlich stark wahr. Grüne Gegenstände (555nm) wirken daher immer heller als blaue (485nm) oder rote (680nm). Dieser Sachverhalt wurde mit der V($\lambda$)-Kurve  aufgezeigt (Abbildung \ref{b_augespek}).
+Der Mensch kann Wellenlängen von 380nm bis 780nm wahrnehmen. Jedoch ist das Auge nicht für alle Farben gleich empfindlich. Grüne Gegenstände (555nm) wirken immer heller als blaue (485nm) oder rote (680nm). Dieser Sachverhalt wurde mit der V($\lambda$)-Kurve  aufgezeigt (Abbildung \ref{b_augespek}).
  
 
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
 \includegraphics[width=0.7\textwidth]{bilder/augespek} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Die V($\lambda$)-Kurve zeigt wie das Auge die verschiedenen Wellenlänge beim photopischen Sehen gewichtet. Die weiße Kurve (V'($\lambda$)) beschreibt, wie sich das Farbsehen beim Nachtsehen verschiebt. \protect\footnotemark}\label{b_augespek}
+\caption {Die V($\lambda$)-Kurve zeigt, wie das Auge die verschiedenen Wellenlänge beim photopischen Sehen gewichtet. Die weiße Kurve (V'($\lambda$)) beschreibt, wie sich das Farbsehen beim Nachtsehen verschiebt. \protect\footnotemark}\label{b_augespek}
 \end{figure}
 
 \footnotetext{\url{https://www.gigahertz-optik.de/assets/Uploads/Abb.-II.13-neu-v03.png}}
@@ -99,8 +102,8 @@ Das menschliche Auge nimmt die sichtbaren Wellenlängen von 380nm bis 780nm jedo
 
 Mit den Zapfen und Stäbchen kann ein Mensch bis zu 200 verschiedene Farbtöne wahrnehmen. Wenn man die verschiedenen möglichen Helligkeiten und Weißkombinationen dieser Farbtöne zusätzlich in Betracht zieht, kann man von ca. 20 Millionen unterschiedlichen Farben sprechen, die ein Mensch erkennen kann \footnote{\cite{unimann}}.
  
-Um all diese Farben unterscheiden zu können gibt es nach Young und Helmholtz drei Rezeptortypen. Die \glqq Trichromatische Theorie\grqq besagt, dass es grüne, blaue und rote Zapfen gibt, die unterschiedlich empfindlich für die jeweiligen Spektralanteile des Lichtes sind. Also entsteht aus den RGB-Werten ein Farbton. Auf diese Weise lassen sich aber nicht alle Phänomene der Farbwahrnehmung erklären. 1878 hat Hering eine andere Theorie entwickelt, wie Farben wahrgenommen werden: die \glqq Gegenfarbentheorie\grqq. Diese Theorie besagt, dass es immer zwei Farben gibt, die sich gegensätzlich verhalten: rot und grün, blau und gelb und der unbunte Gegensatz schwarz (dunkel) und weiß (hell).\\ Nach ein paar Jahren der Uneinigkeit, welche der Theorie denn nun korrekt ist, hat 1905 v. Kries in seiner \glqq Zonentheorie\grqq herausgestellt, dass beide Theorien zugleich zutreffen. Einerseits wird im Auge nach der \glqq Trichromatische Theorie\grqq eine Farbe als RGB-Stimulus wahrgenommen, dieser wird dann andererseits nach der \glqq Gegenfarbentheorie\grqq im Gehirn mit den drei Farbgegensätzen ausgewertet \footnote{\cite[104]{hentschel}} (Abbildung \ref{b_zonen}).
-%Bücherquellen einfügen und beim text ergänzen
+Um all diese Farben unterscheiden zu können gibt es nach Young und Helmholtz drei Rezeptortypen. Die \glqq Trichromatische Theorie\grqq besagt, dass es grüne, blaue und rote Zapfen gibt, die unterschiedlich empfindlich für die jeweiligen Spektralanteile des Lichtes sind. Aus diesen drei Farbinformation (RGB-Werte) entsteht dann im Gehirn eine Farbe. Auf diese Weise lassen sich aber nicht alle Phänomene der Farbwahrnehmung erklären. 1878 hat Hering eine andere Theorie entwickelt, wie Farben wahrgenommen werden und diese \glqq Gegenfarbentheorie\grqq genannt. Die Theorie besagt, dass es immer zwei Farben gibt, die sich gegensätzlich verhalten: rot und grün, blau und gelb und der unbunte Gegensatz schwarz (dunkel) und weiß (hell).\\ Nach ein paar Jahren der Uneinigkeit, welche der genannten Theorie denn nun korrekt ist, hat 1905 v. Kries mit seiner \glqq Zonentheorie\grqq herausgestellt, dass beide Theorien zugleich zutreffen. Einerseits wird im Auge nach der \glqq Trichromatische Theorie\grqq eine Farbe als RGB-Stimulus wahrgenommen, dieser wird dann andererseits nach der \glqq Gegenfarbentheorie\grqq im Gehirn mit den drei Farbgegensätzen ausgewertet \footnote{\cite[104]{hentschel}} (Abbildung \ref{b_zonen}).
+
  
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
@@ -108,11 +111,11 @@ Um all diese Farben unterscheiden zu können gibt es nach Young und Helmholtz dr
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
 \caption {Darstellung der Zonentheorie von v. Kries \protect\footnotemark}\label{b_zonen}
 \end{figure}
-\footnotetext{\cite6[153]{greule}}
+\footnotetext{\cite[153]{greule}}
 
-Um eine Farbe entstehen zu lassen gibt es zwei Möglichkeiten:
+% Überleitung einfügen
 
-Bei der additiven Farbmischung werden die Spektralanteile verschiedener Farbtöne als Mischfarbe erkannt. Dies kann auf unterschiedliche Weisen passieren. Entweder treffen zwei verschiedene Spektralanteile auf den gleichen Punkt auf der Netzhaut und lösen so einen Farbreiz aus (örtliche Nähe). Oder derselbe Punkt auf der Netzhaut wird von zwei verschiedenen Spektralanteilen mit einer Wechselfrequenz von $f\geq25Hz$ getroffen (zeitliche Nähe). Oder das Licht verschiedener Wellenlängen trifft auf unterschiedliche Teile der Netzhaut, die so dicht aneinander sind, dass das Auge daraus eine Farbe mischt.\\
+Bei der additiven Farbmischung werden die Spektralanteile verschiedener Farbtöne als Mischfarbe erkannt. Dies kann auf unterschiedliche Weisen passieren. Entweder treffen zwei verschiedene Spektralanteile auf den gleichen Punkt auf der Netzhaut und lösen so einen Farbreiz aus. Oder das Licht verschiedener Wellenlängen trifft auf unterschiedliche Teile der Netzhaut, die so dicht aneinander sind, dass das Auge daraus eine Farbe mischt (örtliche Nähe). Oder derselbe Punkt auf der Netzhaut wird von zwei verschiedenen Spektralanteilen mit einer Wechselfrequenz von $f\geq25Hz$ getroffen (zeitliche Nähe). Oder das Licht verschiedener Wellenlängen trifft auf unterschiedliche Teile der Netzhaut, die so dicht aneinander sind, dass das Auge daraus eine Farbe mischt.\\
 Grundsätzlich werden bei jeder Art der additiven Farbmischung die Strahlungsleistungen der Spektralanteile $\Phi_{e\lambda,i}(\lambda)$ zusammenaddiert\footnote{\cite[83]{greule}}(Gleichung\ref{gl_farbe+}).
 
 	\begin{equation}\label{gl_farbe+}
