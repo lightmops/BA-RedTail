@@ -212,7 +212,7 @@ Aus diesen Primärvarlenzen lassen sie dich Farbanteile ausrechnen, die auf der 
 		x = \frac{X}{X+Y+Z},\quad y = \frac{Y}{X+Y+Z},\quad z = 1-x-y
 \end{equation}
 Auch hier reichen zwei Normfarbwertanteile aus, um den Farbort (x,y) zu bestimmen. Aus x und y kann jedoch kein Rückschluss auf die X, Y und Z Normalvalenzen gezogen werden und so ist zum Beispiel eine Bestimmung der Helligkeit (Y) aus dem Farbort nicht möglich\footnote{\cite[79]{greule}}.\\
-Die Grenzen des mit x und y aufgespannten Farbraums erstrecken sich von 380nm blau über grün und gelb zu 780nm rot. Die beiden Enden des Farbraumes sind auf der gegenüberliegenden Seite über die theoretische Purpur-Graden miteinander verbunden. Auf diese Weise schließt der CIE-Farbraum alle sichtbaren Farben mit ein (Abbildung \ref{b_xyz1}).
+Die Grenzen des mit x und y aufgespannten Farbraums erstrecken sich von 380nm blau über grün und gelb zu 780nm rot. Die beiden Enden des Farbraumes sind auf der gegenüberliegenden Seite über die theoretische Purpur-Graden miteinander verbunden. Auf diese Weise schließt der CIE-Farbraum alle sichtbaren Farben mit ein. Der Unbuntpunkt liegt bei $x=y=0,33$ (Abbildung \ref{b_xyz1}).
 
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
@@ -229,20 +229,41 @@ Im XYZ-Farbdiagramm ist der Plank'sche Kurvenverlauf eingezeichnet. Wenn ein Far
 \centering
 \includegraphics[width=0.8\textwidth]{bilder/cct} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Zoomansicht des XYZ-Farbraumes mit den glqq Geraden ähnlichster Farbtemperatur\grqq \protect\footnotemark}\label{b_cct}
+\caption {Zoomansicht des XYZ-Farbraumes mit den \glqq Geraden ähnlichster Farbtemperatur\grqq \protect\footnotemark}\label{b_cct}
 \end{figure}
 
 \footnotetext{\url{http://www.light.fi/blog/wp-content/uploads/2016/04/xyChromaticity-diagram.png}}
 
-Landet eine Leuchte 
+Trifft eine Leuchte mit ihren x, y Normfarbwertanteilen auf einem Punkt über der Plank'schen Kurve, so erscheint der Weißton grünstichig, trifft sie unter die Kurve, dann erscheint das Weiß magentastichig. Ist der Farbort zu weit von der Plank'schen Kurve entfernt, kann keine Farbtemperatur bestimmt werden.
 
+Auf der Farbtafel werden die Farben nicht mit gleich großem Abstand dargestellt. Das bedeutet, dass die Farbabstände im rote und blauen Bereich sehr nahe beieinander liegen, wohingehen sich der grüne Bereich sich über einen großen Anteil der Farbe erstreckt. Mit diesem Phänomen hat sich MacAdam beschäftigt und so sind die \glqq MacAdam Ellipsen\grqq entstanden (Abbildung \ref{b_ellipsen}. Die %23
+MacAdam Ellipsen zeigen die Bereich an, in dem ein Normbalbeobachter zwei unterschiedliche Farborte dem selben Farbton zuordnen würde. Auf diese Weise kann man die Farbunterschiede in MacAdam Ellipsen Abständen angeben:  
 
- Außerdem sind in diesem Beispiel die von der CIE festgelegten Normweißlichtarten D54, D65 und D75 angegeben. Dieses Normweißlicht stellt ein einheitlichen Referenzwert für Leuchten dar. Der Weißpunkt des XYZ-Farbraums liegt bei $x=y=0,33$
+%Tabelle
 
-
-
+Die Mac Adam Ellipsen stehen aber auch in Kritik, weil die Farbabstände nur über einem einzigen Probanden erschlossen wurden. Man müsste die MacAdam Ellipsen mit Tausenden Probanden statistisch ermitteln, um eine Annährung an die naturgegebene Farbwahrnehmung des Menschen zu erhalten.
+Damit die Farbabstände aus der Farbtafel besser einzusehen hat die CIE %1975
+den CIE-LUV Farbraum bestimmt.  
 
 \section{CIE-LUV Farbraum} \label{sec_luv}
+Der CIE-LUV Farbraum wurde aus dem CIE-XYZ Farbraum transformiert (Gleichung)
+
+%Gleichung
+
+In diesem Farbraum wurden die Farbbereiche aneinander angeglichen und die Farbtafel hat sich gedreht. Dadurch ähneln die Farbabständen den real empfunden Abständen schon deutlich besser als im XYZ-Farbraum (Bild).
+
+%Bild
+
+Durch den CIE-LUV Farbraum ist auch der $\delta$uv entstanden (Gleichung).
+
+Dieser Wert zeigt ähnlich wie beim TLCI (Kapitel (\ref{sec_tlci}) an, ob das gemischte Weiß grünstichig mit $\delta uv < 0$ oder magentastichtig $\delta uv > 0$ ist. Dieser wird zur Einschätzung der Weißlichtqualität in Kombination mit einem Farbwiedergabewert zur Rate gezogen. Eine Abweichung von bis %0.0005
+ist mit bloßem Auge nicht erkennbar.
+
+  
+  
+
+
+
 
 \section{CIE-LAB Farbraum} \label{sec_lab}
 
