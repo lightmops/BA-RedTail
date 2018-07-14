@@ -24,8 +24,8 @@
 \newcommand{\erstpruef}{Prof. Dr. Roland Greule}
 \newcommand{\zweitpruef}{Dipl. Ing. (FH) Matthias Allhoff}
 
-\date{vorläufige Fassung vom \today}   % praktisch für Vorab-Versionen. 
-%\date{\sffamily Hamburg, 2. 2. 2020}  % Abgabedatum!
+%\date{vorläufige Fassung vom \today}   % praktisch für Vorab-Versionen. 
+\date{\sffamily Hamburg, 27. 08. 2018}  % Abgabedatum!
 
 %--------------------------------------------------------------------------------------
 %----------------------------- hier gehts los! --------------------------------------
@@ -67,6 +67,8 @@ Bei der Auswertung werden die gemessenen lichttechnischen Parameter betrachtet u
 
 \chapter{Grundlagen und Kenngrößen der Lichttechnik} \label{chap_grundlagen}
 
+\section{Reflektion, Transmission, Absorption}
+
 \section{Lichtstrom $\Phi$} \label{sec_lumen}
 
 \section{Beleuchtungsstärke E}\label{sec_lux}
@@ -74,6 +76,20 @@ Bei der Auswertung werden die gemessenen lichttechnischen Parameter betrachtet u
 \section{Lichtstärke I}\label{sec_candela}
 
 \section{Leuchtdichte L}\label{sec_candelamm}
+
+\chapter{Leuchtmittel}
+
+\section{Glühlampe} \label{sec_glühlampe}
+
+\section{Halogenglühlampe} \label{sec_halogenglühlampe}
+
+\section{Entladungslampen} \label{sec_entladungslampe}
+
+\section{LEDs} \label{sec_led}
+
+\section{Farbtemperatur} \label{sec_farbtemperatur}
+Bei Entladungslampen und LED-Scheinwerfer spricht man von CCT, weil diese versuchen bestimmte Farbtemperaturen mit ihrem Licht nachzuahmen.
+
 
 \chapter{Farbe und Farbräume}
 In diesem Kapitel wird auf die Grundlagen der Farben und Farbräume eingegangen.
@@ -168,7 +184,7 @@ Wenn man alle drei Grundfarben der subtraktiven Farbmischung mischt entsteht sch
 
 %Überleitung zum RGB Farbraum
 
-
+\section{Hauttöne}
  
 \section{RGB Farbraum} \label{sec_rgb}
 Durch die Festlegung verschiedener Farbräume hat die CIE die Farben von Licht immer besser einordnen und beschreiben können. Der große Vorteil bei diesen Farbräumen besteht darin, dass man durch eine lineare Transformation von einer Farbraumdarstellung in die nächste Wechseln kann und die spektrale Empfindlichkeitskurve mit transformiert wird. So wird sichergestellt, dass jede Farbe nach der natürlichen Wahrnehmung des Menschen gewertet wird.
@@ -196,7 +212,7 @@ Man kann den RGB-Farbraum auch dreidimensional als Würfel aufspannen. Dort ist 
 
 \section{CIE-XYZ Farbraum} \label{sec_xyz}
 
-Der RGB-Farbraum kann nicht alle Farben des sichtbaren Spektrum abbilden. Wright und Guild haben dazu Tests mit einem Monochromator gemacht. Ein Proband, der Farbflächen von $2^\circ$  Gesichtsfeldgröße sieht, sollte mit 700nm rot, 546nm grün und 435nm blau die gesehene Farbe nachmischen. Bei einer Referenzfarbe von 500nm blau-grün gab es keine Möglichkeit, diese Farbe mit den drei RGB-Farben zu mischen. Es musste sogar auf der Referenzfarbseite rot dazugemischt werden, damit man auf das Blau-Grün abgleichen konnte. Dies würde ein negativen Rot-Anteil im RGB-Farbraum bedeutet, den es so nicht geben kann. Daher hat die CIE 1931 ein virtuelles Primärvalenzssystem erarbeitet\footnote{\cite[77]{greule}}.\\
+Der RGB-Farbraum kann nicht alle Farben des sichtbaren Spektrum abbilden. Wright und Guild haben dazu Tests mit einem Monochromator gemacht. Ein Proband, der Farbflächen von $2^\circ$ Gesichtsfeldgröße sieht, sollte mit 700nm rot, 546nm grün und 435nm blau die gesehene Farbe nachmischen. Bei einer Referenzfarbe von 500nm blau-grün gab es keine Möglichkeit, diese Farbe mit den drei RGB-Farben zu mischen. Es musste sogar auf der Referenzfarbseite rot dazugemischt werden, damit man auf das Blau-Grün abgleichen konnte. Dies würde ein negativen Rot-Anteil im RGB-Farbraum bedeutet, den es so nicht geben kann. Daher hat die CIE 1931 ein virtuelles Primärvalenzssystem erarbeitet\footnote{\cite[77]{greule}}.\\
 Im CIE-XYZ Farbraum gibt es die Primärvalenzen X, Y und Z, die aus einer linearen Transformation des RGB-Farbraum entstanden sind\footnote{\cite[76-77]{greule}} (Gleichungen  \ref{gl_xyz1} - 3.7).
 
 \begin{eqnarray}\label{gl_xyz1}
@@ -204,15 +220,17 @@ Im CIE-XYZ Farbraum gibt es die Primärvalenzen X, Y und Z, die aus einer linear
 		Y = R_{y}\cdot R + G_{y}\cdot G + B_{y}\cdot B\\
 		Z = R_{z}\cdot R + G_{z}\cdot G + B_{z}\cdot B
 \end{eqnarray}
-Der Y-Wert entspricht dabei der Farbfunktion $y_{\lambda}$, die der $V(\lambda)$-Kurve (Abbildung \ref{b_augespek}) gleicht, und steht daher für die Helligkeit der Farbe. Dies ist eine Erweiterung zum RGB-Farbraum, in dem die Helligkeit nicht direkt mit einbezogen wurde.\\
+Der Y-Wert entspricht dabei der Farbfunktion $y_{\lambda}$, die der $V(\lambda)$-Kurve (Abbildung \ref{b_augespek}) gleicht, und steht daher für die Helligkeit der Farbe. Dies ist eine Erweiterung zum RGB-Farbraum, in dem die Helligkeit nicht direkt mit einbezogen wurde. Der X-Wert zeigt den rot-grün-Anteil an und am Z-Wert lässt sich der Blau-Gelb-Anteil einer Farbe bestimmen\footnote{\cite[72]{mueller}}. 
+
+
 Aus diesen Primärvarlenzen lassen sie dich Farbanteile ausrechnen, die auf der Farbtafel des CIE-XYZ Farbraums dargestellt werden (Gleichung \ref{gl_xyz2}). 
  
 
 \begin{equation}\label{gl_xyz2}
 		x = \frac{X}{X+Y+Z},\quad y = \frac{Y}{X+Y+Z},\quad z = 1-x-y
 \end{equation}
-Auch hier reichen zwei Normfarbwertanteile aus, um den Farbort (x,y) zu bestimmen. Aus x und y kann jedoch kein Rückschluss auf die X, Y und Z Normalvalenzen gezogen werden und so ist zum Beispiel eine Bestimmung der Helligkeit (Y) aus dem Farbort nicht möglich\footnote{\cite[79]{greule}}.\\
-Die Grenzen des mit x und y aufgespannten Farbraums erstrecken sich von 380nm blau über grün und gelb zu 780nm rot. Die beiden Enden des Farbraumes sind auf der gegenüberliegenden Seite über die theoretische Purpur-Graden miteinander verbunden. Auf diese Weise schließt der CIE-Farbraum alle sichtbaren Farben mit ein. Der Unbuntpunkt liegt bei $x=y=0,33$ (Abbildung \ref{b_xyz1}).
+Auch hier reichen zwei Normfarbwertanteile aus, um den Farbort (x,y) zu bestimmen. x steht für den Farbton und y für die Sättigung. Aus x und y kann jedoch kein Rückschluss auf die X, Y und Z Normalvalenzen gezogen werden und so ist zum Beispiel eine Bestimmung der Helligkeit (Y) aus dem Farbort nicht möglich\footnote{\cite[79]{greule}}.\\
+Über die Grenzen des mit x und y aufgespannten Farbraums erstrecken sich von 380nm blau zu grün und gelb zu 780nm rot alle sichtbaren Farben des Spektrums. Die beiden Enden des Farbraumes sind auf der gegenüberliegenden Seite über die theoretische Purpur-Graden miteinander verbunden. Die Farben auf dieser Geraden werden vom menschlichen Auge magenta intertpretiert, gehören aber nicht mehr zum sichtbaren Wellenlängenbereich dazu\footnote{\cite[73]{mueller}}. Der Unbuntpunkt liegt bei $x=y=0,33$ (Abbildung \ref{b_xyz1}).
 
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
@@ -223,7 +241,7 @@ Die Grenzen des mit x und y aufgespannten Farbraums erstrecken sich von 380nm bl
 
 \footnotetext{\url{https://www.production-partner.de/wp-content/uploads/2018/02/Farbdreieck.jpg}}
 
-Im XYZ-Farbdiagramm ist der Plank'sche Kurvenverlauf eingezeichnet. Wenn ein Farbort auf diese Kurve trifft wird ihm die jeweilige Farbtemperatur zugeschrieben. Landet der Farbort in der Nähe dieser Kurve spricht man von einer korrelierten Farbtemperatur (CCT). Bei Entladungslampen und LED-Scheinwerfer spricht man von CCT, weil diese versuchen bestimmte Farbtemperaturen mit ihrem Licht nachzuahmen. Es wurden so genannte \glqq Geraden ähnlichster Farbtemperatur\grqq bestimmt, die anzeigen welche korrelierten Farbtemperatur vom Farbort getroffen wird (Abbildung \ref{b_cct})    
+Im XYZ-Farbdiagramm ist der Plank'sche Kurvenverlauf eingezeichnet. Wenn ein Farbort auf diese Kurve trifft wird ihm die jeweilige Farbtemperatur zugeschrieben. Landet der Farbort in der Nähe dieser Kurve spricht man von einer korrelierten Farbtemperatur (CCT).  Es wurden so genannte \glqq Geraden ähnlichster Farbtemperatur\grqq bestimmt, die anzeigen welche korrelierten Farbtemperatur vom Farbort getroffen wird (Abbildung \ref{b_cct})    
 
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
@@ -234,38 +252,62 @@ Im XYZ-Farbdiagramm ist der Plank'sche Kurvenverlauf eingezeichnet. Wenn ein Far
 
 \footnotetext{\url{http://www.light.fi/blog/wp-content/uploads/2016/04/xyChromaticity-diagram.png}}
 
-Trifft eine Leuchte mit ihren x, y Normfarbwertanteilen auf einem Punkt über der Plank'schen Kurve, so erscheint der Weißton grünstichig, trifft sie unter die Kurve, dann erscheint das Weiß magentastichig. Ist der Farbort zu weit von der Plank'schen Kurve entfernt, kann keine Farbtemperatur bestimmt werden.
+Trifft eine Leuchte mit ihren x, y Normfarbwertanteilen auf einen Punkt über der Plank'schen Kurve, so erscheint der Weißton grünstichig, trifft sie unter die Kurve, dann wirkt das Weiß magentastichig. Ist der Farbort zu weit von der Plank'schen Kurve entfernt, kann keine Farbtemperatur bestimmt werden.\\
 
-Auf der Farbtafel werden die Farben nicht mit gleich großem Abstand dargestellt. Das bedeutet, dass die Farbabstände im rote und blauen Bereich sehr nahe beieinander liegen, wohingehen sich der grüne Bereich sich über einen großen Anteil der Farbe erstreckt. Mit diesem Phänomen hat sich MacAdam beschäftigt und so sind die \glqq MacAdam Ellipsen\grqq entstanden (Abbildung \ref{b_ellipsen}. Die %23
-MacAdam Ellipsen zeigen die Bereich an, in dem ein Normbalbeobachter zwei unterschiedliche Farborte dem selben Farbton zuordnen würde. Auf diese Weise kann man die Farbunterschiede in MacAdam Ellipsen Abständen angeben:  
+Wenn man zwei Farben im XYZ-Farbraum vergleichen will, ist vorsichtig geboten, da die Farben auf der Farbtafel nicht mit gleich großem Abstand dargestellt werden. Dies ist daran zu erkennen, dass die Farbabstände im roten (620nm - 770nm) und blauen (380nm - 470nm) Bereich sehr nahe beieinander liegen, wohingehen sich der grüne Bereich(500nm - 570nm) sich über einen großen Anteil des hufeisenförmigen Rand erstreckt. Farbkontraste verhalten sich also nicht wie mit dem Auge wahrgenommenen Farben. Mit diesem Phänomen hat sich MacAdam beschäftigt und so sind 1940 die \glqq MacAdam Ellipsen\grqq entstanden (Abbildung \ref{b_ellipsen}).
 
-%Tabelle
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/ellipsen} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Abbildung der MacAdam Ellipsen im XYZ-Farbraum\protect\footnotemark}\label{b_ellipsen}
+\end{figure}
 
-Die Mac Adam Ellipsen stehen aber auch in Kritik, weil die Farbabstände nur über einem einzigen Probanden erschlossen wurden. Man müsste die MacAdam Ellipsen mit Tausenden Probanden statistisch ermitteln, um eine Annährung an die naturgegebene Farbwahrnehmung des Menschen zu erhalten.
-Damit die Farbabstände aus der Farbtafel besser einzusehen hat die CIE %1975
-den CIE-LUV Farbraum bestimmt.  
-
-\section{CIE-LUV Farbraum} \label{sec_luv}
-Der CIE-LUV Farbraum wurde aus dem CIE-XYZ Farbraum transformiert (Gleichung)
-
-%Gleichung
-
-In diesem Farbraum wurden die Farbbereiche aneinander angeglichen und die Farbtafel hat sich gedreht. Dadurch ähneln die Farbabständen den real empfunden Abständen schon deutlich besser als im XYZ-Farbraum (Bild).
-
-%Bild
-
-Durch den CIE-LUV Farbraum ist auch der $\delta$uv entstanden (Gleichung).
-
-Dieser Wert zeigt ähnlich wie beim TLCI (Kapitel (\ref{sec_tlci}) an, ob das gemischte Weiß grünstichig mit $\delta uv < 0$ oder magentastichtig $\delta uv > 0$ ist. Dieser wird zur Einschätzung der Weißlichtqualität in Kombination mit einem Farbwiedergabewert zur Rate gezogen. Eine Abweichung von bis %0.0005
-ist mit bloßem Auge nicht erkennbar.
-
-  
-  
+\footnotetext{\url{https://ecse.rpi.edu/~schubert/Light-Emitting-Diodes-dot-org/chap17/F17-05\%20MacAdam\%20ellipses.jpg}}
+Die MacAdam Ellipsen zeigen die Bereich an, in dem ein Normbalbeobachter zwei unterschiedliche Farborte dem selben Farbton zuordnen würde. Hätte der Farbraum annähernd gleiche Farbabstände, dann wären die Ellipsen kreisförmig.\\
+Es wird also deutlich, dass der XYZ-Farbraum ein paar Schwächen aufweist. Das liegt daran, dass die X, Y und Z Primärvalenzen nur auf der additven Farbmischung beruhen. Die subtraktive Farbmischung, die ihr weiß aus 100\% Cyan, Magenta und Gelb mischt, ist in dieser Farbraumdarstellung nicht darstellbar (Farben  mit voller Sättigung liegen auf dem Kurvenrand). Außerdem hat MacAdam gezeigt, dass die Farbabstände nicht mit der realen Farbwahrnehmung zusammenhängt. So eignet sich der CIE-XYZ-Farbraum nur zur eindeutigen Bestimmung eines Farbreizes \footnote{\cite[79-80]{greule}}.
 
 
+\section{CIE-unity chromity scale-Farbtafel (CIE-UCS)} \label{sec_ucs}
+Damit die Farbabstände aus der Farbtafel besser mit der tatsächlichen Farbwahrnehmung übereinstimmt hat die CIE 1976 die UCS-Farbtafel definiert.
+
+Für diese Farbtafel werden die x und y Normfarbwertanteile so transformiert, dass die Farbabstände vereinheitlicht sind (Gleichgung \ref{gl_ucs1}).
+
+\begin{equation}\label{gl_ucs1}
+		u' = \frac{4x}{-2x+12y+3} \quad v' = \frac{9y}{-2x+12y+3}
+\end{equation}
+
+Es wurden also die Farbbereiche aneinander angeglichen und die Farbtafel hat sich gedreht. Dadurch ähneln die Farbabständen den real empfunden Abständen schon deutlich besser als im XYZ-Farbraum. Durch die Transformation sind auch die MacAdam Ellipsen deutlich kreisförmiger geworden (Abbildung \ref{b_ucs}).  
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.8\textwidth]{bilder/ucs} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Abbildung der MacAdam Ellipsen auf der UCS-Farbtafel \protect\footnotemark}\label{b_ucs}
+\end{figure}
+
+\footnotetext{\url{https://www.fktg.org/sites/default/files/sauter_bild_02.jpg}}
+
+Durch die CIE-UCS Farbtafel ist auch der $\Delta$u'v' entstanden. Dieser Wert ist wie beim TLCI (Kapitel \ref{sec_tlci}) ein Maß dafür, wie weit ein $u'_{i}$, $v'_{i}$ - Farbort mit korrelierter Farbtemperatur x von dem Plank'schen Kurvenzug bei Farbtemperatur x ($u'_{0}$, $v'_{0}$) entfernt ist\footnote{\cite[566]{jiyupe}} (Abbildung \ref{b_duv}).
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.8\textwidth]{bilder/duv1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Darstellung des $\Delta$u'v' auf der UCS-Farbtafel}\label{b_duv}
+\end{figure}
 
 
-\section{CIE-LAB Farbraum} \label{sec_lab}
+Anhand des Wertes ist erkennbar, ob das gemischte Weiß grünstichig mit $\Delta u'v' < 0$ oder magentastichtig mit $\Delta u'v' > 0$ ist (Gleichung \ref{gl_duv1}).
+
+\begin{equation}\label{gl_duv1}
+		\Delta u'v'=\sqrt{(du')^{2}+(dv')^{2}}=\sqrt{(u'_{i}-u'_{0})^{2}+(v'_{i}-v'_{0})^{2}}
+\end{equation}
+
+Dieser Wert wird zur Einschätzung der Weißlichtqualität in Kombination mit einem Farbwiedergabewert zur Rate gezogen und ist daher auch bei den \glqq Red Tail\grqq -Messung von größerer Bedeutung. Eine Abweichung von $\Delta u'v' < \pm 0.005$ ist für ein gutes weiß akzeptabel\footnote{\cite{ohno}}.\\
+
+Auf der UCS-Farbtafel lassen sich nur Farben gleicher Helligkeit miteinander vergleichen. Um Farben verschiedener Helligkeiten vergleichen zu können hat die CIE noch weitere dreidimensionale Farbräume bestimmt, die für die Red-Tail-Untersuchungen, aber keine größere Rolle spielen.\newpage
+
 
 \chapter{Lichtechnische Parameter}
 Es gibt mehr als vierzig verschiedene Methoden, um die Farbwiedergabe einer Leuchte zu beurteilen. In diesem Kapitel sollen die in der Medien- und TV-Branche typischen Farbwiedergabeindices vorgestellt und deren Relevanz für die Messung mit dem \glqq Red Tail\grqq  aufgezeigt werden.
@@ -317,7 +359,6 @@ Leuchtstofflampen nutzten den CRI aus, indem durch gezielte schmalbandige Peaks 
 
 \footnotetext{\url{https://www.elementalled.com/wp/wp-content/uploads/2015/08/CRI_chart.jpg}}
 
-
 Bei einer warmweißen LED konnte ein CRI von 82 gemessen werden (Abbildung \ref{b_cri2}). Der $R_{e}$-Wert ist naturgemäß schlechter als der $R_{a}$-Wert, aber auch dieser ist mit 77 noch akzeptabel, wenn man bedenkt, dass der $R_{9}$-Wert nur 15 Punkte erbringt. Diese Leuchte entspricht \glqq sehr hohen Anforderungen\grqq (Tabelle \ref{t_cri}) und ist damit nach Definition sehr gut in der Farbwiedergabe. Jedoch ist der $R_{9}$-Wert ein Hinweis darauf, dass man mit dieser Aussage vorsichtig sein sollte.
 
 \begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
@@ -327,9 +368,7 @@ Bei einer warmweißen LED konnte ein CRI von 82 gemessen werden (Abbildung \ref{
 \caption {Messung einer warmweißen LED-Leuchte (Ausschnitt aus dem Demofile des Programmes \glqq LiVal\grqq von der Firma JETI): Links ist das Lichtspektrum der Leuchte dargestellt, rechts die gemessenen CRI-Werte  \protect\footnotemark}\label{b_cri2}
 \end{figure}
 
- 
-
- Daher ist auch mit einem einzigen Rot- und Hautton der CRI zu wenig ausschlaggebend, um damit eine Leuchte für Personenbeleuchtung zu bewerten (Kap. \ref{sec_auge}). Zusätzlich entsteht bei LED-Leuchtmitteln ein ähnliches Problem, wie bei den Leuchstoffröhren. Man kann das Spektrum mit den Peaks gut auf die Referenzfarben ausrichten, ohne das Gesamte Spektrum abdecken zu müssen. Gerade bei LED-Leuchten kann dieses Verhalten des CRI ausgenutzt werden, um kritische Bereiche zu verschleiern. Zusätzlich wird dies durch die arithmetische Mittlung der Referenzfarbwerte begünstigt. Ein, zwei schlechtere Werte mindern den $R_{a}$-Wert nicht beträchtlich. Beispielsweise wird bei Weißen-LEDs der fehlende Rotanteil nur am niedrigen $R_{9}$-Wert sichtbar, aber im CRI-Wert sind diese Schwächen einer LED-Leuchte kaum erkennbar \footnote{\cite{davis_ohno}}. Der CRI kann daher eher als richtungsweisend betrachtet werden: Eine Leuchte mit guter Farbwiedergabe wird auch immer einen guten CRI-Wert haben. Zum Vergleich für Leuchten eignen sich andere Farbwiedergabewerte heutzutage besser \footnote{\cite{production partner}}.\\\\
+Daher ist auch mit einem einzigen Rot- und Hautton der CRI zu wenig ausschlaggebend, um damit eine Leuchte für Personenbeleuchtung zu bewerten (Kap. \ref{sec_auge}). Zusätzlich entsteht bei LED-Leuchtmitteln ein ähnliches Problem, wie bei den Leuchstoffröhren. Man kann das Spektrum mit den Peaks gut auf die Referenzfarben ausrichten, ohne das Gesamte Spektrum abdecken zu müssen. Gerade bei LED-Leuchten kann dieses Verhalten des CRI ausgenutzt werden, um kritische Bereiche zu verschleiern. Zusätzlich wird dies durch die arithmetische Mittlung der Referenzfarbwerte begünstigt. Ein, zwei schlechtere Werte mindern den $R_{a}$-Wert nicht beträchtlich. Beispielsweise wird bei Weißen-LEDs der fehlende Rotanteil nur am niedrigen $R_{9}$-Wert sichtbar, aber im CRI-Wert sind diese Schwächen einer LED-Leuchte kaum erkennbar \footnote{\cite{davis_ohno}}. Der CRI kann daher eher als richtungsweisend betrachtet werden: Eine Leuchte mit guter Farbwiedergabe wird auch immer einen guten CRI-Wert haben. Zum Vergleich für Leuchten eignen sich andere Farbwiedergabewerte heutzutage besser \footnote{\cite{production partner}}.\\\\
 Aus diesen Gründen und der Erkenntnis der CIE, \emph{\glqq dass die CRI-Methode generell nicht anwendbar ist, um eine Anzahl von Lichtquellen gemäß ihrer Farbwiedergabe einzuordnen, wenn weiße LEDs darunter sind\grqq}\footnote{\citep[VI]{CIE}}, wird sich diese Arbeit hauptsächlich auf andere Farbwiedergabewerte konzentrieren, den CRI aber mit aufführen, weil dieser in der Scheinwerfer- und Fernsehbranche (noch) einen hohen Stellenwert inne hat.
 
 \section{NIST: Color Quality Scale (CQS)} \label{sec_cqs}
@@ -504,17 +543,6 @@ Das Ergebnis einer Messung ist mit diesen Daten nicht mehr schnell ersichtlich, 
 Der TM-30 
 
 
-
-\chapter{Leuchtmittel}
-
-\section{Glühlampe} \label{sec_glühlampe}
-
-\section{Halogenglühlampe} \label{sec_halogenglühlampe}
-
-\section{Entladungslampen} \label{sec_entladungslampe}
-
-\section{LEDs} \label{sec_led}
-
 \chapter{Vormessungen}
 
 \section{Ziel}
@@ -614,6 +642,17 @@ Gigahertz-Optik:
 
 % Formatierung für Aufsatz / Paper: Titel in Anführungszeichen, Zeitschriftentitel kursiv
 
+\bibitem[Ohno(2005)]{ohno} 
+Ohno, Yoshi:
+\glqq Spectral design considerations for white LED color rendering\grqq, 
+\emph{Optical Engineering} vol. 44 (11), November 2005
+
+
+\bibitem[Jiajie \& Yung \& Pecht(2014)]{jiyupe} 
+Fan, Jiajie \& Yung, Winco \& Pecht, Michael:
+\glqq Prognostics of Chromaticity State for Phosphor-Converted White Light Emitting Diodes Using an Unscented Kalman Filter Approach\grqq, 
+\emph{Device and Materials Reliability} vol. 14, 01.03.2014
+
 \bibitem[Royer(2016)]{royer} 
 Royer, Michael P.:
 \glqq IES TM-30-15 Is Approved—Now What?\grqq, 
@@ -630,6 +669,10 @@ Dooley, Wesley L.  \& Streicher, Ronald D.:
 Roberts, Alan: 
 \emph{TELEVISION LIGHTING CONSISTENCY INDEX (TLCI-2012)}, Version 2.015e, 18.04.2015
 
+\bibitem[Mueller(2014)]{mueller}
+Mueller, Jens: 
+\emph{Handbuch der Lichttechnik - Know-How für Film, Fernsehen, Theater, Veranstaltungen und Events}, 5. Aufl., PPVMedien 2014
+ 
 \bibitem[Hentschel(1993)]{hentschel}
 Hentschel, Hans-Jürgen: 
 \emph{Licht und Beleuchtung Theorie und Praxis der Lichttechnik}, 4. Aufl., Hüthig 1994
