@@ -541,33 +541,113 @@ Das Ergebnis einer Messung ist mit diesen Daten nicht mehr schnell ersichtlich, 
 \end{figure}
 
 Der TM-30 
-
+%fertig schreiben
 
 \chapter{Vormessungen}
 
-\section{Ziel}
+Das Ziel der Hauptmessung ist, das Licht eines 1kW Stufenlinsenscheinwerfers, der mit einem Rosco 027 \glqq Medium Red\grqq , Rosco 787 \glqq Marius Red\grqq oder Rosco 789 \glqq Blood Red\grqq gefiltert wird, mit dem Licht verschiedener LED-Scheinwerfer additiv zu mischen und dem Spektrum des Testscheinwerfers einen \glqq Red Tail\grqq anzuhängen. 
+Dafür wird in den Vormessungen beobachtet wie stark dieser \glqq Red Tail\grqq ausgeprägt sein muss und welche Filter sich für einen \glqq Red Tail\grqq eignen.   
+Als Beispiel wird der Clay Paky K-Eye K20 representativ für Multichip LED-Scheinwerfer für Personenlicht genommen und der Martin MAC Encore Wash CLD als Gegenstück für reinweiße LED-Engine Scheinwerfer. 
 
-\section{Aufbau}
+\section{Aufbau und Messungen}
+\label{sec_vmaum}
+
+Für die Messung wird der Scheinwerfer direkt neben dem folierten Stufenlinsenscheinwerfer plaziert, um den Messfehler durch unterschiedliche Winkel der Scheinwerfer so gering wie möglich zu halten. Der JETI Specbos 1211, mit dem Standart Diffusor bestückt, wird als primäres Messgerät genutzt. Es wird aus 7m Entfernung direkt gemessen, damit man vergleichbare Helligkeiten erreicht (500lux). 
+%Zeichnung einfügen
+
+Den Scheinwerfern wird dann in 10\% Schritten das rotgefilterte Licht des Stufenlinsenschwerfers hinzugemischt. Die Farben des Scheinwerfers werden bei jedem Schritt erneut auf die gleiche Farbtemperatur und gleichem Abstand zum Plank'schen Kurvenzug gedreht, damit die Werte vergleichbar bleiben.
+
 
 \section{Fazit aus der Vormessung}
+\label{sec_vmfazit}
+Die Auswirkungen des \glqq Red Tail\grqq wird vorallendingen in den TLCI-Werten sichtbar. Zusätzlich sind auch leichte Tendenzen bei den CQS-Werten und den TM-30-Werten bemerkbar.
+Wenn man dem K-Eye K20 ein zusätzliches Rosco 027 \glqq Medium Red\grqq dazumischt, dann ist der \glqq Red Tail\grqq ab 20\% gesättigt. Mit 50\% zusätzlichem Rot sind die Farbwiedergabewerte so niedrig, dass der \glqq Red Tail\grqq eine Verschlechterung des Scheinwerfers darstellt. Dies ist eine Folge aus dem Angleichen des Scheinwerferspektrums mit einem größeren \glqq Red Tail\grqq.
+Das zusätzliche Rot muss jedes mal mit den Farben des Scheinwerfers ausgeglichen werden, um dasselbe 6000k-Weiß zu erhalten. Abhängig von diesem neuen Mischverhältnis mit dem \glqq Red Tail\grqq ergibt sich entweder ein Spektrum, dass durch das Rot und die ausgleichenden Farben bereichert wurde, oder das Spektrum wurde durch die stetig größer werdenden Peaks und Einbuchtungen verzogen.
+%Bild einfügen
+
+\\
+Mit dem Rosco 787 \glqq Marius Red\grqq sind analog zum 027 Filter dieselben Tendenzen erkennbar, außer dass die Sättigung des \glqq Red Tail\grqq erst bei 30\% erreicht ist.
+Der Rosco 789 \glqq Blood Red\grqq Filter hingegen zeigt ein anderes Bild. Ab 30\% tritt auch hier die Sättigung des \glqq Red Tail\grqq ein. Eine weitere Erhöhung des zuätzliches Rotes ändert aber weder die Farbwiedergabewerte, noch machen sie eine größere Anpassung der Farben des K-Eye K20 nötig. Dieses Verhalten ist daher zu erklären, dass der Transmissionsgrad des Rosco 789 \glqq Blood Red\grqq Filters  $Y=1,2\%$ beträgt, also nur 1,2\% des Lichts der Stufenlinsen durchlässt. Dieser selbst gebaute \glqq Red Tail\grqq ist mit der Leistungsklasse eines 1kW-Leuchtmittel zu dunkel, um über den Sättigungspunkt hinauszukommen.  
+
+%Bild einfügen
+
+Für den Mac Encore CLD Wash kann man mit dem Rosco 027 \glqq Medium Red\grqq eine ähnliche Tendenz wie bei dem K-Eye K20 feststellen. Ab 40\% kann man von einer Sättigung des \glqq Red Tail\grqq reden. Der Rosco 787 \glqq Marius Red\grqq Filter liefert erst bei 70\% eine Sättigung und zeigt so, dass schon dieser Rotton zu dunkel ist, um die Sättigungswert zu überschreiten. Weil der Rosco 789 \glqq Blood Red\grqq Filter noch dunkler als der 787 Filter ist und dieselben Tendenzen wie alle zusätzlichen Rottöne lieftert, wird dieser Rotton nicht in den Hauptmessungen verwendet. 
+
+%bessere letzte Begründung
+
+
+\section{Referenzlicht}
+\label{sec_reflicht}
+Als Referenzlicht ist der Arri Sun 5 mit einem frischen Leuchtmittel bestimmt worden, damit man die LED-Scheinwerfer an dieses Spektrum angeleichen kann. Dieser Scheinwerfer soll durch Abstand und Zoom auch auf eine Beleuchtungsstärke von 500lux gebracht werden. Bei einem größtmöglichen Abstand von 10m ist das nur über den maximalen Zoom des Scheinwerfers möglich. Dies hat zur Folge, dass das Leuchtmittel selbst über den Reflektor des Scheinwerfers gespiegelt und \glqq rückprojeziert\grqq wird, dass dadurch ein dunkler Bereich in Mitten des Lichtkegels entsteht. Da man das Referenzspektrum nicht verfälschen möchte, wird bei dem Referenzlicht auf jegliche Art von Filtern verzichtet. Unter dieses Umständen kann der Arri Sun 5 nicht als Referenzlampe genutzt werden.
+
+Daher wird in der Hauptmessung ein Arri True Blue D5 genutzt, der innerhalb von 10m, mit dem Zoom auf 500 lux angepasst, ein gutes Referenzlicht liefert, allerdings ca. 600K wärmer als der Arri Sun 5 ist. So kommt es, dass die Vormessungen auf 6000K, die Hauptmessung jedoch auf 5400K eingemessen sind. Da nur die Tendenzen der Vormessung eine Rolle spielen und die Vormessung keine direkte Einwirkung auf die Hauptmessung hat, ist dieser Unterschied zu vernachlässigen.
+
+%Referenzlicht bild einfügen
 
 \chapter{Hauptmessung}
+Für die Hauptmessungen werden vier Scheinwerfer mit Multichip-LED Engine und zwei Scheinwerfer mit reinweißer LED-Engine ausgewählt. Bei den Multichip-Scheinwerfer ist der zuvorgenannte Clay Paky K-Eye K20, mit 6 verschieden farbigen LEDs, dabei, der Robe Robin Dl7F Wash, mit 7 verschieden farbigen LEDs, und der weit verbreitete ETC Source Four LED Series 2 Lustr, ebenfalls mit 7 verschieden farbigen LEDs. Dazu kommt eine weiterer \glqq Standartscheinwerfer\grqq aus dem TV-Bereich: der GLP Impression X4 in der \glqq L\grqq - Variante. Dieser verfügt über eine rote, grüne und blaue, wie eine weiße LED. Weiterhin gab es noch den Martin MAC Encore CLD Wash speziell für die Personenbeleuchtung ausgelegt mit einer reinweißen LED-Engine und den Ayrton Ghibli, ebenfalls mit einer reinweißen LED-Engine. 
+Mit diesen Scheinwerfern soll die Auswirkung eines \glqq Red Tail\grqq überprüft werden.
 
-\section{Messaufbau}
+%Scheinwerfer begründen ?
+
+
+\section{Messaufbau und Messungen}
+\label{sec_hmaufbau}
+Der Messaufbau gleicht dem der in der Vormessung (Kapitel \ref{sec_vmaum}). Mit 7m Abstand werden die Scheinwerfer zum Messgerät aufgebaut und über Zoom- und Abstandsvariation auf ca. 500 lux Beleuchtungstärke eingestellt, nachdem sie auf das Arri D5-Referenzweiß abgeglichen worden sind. Es wird wiederum mit dem JETI specbos 1211 mit dem Standartdiffusor gemessen und mit dem UPRtek M350S gegenkontrolliert. Alle Scheinwerfer werden so nahe wie möglich an den 1kW Stufenlinsenscheinwerfer mit den roten Filterfolien herangestellt, um den Fehler der verschiedenen Winkel so gering wie möglich zu halten. Der zu messende Scheinwerfer ist dabei im rechten Winkel zum Messgerät angeordnet, der Stufenlinsenscheinwerfer leicht angewinkelt. 
+
+Jeder Scheinwerfer wird also auf 500lux eingestellt mit einer Farbtemperatur bei 5395K, mit einem möglichsten geringen Abstand zur Plank'schen Kurve ($\Detla u'v'=\pm0,0001$) und sehr ähnlichem Farbort, um die Messungen vergleichbar zu machen.
+
+%fertig ?
 
 \chapter{Messergebnisse}
 
-\section{Unterkapitel mit Mathematik, Bildern und Querverweisen}
+Die Tendenzen zeigen, dass der Ghibli, MAC Encore, Lustr und K-Eye K20 durch den Red Tail verbessert wurden. Wie in den Vormessungen zu sehen, zeigt sich die Tendenz im TLCI am deutlichsten. Der MAC Encore konnte mit einem Rosco 027 \glqq Medium Red\grqq sogar um 16 Punkte verbessert werden. Diese Scheinwerfer zeigen, dass der zusätzliche \glqq Red Tail\grqq eine Verbesserung des Spektrums darstellt, unabhänging davon, welches zusätzliches rot genutzt wird. 
+%warum ?
+Der Impression X4L konnte nicht durch ein zusätzliches rot verbessert werden. Dies liegt daran, dass das Spektrum, des X4Ls vorallendingen aus schmalbandigen Peaks besteht, die das Spektrum nicht ausfüllen. Zusätzlich kann man mit der blauen LED, das Spektrum nicht weiter ausfüllen, da der Peak der weißen LED exakt mit dem der blauen LED übereinstimmt. Einem solchen Spektrum schadet man mehr, wenn man 
+x4l zu schwaches spektrum (peakig / löchrig)
+dl7f problem spektrum (peakig / löchrig , kein vergleich zu etc / clay paky)
+spannend nur TLCI zeigt deutliche tendenzen / cqs tm-30 leichte / cri r9 wert keine aussage
+--> TM-30 Kritik
+
 
 \chapter{Umfrage}
 
-\section{Unterkapitel mit Mathematik, Bildern und Querverweisen}
+\section{Anpassung der Scheinwerfer}
+
+Kamera neues Messgerät / nicht mit Jeti Messwerten anwendbar
+Scheinwerfer auf Kamera abgeglichen , da nicht nachvollziehbar ist, was kamera mit weißabgleich macht
+beipsiel encore / k-eye
+
+\section{Erstellung der Bilder}
+4 Verschiedene Hauttöne Probanden (südländisch/nordisch/braungebrannt/normal)
+jeweils 3 Bilder --> kamera abgleich / scheinwerfer abgleich / ohne
+Aufzeichnung der Grauskala für Kameramessung
+
+\section{Umfrage nach ITU 500}
+ITU 500 verwaist auf ITU bla bla ...
+ITU vorgehen erklären
+Aufbau der Umfrage erklären
+Bildschirm eingemessen auf 100 cd/m^2 6504K bzw. mehr 
+Umgebungslicht mit Arri L7-C
+
+20 Probanden a 15min
+
 
 \chapter{Umfrageergebnisse}
 
-\section{Unterkapitel mit Mathematik, Bildern und Querverweisen}
+Scheinwerfer mit rot erscheinen natürlicher 
+sonderrolle GLP X4L zu rötlich
+problem dl7f
+red tail macht bilder nicht röter .. sondern natürlicher
+Bezug zu Kahn
+Tabellenkurve zeigen
+
 
 \chapter{Auswertung aller Ergebnisse}
+Sowohl im messtechnischen als auch im physiologischen Vergleich konnte mit red tail das Licht verbessert werden TENDENZ
+ausnahmen glp / dl7f
+
+
 
 \section{Unterkapitel mit Mathematik, Bildern und Querverweisen}
 

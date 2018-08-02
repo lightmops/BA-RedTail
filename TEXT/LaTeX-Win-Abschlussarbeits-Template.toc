@@ -4,10 +4,11 @@
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{5}{chapter.1}
 \contentsline {chapter}{\numberline {2}Grundlagen und Kenngr\IeC {\"o}\IeC {\ss }en der Lichttechnik}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}Lichtstrom $\Phi $}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}Beleuchtungsst\IeC {\"a}rke E}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Lichtst\IeC {\"a}rke I}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Leuchtdichte L}{6}{section.2.4}
+\contentsline {section}{\numberline {2.1}Reflektion, Transmission, Absorbtion}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Lichtstrom $\Phi $}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Beleuchtungsst\IeC {\"a}rke E}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Lichtst\IeC {\"a}rke I}{6}{section.2.4}
+\contentsline {section}{\numberline {2.5}Leuchtdichte L}{6}{section.2.5}
 \contentsline {chapter}{\numberline {3}Leuchtmittel}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Gl\IeC {\"u}hlampe}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Halogengl\IeC {\"u}hlampe}{7}{section.3.2}
@@ -16,30 +17,30 @@
 \contentsline {section}{\numberline {3.5}Farbtemperatur}{7}{section.3.5}
 \contentsline {chapter}{\numberline {4}Farbe und Farbr\IeC {\"a}ume}{8}{chapter.4}
 \contentsline {section}{\numberline {4.1}Farben mit dem Auge sehen}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}RGB Farbraum}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}CIE-XYZ Farbraum}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}CIE-unity chromity scale-Farbtafel (CIE-UCS)}{17}{section.4.4}
-\contentsline {chapter}{\numberline {5}Lichtechnische Parameter}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}CIE: Color Rendering Index (CRI)}{20}{section.5.1}
-\contentsline {section}{\numberline {5.2}NIST: Color Quality Scale (CQS)}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}EBU: Television Lighting Consistency Index (TLCI)}{25}{section.5.3}
-\contentsline {section}{\numberline {5.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{29}{section.5.4}
-\contentsline {chapter}{\numberline {6}Vormessungen}{34}{chapter.6}
-\contentsline {section}{\numberline {6.1}Ziel}{34}{section.6.1}
-\contentsline {section}{\numberline {6.2}Aufbau}{34}{section.6.2}
-\contentsline {section}{\numberline {6.3}Fazit aus der Vormessung}{34}{section.6.3}
-\contentsline {chapter}{\numberline {7}Hauptmessung}{35}{chapter.7}
-\contentsline {section}{\numberline {7.1}Messaufbau}{35}{section.7.1}
-\contentsline {chapter}{\numberline {8}Messergebnisse}{36}{chapter.8}
-\contentsline {section}{\numberline {8.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{36}{section.8.1}
-\contentsline {chapter}{\numberline {9}Umfrage}{37}{chapter.9}
-\contentsline {section}{\numberline {9.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{37}{section.9.1}
-\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{38}{chapter.10}
-\contentsline {section}{\numberline {10.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{38}{section.10.1}
-\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{39}{chapter.11}
-\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{39}{section.11.1}
-\contentsline {chapter}{\numberline {12}Fazit}{40}{chapter.12}
-\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{40}{section.12.1}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{41}{chapter*.4}
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{43}{chapter*.5}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{44}{chapter*.6}
+\contentsline {section}{\numberline {4.2}Hautt\IeC {\"o}ne}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}RGB Farbraum}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}CIE-XYZ Farbraum}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}CIE-unity chromity scale-Farbtafel (CIE-UCS)}{18}{section.4.5}
+\contentsline {chapter}{\numberline {5}Lichtechnische Parameter}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}CIE: Color Rendering Index (CRI)}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}NIST: Color Quality Scale (CQS)}{24}{section.5.2}
+\contentsline {section}{\numberline {5.3}EBU: Television Lighting Consistency Index (TLCI)}{26}{section.5.3}
+\contentsline {section}{\numberline {5.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{30}{section.5.4}
+\contentsline {chapter}{\numberline {6}Vormessungen}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Aufbau und Messungen}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Fazit aus der Vormessung}{35}{section.6.2}
+\contentsline {chapter}{\numberline {7}Hauptmessung}{37}{chapter.7}
+\contentsline {section}{\numberline {7.1}Messaufbau}{37}{section.7.1}
+\contentsline {chapter}{\numberline {8}Messergebnisse}{38}{chapter.8}
+\contentsline {chapter}{\numberline {9}Umfrage}{39}{chapter.9}
+\contentsline {section}{\numberline {9.1}Anpassung der Scheinwerfer}{39}{section.9.1}
+\contentsline {section}{\numberline {9.2}Erstellung der Bilder}{39}{section.9.2}
+\contentsline {section}{\numberline {9.3}Umfrage nach ITU 500}{39}{section.9.3}
+\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{40}{chapter.10}
+\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{41}{chapter.11}
+\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{41}{section.11.1}
+\contentsline {chapter}{\numberline {12}Fazit}{42}{chapter.12}
+\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{42}{section.12.1}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{43}{chapter*.4}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{45}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{46}{chapter*.6}
