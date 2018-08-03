@@ -29,18 +29,22 @@
 \contentsline {chapter}{\numberline {6}Vormessungen}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Aufbau und Messungen}{35}{section.6.1}
 \contentsline {section}{\numberline {6.2}Fazit aus der Vormessung}{35}{section.6.2}
-\contentsline {chapter}{\numberline {7}Hauptmessung}{37}{chapter.7}
-\contentsline {section}{\numberline {7.1}Messaufbau}{37}{section.7.1}
-\contentsline {chapter}{\numberline {8}Messergebnisse}{38}{chapter.8}
-\contentsline {chapter}{\numberline {9}Umfrage}{39}{chapter.9}
-\contentsline {section}{\numberline {9.1}Anpassung der Scheinwerfer}{39}{section.9.1}
-\contentsline {section}{\numberline {9.2}Erstellung der Bilder}{39}{section.9.2}
-\contentsline {section}{\numberline {9.3}Umfrage nach ITU 500}{39}{section.9.3}
-\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{40}{chapter.10}
-\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{41}{chapter.11}
-\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{41}{section.11.1}
-\contentsline {chapter}{\numberline {12}Fazit}{42}{chapter.12}
-\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{42}{section.12.1}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{43}{chapter*.4}
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{45}{chapter*.5}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{46}{chapter*.6}
+\contentsline {section}{\numberline {6.3}Referenzlicht}{36}{section.6.3}
+\contentsline {chapter}{\numberline {7}Hauptmessung}{38}{chapter.7}
+\contentsline {section}{\numberline {7.1}Messaufbau und Messungen}{38}{section.7.1}
+\contentsline {chapter}{\numberline {8}Messergebnisse}{39}{chapter.8}
+\contentsline {section}{\numberline {8.1}Analyse der Farbwiedergabewerte}{39}{section.8.1}
+\contentsline {section}{\numberline {8.2}Fazit aus den Hauptmessungen}{40}{section.8.2}
+\contentsline {chapter}{\numberline {9}Umfrage}{41}{chapter.9}
+\contentsline {section}{\numberline {9.1}Anpassung der Scheinwerfer}{41}{section.9.1}
+\contentsline {section}{\numberline {9.2}Auswahl der Kamera und der Probanden}{42}{section.9.2}
+\contentsline {section}{\numberline {9.3}Erstellung der Bilder}{42}{section.9.3}
+\contentsline {section}{\numberline {9.4}Umfrage nach Rec. ITU-R BT.500-11}{43}{section.9.4}
+\contentsline {chapter}{\numberline {10}Umfrageergebnisse}{44}{chapter.10}
+\contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{45}{chapter.11}
+\contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{45}{section.11.1}
+\contentsline {chapter}{\numberline {12}Fazit}{46}{chapter.12}
+\contentsline {section}{\numberline {12.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{46}{section.12.1}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{47}{chapter*.4}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{49}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{50}{chapter*.6}
