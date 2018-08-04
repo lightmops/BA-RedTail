@@ -661,16 +661,22 @@ Bei der Erstellung der Bilder werden die Probanden auf selber Augenhöhe nebenei
 Nach den Aufzeichnungen mit den Probanden wird, nochmal die Graustufenkarte für jede Einstellung einzeln aufgezeichnet, damit man auf dem Waveformmonitor das Weiß der Scheinwerfer messen kann. Durch diesen Ablauf sind Messungenauigkeiten bei der Aufzeichnung des Waveformmonitors möglich. 
 
 \section{Umfrage nach Rec. ITU-R  BT.500-11}
+\label{sec_umfrageitu}
 In der \glqq Recommendation ITU-R BT.500-11: Methodology for the subjective assessment of the 
 quality of television pictures\grqq\ werden verschiedene Vorgehensweisen beschrieben, wie man die Qualität von Fernsehbildern durch Umfragen einschätzen kann. Je nach dem welches Bildmaterial man zur Verfügung hat und welche Aussage man untersuchen möchte, empfiehlt die ITU-R eine andere Methode. Da der Arri D5 zwar die Referenzleuchte für den Weißabgleich ist, aber die Scheinwerfer nicht mit diesem verglichen werden soll, wird entschieden, nach der \glqq Ratio-scaling method\grqq\ vorzugehen\footnote{\cite[10]{itu}}, eine Methode ohne Refernz. Diese findet man wiederum in dem \glqq Report ITU-R BT.1082\grqq\ von 1990 und funktioniert wie folgt:
- 
-ITU vorgehen erklären
-Aufbau der Umfrage erklären
-Bildschirm eingemessen auf 100 cd/m2 6504K bzw. mehr 
-Umgebungslicht mit Arri L7-C
+Den Probanden werden in zufälliger Reihenfolge Bilder gezeigt. Jedes  Bild soll nach dessen Qualität beurteilt werden. Dabei wird den Probanden aber keine Skala zur Bewertung vorgegeben. Der Proband entscheidet selbst, wie er seine Skala wählt. Dazu vergibt er dem ersten Bild einen ersten Eindruck in einer Zahl ausgedrückt. Je nachdem ob ihm das darauffolgende Bild besser oder schlechter befindet, wählt er die Zahl für das zweite Bild größer, kleiner (oder gleich) der ersten Zahl. Bei der Skalierung sind dem Probanden keine Grenzen gesetzt. Wenn er ein Bild dreimal so gut wie das erste befindet, kann er dem Bild den dreifachen Wert des ersten Bildes geben. Falls Bild Nummer drei zwischen der Qualität von Bild eins und zwei liegt, darf der Proband auch mit Brüchen oder Nachkommastellen einen Wert zwischen der Zahl ein und zwei finden. Der Vorteil dieser Methode ist, das die Probanden nicht an eine vorgegebene Skala gebunden sind und mit dieser nur bestimmen, wie gut Bilder sind, sondern mit dieser freien Skala auch festlegen können, um wie viel ein Bild besser oder schlechter ist\footnote{\cite[385]{itu90}}. Um die Bewertung der Bilder verschiedener Probanden nun miteinander vergleichen zu können, müssen die vergebenen Zahlen x auf die beste Bewertung $R_{1}$ des Probanden normiert werden\footnote{\cite[387]{itu90}} (Gleichung \ref{gl_umfrage}).
 
-20 Probanden a 15min
+\begin{equation}\label{gl_umfrage}
+		X_{norm} = x \cdot \frac{100}{R_{1}}
+\end{equation}
+Da die Probanden nur Tendenzen mit ihren Zahlen aufzeigen, sind die einzelnen Werte $X_{norm}$ der Bilder in der Auswertung der Umfrage nicht eins zu eins vergleichbar, sondern nur mit ihr Tendenz zu den anderen Bildern zu betrachten.
 
+\section{Aufbau und Durchführung der Umfrage} 
+Die Umfrage wird in einem abgedunkelt Raum durchgeführt. Der Klasse 1 Monitor wird mit dem Jeti Specbos 1211 auf $100\frac{cd}{m^{2}}$ Leuchtdichte eingemessen und auf den Farbort der Normlichtart D65 angeglichen. Das Umgebungslicht wird mit einem Arri L7-C simuliert und  auf eine ähnliche Farbtemperatur eingestellt, damit sich die Probanden auf den kalten Bildschirm adaptieren.\\
+Dem Proband wird das Verfahren aus Kapitel \ref{sec_umfrageitu}  erklärt und dann werden ihm alle Bilder zwei mal in einer zufälligen Reihenfolge gezeigt, wie von dem \glqq Report ITU-R BT.1082\grqq\ empfohlen \footnote{\cite[368]{itu90}}. Der Teilnehmer soll das einzelne Bild auf seine Natürlichkeit untersuchen und mit einer Zahl bewerten. Für jedes der 38 Bilder hat der Proband 10 Sekunden Zeit. Er kann den Ablauf jederzeit stoppen, um sich seine Zahl zu notieren, darf aber die Bilder nicht vor oder zurückschalten, da sonst die Tendenzen der Bilder kaputt gehen. Die ITU hält 15 Teilnehmer an der Umfrage für ausreichend\footnote{\cite[368]{itu90}}. Dies liegt daran, dass es nicht darum geht, ein Ergebnis bezüglich einer bestimmten Bevölkerungsgruppe zu generieren. Ziel der Umfrage ist es lediglich festzustellen, welche Auswirkung der \glqq Red Tail\grqq\ auf die optische Natürlichkeit des Bildes hat, ohne speziellen Bezug zu den Probanden. So reichen deutlich weniger Teilnehmer, als bei teilnehmerspezifischen Umfragen. Um die Statistik zu festigen haben 20 Probanden an der Umfrage teilgenommen. Eine Durchführung der Umfrage dauert ca. 15 Minuten.
+
+% Bild einfügen
+%mit Wilkens über D65 einstellung reden
 
 \chapter{Umfrageergebnisse}
 

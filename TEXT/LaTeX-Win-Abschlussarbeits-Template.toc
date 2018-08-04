@@ -40,6 +40,7 @@
 \contentsline {section}{\numberline {9.2}Auswahl der Kamera und der Probanden}{42}{section.9.2}
 \contentsline {section}{\numberline {9.3}Erstellung der Bilder}{42}{section.9.3}
 \contentsline {section}{\numberline {9.4}Umfrage nach Rec. ITU-R BT.500-11}{43}{section.9.4}
+\contentsline {section}{\numberline {9.5}Aufbau und Durchf\IeC {\"u}hrung der Umfrage}{43}{section.9.5}
 \contentsline {chapter}{\numberline {10}Umfrageergebnisse}{44}{chapter.10}
 \contentsline {chapter}{\numberline {11}Auswertung aller Ergebnisse}{45}{chapter.11}
 \contentsline {section}{\numberline {11.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{45}{section.11.1}
