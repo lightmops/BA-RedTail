@@ -543,6 +543,57 @@ Das Ergebnis einer Messung ist mit diesen Daten nicht mehr schnell ersichtlich, 
 Der TM-30 
 %fertig schreiben
 
+\chapter{Lichttechnische Messgeräte}
+
+\section{JETI specbos 1211}
+
+\section{UPRtek M350S}
+
+
+\chapter{Grundlagen Videotechnik}
+
+\section{Grundeinstellung einer Kamera}
+
+\section{Farbbildwandlertechnik einer Kamera}
+- Licht wird mit Filtern in drei Farbanteile R, G, B aufgespalten
+- Variante 1 mit Strahlenteiler Prisma auf drei verschiedene Wandler
+- früher teildurchlässige Spiegel mit dichroitischen Schichten bedampft, heute fest verbundener Prismensatz
+- Licht wird aufgespalten und nur R, G, B- Anteile zum jeweiligen Wandler durchgelassen (Abbildung)
+- Problem: Filter sind nicht ideal (blaues licht trifft auch auf R oder G filter ) --> Farbkorrektur Filter vor jedem Wandler --> Abbildung Filterwirkung
+- single Sensor kameras arbeiten mit aufgedampften Bayer Pattern 50\% blau und 25\% rot und 25\% grün --> Farbauflösung verringert. 
+Schmidt 380-381
+
+\section{Weißabgleich}
+- unbuntabgleich auf bildweiß und bildschwarz
+- Kamera muss an tages / kunstlicht angepasst werden, damit weiß in kamera aucch weiß erscheint
+- kamera wird auf weiße fläche gerichtet, die von lichtart beleuchtet wird
+- in der kamera werden R- und B-Kanäle so verstärkt, dass alle drei kanäle gleiche Signalpegel haben
+- im Studio betrieb wird über vektorskop sichergestellt, dass Signale keine buntanteile mehr enthält
+-abbildung weißabgleich 
+schmidt - 414-415
+
+Schritt 1: Objekt kadrieren (auf) 80\% der Bildschirmgröße
+Schritt 2: Farbfilterrad einstellen auf farbtemperatur kunst /tageslicht
+Schritt 3: Speicherplatz wählen auf A oder B speichern
+Schritt 4: Kamera misst Bildfarbe und korrigiert sie zu weiß 
+
+AV-Medientechnik s. 206
+
+\section{RGB-Signal}
+- das RGB Signal besteht aus den drei Farbwertsignalen E'r, E'g und E'b (elektrisches Signal mit Gamma Vorverzerrung)
+--> drei Übertragungskanäle
+- 100\% Signalpegel = 0,7V
+- Synchrosignal auf seperaten Leitung oder auch auf allen drei Leitung mit Signalpegel = -0,3V
+- hohe Übertragungsqulität --> hoher bedarf an bandbreite --> nur auf kurzen strecken im studio genutzt
+schmidt S. 82-83
+
+\section{Komponenten-Signal}
+- Anforderung an Farbfernsehen: Farbsignal muss s/w kompatibel sein --> Leuchtdichtesignal für s/w-Fernsehen leicht ableitbar
+- zweitens sollen Farbinfos mit auf den Kanal des monochronem Videosignal  übertragen werden .. Farbfernsehen soll keine zusaätzliche Bandbreite kosten
+- dazu musste RGB Signal angepasst werdne
+
+
+
 \chapter{Vormessungen}
 
 Das Ziel der Hauptmessung ist, das Licht eines 1kW Stufenlinsenscheinwerfers, der mit einem Rosco 027 \glqq Medium Red\grqq\ , Rosco 787 \glqq Marius Red\grqq\ oder Rosco 789 \glqq Blood Red\grqq\ gefiltert wird, mit dem Licht verschiedener LED-Scheinwerfer additiv zu mischen und dem Spektrum des Testscheinwerfers einen \glqq Red Tail\grqq\ anzuhängen. 
