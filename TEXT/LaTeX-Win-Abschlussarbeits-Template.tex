@@ -562,7 +562,10 @@ Der TM-30
 
 \section{Grundeinstellung einer Kamera}
 
+blende, schärfentiefe, vorverstärkung
+
 \section{Farbbildwandlertechnik einer Kamera}
+\label{sec_wandler}
 - Licht wird mit Filtern in drei Farbanteile R, G, B aufgespalten
 - Variante 1 mit Strahlenteiler Prisma auf drei verschiedene Wandler
 - früher teildurchlässige Spiegel mit dichroitischen Schichten bedampft, heute fest verbundener Prismensatz
@@ -572,6 +575,7 @@ Der TM-30
 Schmidt 380-381
 
 \section{Weißabgleich}
+\label{sec_wb}
 - unbuntabgleich auf bildweiß und bildschwarz
 - Kamera muss an tages / kunstlicht angepasst werden, damit weiß in kamera aucch weiß erscheint
 - kamera wird auf weiße fläche gerichtet, die von lichtart beleuchtet wird
@@ -588,6 +592,7 @@ Schritt 4: Kamera misst Bildfarbe und korrigiert sie zu weiß
 AV-Medientechnik s. 206
 
 \section{RGB-Signal}
+\label{sec_rgbsignal}
 - das RGB Signal besteht aus den drei Farbwertsignalen E'r, E'g und E'b (elektrisches Signal mit Gamma Vorverzerrung)
 --> drei Übertragungskanäle
 - 100\% Signalpegel = 0,7V
@@ -596,9 +601,81 @@ AV-Medientechnik s. 206
 schmidt S. 82-83
 
 \section{Komponenten-Signal}
+\label{sec_ycrcb1}
 - Anforderung an Farbfernsehen: Farbsignal muss s/w kompatibel sein --> Leuchtdichtesignal für s/w-Fernsehen leicht ableitbar
 - zweitens sollen Farbinfos mit auf den Kanal des monochronem Videosignal  übertragen werden .. Farbfernsehen soll keine zusaätzliche Bandbreite kosten
 - dazu musste RGB Signal angepasst werden
+
+\begin{eqnarray}\label{gl_tlci2}
+	Y = 0,299 \cdot R + 0,587 \cdot G + 0,114 \cdot B\\
+	Y = 0,2126 \cdot R + 0,7152 \cdot G + 0,0722 \cdot B
+\end{eqnarray}
+
+- Gleichung 7.1 für SD 7.2 für HD
+- signale sind gamma vorentzerrte signale
+- damit zum Beispiel bei einer Bandbreitenreduktion nur Farbanteile und keine Helligkeiten reduziert werden wird neben dem Y-Signal auch ein R-Y und B-Y Singal übertragen dabei werden absichtlich R und B gewählt, da G-Y nur geringe Pegel ergibt, da Y hauptsächlich durch den Grünanteil bestimmt ist
+- Farbdifferenzsignale verschwinden bei Unbunten Bilder da R=G=B=Y --> R-Y=B-Y=0
+- die Pegel von Farbdifferenzsignalen können den max. Wert von 0,7 mV bei vollaussteurung überschreiten --> für vereinheitlichung müssen diese reduziert werden
+
+\begin{eqnarray}\label{gl_ycrcb1}
+	C_{R}=0,713(R-Y)\\
+	C_{B}=0,564(B-Y)
+\end{eqnarray}
+
+\begin{eqnarray}\label{gl_ycrcb1}
+	C_{R}=0,6350(R-Y)\\
+	C_{B}=0,5389(B-Y)
+\end{eqnarray}
+
+%Bild einfügen?
+
+Schmidt S. 82-84
+
+\chapter{Videotechnische Messgeräte}
+
+\section{Waveformmonitor}
+\label{sec_wmf}
+- Oszilloskope für Videomessungen
+- basiert auf Braunscher Röhre mit Elektronenstrahl, der einen Bildpunkt der Leuchtschicht des Bildschirms anregt
+- Messspannung für Ausrichtung des Strahls zuständig
+- im XY-Betreib werden zwei Spannungen dafür genutzt siehe bild
+- %Bild einfügen
+- moderne Geräte arbeiten intern digital und simulieren Oszilloskopanzeige
+- misst jeweils ein Bildzeile
+- bei Messung wird nur y-Achse genutzt und x-achse läuft einfach nach bestimmer zeit durch
+- bei periodischen signal wird messung getriggert damit pegelwerte zur selben zeit mit selber phasenlänge immer übereinander liegen
+- durch filter kann nur luminanzsignalanteil, Chrominanzanteil oder beides dargestellt werden
+- mit Farbbalken (jede Kombination der drei Farbsignale einmal durch: z.b. 100/100 Farbbalken) können die Signale von Kameras überprüft werden
+
+Schmidt S. 109-112
+
+\section{Vektorskop}
+\label{sec_vector}
+- Farbton ist mit WFM-Monitor nicht sehr gut erkennbar, da phasenwinkel im hochfrequenten Bereich nicht gut einzuordnen ist
+- Vektorskop werden auch im XY-Betrieb genutzt. Ausrichtung in x-achse gemäß der FBAS-Signalkomponente U und y-asche gemäß der komponente V
+
+U und V werden durch eine andere Pegelreduzierung der Farbsignale des Komponentensignals
+
+\begin{eqnarray}\label{gl_vector1}
+	U = 0,493(B-Y)\\
+	V = 0,877(R-Y)
+\end{eqnarray}
+
+diese Änderung komm daher, dass beim FBAS-Signal die Farbsignale in modulierter Form mit dem Luminanzsignal überlagert werden schmidt s. 84
+
+- Auf der Bildschirm flächen werden alle Farben mit Toleranzfeldern angezeigt
+- in der mitte liegt unbuntpunkt
+- alle 6 Farben sind ständig sichtbar --> abweichung durch toleranzfelder sichtbar
+--> winkelabweichung (phasenfehler) --> farbtonfehler 3 prozent toleranz
+--> amplitudenabweichung --> Sättigungsfehler 5 prozent toleranz
+%bild einfügen
+- Vektorskop wird mit Farbbalken und burst kalibriert --> kurze Linie im 135° Winkel
+- Elektronenlinie fängt vom 0 Punkt aus an und geht richtung 135° 
+- Verstärkung wird dann so gewählt, dass die Länge des Bursts auf 75\% oder 100\% Marke liegt (für jeweilige Farbtafel)
+
+Schmidt S. 112-114
+   
+
 
 
 
@@ -743,7 +820,7 @@ Dies liegt zum einen daran, dass der zusätzliche tiefrote Anteil das Spektrum a
 Zum anderen hilft die Anpassung an den \glqq Red Tail\grqq , dass Spektrum einwenig aufzufüllen und das Peak-Loch-Verhältnis des Scheinwerfers anzupassen. Daher werden die Bilder mit einem \glqq Red Tail\grqq\ nicht rotstichiger, sondern sie wirken durch die Anpassung eher so, wie man es in der Natur erwarten würde.
 %Grafik einfügen
 
-Das extreme Spektrum des Impression X4L sticht aus der Bilderreihe hervor und wirkt auf den Bildern rotstichig. Bei der Umfrage ist dieses Spektrum (mit oder ohne \glqq Red Tail\grqq\) mit Abstand am besten bewertet worden. Das lässt sich darauf zurückführen, dass die Probanden ans Glühlicht gewöhnt sind. Blau- oder grünstichige Bilder von Menschen wirken krank und unnatürlich. Dagegen wirken rotstichige Bilder nicht falsch, da Menschen unter Glühlicht auch rötlicher aussehen. Außerdem wird die menschliche Haut röter, wenn man in der Sonne liegt. Man ist es also durchaus gewohnt, dass Hauttöne rötlich erscheinen und dadurch werden die Bilder des Impression X4L auch als natürlich gesehen. 
+Das extreme Spektrum des Impression X4L sticht aus der Bilderreihe hervor und wirkt auf den Bildern rotstichig. Bei der Umfrage ist dieses Spektrum (mit oder ohne \glqq Red Tail\grqq) mit Abstand am besten bewertet worden. Das lässt sich darauf zurückführen, dass die Probanden ans Glühlicht gewöhnt sind. Blau- oder grünstichige Bilder von Menschen wirken krank und unnatürlich. Dagegen wirken rotstichige Bilder nicht falsch, da Menschen unter Glühlicht auch rötlicher aussehen. Außerdem wird die menschliche Haut röter, wenn man in der Sonne liegt. Man ist es also durchaus gewohnt, dass Hauttöne rötlich erscheinen und dadurch werden die Bilder des Impression X4L auch als natürlich gesehen. 
 %Grafik einfügen
 
 Beim Robin DL7F ist beim dritten Bild mit dem Rosco 787 \glqq Marius Red\grqq\ ein kaputtes Bild in der Umfrage gelandet. Es ist deutlich sichtbar, dass die Kamera die Probanden zu hell darstellt und dadurch die Hauttöne sehr unnatürlich aussehen. Daher ist dieser Wert für die Umfrage ungültig. Dennoch haben die Probanden dieses Bild auch durchgehend schlecht bewertet und somit zeigt sich, dass das Verfahren des\glqq Report ITU-R BT.1082\grqq\ funktioniert. 

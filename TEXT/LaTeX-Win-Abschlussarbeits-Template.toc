@@ -26,7 +26,7 @@
 \contentsline {section}{\numberline {5.2}NIST: Color Quality Scale (CQS)}{24}{section.5.2}
 \contentsline {section}{\numberline {5.3}EBU: Television Lighting Consistency Index (TLCI)}{26}{section.5.3}
 \contentsline {section}{\numberline {5.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{30}{section.5.4}
-\contentsline {chapter}{\numberline {6}Lichttechnische Messger\IeC {\"a}te}{35}{chapter.6}
+\contentsline {chapter}{\numberline {6}Messger\IeC {\"a}te f\IeC {\"u}r Farbmessung}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}JETI specbos 1211}{35}{section.6.1}
 \contentsline {section}{\numberline {6.2}UPRtek M350S}{35}{section.6.2}
 \contentsline {chapter}{\numberline {7}Grundlagen Videotechnik}{36}{chapter.7}
@@ -35,26 +35,28 @@
 \contentsline {section}{\numberline {7.3}Wei\IeC {\ss }abgleich}{36}{section.7.3}
 \contentsline {section}{\numberline {7.4}RGB-Signal}{36}{section.7.4}
 \contentsline {section}{\numberline {7.5}Komponenten-Signal}{37}{section.7.5}
-\contentsline {chapter}{\numberline {8}Vormessungen}{38}{chapter.8}
-\contentsline {section}{\numberline {8.1}Aufbau und Messungen}{38}{section.8.1}
-\contentsline {section}{\numberline {8.2}Fazit aus der Vormessung}{38}{section.8.2}
-\contentsline {section}{\numberline {8.3}Referenzlicht}{39}{section.8.3}
-\contentsline {chapter}{\numberline {9}Hauptmessung}{41}{chapter.9}
-\contentsline {section}{\numberline {9.1}Messaufbau und Messungen}{41}{section.9.1}
-\contentsline {chapter}{\numberline {10}Messergebnisse}{42}{chapter.10}
-\contentsline {section}{\numberline {10.1}Analyse der Farbwiedergabewerte}{42}{section.10.1}
-\contentsline {section}{\numberline {10.2}Fazit aus den Hauptmessungen}{43}{section.10.2}
-\contentsline {chapter}{\numberline {11}Umfrage}{44}{chapter.11}
-\contentsline {section}{\numberline {11.1}Anpassung der Scheinwerfer}{44}{section.11.1}
-\contentsline {section}{\numberline {11.2}Auswahl der Kamera und der Probanden}{45}{section.11.2}
-\contentsline {section}{\numberline {11.3}Erstellung der Bilder}{45}{section.11.3}
-\contentsline {section}{\numberline {11.4}Umfrage nach Rec. ITU-R BT.500-11}{46}{section.11.4}
-\contentsline {section}{\numberline {11.5}Aufbau und Durchf\IeC {\"u}hrung der Umfrage}{46}{section.11.5}
-\contentsline {chapter}{\numberline {12}Umfrageergebnisse}{48}{chapter.12}
-\contentsline {chapter}{\numberline {13}Auswertung aller Ergebnisse}{49}{chapter.13}
-\contentsline {section}{\numberline {13.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{49}{section.13.1}
-\contentsline {chapter}{\numberline {14}Fazit}{50}{chapter.14}
-\contentsline {section}{\numberline {14.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{50}{section.14.1}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{51}{chapter*.4}
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{53}{chapter*.5}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{54}{chapter*.6}
+\contentsline {chapter}{\numberline {8}Videotechnische Messger\IeC {\"a}te}{38}{chapter.8}
+\contentsline {section}{\numberline {8.1}Waveformmonitor}{38}{section.8.1}
+\contentsline {section}{\numberline {8.2}Vektorskop}{38}{section.8.2}
+\contentsline {chapter}{\numberline {9}Vormessungen}{39}{chapter.9}
+\contentsline {section}{\numberline {9.1}Aufbau und Messungen}{39}{section.9.1}
+\contentsline {section}{\numberline {9.2}Fazit aus der Vormessung}{39}{section.9.2}
+\contentsline {section}{\numberline {9.3}Referenzlicht}{40}{section.9.3}
+\contentsline {chapter}{\numberline {10}Hauptmessung}{42}{chapter.10}
+\contentsline {section}{\numberline {10.1}Messaufbau und Messungen}{42}{section.10.1}
+\contentsline {chapter}{\numberline {11}Messergebnisse}{43}{chapter.11}
+\contentsline {section}{\numberline {11.1}Analyse der Farbwiedergabewerte}{43}{section.11.1}
+\contentsline {section}{\numberline {11.2}Fazit aus den Hauptmessungen}{44}{section.11.2}
+\contentsline {chapter}{\numberline {12}Umfrage}{45}{chapter.12}
+\contentsline {section}{\numberline {12.1}Anpassung der Scheinwerfer}{45}{section.12.1}
+\contentsline {section}{\numberline {12.2}Auswahl der Kamera und der Probanden}{46}{section.12.2}
+\contentsline {section}{\numberline {12.3}Erstellung der Bilder}{46}{section.12.3}
+\contentsline {section}{\numberline {12.4}Umfrage nach Rec. ITU-R BT.500-11}{47}{section.12.4}
+\contentsline {section}{\numberline {12.5}Aufbau und Durchf\IeC {\"u}hrung der Umfrage}{47}{section.12.5}
+\contentsline {chapter}{\numberline {13}Umfrageergebnisse}{49}{chapter.13}
+\contentsline {chapter}{\numberline {14}Fazit}{51}{chapter.14}
+\contentsline {chapter}{\numberline {15}Ausblick}{52}{chapter.15}
+\contentsline {section}{\numberline {15.1}Unterkapitel mit Mathematik, Bildern und Querverweisen}{52}{section.15.1}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{53}{chapter*.4}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{55}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{56}{chapter*.6}
