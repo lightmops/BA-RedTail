@@ -566,102 +566,94 @@ blende, schärfentiefe, vorverstärkung
 
 \section{Farbbildwandlertechnik einer Kamera}
 \label{sec_wandler}
-- Licht wird mit Filtern in drei Farbanteile R, G, B aufgespalten
-- Variante 1 mit Strahlenteiler Prisma auf drei verschiedene Wandler
-- früher teildurchlässige Spiegel mit dichroitischen Schichten bedampft, heute fest verbundener Prismensatz
-- Licht wird aufgespalten und nur R, G, B- Anteile zum jeweiligen Wandler durchgelassen (Abbildung)
-- Problem: Filter sind nicht ideal (blaues licht trifft auch auf R oder G filter ) --> Farbkorrektur Filter vor jedem Wandler --> Abbildung Filterwirkung
-- single Sensor kameras arbeiten mit aufgedampften Bayer Pattern 50\% blau und 25\% rot und 25\% grün --> Farbauflösung verringert. 
-Schmidt 380-381
+Es gibt verschiedene Arten von Farbbildwandlern, die in einer Kamera verbaut sind. Die gängigsten Methoden sind die 1- und 3-Wandlertechnik. Die Sensoren von \glqq Single Sensor\grqq -Kameras arbeiten mit aufgedampften Bayer Pattern. Herr Dr. Bryce E. Bayer hat sich dabei an der V-$\Lambda$-Kurve des Auges orientiert und daher teilen die Bayer Pattern das Bild in 50\% grüne, 25\% rote und 25\% blaue Pixel auf\footnote{\cite{itwissen}}. Die fehlenden Farbanteile des Bildes werden über die Nachbarpixel interpoliert und diese gesammelten Farbinformationen dann an den Bildwandler weitergegeben (s. Abbildung).
+%Bild einfügen
+
+Der Nachteil an dieser Methode ist, dass auf diese Weise die Farbauflösung der Bilder verringert wird. Daher ist eine \glqq Single Sensor\grqq -Kamera nicht geeignet, wenn das entstehende Filmmaterial auf ihre Farbigkeit überprüft werden soll.\\
+Bei der 3-Wandler-Technik hingegen wird das in der Kamera ankommende Licht über Filter auf einem Strahlenteiler Prisma in die Farbwertanteile Rot, Grün und Blau aufgespalten und auf den jeweiligen Farbbildwandler durchgelassen\footnote{\cite[378]{schmidt}} (s. Abbildung). 
+%Bild einfügen
+Da die Filter zur Farbauftrennung nicht ideal sind und vor allendingen blaues Licht auf die nicht dafür vorgesehenen Wandler trifft, gibt es einen weiteren Farbkorrekturfilter vor jedem Wandler\footnote{\cite[379]{schmidt}}. Der Vorteil dieser Variante besteht darin, dass Bild keine Farbauflösung verliert. Die spekrtalen Eigenschaften eines Strahlenteilers zeigen, dass eine Kamera das Licht deutlich anders wahrnimmt, als das Auge (Abbildung).
+%Bild einfügen
+
+
 
 \section{Weißabgleich}
 \label{sec_wb}
-- unbuntabgleich auf bildweiß und bildschwarz
-- Kamera muss an tages / kunstlicht angepasst werden, damit weiß in kamera aucch weiß erscheint
-- kamera wird auf weiße fläche gerichtet, die von lichtart beleuchtet wird
-- in der kamera werden R- und B-Kanäle so verstärkt, dass alle drei kanäle gleiche Signalpegel haben
-- im Studio betrieb wird über vektorskop sichergestellt, dass Signale keine buntanteile mehr enthält
--abbildung weißabgleich 
-schmidt - 414-415
+Ein Weißabgleich einer Kamera meint den Vorgang eines\emph{\glqq Unbuntabgleich in Bildweiß\grqq} \citep[414]{schmidt}. Unter verschiedenen Beleuchtungssituationen wirkt ein weißes Blatt Papier in der Kamera farbstichig und nicht unbunt. Das liegt daran, das die Kamera erst auf die neue Lichtsituation eingestellt werden muss. Das Auge dagegen kann adaptiert sich meist unbemerkt auf verschiedene Beleuchtungssituationen und so wirkt das Blatt Papier für den Menschen stets weiß. Die Kamera muss also auf Tages- bzw. Kunstlicht geeicht werden, damit in der Kamera weiß auch als solches erkannt wird und keinen Farbstich hat. Ziel ist es bei einem Weißabgleich dass, wenn eine weiße Fläche unter den gewählten Beleuchtungsumständen gefilmt wird, in der Kamera die Signalpegel der RGB-Kanäle zu 100\% ausschlagen. Um die Signalpegel messen zu können, wird das Kamerasignal mit einem Waveformmonitor oder Vektorskop beurteilt (siehe Kaptitel \ref{sec_wmf} und \ref{sec_vector}). Der Vorgang kann in 4 Schritte eingeteilt werden\footnote{\cite[206]{heinen}}:
 
-Schritt 1: Objekt kadrieren (auf) 80\% der Bildschirmgröße
-Schritt 2: Farbfilterrad einstellen auf farbtemperatur kunst /tageslicht
-Schritt 3: Speicherplatz wählen auf A oder B speichern
-Schritt 4: Kamera misst Bildfarbe und korrigiert sie zu weiß 
-
-AV-Medientechnik s. 206
+\begin{enumerate}
+\item Die weiße Fläche wird auf mind. 80\% der Bildschirmgröße kadriert, um sicherzustellen, dass wirklich nur die weiße Fläche vom Waveformmonitor erfasst wird.
+\item Die Farbtemperatur der Kamera wird über Konversionsfilter im Filterrad nach der Beleuchtungssituation eingestellt. So wird verhindert, dass die Kamera beim Weißabgleich zu stark elektronisch verstärkt wird\footnote{\cite[415]{schmidt}}.
+\item Man wählt den Speicherplatz auf der Kamera für den Weißabgleich aus (A oder B). Meist ist es möglich mehrere Weißabgleichdaten zu speichern, um beispielsweise schnell mit der Kamera zwischen Kunst- und Tageslichtsituationen wechseln zu können.
+\item Der Weißabgleichsknopf der Kamera wird betätigt und dabei werden die R- und B-Kanäle auf den selben Pegel des G-Kanal verstärkt, sodass alle drei Kanäle den gleichen Signalpegel aufweisen.
+\end{enumerate}
+  
 
 \section{RGB-Signal}
 \label{sec_rgbsignal}
-- das RGB Signal besteht aus den drei Farbwertsignalen E'r, E'g und E'b (elektrisches Signal mit Gamma Vorverzerrung)
---> drei Übertragungskanäle
-- 100\% Signalpegel = 0,7V
-- Synchrosignal auf seperaten Leitung oder auch auf allen drei Leitung mit Signalpegel = -0,3V
-- hohe Übertragungsqulität --> hoher bedarf an bandbreite --> nur auf kurzen strecken im studio genutzt
-schmidt S. 82-83
+Das unkomprimierte Kamerasignal, dass aus einer Studiokamera kommt, wird RGB-Signal genannt. Es besteht aus den drei Farbwertsignalen R,G und B. Zu diesen Signale ist anzumerken, dass es sich um elektrische Signale mit $\gamma$-Vorverzerrung handelt\footnote{\cite[82]{schmidt}}. Für diese drei Farbwertsignale sind folglich drei Übertragungskanäle nötig. 100\% Signalpegel entspricht einer Übertragungsspannung von $0,7$ V. Damit das transportierte Bild synchron bleibt, wird entweder auf einer separaten Leitung oder auch auf allen drei Leitungen mit einem Signalpegel von $-0,3$ V das Synchronsignal mitgeführt. Das RGB-Signal führt keine Qualitätsverluste mit sich, hat aber einen hohen Bandbreitenbedarf und wird daher nur auf kurzen Strecke im Studio genutzt\footnote{\cite[83]{schmidt}.
 
 \section{Komponenten-Signal}
-\label{sec_ycrcb1}
-- Anforderung an Farbfernsehen: Farbsignal muss s/w kompatibel sein --> Leuchtdichtesignal für s/w-Fernsehen leicht ableitbar
-- zweitens sollen Farbinfos mit auf den Kanal des monochronem Videosignal  übertragen werden .. Farbfernsehen soll keine zusaätzliche Bandbreite kosten
-- dazu musste RGB Signal angepasst werden
+\label{sec_ycrcb}
+Als das Farbfernsehen erfunden wurde, gab es zwei Anforderungen an das Farbfernsehsignal, damit der Übergang vom Schwarz/Weiß-Fernsehen funktioniert: 
+\begin{enumerate}
+\item Das Farbfernsehsignal muss s/w kompatibel sein. Daher soll Farbfernsehsignal so gestaltet, dass man mit einem Schwarz/Weiß-Fernseher auch fernsehen ohne Farbe kann.
+\item Das Farbfernsehsignal soll keine zusätzliche Bandbreite kosten, damit der Fernsehzuschauer zu Hause auch über die s/w Leitung Farbfernsehen empfangen kann
+\end{enumerate}
 
-\begin{eqnarray}\label{gl_tlci2}
+Um diesen beiden Anforderungen gerecht werden zu können, wird das RGB-Signal dementsprechend angepasst. Um die erste Anforderung zu erfüllen, wird aus dem RGB-Signal ein Leuchtdichtesignal errechnet:
+
+\begin{eqnarray}\label{gl_ycrcb1}
 	Y = 0,299 \cdot R + 0,587 \cdot G + 0,114 \cdot B\\
 	Y = 0,2126 \cdot R + 0,7152 \cdot G + 0,0722 \cdot B
 \end{eqnarray}
 
-- Gleichung 7.1 für SD 7.2 für HD
-- signale sind gamma vorentzerrte signale
-- damit zum Beispiel bei einer Bandbreitenreduktion nur Farbanteile und keine Helligkeiten reduziert werden wird neben dem Y-Signal auch ein R-Y und B-Y Singal übertragen dabei werden absichtlich R und B gewählt, da G-Y nur geringe Pegel ergibt, da Y hauptsächlich durch den Grünanteil bestimmt ist
-- Farbdifferenzsignale verschwinden bei Unbunten Bilder da R=G=B=Y --> R-Y=B-Y=0
-- die Pegel von Farbdifferenzsignalen können den max. Wert von 0,7 mV bei vollaussteurung überschreiten --> für vereinheitlichung müssen diese reduziert werden
+Die erste Gleichung \ref{gl_ycrcb1} ist für das SD-Signal, die zweite Gleichung für das HD-Signal. Auch hier spricht man wieder von elektrischen Signalen die $\gamma$-vorentzerrt sind. Damit bei einer Bandbreitenreduktion nur die Farbanteile und keine Helligkeiten reduziert werden, wird neben dem Y-Signal auch ein (R-Y)- und (B-Y)- Singal übertragen. Den Farbanteilen wird also das Leuchtdichtesignal abgezogen. Dadurch wie die Helligkeit von den Farbanteilen des Signal getrennt. Es werden absichtlich R und B gewählt, da G-Y nur geringe Pegel ergibt, da Y hauptsächlich durch den Grünanteil bestimmt ist.\\ Die Pegel dieser Farbdifferenzsignale können den maximal Wert von 0,7 V bei Vollausteuerung überschreiten und müssen daher angepasst werden\footnote{\cite[84]{schmidt} (Gleichung \ref{gl_ycrcb2}).
 
-\begin{eqnarray}\label{gl_ycrcb1}
+\begin{eqnarray}\label{gl_ycrcb2}
 	C_{R}=0,713(R-Y)\\
 	C_{B}=0,564(B-Y)
 \end{eqnarray}
 
-\begin{eqnarray}\label{gl_ycrcb1}
+Diese Gleichungen gelten für SD-Signale. Für HD-Signale sind folgende Gleichungen anzuwenden:
+
+\begin{eqnarray}\label{gl_ycrcb3}
 	C_{R}=0,6350(R-Y)\\
 	C_{B}=0,5389(B-Y)
 \end{eqnarray}
 
+
+Damit sind die zwei Anforderungen erfüllt. Das $YC_{R}C_{B}$-Signal ist wichtig für die Messung mit dem Vektorskop in den Hauptmessungen (Kapitel). Das Signal an sich muss noch weiter angepasst werden, damit es irgendwann ein sendefähiges Fernsehsignal wird. Diese Entwicklung ist in dieser Arbeit abr nicht mehr von Belang.
+
 %Bild einfügen?
 
-Schmidt S. 82-84
 
 \chapter{Videotechnische Messgeräte}
+In der Hauptmessung werden zwei videotechnische Messgeräte genutzt, um den Weißabgleich der Scheinwerfer zu überprüfen und die Farbverschiebung in der Kamera aufzuzeigen.
 
 \section{Waveformmonitor}
 \label{sec_wmf}
-- Oszilloskope für Videomessungen
-- basiert auf Braunscher Röhre mit Elektronenstrahl, der einen Bildpunkt der Leuchtschicht des Bildschirms anregt
-- Messspannung für Ausrichtung des Strahls zuständig
-- im XY-Betreib werden zwei Spannungen dafür genutzt siehe bild
-- %Bild einfügen
-- moderne Geräte arbeiten intern digital und simulieren Oszilloskopanzeige
-- misst jeweils ein Bildzeile
-- bei Messung wird nur y-Achse genutzt und x-achse läuft einfach nach bestimmer zeit durch
-- bei periodischen signal wird messung getriggert damit pegelwerte zur selben zeit mit selber phasenlänge immer übereinander liegen
-- durch filter kann nur luminanzsignalanteil, Chrominanzanteil oder beides dargestellt werden
-- mit Farbbalken (jede Kombination der drei Farbsignale einmal durch: z.b. 100/100 Farbbalken) können die Signale von Kameras überprüft werden
+Ein Waveformmonitor ist ein Oszilloskop für die Videomessung. Oszilloskope basieren auf der Braunschen Röhre mit einem Elektronenstrahl. Dieser wiederum regt einen Bildpunkt auf der Bildschirm des Gerätes an\footnote{\cite[109]{schmidt}}.
+Die Messspannung ist für die Ausrichtung des Strahls zuständig und der Elektronenstrahl kann dadurch in horizontaler (x-Achse) wie vertikaler (y-Achse) Ausrichtung beeinflusst werden. Dazu werden zwei Spannungen genutzt (Abbildung) 
+%Bild einfügen
+Das Messgerät misst eine Zeile des Bildes, die am Gerät ausgewählt werden kann. Bei Messungen wird normalerweise nur die y-Achse genutzt und die horizontaler Richtung wird nach festgelegten Zeit durchlaufen\footnote{\cite[110]{schmidt}}. Auf dem Bildschirm des Messgerätes wird der Pegel von 0-100 angezeigt, so wie der negative Bereich für den Synchonisationbrust bei $-0,3$V. Bei periodischen Signalen wird die Messung speziell getriggert, sodass die Pegelwerte der selben Messzeit und Phasenlänge stets übereinander liegen. Durch bestimmte Filter kann nur das Luminanzsignal, Chrominanzsignal oder beide dargestellt werden\footnote{\cite[111]{schmidt}.\\
+Bei einem Weißabgleich werden Waveformmonitore genutzt um zu überprüfen, dass unter einen bestimmen Beleuchtung alle Pegel gleich ausgesteuert sind (Abbildung).
 
-Schmidt S. 109-112
+%Bild einfügen
+
 
 \section{Vektorskop}
 \label{sec_vector}
-- Farbton ist mit WFM-Monitor nicht sehr gut erkennbar, da phasenwinkel im hochfrequenten Bereich nicht gut einzuordnen ist
-- Vektorskop werden auch im XY-Betrieb genutzt. Ausrichtung in x-achse gemäß der FBAS-Signalkomponente U und y-asche gemäß der komponente V
-
-U und V werden durch eine andere Pegelreduzierung der Farbsignale des Komponentensignals
+Der Farbton ist mit einem WFM-Monitor nicht gut erkennbar, da der Phasenwinkel der Farbanteilsignale des RGB-Signals im hochfrequenten Bereich schwer auslesbar sind. An dieser Stelle kommt das Vektorskop ins Spiel. Dieses Gerät wird auch mit einen Elektronenstrahl in zwei verschiedene Achsen betrieben. Im Gegensatz zum Waveformmonitor orientiert sich das Vektorskop horizontal an der U- und vertikal an der V-Komponente des FBAS-Signals. Die U- und V-Werte stammen aus dem Farbdifferzsignalen des Komponentensignals mit einer anderen Pegelreduzierung (Gleichung \ref{gl_vector1}.
 
 \begin{eqnarray}\label{gl_vector1}
 	U = 0,493(B-Y)\\
 	V = 0,877(R-Y)
 \end{eqnarray}
 
-diese Änderung komm daher, dass beim FBAS-Signal die Farbsignale in modulierter Form mit dem Luminanzsignal überlagert werden schmidt s. 84
+Diese Anpassung wird dadurch verursacht, dass die Farbdifferenzsignale im FBAS-Signal in modulierter Form überlagert werden und daher im Pegel reduziert werden müssen\footnote{\cite[84]{schmidt}. Das FBAS-Signal ist eine abgewandelte Form des Komponentensignals und für diese Arbeit unrelevant.\\
+Der Bildschirm eines Vektorkops ist mit sechs Toleranzflächen ausgestattet und zeigt über den ganzen Bildschirm alle Farben an. In der Mitte der Anzeige liegt der Unbuntpunkt. Der Elektrodenstrahl fährt über den Bildschirm und zeigt die Farben der Bildzeile an. 
+
 
 - Auf der Bildschirm flächen werden alle Farben mit Toleranzfeldern angezeigt
 - in der mitte liegt unbuntpunkt
@@ -786,7 +778,7 @@ Zu Demonstrationszwecken wird mit dem Mac Encore Wash CLD und dem K-Eye K20 mit 
 \section{Auswahl der Kamera und der Probanden}
 \label{sec_wahlderKamera}
 
-Die Kamerawahl trifft auf eine Sony HDC-4300 UHD mit Weitwinkelobjektiv. Diese Kamera nutzt drei Bildwandler und keinen Bayer-Sensor. Bei einem Bayer-Sensor wird das Bild in 50\% Grünanteil 25\% Rotanteil und 25\% Blauanteil aufgeteilt. Nur diese Farbanteile werden vom Sensor gespeichert, die restlichen 50\% Grünanteile und 75\% Rot- und Blauanteile des Bilders werden aus den Nachbarpixeln interpoliert. Die Folge daraus ist eine niedrigere Farbauflösung als mit 3 Bildwandlern\footnote{\cite[380-381]{schmidt}}. Da die Bilder auf ihre Farbigkeit verglichen werden sollen, wird sich bewusst für eine Kamera mit drei Bildwandlern entschieden.\\
+Die Kamerawahl trifft auf eine Sony HDC-4300 UHD mit Weitwinkelobjektiv. Diese Kamera nutzt drei Bildwandler und keinen Bayer-Sensor. Bei einem Bayer-Sensor wird das Bild in 50\% Grünanteil 25\% Rotanteil und 25\% Blauanteil aufgeteilt. Nur diese Farbanteile werden vom Sensor gespeichert, die restlichen 50\% Grünanteile und 75\% Rot- und Blauanteile des Bilders werden aus den Nachbarpixeln interpoliert. Die Folge daraus ist eine niedrigere Farbauflösung als mit 3 Bildwandlern\footnote{\cite[380-381]{schmidt}}. Da die Bilder auf ihre Farbigkeit verglichen werden sollen, wird sich bewusst für eine Kamera mit drei Bildwandlern entschieden(siehe Kaptitel \ref{sec_wandler}).\\
 
 Die Probanden werden nach möglichst unterschiedlichen Hauttönen ausgewählt. Leider sind am Aufnahmetag nicht alle Probanden erschienen und daher ist die Bandbreite der Hauttöne nicht so groß wie erhofft, aber dennoch aussagekräftig genug, um die Auswirkung des Red Tail beurteilen zu können. Denn nach Khan (Kap.)ist jeder Hauttyp stark im roten Spektralbereich vertreten. Die Probanden haben einen nordischen, einen südländischen, einen normalen und einen braun-gebrannten Hauttyp. /%Bild einfügen
 
@@ -859,6 +851,11 @@ Die Bilder sind alle mit einer Sony HDC-4300 UHD mit Weitwinkelobjektiv aufgezei
 % Grundregel: Name, Vorname (falls vorhanden), VÖ-Jahr (falls vorhanden), Titel in Anführungszeichen, URL, Datum des letzten Aufrufs
 % zur Formatierung der URL unbedingt den url-Befehl benutzen!!!
 
+\bibitem[ITWissen.info(2017)]{itwissen}
+ITWissen.info:
+\emph{\glqq BAyer-Filter\grqq}
+\url{https://www.itwissen.info/Bayer-Filter-bayer-filter.html}, 09.05.2017, letzter Zugriff 10.08.2018
+
 \bibitem[Bladowski \& Maus(2010)]{unimann}
 Bladowski, Beate \& Maus, Daniel:
 \emph{\glqq Farbwahrnehmung\grqq}
@@ -929,6 +926,10 @@ Dooley, Wesley L.  \& Streicher, Ronald D.:
 \emph{Journ. Audio Engineering Society} vol. 30 (10), 1982
 
 % Formatierung für Fachbuch, Diplomarbeit o.Ä.: Titel kursiv
+\bibitem[Heinen(2012)]{heinen}
+Heinen, Gerd: 
+\emph{AV-Medientechnik}, 1. Aufl., Europa-Lehrmittel 2012
+
 \bibitem[Roberts(2015)]{roberts}
 Roberts, Alan: 
 \emph{TELEVISION LIGHTING CONSISTENCY INDEX (TLCI-2012)}, Version 2.015e, 18.04.2015
