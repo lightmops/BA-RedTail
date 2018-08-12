@@ -4,30 +4,39 @@
 \babel@toc {ngerman}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Darstellung verschiedener Reflexion- (oben) und Transmissionsarten (unten) \footnotemark }}{6}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Der Lichtstrom gibt an, wie viel sichtbares Licht eine Lichtquelle abstrahlt. \footnotemark }}{7}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Die Beleuchtungsst\IeC {\"a}rke gibt an, wie viel Lichtstrom auf eine bestimme Fl\IeC {\"a}che trifft.\footnotemark }}{9}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Die Lichtst\IeC {\"a}rke gibt an, wie viel Lichtstrom auf eine bestimme Richtung im Raum verteilt ist.\footnotemark }}{10}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Die Leuchtdichte hat einen Bezug auf die menschliche Helligkeitswahrnehmung.\footnotemark }}{11}{figure.2.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Die V($\lambda $)-Kurve zeigt, wie das Auge die verschiedenen Wellenl\IeC {\"a}nge beim photopischen Sehen gewichtet. Die wei\IeC {\ss }e Kurve (V'($\lambda $)) beschreibt, wie sich das Farbsehen beim Nachtsehen verschiebt. \footnotemark }}{9}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Darstellung der \glqq Zonentheorie\grqq \ von v. Kries \footnotemark }}{10}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Die drei Grundfarben Rot, Gr\IeC {\"u}n und Blau der additiven Farbmischung ergeben zusammen wei\IeC {\ss } (unbunt).\footnotemark }}{11}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Die drei Grundfarben Cyan, Magenta und Gelb der subtraktiven Farbmischung ergeben zusammen schwarz (unbunt).\footnotemark }}{12}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Beim RGB-W\IeC {\"u}rfel werden alle Prim\IeC {\"a}rvalenzen R,G, B als gleich lange Vektoren angenommen.\footnotemark }}{14}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Darstellung der CIE-XYZ Farbtafel eines 2$2^\circ $ Normalbeobachter. Diese Bezeichnung entstammt aus den Tests von Wright und Guild. \footnotemark }}{16}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Zoomansicht des XYZ-Farbraumes mit den \glqq Geraden \IeC {\"a}hnlichster Farbtemperatur\grqq \ \footnotemark }}{17}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Abbildung der MacAdam Ellipsen im XYZ-Farbraum\footnotemark }}{18}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Abbildung der MacAdam Ellipsen auf der UCS-Farbtafel \footnotemark }}{19}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Darstellung des $\Delta $u'v' auf der UCS-Farbtafel}}{20}{figure.4.10}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Die V($\lambda $)-Kurve zeigt, wie das Auge die verschiedenen Wellenl\IeC {\"a}nge beim photopischen Sehen gewichtet. Die wei\IeC {\ss }e Kurve (V'($\lambda $)) beschreibt, wie sich das Farbsehen beim Nachtsehen verschiebt. \footnotemark }}{15}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Die Kurven zeigen die Empfindlichkeiten der S-Zapfen (blau), der M-Zapfen (gr\IeC {\"u}n) und der L-Zapfen (rot) und ihre Maxima. Auff\IeC {\"a}llig ist, dass sich die Bereiche der M- und L-Zapfen gr\IeC {\"o}\IeC {\ss }tenteils \IeC {\"u}berlappen und die Zapfen f\IeC {\"u}r den (tief)roten Spektralbereich kaum empfindlich sind\footnotemark }}{16}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Darstellung der \glqq Zonentheorie\grqq \ von v. Kries \footnotemark }}{17}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Die drei Grundfarben Rot, Gr\IeC {\"u}n und Blau der additiven Farbmischung ergeben zusammen wei\IeC {\ss } (unbunt).\footnotemark }}{18}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Die drei Grundfarben Cyan, Magenta und Gelb der subtraktiven Farbmischung ergeben zusammen schwarz (unbunt).\footnotemark }}{19}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Spektrale Strahldichtefaktoren der 15 Hautt\IeC {\"o}ne gemessen von Vinh und Khanh.\footnotemark }}{20}{figure.4.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Alle Referenzfarben des Farbwiedergabeindexes: $R_{1}$ Altrosa, $R_{2}$ Senfgelb, $R_{3}$ Gelbgr\IeC {\"u}n, $R_{4}$ Hellgr\IeC {\"u}n, $R_{5}$ T\IeC {\"u}rkisblau, $R_{6}$ Himmelblau, $R_{7}$ Asterviolett, $R_{8}$ Fliederviolett, $R_{9}$ Rot ges\IeC {\"a}ttigt, $R_{10}$ Gelb ges\IeC {\"a}ttigt, $R_{11}$ Gr\IeC {\"u}n ges\IeC {\"a}ttigt, $R_{12}$ Blau ges\IeC {\"a}ttigt und $R_{13}$ Rosa (Hautfarbe), $R_{14}$ Blattgr\IeC {\"u}n \footnotemark }}{22}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Messung einer warmwei\IeC {\ss }en LED-Leuchte (Ausschnitt aus dem Demofile des Programmes \glqq LiVal\grqq \ von der Firma JETI): Links ist das Lichtspektrum der Leuchte dargestellt, rechts die gemessenen CRI-Werte \footnotemark }}{23}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Alle Referenzfarben des CQS mit voller S\IeC {\"a}ttigung\footnotemark }}{24}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ von der Firma JETI: Demo Spektrum einer warmwei\IeC {\ss }en LED (2942K) mit $Q_{f} = 81$}}{25}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ von der Firma JETI: Die f\IeC {\"u}nfzehn Referenzfarben(blau) im CIELAB-Farbraum im Vergleich zu den gemessenen Werten (rot)}}{26}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Blockschaltbild einer TLCI-Wertbestimmung \footnotemark }}{27}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces TLCI-Ergebnisprotokoll eines Arri L7-C LED Fresnelscheinwerfers\footnotemark }}{29}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Alle 99 Referenzfarben des TM-30\footnotemark }}{31}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Koordinatensystem aus $R_{f}$ und $R_{g}$: Die hellgraue Zone steht f\IeC {\"u}r TM-30-Werte die nicht auf der Plank'schen Kurve liegen und die dunkelgraue Zone steht f\IeC {\"u}r alle Werte, die nicht mehr als \glqq wei\IeC {\ss }\grqq \ angesehen werden. \footnotemark }}{32}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Wie sich die Farben der Testleuchte verhalten ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete. \footnotemark }}{33}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Wie sich die Farben der Testleuchte verhalten ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete. \footnotemark }}{34}{figure.5.11}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Beim RGB-W\IeC {\"u}rfel werden alle Prim\IeC {\"a}rvalenzen R,G, B als gleich lange Vektoren angenommen.\footnotemark }}{22}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Die XYZ-Spektralwertfunktionen, angepasst aus den SML-Zapfenempfindlichkeitskurven des Auges.\footnotemark }}{23}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Darstellung der CIE-XYZ Farbtafel eines 2$2^\circ $ Normalbeobachter. Diese Bezeichnung entstammt aus den Tests von Wright und Guild. \footnotemark }}{24}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Zoomansicht des XYZ-Farbraumes mit den \glqq Geraden \IeC {\"a}hnlichster Farbtemperatur\grqq \ \footnotemark }}{25}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Abbildung der MacAdam Ellipsen im XYZ-Farbraum\footnotemark }}{26}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Abbildung der MacAdam Ellipsen auf der UCS-Farbtafel \footnotemark }}{27}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Darstellung des $\Delta $u'v' auf der UCS-Farbtafel}}{28}{figure.5.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Alle Referenzfarben des Farbwiedergabeindexes: $R_{1}$ Altrosa, $R_{2}$ Senfgelb, $R_{3}$ Gelbgr\IeC {\"u}n, $R_{4}$ Hellgr\IeC {\"u}n, $R_{5}$ T\IeC {\"u}rkisblau, $R_{6}$ Himmelblau, $R_{7}$ Asterviolett, $R_{8}$ Fliederviolett, $R_{9}$ Rot ges\IeC {\"a}ttigt, $R_{10}$ Gelb ges\IeC {\"a}ttigt, $R_{11}$ Gr\IeC {\"u}n ges\IeC {\"a}ttigt, $R_{12}$ Blau ges\IeC {\"a}ttigt und $R_{13}$ Rosa (Hautfarbe), $R_{14}$ Blattgr\IeC {\"u}n \footnotemark }}{30}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Messung einer warmwei\IeC {\ss }en LED-Leuchte (Ausschnitt aus dem Demofile des Programmes \glqq LiVal\grqq \ von der Firma JETI): Links ist das Lichtspektrum der Leuchte dargestellt, rechts die gemessenen CRI-Werte \footnotemark }}{31}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Alle Referenzfarben des CQS mit voller S\IeC {\"a}ttigung\footnotemark }}{32}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ von der Firma JETI: Demo Spektrum einer warmwei\IeC {\ss }en LED (2942K) mit $Q_{f} = 81$}}{33}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ von der Firma JETI: Die f\IeC {\"u}nfzehn Referenzfarben(blau) im CIELAB-Farbraum im Vergleich zu den gemessenen Werten (rot)}}{34}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Blockschaltbild einer TLCI-Wertbestimmung \footnotemark }}{35}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces TLCI-Ergebnisprotokoll eines Arri L7-C LED Fresnelscheinwerfers\footnotemark }}{37}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Alle 99 Referenzfarben des TM-30\footnotemark }}{39}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Koordinatensystem aus $R_{f}$ und $R_{g}$: Die hellgraue Zone steht f\IeC {\"u}r TM-30-Werte die nicht auf der Plank'schen Kurve liegen und die dunkelgraue Zone steht f\IeC {\"u}r alle Werte, die nicht mehr als \glqq wei\IeC {\ss }\grqq \ angesehen werden. \footnotemark }}{40}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Wie sich die Farben der Testleuchte verhalten ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete. \footnotemark }}{41}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Wie sich die Farben der Testleuchte verhalten ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete. \footnotemark }}{42}{figure.6.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
