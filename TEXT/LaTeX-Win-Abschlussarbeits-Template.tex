@@ -39,25 +39,17 @@
 \thispagestyle{empty}
 \selectlanguage{english}
 \section*{\centering\abstractname}
-Form and layout of this \LaTeX-template incorporate the guidelines for theses in the Media Technology Department \glqq Richtlinien zur Erstellung schriftlicher Arbeiten, vorrangig Bachelor-Thesis (BA) und Master-Thesis (MA) im Department Medientechnik in der Fa\-kul\-t{\"a}t DMI an der HAW Hamburg\grqq\ in the version of December 6, 2012 by Prof.\ Wolfgang Willaschek. 
-
-The thesis should be printed single-sided (simplex). The binding correction (loss at the left aper edge due to binding) might be adjusted, according to the type of binding. This template incorporates a binding correction as BCOR=1mm (suitable for adhesive binding) in the \LaTeX\ document header.
-
-{\bfseries This is the english version of the opening abstract} (don't forget to set \LaTeX's language setting back to ngerman after the english text). 
- 
+This Bachelor Thesis is about the impact by an additional deep red spectral component on a cool light spectrum LED-lighting fixture. The assumption of mo2 design GmbH, which claims that skin-colour will look more natural with such a \glqq red tail\grqq , will be tested. To check on this, the Thesis starts with relevant lighting parameters, different light sources and color spaces. Followed by a describtion of the measurement part. There will be an LED-lighting fixture pointed to the same targed as an fresnel spotlight equipped with an deep red color filter. First the LED-lighting fixture is adjusted to it's best cool light and measured. Second the light of the fresnel spotlight is turned on and it's deep redlight is mixed to the LED-lighting fixture. This mixture of light is adjusted to it's best cool white and measured. The lighting parameters of this two measurements will be compared with a focus on the TLCI.
+Additionally there will be pictures of different skin colours taken with a broadcast camera. The pictures will be illuminated with and wihtout a \glqq red tail\grqq . A survey will be held to determine if the impact of an additional deep red spectral component, which is appreciable in measurements, is visual for the human eye too.
  
 \selectlanguage{ngerman}
 \section*{\centering\abstractname}
 
-Diese Arbeit befasst sich mit der Auswirkung eines zusätzlichen tiefroten Spektralanteils auf das kaltweiße Lichtspektrum von LED-Scheinwerfern. Es soll dabei überprüft werden, ob Personen unter diesen Umständen im Kamerabild natürlicher aussehen, wie es in der \glqq Red Tail\grqq\ - Theorie der mo2 design GmbH angenommen wird.\\
-Zunächst wird auf wichtige Kenngrößen der Lichttechnik eingegangen und verschiedene Leuchtmittel und lichttechnische Parameter werden erläutert. Im Folgeneden werden die Messungen beschrieben.\\
-Bei diesen wird ein LED-Scheinwerfer und ein rotgefilterter PAR-Scheinwerfer, der den\glqq Red Tail\grqq\ simulieren soll, auf einen Messpunkt ausgerichtet. Der LED-Scheinwerfer wird zuerst allein auf eine kaltweiße Referenzlichtquelle bestmöglich abgeglichen und spektral vermessen. Anschließend wird der rotgefilterter PAR-Scheinwerfer dazugeschlatet und auch dieses Lichtgemisch wird auf die Referenzlichtquelle abgeglichen und spektral vermessen. 
-Bei der Auswertung werden die gemessenen lichttechnischen Parameter betrachtet und zusätzlich werden bei einer Umfrage Bilder verglichen, auf denen Probanden verschiedener Hauttöne mit und ohne \glqq Red Tail\grqq\ beleuchtet wurden.
+Diese Arbeit befasst sich mit der Auswirkung eines zusätzlichen tiefroten Spektralanteils auf das kaltweiße Lichtspektrum von LED-Scheinwerfern. Es soll dabei überprüft werden, ob Personen unter diesen Umständen im Kamerabild natürlicher aussehen, wie es in der \glqq Red Tail\grqq\ - Theorie des Unternehmens mo2 design GmbH angenommen wird.\\
+Um dies zu untersuchen wird auf wichtige und zum Verständnis dieser Arbeit relevante Kenngrößen der Lichttechnik eingegangen und verschiedene Leuchtmittel und lichttechnische Parameter werden erläutert. Darauffolgend werden die zur Untersuchung der Theorie durchgeführten Messungen beschrieben. Bei diesen wird ein LED-Scheinwerfer und ein rot-gefilterter Stufenlinsenscheinwerfer, der den\glqq Red Tail\grqq\ simulieren soll, auf einen Messpunkt ausgerichtet. Der LED-Scheinwerfer wird zuerst allein auf eine kaltweiße Referenzlichtquelle bestmöglich abgeglichen und spektral vermessen. Anschließend wird der rotgefilterter PAR-Scheinwerfer dazugeschaltet und auch dieses Lichtgemisch wird auf die Referenzlichtquelle abgeglichen und spektral vermessen. Die gemessenen lichttechnischen Parameter mit besonderem Fokus auf dem TLCI werden dann bei der Auswertung miteinander verglichen.\\
+Zusätzlich werden Bilder mit einer Studiokamera erstellt, auf denen Probanden verschiedener Hauttöne mit und ohne \glqq Red Tail\grqq\ beleuchtet werden. Diese Bilder werden dann im Rahmen einer  abschließenden Umfrage bewertet. Auf diese Weise wird beobachtet, ob die messtechnischen Ergebnisse auch für das menschliche Auge erkennbar sind. 
 
-
-
-
-%--------------------------- Text -------------------------------
+%-----------------------Text--------------------------------
 
 \chapter{Einleitung}
 
@@ -83,7 +75,7 @@ Die Reflexion und Transmission von Licht kann in verschiedenen Abstufungen vorko
 
 
 \section{Lichtstrom $\Phi$} \label{sec_lumen}
-Der Lichtstrom $\Phi$ steht für die Lichtleistung einer Lichtquelle und wird in der Einheit Lumen (lm) angegeben (Abbildung \ref{b_lumen}). $\Phi$ lehnt sich an der Helligkeitsempfindung des Auges an, der V($\lambda$)-Kurve (Kapitel \ref{sec_auge}). Daher sind Aussagen über die Strahlungsleistung in der Beleuchtungstechnik nur von peripherer Bedeutung\footnote{\cite[23]{ris}}. Man kann aber den Lichtstrom ins Verhältnis zur Strahlungsleistung setzten und so die Lichtausbeute K in $\frac{lm}{W}$ berechnen. Mit dem K Wert kann man aufzeigen wie effizient ein Leuchtmittel seine Strahlungsleistung in Lichtleistung umsetzt. Der Maximalwert von K liegt bei $K_{max}=683$ $\frac{lm}{W}$ , dass nur durch eine monochromatisch grüne (555 nm) Lichtquelle erzeugt werden kann, weil dieses Licht am hellsten für das menschliche Auge ist\footnote{\cite[24]{ris}} (Kapitel \ref{sec_auge}).
+Der Lichtstrom $\Phi$ steht für die Lichtleistung einer Lichtquelle und wird in der Einheit Lumen (lm) angegeben (Abbildung \ref{b_lumen}). $\Phi$ lehnt sich an der Helligkeitsempfindung des Auges an, der V($\lambda$)-Kurve (Kapitel \ref{sec_auge}). Daher sind Aussagen über die Strahlungsleistung in der Beleuchtungstechnik nur von peripherer Bedeutung\footnote{\cite[23]{ris}}. Man kann aber den Lichtstrom ins Verhältnis zur Strahlungsleistung setzten und so die Lichtausbeute $\eta$ in $\frac{lm}{W}$ berechnen\footnote{\cite[35]{greule}}. Mit dem $\eta$-Wert kann man aufzeigen wie effizient ein Leuchtmittel seine Strahlungsleistung in Lichtleistung umsetzt. Der Maximalwert von $\eta$ liegt bei $\eta_{max}=683$ $\frac{lm}{W}$ , dass nur durch eine monochromatisch grüne (555 nm) Lichtquelle erzeugt werden kann, weil dieses Licht am hellsten für das menschliche Auge ist\footnote{\cite[36]{greule}} (Kapitel \ref{sec_auge}).
 
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
@@ -246,61 +238,132 @@ In diesem Kapitel werden verschiedene Leuchtmittel vorgestellt. Ein Augenmerk so
 \section{Glühlampe} \label{sec_glühlampe}
 Die Glühlampe ist ein Temperaturstrahler. Sie besteht aus einem gasgefülltem Kolben, in dem ein Wolframwendel durch Stromzufuhr erhitzt wird. Der erhitzte Glühwendel erzeugt eine Farbtemperatur von ca. 3200K\footnote{\cite[137]{mueller}}. Der Großanteil des Lichtspektrums einer Glühlampe liegt im Infrarot-Bereich und wird damit in Wärme umgesetzt. Es werden also nur ca. 5\% bis 15\% der Leistung in Licht umgewandelt\footnote{\cite[78]{ris}}.
 %Abbildung einfügen
-Weil die Lichtausbeute von 10 $\frac{lumen}{Watt}$ bis 15 $\frac{lumen}{Watt}$ zu gering ist, wird die Glühlampe in der EU nicht mehr hergestellt\footnote{\cite[78]{ris}}.
+Weil die Lichtausbeute $\eta$ von 10 $\frac{lumen}{Watt}$ bis 15 $\frac{lumen}{Watt}$ zu gering ist, wird die Glühlampe in der EU nicht mehr hergestellt\footnote{\cite[78]{ris}}.
  
 \section{Halogenglühlampe} \label{sec_halogenglühlampe}
 Auch die Halogenglühlampe ist ein Temperaturstrahler. Sie besteht auch Glaskolben und Woflramwendel, ist allerdings mit Jod oder einer Bromverbindung gefüllt\footnote{\cite[82]{ris}}.
-Wenn nun der Wolframwendel erhitzt wird spalten sich Wolframatome vom Wendel ab. Diese Atome werden vom Jod respektive Brom gebunden und es entsteht ein Wolframhalogenid in dem Glaskolben. Wenn dieses Wolframhalogenid wiederum auf den erhitzen Wendel trifft, spaltet es sich in die Einzelteile auf. Das Wolfram gelangt zurück in den Wendel und der gasförmige Anteil fügt sich wieder in den Bereich des Glaskolben ein. Auf diese Weise entsteht ein Kreislauf, der der Halogenglühlampe effizienter als eine Glühlampe macht\footnote{\cite[83-84]{ris}}.
-%Abbildung des Kreislaufs
+Wenn nun der Wolframwendel erhitzt wird spalten sich Wolframatome vom Wendel ab. Diese Atome werden vom Jod respektive Brom gebunden und es entsteht ein Wolframhalogenid in dem Glaskolben. Wenn dieses Wolframhalogenid wiederum auf den erhitzen Wendel trifft, spaltet es sich in die Einzelteile auf. Das Wolfram gelangt zurück in den Wendel und der gasförmige Anteil fügt sich wieder in den Bereich des Glaskolben ein. Auf diese Weise entsteht ein Kreislauf, der der Halogenglühlampe effizienter als eine Glühlampe macht\footnote{\cite[83-84]{ris}} (Abbildung \ref{b_halogenkreis}).
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.7\textwidth]{bilder/halogenkreis} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Darstellung des Halogen Kreisprozesses\protect\footnotemark}\label{b_halogenkreis}
+\end{figure}
+\footnotetext{\url{https://www.haustechnikdialog.de/SHKwissen/Images/Leuchtmittelhalogenkreisprozess-Bernstaedt.jpg}}
+
+\noindent Die Lichtausbeute einer 50 W Halogenglühlampe beträgt beispielsweise $\eta=18$ $\frac{lumen}{Watt}$ \footnote{\cite[35]{greule}}.
 
 \section{Entladungslampen} \label{sec_entladungslampe}
 Entladungslampen erzeugen Licht durch eine angelegte Spannung an einem ionisierten Gasgemisch in einem Glaskolben. Abhängig von dem Gasgemisch entsteht dabei eine Lichtfarbe.\footnote{\cite[140]{mueller}}. Man kann die Entladungslampen grob in zwei Kategorien einteilen: die Niederdruck-Entladungslampen und die Hochdruck-Entladungslampen.\\
 
-Niederdruckentladungslampen haben einen Druck von ca. $10^{-6}$ bar. Ihr Gasgemisch besteht aus neutralen Atomen, geladenen Ionen und freien Elektronen. Dieses Gasgemisch befindet sich in einem Glasrohr\footnote{\cite[93]{ris}}. 
-%Abbildung einfügen
-An den beiden Enden des Glasrohres liegen Elektroden an. Wenn diese mit einer Spannung versorgt werden, ziehen sich die negativen Elektronen zu der positiven Elektrode. Die positiven Ionen verhalten sich umgekehrt und wandern zur negativen Elektrode. Dabei treffen die herumschwirrenden Elektronen und Ionen auf neutrale Gasatome. Die Elektronen der Gasatome werden von ihrer Bahn abgedrängt und dabei wird Energie in Form von Strahlung frei\footnote{\cite[93]{ris}}. 
-%Abbildung einfügen
+\noindent Niederdruckentladungslampen haben einen Druck von ca. $10^{-6}$ bar. Ihr Gasgemisch besteht aus neutralen Atomen, geladenen Ionen und freien Elektronen. Dieses Gasgemisch befindet sich in einem Glasrohr. An den beiden Enden des Glasrohres liegen Elektroden an. Wenn diese mit einer Spannung versorgt werden, ziehen sich die negativen Elektronen zu der positiven Elektrode. Die positiven Ionen verhalten sich umgekehrt und wandern zur negativen Elektrode. Dabei treffen die herumschwirrenden Elektronen und Ionen auf neutrale Gasatome. Die Elektronen der Gasatome werden von ihrer Bahn abgedrängt und dabei wird Energie in Form von Strahlung frei\footnote{\cite[93]{ris}} (Abbildung \ref{b_leuchtstoff}). Damit es während des Betriebs nicht zum Kurzschluss kommt, wird der Strom durch beispielsweise induktive Vorwiderstände gedrosselt.\footnote{\cite[141]{mueller}}\\
+Bei der Leuchtstoffröhre beispielsweise erzeugt das Quecksilbergasgemisch UV-Strahlung (253,7 nm), die nicht vom menschlichen Auge erkennbar ist. Erst wenn diese UV-Strahlung auf die Leuchtschicht am Röhrenrand trifft strahlt diese ein sichtbares Licht ab. Dabei wird nur ein Teil dieser UV-Strahlung in sichtbares Licht umgesetzt (Abbildung \ref{b_leuchtstoff}).\footnote{\cite[96]{ris}}
 
-Damit es während des Betriebs nicht zum Kurzschluss kommt, wird der Strom durch beispielsweise induktive Vorwiderstände gedrosselt.\footnote{\cite[141]{mueller}}\\
-Bei der Leuchtstoffröhre beispielsweise erzeugt das Quecksilbergasgemisch UV-Strahlung (253,7 nm), die nicht vom menschlichen Auge erkennbar ist. Erst wenn diese UV-Strahlung auf die Leuchtschicht am Röhrenrand trifft strahlt diese ein sichtbares Licht ab. Dabei wird nur ein Teil dieser UV-Strahlung in sichtbares Licht umgesetzt.\footnote{\cite[96]{ris}}
-%Abbildung einfügen
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.7\textwidth]{bilder/leuchtstoff} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Aufbau einer Leuchtstoffröhre\protect\footnotemark}\label{b_leuchtstoff}
+\end{figure}
+\footnotetext{\url{https://www.trilux.com/de/beleuchtungspraxis/fileadmin/user_upload/Abb_LL_Funktion.pdf.png}}
 
-Leuchtstofflampen erreichen eine Lichtausbeute von bis zu 116 $\frac{lumen}{Watt}$.\\
-Hochdruckentladungslampen dagegen nutzen einen Druck von 0,3 bar bis 10 bar. Sie sind von der Funktionsweise her ähnlich wie die Niederdruckentladungslampen, bestehen aber aus einem kleinem Glaskolben, da eine lange Glasröhre dem Druck nicht standhält. Wenn bei einer Halogen-Metalldampflampe beispielsweie eine Spannung an den Elektroden anliegt entsteht zwischen den beiden Elektroden ein Lichtbogen. Dieser Lichtbogen regt dann das Gasgemisch der Lampe an und gibt dem Licht so eine Lichtfarbe\footnote{\cite[129]{ris}}.
+\noindent Leuchtstofflampen erreichen eine Lichtausbeute $\eta$ von bis zu 116 $\frac{lumen}{Watt}$.\\
+
+\noindent Hochdruckentladungslampen dagegen nutzen einen Druck von 0,3 bar bis 10 bar. Sie sind von der Funktionsweise her ähnlich wie die Niederdruckentladungslampen, bestehen aber aus einem kleinem Glaskolben, da eine lange Glasröhre dem Druck nicht standhält (Abbildung \ref{b_hochdruck}). Wenn bei einer Halogen-Metalldampflampe beispielsweie eine Spannung an den Elektroden anliegt entsteht zwischen den beiden Elektroden ein Lichtbogen. Dieser Lichtbogen regt dann das Gasgemisch der Lampe an und gibt dem Licht so eine Lichtfarbe\footnote{\cite[129]{ris}}.
 Hochdruckentladungslampen brauchen für den Zündvorgang ein Vorschaltgerät, um die hohe Initialspannung generieren zu können. Nach der Zündung braucht die Lampe ca. 3 min bis 5 min bis sie ihren vollen Wirkungsgrad erreicht hat. Das Gasgemisch muss nach dem Ausschalten der Lampe erst wieder abkühlen und so dauert es bis zu 20 Minuten, bis die Lampe erneut genzündet werden kann\footnote{\cite[147]{mueller}}.
-%Abbildung Spektrum einfügen
-Eine Halogenmetalldampflampe hat eine Lichtausbeute von ungefähr 70 $\frac{lumen}{Watt}$.
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{bilder/hochdruck} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Aufbau einer Hochdruckentladungslampe\protect\footnotemark}\label{b_hochdruck}
+\end{figure}
+\footnotetext{\url{https://dammedia.ledvance.info/media/img/asset-296401/s,x,1440,y,0/334675.jpg}}
+\noindent Eine Halogenmetalldampflampe hat eine Lichtausbeute $\eta$ von beispielsweise 70 $\frac{lumen}{Watt}$.
 
 \section{LEDs} \label{sec_led}
 Light-Emitting Diode sind heutzutage die modernsten Leuchtmittel. Mit LEDs werden immer mehr konventionelle Leuchtmittel ersetzt, weil sie große Vorteile, wie ein niedrigen Stormverbrauch und ein sehr hohe Lichtausbeute mit sich bringen. LEDs nutzen elektrische Spannung, um ihr  Halbleitermaterial zum Leuchten zu bringen. \footnote{\cite[150]{mueller}}. Da sich die Halbleiterbauelemente wie eine Diode verhalten ist ein Strom, der in Durchlassrichtung fließt, nötig, damit die LED Licht abstrahlt. Rote und Gelbe LED werden aus Aluminium-Indium-Galliumphosphid (AllnGaP) hergestellt und grüne und blaue LED aus Indium-Gallium-Nitrid (InGaN)\footnote{\cite[153]{ris}}.\\
-Das lichterzeugende Element der LED ist meistens in der Vertiefung eines Metallhalters angebracht. Das austretende Licht wird auch an den Rändern dieser Vertiefung reflektiert. Die Lötstelle des Metallhalters wird als elektrischer Anschluss der LED genutzt, während der Metallhalter selbst als Katode fungiert. Mit einem Draht aus gold wird die Oberseite des lichterzeugendes Elements verbunden und als Anode für den Stromfluss genutzt\footnote{\cite[154]{ris}}.     
-%Abbildung einfügen
+Das lichterzeugende Element der LED ist meistens in der Vertiefung eines Metallhalters angebracht. Das austretende Licht wird auch an den Rändern dieser Vertiefung reflektiert. Die Lötstelle des Metallhalters wird als elektrischer Anschluss der LED genutzt, während der Metallhalter selbst als Katode fungiert. Mit einem Draht aus Gold wird die Oberseite des lichterzeugenden Elements verbunden und als Anode für den Stromfluss genutzt\footnote{\cite[154]{ris}} (Abbildung \ref{b_led}). Die LED wird schließlich von einer Sekundäroptik ummantelt. Diese Optik sorgt dafür, dass das LED Licht nicht mehr zur Seite austritt und gebündelt wird.
 
-Die LED wird schließlich von einer Sekundäroptik ummantelt. Diese Optik sorgt dafür, dass das LED Licht nicht mehr zur Seite austritt und gebündelt wird.\\
-Je nachdem welche der genannten Stoffe in der LED verwendet werden, leuchtet die LED in einer bestimmten Farbe monochromatisch. Um weißes Licht zu erzeugen, gibt es zwei Varianten\footnote{\cite[151-152]{mueller}}:
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.7\textwidth]{bilder/led} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Aufbau einer LED\protect\footnotemark}\label{b_led}
+\end{figure}
+\footnotetext{\url{https://www.energy-innovation-austria.at/wp-content/uploads/2014/12/4_14_s3_lichtwissen17_LED_grafik2.png}}
+
+
+\noindent Je nachdem welche der genannten Stoffe in der LED verwendet werden, leuchtet die LED in einer bestimmten Farbe monochromatisch. Um weißes Licht zu erzeugen, gibt es zwei Varianten\footnote{\cite[151-152]{mueller}}:
 
 \begin{itemize}
 \item MultiLED: Bei dieser Methode werden drei LEDs mit der Farbe rot, grün und blau in einem Gehäuse verbaut. Zusammen ergeben sie ein weißes Licht. Da das Spektrum des Lichts aber nicht nur aus diesen drei Farben besteht, werden beispielsweise Pastelltöne unter diesem weiß nicht natürlich aussehen. Man verliert also deutlich an Qualität der Farbwiedergabe
 
-\item Phosphor Methode: Bei dieser Methode wird eine blaue LED von einer gelben Phosphorschicht ummantelt. Wenn die LED leuchtet wird entweder das blaue Licht durchgelassen oder die Phosphorschicht angeregt und gelbes Licht erzeugt. Diese beiden Lichtfarben mischen sich und weißes Licht wird erzeugt. Dieses Licht hat eine deutlich höhere Qualität der Farbwiedergabe, hat aber eine Schwäche im roten Spektralbereich. 
+\item Phosphor Methode: Bei dieser Methode wird eine blaue LED von einer gelben Phosphorschicht ummantelt. Wenn die LED leuchtet wird entweder das blaue Licht durchgelassen oder die Phosphorschicht angeregt und gelbes Licht erzeugt. Diese beiden Lichtfarben mischen sich und weißes Licht wird erzeugt (Abbildung \ref{b_ledw}). Dieses Licht hat eine deutlich höhere Qualität der Farbwiedergabe, hat aber eine Schwäche im roten Spektralbereich. Die Herstellung phosphorbeschichter blauer LEDs hat sich in der Branche durchgesetzt.
 \end{itemize}
 
-Die Herstellung phosphorbeschichter blauer LEDs hat sich in der Branche durchgesetzt.
-%Abbildung einfügen
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/ledw} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Aufbau einer weißen LED\protect\footnotemark}\label{b_ledw}
+\end{figure}
+\footnotetext{\url{https://www.ecse.rpi.edu/~schubert/Light-Emitting-Diodes-dot-org/chap21/F21-07\%20Nichia\%20wh\%20LED\%20structu.jpg}}
 
-LEDs verlieren mit der Zeit durch die Hitze an Qualität. Scheinwerferhersteller versuchen durch komplexe Algorithmen für die LEDs diesen Qualitätsverlust zu kompensieren. Ebenso gibt es herstellungsbedingte Abweichungen bei LED's. Da die Vorgänge sehr kompliziert sind, werden die LED's nach der Herstellung in sogenannte Binnings eingeteilt. In einem Binnig sind also jeweils die LED's mit den ähnlichsten Eigenschaften zusammengefasst, so dass beim Scheinwerferbau nur sich sehr ähnliche LED's verwendet werden\footnote{\cite[153]{mueller}}.
+\noindent LEDs verlieren mit der Zeit durch die Hitze an Qualität. Scheinwerferhersteller versuchen durch komplexe Algorithmen für die LEDs diesen Qualitätsverlust zu kompensieren. Ebenso gibt es herstellungsbedingte Abweichungen bei LED's. Da die Vorgänge sehr kompliziert sind, werden die LED's nach der Herstellung in sogenannte Binnings eingeteilt. In einem Binnig sind also jeweils die LED's mit den ähnlichsten Eigenschaften zusammengefasst, so dass beim Scheinwerferbau nur sich sehr ähnliche LED's verwendet werden\footnote{\cite[153]{mueller}}.
 
-%Spektrum einfügen!
+%Für Scheinwerfer im Veranstaltungsbereich werden mittlerweile verschiedene LED-Leuchtmittel verwendet. Am Anfang waren Scheinwerfer typisch, die mit einem RGB-Modul bestückt waren. Farben sind mit diesen Scheinwerfern gut darstellbar, ein gemischtes RGB-Weißlicht hingegen hat keine akzeptable Qualitität. Scheinwerfer mit RGBW LEDs stellen eine Verbesserung der Weißlichtqualität dar, können aber damit immernoch das sichtbare Spektrum füllen. Daher gehen Scheinwerferhersteller dazu über Scheinwerfer mit noch mehr farbenen LEDs zu bauen (Multichip). So hat der Clay Paky K-Eye K20 beispielsweise 6 LEDs mit Rot, Grün, Blau, Lime, Amber und Cyan. Das daraus resultierende Spektrum hat eine hohe Farb- und Unbuntqualität. Andere Scheinwerfer setzten wiederum auf eine reinweiße LED-Engine mit nur weißen LEDs. Der Martin Mac Encore Wash CLD beispielsweise erreicht mit seiner LED-Engine die noch zusätzlich ein CMY-Mischung hat auch hohe Farb- und Unbuntquälitäten.  
+%drüber gucken
+
+
 
 \section{Farbtemperatur} \label{sec_farbtemperatur}
 Mit der Farbtemperatur lässt sich die Qualität des Lichts 
-bestimmen. Entstanden ist der Begriff durch die Untersuchen von Lord Kelvin. Er hat herausgefunden, dass es eine Verbidnung zwischen der Temperatur eines schwarzes Strahlers und dessen Lichtfarbe gibt\footnote{\cite[89]{mueller}}. Daher wird die Farbtemperatur einer Lampe stets in Kelvin (K) angegeben. Bei den Untersuchen wird ein schwarzer Körper mit einem Hohlraum erhitzt. Dadurch wird aus diesem Hohlraum Licht abgestrahlt. Ändert sich die Temperatur des schwarzen Körpers, so ändert sich auch das Spektrum des abgestrahlten Lichts.
-%Abbildung
+bestimmen. Entstanden ist der Begriff durch die Untersuchen von Lord Kelvin. Er hat herausgefunden, dass es eine Verbidnung zwischen der Temperatur eines schwarzes Strahlers (Plank'scher Strahler) und dessen Lichtfarbe gibt\footnote{\cite[89]{mueller}}. Daher wird die Farbtemperatur einer Lampe stets in Kelvin (K) angegeben. Bei den Untersuchen wird ein schwarzer Körper mit einem Hohlraum erhitzt. Dadurch wird aus diesem Hohlraum Licht abgestrahlt. Ändert sich die Temperatur des schwarzen Körpers, so ändert sich auch das Spektrum des abgestrahlten Lichts (Abbildung \ref{b_cct2}).
 
-Die abgestrahlte Lichtfarbe des schwarzen Strahlers ist anfänglich rötlich wechselt bei steigenden Temperatur des Körpers ins weiße und wird danach immer bläulicher. Daher spricht man bei einer hohen Farbtemperatur von einer kalten Lichtfarbe und bei niedriger Farbtemperatur von einer warmen. Wenn das Licht einer Lampe von der spektralen Beschaffenheit mit dem Licht des schwarzen Strahlers übereinstimmt, wird die Lichtfarbe der Temperatur des Schwarzen Körpers zugeordnet\footnote{\cite[89]{mueller}}.
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{bilder/cct2} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Spektrale Kurven verschiedener Farbtemperaturen des schwarzen Strahlers. (Der bunteingefärbte Bereich stellt das sichtbare Lichtspektrum dar.)\protect\footnotemark}\label{b_cct2}
+\end{figure}
+\footnotetext{\url{https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/BlackbodySpectrum_loglog_150dpi_de.png/640px-BlackbodySpectrum_loglog_150dpi_de.png}}
+
+Die abgestrahlte Lichtfarbe des schwarzen Strahlers ist anfänglich rötlich wechselt bei steigenden Temperatur des Körpers ins weiße und wird danach immer bläulicher. Daher spricht man bei einer hohen Farbtemperatur von einer kalten Lichtfarbe und bei niedriger Farbtemperatur von einer warmen(Abbildung \ref{b_cct1}). Wenn das Licht einer Lampe von der spektralen Beschaffenheit mit dem Licht des schwarzen Strahlers übereinstimmt, wird die Lichtfarbe der Temperatur des Schwarzen Körpers zugeordnet\footnote{\cite[89]{mueller}}.
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/cct1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Spektrale Kurven verschiedener Farbtemperaturen des schwarzen Strahlers. (Der bunteingefärbte Bereich stellt das sichtbare Lichtspektrum dar.)\protect\footnotemark}\label{b_cct1}
+\end{figure}
+\footnotetext{\url{http://www.ledmarkt24.de/bilder/content/led-farbtemperatur-warmweiss-neutral.jpg}}
+
+
 
 Typische Farbtemperaturen sind:
-%Tabelle einfügen
+
+\begin{table}[htp] 
+		\rowcolors{1}{}{lgray} 
+		\centering
+		\begin{tabular}{rlcc}  % Spalten nach Ausrichtung: l, c, r, p{breite} 
+		\toprule
+		\multicolumn{2}{c}{\large\sffamily Farbtemperatur}\\ 							
+		\midrule
+		Kerzenlicht & 1850 K\\
+		Glühlampe 40W & 2650 K\\
+		Normlicht A & 2855,4 K\\
+		Halogenglühlampe & 3200 K\\
+		Normlicht D65, Fernsehweißbild (Europa) & 6504 K\\
+		Tageslicht bei bedecktem Himmel & 6700 K - 7000 K\\
+		blauer Himmel ohne direkte Sonne & 12.000 K - 30.000 K\\
+		\bottomrule
+		\end{tabular}
+		\caption{Verschiedene Beispiele für die Farbtemperatur\protect\footnotemark}	
+		\label{t_candela}
+	\end{table}
+\footnotetext{\cite[29]{greule}}
 
 
 Falls das Spektrum einer Lampe sehr von dem des Schwarzen Strahlers abweicht, kann eigentlich keine vernünftige Aussage über die Farbtemperatur der Lampe gemacht werden. Damit man trotzdem Gasentladungslampen und LED's eine Farbtemperatur zuordnen kann, wird dem Spektrum eine korrelierte Farbtemperatur zugeordnet. Diese \glqq Correlated Color Temperatur\grqq\ (CCT) macht eine Aussage darüber, welche Farbtemperatur der Leuchte am ähnlichsten ist\footnote{\cite[91]{mueller}} (Kapitel \ref{sec_xyz}).
@@ -554,7 +617,7 @@ Dieser Wert wird zur Einschätzung der Weißlichtqualität in Kombination mit ei
 Auf der UCS-Farbtafel lassen sich nur Farben gleicher Helligkeit miteinander vergleichen. Um Farben verschiedener Helligkeiten vergleichen zu können hat die CIE noch weitere dreidimensionale Farbräume bestimmt, die für die Red-Tail-Untersuchungen, aber keine größere Rolle spielen.\newpage
 
 
-\chapter{Lichtechnische Parameter}
+\chapter{Farbwiedergabewerte}
 Es gibt mehr als vierzig verschiedene Methoden, um die Farbwiedergabe einer Leuchte zu beurteilen. In diesem Kapitel sollen die in der Medien- und TV-Branche typischen Farbwiedergabeindices vorgestellt und deren Relevanz für die Messung mit dem \glqq Red Tail\grqq\  aufgezeigt werden.
 
 \section{CIE: Color Rendering Index (CRI)} \label{sec_cri}
@@ -811,7 +874,36 @@ Der TM-30
 Es gibt die verschiedensten lichttechnischen Messgeräte, die genutzt werden um Beleuchtungsstärke, Farbtemperatur oder Farbigkeit des Lichts zu messen. Da in der Hauptmessung fast ausschließlich LED-Scheinwerfer gemessen werden, ist es wichtig, dass die Messgeräte in der Lage sind, mit diesem zum Teil schmalbandigen Spektren umzugehen. Dazu eignen sich am besten Spektrometer, die durch ihre sehr filigrane Messweise einzelner Wellenlänge auch extremere Spektren auswerten können. Zusätzlich können sie aus dem gemessene Spektrum viele lichttechnische Daten errechnen und sind damit die \glqq Alleskönner\grqq\ unter den Messgeräten. In diesem Kapitel soll ihre Funktionsweise erörtert werden.
  
 \section{Spektrometer}
-Ein Spektrometer besteht üblicherweise aus einem Eingangsspalt, einem Streuelement (Prisma oder Gitter) und aus einem einzeln Detektor oder aus einem Detektor-Array. Die für die Messungen verwendeten Spektrometer nutzen beide ein flat-field-Gitter mit einem Detektor-Array.\\
+Ein Spektrometer besteht üblicherweise aus einem Eingangsspalt, einem Streuelement (Prisma oder Gitter) und aus einem einzeln Detektor oder aus einem Detektor-Array. Die für die Messungen verwendeten Spektrometer JETI specbos 1211 (Abbildungen \ref{b_jeti})und UPRtek MK350S (Abbildungen \ref{b_mk350s}) nutzen beide ein flat-field-Gitter mit einem Detektor-Array.
+
+\begin{figure}
+\begin{minipage}[hbt]{0.49\textwidth}
+	\centering
+	\includegraphics[width=0.49\textwidth]{bilder/jeti}
+	\label{b_jeti}
+	\setcounter{mpfootnote}{\value{footnote}}
+      \renewcommand{\thempfootnote}{\arabic{mpfootnote}}
+       \caption{Hauptmessgerät}
+      Jeti Specbos 1211\footnote{\url{https://www.opteema.com/media/specbos4000.jpg}}
+        \setcounter{footnote}{\value{mpfootnote}}
+\end{minipage}
+\hfill
+\begin{minipage}[hbt]{0.49\textwidth}
+	\centering
+	\includegraphics[width=0.49\textwidth]{bilder/mk350s}
+	\label{b_mk350s}
+	\setcounter{mpfootnote}{\value{footnote}}
+      \renewcommand{\thempfootnote}{\arabic{mpfootnote}}
+      \caption{Sekundärmessgerät}
+      UPRtek MK350S\footnote{\url{https://www.opteema.com/media/specbos4000.jpg}}
+            \setcounter{footnote}{\value{mpfootnote}}
+\end{minipage}
+\end{figure}
+
+
+
+
+
 Das im Messgerät ankommende Licht gelangt durch den Spalt  ins Messgerät und wird auf das Reflexionsgitter geleitet. Dort interferiert das Licht und wird in seine einzelnen Wellenlängen aufgesplittet (Gleichung \ref{gl_spek1}).
 \begin{equation}\label{gl_spek1}
 		sin(\Theta_{M})=sin(\Theta_{i})+m \frac{\lambda}{d}
@@ -822,7 +914,7 @@ $\Theta$ beschreibt jeweils den Ein- und Austrittswinkel des Lichts. $\lambda$ s
 \centering
 \includegraphics[width=1.0\textwidth]{bilder/spek1} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Abbildung der Interferenz am optischen Gitter \protect\footnotemark}\label{b_spek1}
+\caption {Abbildung der Interferenz am optischen Gitter\protect\footnotemark}\label{b_spek1}
 \end{figure}
 \footnotetext{\cite[6]{jeti}}
 
@@ -866,30 +958,83 @@ Der JETI specbos 1211 wird in den Hauptmessung als Primärmessgerät genutzt und
 
 Der JETI specbos 1211 hat eine genauerer Farbeinschätzung des Lichtes und eine geringere Abweichung bei der Farbtemperatur (Tabelle \ref{t_spek}). Alle Messwerte beziehen sich auf eine Messung der CIE-Normlichtart A mit 2.856 K, damit Messgeräte vergleichbar sind.
 
+
+
+
 \chapter{Grundlagen Videotechnik}
 Da sich diese Arbeit auch mit der Lichtwirkung im Zusammenhang mit Kameras beschäftigt, sollen in diesem Kapitel die relevanten videotechnischen Grundlagen dargestellt werden.
+
 \section{Grundeinstellung einer Kamera}
 
- es geht um die Parameter, die wir verwendet haben. 0dB Verstärkung, Blende, Gamma nach ITU-709, kein Knee, manueller Weißabgleich, Matrix nach ITU 709... Sowas dachte ich. Damit es eine Basis für die Aufnahmen gibt.
+\subsection{Vorverstärkung}
+\label{sec_gain}
+Mit der \glqq Gain up\grqq -Funktion einer Kamera kann die Helligkeit des Bildes elektrisch nachreguliert werden. Falls die Bleuchtungsstärke beispielsweise zu gering ist , kann so über einen Regler in verschiedenen Stufen (meist in 1 dB oder 3 dB Schritten) das Bild vorverstärkt werden. Die Einheit Dezibel (dB) ist logarithmisch. Bei einer Verstärkung von +6 dB ist das Bild doppelt so hell. Durch eine elektrische Beeinflussung des Bildes erhöht sich jedoch auch stets das Bildrauschen im selben maße. Eine Verstärkung von +3 dB erhöht ebenso das Bildrauschen um +3 dB. Daher sollte man das Videosignal nicht zu stark elektrisch vorverstärken\footnote{\cite[406-407]{schmidt}}.\\
+Die Vorverstärkung wird während der Erstellung der Bilder in der Hauptmessung genutzt, um Helligkeiten der Scheinwerfer, an die Kamera anzugleichen.
 
-blende, schärfentiefe, vorverstärkung
+\subsection{Blende}
+\label{sec_blende}
+Die Blende ist die mechanische Öffnung im Objektiv, mit dem die Lichtmenge, die auf den Bildwandler (Kapitel \ref{sec_wandler}) trifft, reguliert werden kann. Sie wird über den Blendenring an der Kamera eingestellt. Je höher die Blende gewählt wird, desto weniger Licht lässt die mechanische Öffnung passieren. Typische Zahlenangaben für eine Blende ist die Blendenreihe, in der die Zahlen immer in Abhängigkeit von $\sqrt{2}$ ansteigen: \\
+f/1,4  f/2  f/2,8  f/4  f/5,6  f/8  f/11  f/16
+Dabei werden die Blendenzahlen immer reziprok zur Brennweite f angegeben\footnote{\cite[387]{schmidt}}. Die Brennweite ist die Entfernung zwischen der Linse zu ihrem Brennpunkt\footnote{\cite{rosko}}. Je größer die Blende der Kamera eingestellt ist, desto mehr Licht wird benötigt, um durch die kleiner werdende Öffnung genug Helligkeit für den Bildwandler zubekommen (Abbildung \ref{b_blende}). Pro Blendenstufe halbiert bzw. verdoppelt man die Beleuchtungsstärke\footnote{\cite[388]{schmidt}}.\\
+Die Kamera, die in der Hauptmessung genutzt wird ist eine Kamera die bei der Blende f/11 eine Beleuchtungsstärke von 2000 lux nutzt, damit das Bild ohne Vorverstärkung das volle Videosignal nutzt (Kapitel \ref{sec_wahlderKamera}). Das bedeutet, dass, wenn bei der Hauptmessung alle Scheinwerfer auf 500 lux Beleuchtungsstärke angepasst werden, diese Kamera nach der Blendenreihe mit einer Blende f/4 arbeitet. Die Blende wird bei der Hauptmessung tatsächlich auf f/3,7 eingestellt, damit eine halbe Blende Spielraum bleibt, die Helligkeit des Bildes über die Vorverstärkung zu beeinflussen (Kapitel \ref{sec_gain}). Das hat den Hintergrund, dass die Scheinwerfer beim Anpassen an die Kamera auch ihre Beleuchtungsstärke ändern. Um diese Veränderung wieder auszugleichen ist es praktikabler über die Vorverstärkung die Helligkeit anzupassen, als zu versuchen mit sehr kleinen Blendenzahlen den richtigen Wert zu treffen (Kapitel \ref{sec_anpassunglampen}).
 
-\section{Farbbildwandlertechnik einer Kamera}
-\label{sec_wandler}
-Es gibt verschiedene Arten von Farbbildwandlern, die in einer Kamera verbaut sind. Die gängigsten Methoden sind die 1- und 3-Wandlertechnik. Die Sensoren von \glqq Single Sensor\grqq -Kameras arbeiten mit aufgedampften Bayer Pattern. Herr Dr. Bryce E. Bayer hat sich dabei an der V-$\Lambda$-Kurve des Auges orientiert und daher teilen die Bayer Pattern das Bild in 50\% grüne, 25\% rote und 25\% blaue Pixel auf\footnote{\cite{itwissen}}. Die fehlenden Farbanteile des Bildes werden über die Nachbarpixel interpoliert und diese gesammelten Farbinformationen dann an den Bildwandler weitergegeben (s. Abbildung).
-%Bild einfügen
-
-Der Nachteil an dieser Methode ist, dass auf diese Weise die Farbauflösung der Bilder verringert wird. Daher ist eine \glqq Single Sensor\grqq -Kamera nicht geeignet, wenn das entstehende Filmmaterial auf ihre Farbigkeit überprüft werden soll.\\
-Bei der 3-Wandler-Technik hingegen wird das in der Kamera ankommende Licht über Filter auf einem Strahlenteiler Prisma in die Farbwertanteile Rot, Grün und Blau aufgespalten und auf den jeweiligen Farbbildwandler durchgelassen\footnote{\cite[378]{schmidt}} (s. Abbildung). 
-%Bild einfügen
-Da die Filter zur Farbauftrennung nicht ideal sind und vor allendingen blaues Licht auf die nicht dafür vorgesehenen Wandler trifft, gibt es einen weiteren Farbkorrekturfilter vor jedem Wandler\footnote{\cite[379]{schmidt}}. Der Vorteil dieser Variante besteht darin, dass Bild keine Farbauflösung verliert. Die spekrtalen Eigenschaften eines Strahlenteilers zeigen, dass eine Kamera das Licht deutlich anders wahrnimmt, als das Auge (Abbildung).
-%Bild einfügen
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/blende} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Darstellung verschiedener Blendzahlen\protect\footnotemark}\label{b_blende}
+\end{figure}
+\footnotetext{\url{https://rogerhirt.ch/wp-content/uploads/2017/12/blende-1280x280-1024x224.png}}
 
 
+\subsection{Schärfentiefe}
+\label{sec_scharf}
+Bei gleichbleibender Brennweite ist die Schärfentiefe des Bildes abhängig von der Blende. Diese Größe sagt aus, wie viele Anteile des Bildes im Hintergund und Vordergrund verschwimmen im Verhältnis zum scharfgestellten Bereich der Kamera. Eine kleine Blendenöffnung (zum Beispiel f/11) führt dazu, dass das Bild größenteils scharf dargestellt wird. Es gibt kaum Bildanteile die verschwimmen und somit wird von einer großen Schärfentiefe gesprochen. Umgekehrt führt eine offene Blende zu einem kleinen Teil der im Bild scharf dargestellt und einer geringen Schärfentiefe\footnote{\cite[389]{schmidt}} (Abbildung \ref{b_scharfentiefe}.\\
+Da bei der Erstellung der Bilder nur Personen auf der selben Ebene dargestellt werden, liegt bei Blende 4 der Kamera die kleinere Schärfentiefe auf den fotografierten Probanden. Der Rest des Bildes erscheint unscharf.
 
-\section{Weißabgleich}
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/scharfentiefe} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Darstellung der Schärfentiefe im Bezug zur Blende\protect\footnotemark}\label{b_scharfentiefe}
+\end{figure}
+\footnotetext{\url{https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiJo7D_k_fcAhWJZlAKHX4zAe4QjRx6BAgBEAU&url=https\%3A\%2F\%2Flukinski.de\%2Fblende-verschlusszeit-iso-wert-grundlagen-fotografie\%2F&psig=AOvVaw0Hqo1IBasaijczWBZx5BjU&ust=1534700237116015}}
+
+\subsection{Kniefunktion}
+\label{sec_knee}
+Mit der Kniefunktion lässt sich verhindern, dass Bilder deren Helligkeit zu groß sind, Details in den übersteuerten Bereichen verlieren, da diese Pegelwerte (Kapitel \ref{sec_gamma}) normalerweise von der Kamera hart abgeschnitten werden. Durch das Aktivieren der Kniefunktion wird die Dynamik des Bildes erhöht und es können sogar Belichtung, die eine Blendenstufe zu hoch sind, im Bild zugelassen werden.\footnote{\cite[389]{schmidt}}.\\
+Die Kniefunktion wird in der Kamera während der Erstellung der Bilder dazu genutzt, falls nach dem Angleichen der Scheinwerfer auf die Kamera, die Belichtung des Bildes zu hoch ist (Kapitel \ref{sec_anpassunglampen}).
+
+\subsection{$\gamma$-Kennlinie}
+\label{sec_gamma}
+Die $\gamma$-Kennlinie beschreibt den Zusammenhang zwischen Lichtstrom und Videopegel. Der Videopegel beschreibt von 0 bis 100\% die Stärke des Videosignals. Diese $\gamma$-Kennlinie ist darauf zurückzuführen, dass die Fernseher mit Kathodenstrahlröhre die Videosignalpegel nur als verzerrte Leuchtdichtewerte ausgegeben haben. Die im Studio aufgenommenen Lichtverhältnisse kommen also nicht zu Hause beim Zuschauer an. Um diesem Umstand entgegen zu wirken, wird das Kamerasignal vorentzerrt (Abbildung \ref{b_gamma}). Aus diesen historischen Gründen ist die $\gamma$-Vorentzerrung des Videosignals geblieben. Ein Fernseher hat typischerweise einen $\gamma$-Wert von 2,2 und die Kamera folglich den Kehrwert von ca. $\gamma=0,45$.\footnote{\cite[408-409]{schmidt}}.\\
+Alle Kamerasignale bei der Erstellung der Bilder für die Umfrage sind auch $\gamma$-vorentzert. Außerdem ist die TLCI-Messung mit einer Kamera auch mit $\gamma$ behaftet (Kapitel \ref{sec_tlci}).
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/gamma} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Darstellung der $\gamma$Vorentzerrung und Rückkorrektur\protect\footnotemark}\label{b_gamma}
+\end{figure}
+\footnotetext{\url{http://www.simpelfilter.de/farbmanagement/images/grafik_farbuebertragung.gif}}
+
+\subsection{Linear Matrix}
+\label{matrix}
+Die Matrix einer Kamera ist für eine Korrektur der Farbwiedergabe nötig. Denn die Spektralwertkurven eines Bildwandlers können keine negativen Spektralanteile aufzeichnen können (Kapitel \ref{sec_wandler}). Die Bildschirme nutzen aber die Primärvalenzen der EBU, die wiederum mit negativen Werten arbeiten. Die lineare Matrix macht es nun möglich, dass die Spektralwertanteile von dem Bilderwandler auf die Bildschirmebene transformiert wird.\footnote{\cite[412-413]{schmidt}}.\\
+Die Notwendigkeit der Transformation zeigt, dass die Kamera Spektren deutlich anders bewertet als das menschliche Auge und damit auch als lichttechnische Messgeräte (Abbildung \ref{b_matrix}) Das spielt eine große Rolle für das weitere Vorgehen bei der Erstellung der Bilder während der Hauptmessung (Kapitel \ref{sec_anpassunglampen}).
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/matrix} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Darstellung der $\gamma$-Vorentzerrung und Rückkorrektur\protect\footnotemark}\label{b_matrix}
+\end{figure}
+\footnotetext{\cite[412]{schmidt}}
+
+
+\subsection{Weißabgleich}
 \label{sec_wb}
-Ein Weißabgleich einer Kamera meint den Vorgang eines\emph{\glqq Unbuntabgleich in Bildweiß\grqq} \citep[414]{schmidt}. Unter verschiedenen Beleuchtungssituationen wirkt ein weißes Blatt Papier in der Kamera farbstichig und nicht unbunt. Das liegt daran, das die Kamera erst auf die neue Lichtsituation eingestellt werden muss. Das Auge dagegen kann adaptiert sich meist unbemerkt auf verschiedene Beleuchtungssituationen und so wirkt das Blatt Papier für den Menschen stets weiß. Die Kamera muss also auf Tages- bzw. Kunstlicht geeicht werden, damit in der Kamera weiß auch als solches erkannt wird und keinen Farbstich hat. Ziel ist es bei einem Weißabgleich dass, wenn eine weiße Fläche unter den gewählten Beleuchtungsumständen gefilmt wird, in der Kamera die Signalpegel der RGB-Kanäle zu 100\% ausschlagen. Um die Signalpegel messen zu können, wird das Kamerasignal mit einem Waveformmonitor oder Vektorskop beurteilt (siehe Kaptitel \ref{sec_wmf} und \ref{sec_vector}). Der Vorgang kann in 4 Schritte eingeteilt werden\footnote{\cite[206]{heinen}}:
+Ein Weißabgleich einer Kamera meint den Vorgang eines\emph{\glqq Unbuntabgleich in Bildweiß\grqq} \citep[414]{schmidt}. Unter verschiedenen Beleuchtungssituationen wirkt ein weißes Blatt Papier in der Kamera farbstichig und nicht unbunt. Das liegt daran, das die Kamera erst auf die neue Lichtsituation eingestellt werden muss. Das Auge dagegen kann adaptiert sich meist unbemerkt auf verschiedene Beleuchtungssituationen und so wirkt das Blatt Papier für den Menschen stets weiß. Die Kamera muss also auf Tages- bzw. Kunstlicht geeicht werden, damit in der Kamera weiß auch als solches erkannt wird und keinen Farbstich hat. Ziel ist es bei einem Weißabgleich dass, wenn eine weiße Fläche unter den gewählten Beleuchtungsumständen gefilmt wird, in der Kamera die Signalpegel der RGB-Kanäle zu 100\% ausschlagen (Abbildung \ref{b_wb}). Um die Signalpegel messen zu können, wird das Kamerasignal mit einem Waveformmonitor oder Vektorskop beurteilt (siehe Kaptitel \ref{sec_wmf} und \ref{sec_vector}). Der Vorgang kann in 4 Schritte eingeteilt werden\footnote{\cite[206]{heinen}}:
 
 \begin{enumerate}
 \item Die weiße Fläche wird auf mind. 80\% der Bildschirmgröße kadriert, um sicherzustellen, dass wirklich nur die weiße Fläche vom Waveformmonitor erfasst wird.
@@ -897,7 +1042,53 @@ Ein Weißabgleich einer Kamera meint den Vorgang eines\emph{\glqq Unbuntabgleich
 \item Man wählt den Speicherplatz auf der Kamera für den Weißabgleich aus (A oder B). Meist ist es möglich mehrere Weißabgleichdaten zu speichern, um beispielsweise schnell mit der Kamera zwischen Kunst- und Tageslichtsituationen wechseln zu können.
 \item Der Weißabgleichsknopf der Kamera wird betätigt und dabei werden die R- und B-Kanäle auf den selben Pegel des G-Kanal verstärkt, sodass alle drei Kanäle den gleichen Signalpegel aufweisen.
 \end{enumerate}
-  
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/arri} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Waveformmonitor Screenshot vom Weißabgleich des Arri D5 mit einer Grautreppe}\label{b_matrix}
+\end{figure}
+
+
+Die drei Abschnitte stehen von links nach rechts für die Rot-, Grün- und Blausignalanteile. Die \glqq Treppenstufen\grqq\ zeigen die Grautreppe des Bildes. Für den Weißabgleich ist entscheidend, dass alle drei Signalpegel auf 100\% eingestellt ist (mit rot gekennzeichnet), damit weiß in der Kamera auch weiß aussieht. \\
+Für die Hauptmessung ist zu beachten, dass man auf diese Weise zwar jedem Scheinwerfer einen gleichen Weißwert in der Kamera geben kann. Jedoch beeinflusst diese Anpassung nicht die Farben der Scheinwerfer und lässt dadurch zum Beispiel Hauttöne natürlich aussehen. Die Farben sind weiterhin vom Spektrum der Scheinwerfer abhängig.
+
+\section{Farbbildwandlertechnik einer Kamera}
+\label{sec_wandler}
+Es gibt verschiedene Arten von Farbbildwandlern, die in einer Kamera verbaut sind. Die gängigsten Methoden sind die 1- und 3-Wandlertechnik.\\
+Die Sensoren von \glqq Single Sensor\grqq -Kameras arbeiten mit aufgedampften Bayer Pattern, um ein Farbbild zu erzuegen (Abbildung \ref{b_bayer}). Herr Dr. Bryce E. Bayer hat sich dabei an der V-$\Lambda$-Kurve des Auges orientiert und daher teilen die Bayer Pattern das Bild in 50\% grüne, 25\% rote und 25\% blaue Pixel auf\footnote{\cite{itwissen}}. Die fehlenden Farbanteile des Bildes werden über die Nachbarpixel interpoliert und diese gesammelten Farbinformationen dann an den Bildwandler weitergegeben.
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.6\textwidth]{bilder/bayer} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Bayer Pattern auf einem Kamerachip\protect\footnotemark}\label{b_bayer}
+\end{figure}
+\footnotetext{\url{http://www.hispeedcams.com/wp-content/uploads/2015/06/BayerPattern.jpg}}
+
+Der Nachteil an dieser Methode ist, dass auf diese Weise die Farbauflösung der Bilder verringert wird. Daher ist eine \glqq Single Sensor\grqq -Kamera nicht geeignet, wenn das entstehende Filmmaterial auf ihre Farbigkeit überprüft werden soll.\\
+Bei der 3-Wandler-Technik hingegen wird das in der Kamera ankommende Licht über Filter auf einem Strahlenteiler Prisma in die Farbwertanteile Rot, Grün und Blau aufgespalten und auf den jeweiligen Farbbildwandler durchgelassen\footnote{\cite[378]{schmidt}} (Abbildung \ref{b_wandler}). 
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.6\textwidth]{bilder/wandler} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Schematischer Aufbau eines Farbbildwandlers\protect\footnotemark}\label{b_wandler}
+\end{figure}
+\footnotetext{\cite[378]{schmidt}}
+
+
+Da die Filter zur Farbauftrennung nicht ideal sind und vor allendingen blaues Licht auf die nicht dafür vorgesehenen Wandler trifft, gibt es einen weiteren Farbkorrekturfilter vor jedem Wandler\footnote{\cite[379]{schmidt}}. Der Vorteil dieser Variante besteht darin, dass Bild keine Farbauflösung verliert. Die spektralen Eigenschaften eines Strahlenteilers zeigen, dass Kameras mit 3-Wandler-Technik das Licht schon \glqq vorfiltern\grqq\ (Abbildung \ref{b_twandler}). Danach wird es noch über die Farbmischkurven des Sensors weiter gewichtet (Abbildung \ref{b_matrix}). Damit wird das Licht  auf zwei Instanzen hintereinander in der Kamera unterschiedlich vom Auge bewertet.
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.6\textwidth]{bilder/twandler} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Transmission eines Strahlteilers\protect\footnotemark}\label{b_twandler}
+\end{figure}
+\footnotetext{\cite[379]{schmidt}}
+
 
 \section{RGB-Signal}
 \label{sec_rgbsignal}
@@ -933,26 +1124,40 @@ Diese Gleichungen gelten für SD-Signale. Für HD-Signale sind folgende Gleichun
 \end{eqnarray}
 
 
-Damit sind die zwei Anforderungen erfüllt. Das $YC_{R}C_{B}$-Signal ist wichtig für die Messung mit dem Vektorskop in den Hauptmessungen (Kapitel). Das Signal an sich muss noch weiter angepasst werden, damit es irgendwann ein sendefähiges Fernsehsignal wird. Diese Entwicklung ist in dieser Arbeit abr nicht mehr von Belang.
-
-%Bild einfügen?
+Damit sind die zwei Anforderungen erfüllt. Das $YC_{R}C_{B}$-Signal ist wichtig für die Messung mit dem Vektorskop in den Hauptmessungen (Kapitel). Das Signal an sich muss noch weiter angepasst werden, damit es irgendwann ein sendefähiges Fernsehsignal wird. Diese Entwicklung ist in dieser Arbeit aber nicht mehr von Belang.
 
 
-\chapter{Videotechnische Messgeräte}
+
+\section{Videotechnische Messgeräte}
 In der Hauptmessung werden zwei videotechnische Messgeräte genutzt, um den Weißabgleich der Scheinwerfer zu überprüfen und die Farbverschiebung in der Kamera aufzuzeigen.
 
-\section{Waveformmonitor}
+\subsection{Waveformmonitor}
 \label{sec_wmf}
 Ein Waveformmonitor ist ein Oszilloskop für die Videomessung. Oszilloskope basieren auf der Braunschen Röhre mit einem Elektronenstrahl. Dieser wiederum regt einen Bildpunkt auf der Bildschirm des Gerätes an\footnote{\cite[109]{schmidt}}.
-Die Messspannung ist für die Ausrichtung des Strahls zuständig und der Elektronenstrahl kann dadurch in horizontaler (x-Achse) wie vertikaler (y-Achse) Ausrichtung beeinflusst werden. Dazu werden zwei Spannungen genutzt (Abbildung) 
-%Bild einfügen
+Die Messspannung ist für die Ausrichtung des Strahls zuständig und der Elektronenstrahl kann dadurch in horizontaler (x-Achse) wie vertikaler (y-Achse) Ausrichtung beeinflusst werden. Dazu werden zwei Spannungen genutzt (Abbildung \ref{b_oszilloskop}).
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{bilder/oszilloskop} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Funktionsweise eines Oszilloskops\protect\footnotemark}\label{b_oszilloskop}
+\end{figure}
+\footnotetext{\url{http://www.hobby-bastelecke.de/bilder/messen/oszilloskop.gif}}
+
 Das Messgerät misst eine Zeile des Bildes, die am Gerät ausgewählt werden kann. Bei Messungen wird normalerweise nur die y-Achse genutzt und die horizontaler Richtung wird nach festgelegten Zeit durchlaufen\footnote{\cite[110]{schmidt}}. Auf dem Bildschirm des Messgerätes wird der Pegel von 0-100 angezeigt, so wie der negative Bereich für den Synchonisationbrust bei $-0,3$V. Bei periodischen Signalen wird die Messung speziell getriggert, sodass die Pegelwerte der selben Messzeit und Phasenlänge stets übereinander liegen. Durch bestimmte Filter kann nur das Luminanzsignal, Chrominanzsignal oder beide dargestellt werden\footnote{\cite[111]{schmidt}}.\\
-Bei einem Weißabgleich werden Waveformmonitore genutzt um zu überprüfen, dass unter einen bestimmen Beleuchtung alle Pegel gleich ausgesteuert sind (Abbildung).
+Bei einem Weißabgleich werden Waveformmonitore genutzt um zu überprüfen, dass unter einen bestimmen Beleuchtung alle Pegel gleich ausgesteuert sind (Abbildung \ref{b_wmf}).
 
-%Bild einfügen
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{bilder/wmf} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Frontansicht eines Waveformmonitors der Firma Tektronix\protect\footnotemark}\label{b_wmf}
+\end{figure}
+\footnotetext{\url{https://www.tek.com/sites/default/files/media/image/A000_1387-L.jpg}}
 
+Die Pegel werden von 0 mV bis 700 mV angezeigt. Die negativen Pegel (-300 mV) werden für die Synchronisation des Videosignals genutzt. Das Bild wird dabei in drei Blöcke für das Rot-, Grün- und Blausignal aufgeteilt ( von l. nach r.). Der WFM wird auch während der Hauptmessung zu Überprüfung des Videosignals genutzt.
 
-\section{Vektorskop}
+\subsection{Vektorskop}
 \label{sec_vector}
 Der Farbton ist mit einem WFM-Monitor nicht gut erkennbar, da der Phasenwinkel der Farbanteilsignale des RGB-Signals im hochfrequenten Bereich schwer auslesbar sind. An dieser Stelle kommt das Vektorskop ins Spiel. Dieses Gerät wird auch mit einen Elektronenstrahl in zwei verschiedene Achsen betrieben. Im Gegensatz zum Waveformmonitor orientiert sich das Vektorskop horizontal an der U- und vertikal an der V-Komponente des FBAS-Signals. Die U- und V-Werte stammen aus dem Farbdifferzsignalen des Komponentensignals mit einer anderen Pegelreduzierung (Gleichung \ref{gl_vector1}).
 
@@ -962,10 +1167,25 @@ Der Farbton ist mit einem WFM-Monitor nicht gut erkennbar, da der Phasenwinkel d
 \end{eqnarray}
 
 Diese Anpassung wird dadurch verursacht, dass die Farbdifferenzsignale im FBAS-Signal in modulierter Form überlagert werden und daher im Pegel reduziert werden müssen\footnote{\cite[84]{schmidt}}. Das FBAS-Signal ist eine abgewandelte Form des Komponentensignals und für diese Arbeit unrelevant.\\
-Der Bildschirm eines Vektorkops ist mit sechs Toleranzflächen ausgestattet und zeigt über den ganzen Bildschirm alle Farben an. In der Mitte der Anzeige liegt der Unbuntpunkt. Der Elektrodenstrahl fährt über den Bildschirm und zeigt die Farben der Bildzeile an. Dafür wird das Vektorskop mit einem Farbbalkentestbild kalibriert. Das Farbbalkentestbild besteht aus allen sieben möglichen Kombinationen der RGB-Farbanteile (Abbildung).
-%Bild einfügen
-Abhängig davon, ob das Testbild mit vollausgesteuerten RGB-Farbanteilen (100/100) oder mit 75\% Pegelsignal erstellt wurde (75/100), wird der Synchronisationburst vom 0-Punkt aus mit einem Winkel von $135^\circ$ mit der entsprechenden Länge dargestellt. So wird dann entweder die Makierung \glqq 100\grqq\ oder \glqq 75\grqq\ getroffen (Abbildung)
-%Bild einfügen
+Der Bildschirm eines Vektorkops ist mit sechs Toleranzflächen ausgestattet und zeigt über den ganzen Bildschirm alle Farben an. In der Mitte der Anzeige liegt der Unbuntpunkt. Der Elektrodenstrahl fährt über den Bildschirm und zeigt die Farben der Bildzeile an. Dafür wird das Vektorskop mit einem Farbbalkentestbild kalibriert. Das Farbbalkentestbild besteht aus allen sieben möglichen Kombinationen der RGB-Farbanteile (Abbildung \ref{b_te106}).
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.6\textwidth]{bilder/te106} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {\glqq TE106\grqq\ Color Bar Test Chart der Firma Image Engineering\protect\footnotemark}\label{b_te106}
+\end{figure}
+\footnotetext{\url{https://www.image-engineering.de/content/products/charts/te106/images/TE106.jpg}}
+
+Abhängig davon, ob das Testbild mit vollausgesteuerten RGB-Farbanteilen (100/100) oder mit 75\% Pegelsignal erstellt wurde (75/100), wird der Synchronisationburst vom 0-Punkt aus mit einem Winkel von $135^\circ$ mit der entsprechenden Länge dargestellt. So wird dann entweder die Makierung \glqq 100\grqq\ oder \glqq 75\grqq\ getroffen (Abbildung \ref{b_vektorskop}).
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.6\textwidth]{bilder/vektorskop} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {\glqq TE106\grqq\ Darstellung der Vektorskopeinteilung mit der Q- und I-Achse\protect\footnotemark}\label{b_vektorskop}
+\end{figure}
+\footnotetext{\url{https://upload.wikimedia.org/wikipedia/commons/7/7b/Vectorscope_graticule.png}}
 
 Danach werden alle Farben des Vektorkops einmal im Toleranzfeld getroffen. Eine Winkelabweichung steht im diesen Zusammenhang für einen Farbtonfehler. Mit bis zu 3\% Winkelabweichung kann der richtige Farbton noch getroffen werden. Eine Amplitudenabweichung des Signals ist ein Sättigungsfehler und wird durch die Toleranzfelder mit bis zu 5\% Abweichung anerkannt\footnote{\cite[114]{schmidt}}.
 
@@ -990,34 +1210,63 @@ Den Scheinwerfern wird dann in 10\% Schritten das rotgefilterte Licht des Stufen
 \section{Fazit aus der Vormessung}
 \label{sec_vmfazit}
 Die Auswirkungen des \glqq Red Tail\grqq\ wird vorallendingen in den TLCI-Werten sichtbar. Zusätzlich sind auch leichte Tendenzen bei den CQS-Werten und den TM-30-Werten bemerkbar.
-Wenn man dem K-Eye K20 ein zusätzliches Rosco 027 \glqq Medium Red\grqq\ dazumischt, dann ist der \glqq Red Tail\grqq\ ab 20\% gesättigt. Mit 50\% zusätzlichem Rot sind die Farbwiedergabewerte so niedrig, dass der \glqq Red Tail\grqq\ eine Verschlechterung des Scheinwerfers darstellt. Dies ist eine Folge aus dem Angleichen des Scheinwerferspektrums mit einem größeren \glqq Red Tail\grqq\ .
-Das zusätzliche Rot muss jedes mal mit den Farben des Scheinwerfers ausgeglichen werden, um dasselbe 6000k-Weiß zu erhalten. Abhängig von diesem neuen Mischverhältnis mit dem \glqq Red Tail\grqq\ ergibt sich entweder ein Spektrum, dass durch das Rot und die ausgleichenden Farben bereichert wurde, oder das Spektrum wurde durch die stetig größer werdenden Peaks und Einbuchtungen verzogen.
-%Bild einfügen
+Wenn man dem K-Eye K20 ein zusätzliches Rosco 027 \glqq Medium Red\grqq\ dazumischt, dann ist der \glqq Red Tail\grqq\ ab 20\% gesättigt (Abbildung \ref{b_keyevor1}). 
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/keyevor1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Alle 10 Spektren der Vormessung des K-Eye K20 mit einem zusätzlichen  Rosco 027 \glqq Medium Red\grqq\ (das farbige Spektrum wurde ohne zusätzlichen tiefroten Spektralanteil gemessen.)}\label{b_keyevor1}
+\end{figure}
+
+Mit 50\% zusätzlichem Rot sind die Farbwiedergabewerte so niedrig, dass der \glqq Red Tail\grqq\ eine Verschlechterung des Scheinwerfers darstellt. Dies ist eine Folge aus dem Angleichen des Scheinwerferspektrums mit einem größeren \glqq Red Tail\grqq\ .
+Das zusätzliche Rot muss jedes mal mit den Farben des Scheinwerfers ausgeglichen werden, um dasselbe 6000k-Weiß zu erhalten. Abhängig von diesem neuen Mischverhältnis mit dem \glqq Red Tail\grqq\ ergibt sich entweder ein Spektrum, dass durch das Rot und die ausgleichenden Farben bereichert wurde, oder das Spektrum wurde durch die stetig größer werdenden Peaks und Einbuchtungen verzogen (Abbildung \ref{b_keyevor2}).
+
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/keyevor2} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Mit 50\% \glqq Red Tail\grqq\ (farbig) wird das Spektrum schlechter. Die Roten Kreise weisen auf die entstehenden Peaks (Blau / Rot / Limette) und Täler (Amber / Cyan) hin.}\label{b_keyevor2}
+\end{figure}
 
 
 Mit dem Rosco 787 \glqq Marius Red\grqq\ sind analog zum 027 Filter dieselben Tendenzen erkennbar, außer dass die Sättigung des \glqq Red Tail\grqq\ erst bei 30\% erreicht ist.
-Der Rosco 789 \glqq Blood Red\grqq\ Filter hingegen zeigt ein anderes Bild. Ab 30\% tritt auch hier die Sättigung des \glqq Red Tail\grqq\ ein. Eine weitere Erhöhung des zuätzliches Rotes ändert aber weder die Farbwiedergabewerte, noch machen sie eine größere Anpassung der Farben des K-Eye K20 nötig. Dieses Verhalten ist daher zu erklären, dass der Transmissionsgrad des Rosco 789 \glqq Blood Red\grqq\ Filters  $Y=1,2\%$ beträgt, also nur 1,2\% des Lichts der Stufenlinsen durchlässt. Dieser selbst gebaute \glqq Red Tail\grqq\ ist mit der Leistungsklasse eines 1kW-Leuchtmittel zu dunkel, um über den Sättigungspunkt hinauszukommen.  
+Der Rosco 789 \glqq Blood Red\grqq\ Filter hingegen zeigt ein anderes Bild. Ab 30\% tritt auch hier die Sättigung des \glqq Red Tail\grqq\ ein. Eine weitere Erhöhung des zuätzliches Rotes ändert aber weder die Farbwiedergabewerte, noch machen sie eine größere Anpassung der Farben des K-Eye K20 nötig. Dieses Verhalten ist daher zu erklären, dass der Transmissionsgrad des Rosco 789 \glqq Blood Red\grqq\ Filters  $Y=1,2\%$ beträgt, also nur 1,2\% des Lichts der Stufenlinsen durchlässt. Dieser selbst gebaute \glqq Red Tail\grqq\ ist mit der Leistungsklasse eines 1kW-Leuchtmittel zu dunkel, um über den Sättigungspunkt hinauszukommen(Abbildung \ref{b_keyevor3}).  
 
-%Bild einfügen
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/keyevor3} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Alle 10 Spektren der Vormessung des K-Eye K20 mit einem zusätzlichen  Rosco 789 \glqq Blood Red\grqq\ (das farbige Spektrum wurde ohne zusätzlichen tiefroten Spektralanteil gemessen.)}\label{b_keyevor3}
+\end{figure}
 
-Für den Mac Encore CLD Wash kann man mit dem Rosco 027 \glqq Medium Red\grqq\ eine ähnliche Tendenz wie bei dem K-Eye K20 feststellen. Ab 40\% kann man von einer Sättigung des \glqq Red Tail\grqq\ reden. Der Rosco 787 \glqq Marius Red\grqq\ Filter liefert erst bei 70\% eine Sättigung und zeigt so, dass schon dieser Rotton zu dunkel ist, um die Sättigungswert zu überschreiten. Weil der Rosco 789 \glqq Blood Red\grqq\ Filter noch dunkler als der 787 Filter ist und dieselben Tendenzen wie alle zusätzlichen Rottöne liefert, wird dieser Rotton nicht in den Hauptmessungen verwendet. \\
+Für den Mac Encore CLD Wash kann man mit dem Rosco 027 \glqq Medium Red\grqq\ eine ähnliche Tendenz wie bei dem K-Eye K20 feststellen (Abbildung \ref{b_encorevor1}. Ab 40\% kann man von einer Sättigung des \glqq Red Tail\grqq\ reden. Der Rosco 787 \glqq Marius Red\grqq\ Filter liefert erst bei 70\% eine Sättigung und zeigt so, dass schon dieser Rotton zu dunkel ist, um die Sättigungswert zu überschreiten. Weil der Rosco 789 \glqq Blood Red\grqq\ Filter noch dunkler als der 787 Filter ist und dieselben Tendenzen wie alle zusätzlichen Rottöne liefert, wird dieser Rotton nicht in den Hauptmessungen verwendet. \\
 Die Tendenzen zeigen, dass der \glqq Red Tail\grqq\ vorallendingen den TLCI verbessert und den Scheinwerfern ein besseres kalteweißes Spektrum ermöglicht. In der Hauptmessung wird sich zeigen, wie sich der zusätzliche tiefrote Anteil auf andere Scheinwerfer auswirkt.
 
-%bessere letzte Begründung
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/encorevor1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Alle 10 Spektren der Vormessung des MAC Encore Wash CLD mit einem zusätzlichen  Rosco 027 \glqq Medium Red\grqq\ (das farbige Spektrum wurde ohne zusätzlichen tiefroten Spektralanteil gemessen)}\label{b_encorevor1}
+\end{figure}
 
 
 \section{Referenzlicht}
 \label{sec_reflicht}
-Als Referenzlicht ist der Arri Sun 5 mit einem frischen Leuchtmittel bestimmt worden, damit man die LED-Scheinwerfer an dieses Spektrum angeleichen kann. Dieser Scheinwerfer soll durch Abstand und Zoom auch auf eine Beleuchtungsstärke von 500lux gebracht werden. Bei einem größtmöglichen Abstand von 10m ist das nur über den maximalen Zoom des Scheinwerfers möglich. Dies hat zur Folge, dass das Leuchtmittel selbst über den Reflektor des Scheinwerfers gespiegelt und \glqq rückprojeziert\grqq\ wird, dass dadurch ein dunkler Bereich in Mitten des Lichtkegels entsteht. Da man das Referenzspektrum nicht verfälschen möchte, wird bei dem Referenzlicht auf jegliche Art von Filtern verzichtet. Unter dieses Umständen kann der Arri Sun 5 nicht als Referenzlampe genutzt werden.
+Als Referenzlicht ist der Arri Sun 5 mit einem neuen Leuchtmittel bestimmt worden, damit man die LED-Scheinwerfer an dieses Spektrum angeleichen kann. Dieser Scheinwerfer soll durch Abstand und Zoom auch auf eine Beleuchtungsstärke von 500lux gebracht werden. Bei einem größtmöglichen Abstand von 10m ist das nur über den maximalen Zoom des Scheinwerfers möglich. Dies hat zur Folge, dass das Leuchtmittel selbst über den Reflektor des Scheinwerfers gespiegelt und \glqq rückprojeziert\grqq\ wird, dass dadurch ein dunkler Bereich in Mitten des Lichtkegels entsteht. Da man das Referenzspektrum nicht verfälschen möchte, wird bei dem Referenzlicht auf jegliche Art von Filtern verzichtet. Unter dieses Umständen kann der Arri Sun 5 nicht als Referenzlampe genutzt werden.
 
-Daher wird in der Hauptmessung ein Arri True Blue D5 genutzt, der innerhalb von 10m, mit dem Zoom auf 500 lux angepasst, ein gutes Referenzlicht liefert, allerdings ca. 600K wärmer als der Arri Sun 5 ist. So kommt es, dass die Vormessungen auf 6000K, die Hauptmessung jedoch auf 5400K eingemessen sind. Da nur die Tendenzen der Vormessung eine Rolle spielen und die Vormessung keine direkte Einwirkung auf die Hauptmessung hat, ist dieser Unterschied zu vernachlässigen.
+Daher wird in der Hauptmessung ein Arri True Blue D5 genutzt, der innerhalb von 10m, mit dem Zoom auf 500 lux angepasst, ein gutes Referenzlicht liefert, welches allerdings ca. 600K wärmer als der Arri Sun 5 ist (Abbildung \ref{b_ref}. So kommt es, dass die Vormessungen auf 6000K, die Hauptmessung jedoch auf 5395K eingemessen sind. Da nur die Tendenzen der Vormessung eine Rolle spielen und die Vormessung keine direkte Einwirkung auf die Hauptmessung hat, ist dieser Unterschied zu vernachlässigen.
 
-%Referenzlicht bild einfügen
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/ref} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Spektrum des Refernenzscheinwerfers ARRI D5)}\label{b_ref}
+\end{figure}
+
 
 \chapter{Hauptmessung}
-
-Für Scheinwerfer im Veranstaltungsbereich werden mittlerweile verschiedene LED-Leuchtmittel verwendet. Am Anfang waren Scheinwerfer typisch, die mit einem RGB-Modul bestückt waren. Farben sind mit diesen Scheinwerfern gut darstellbar, ein gemischtes RGB-Weißlicht hingegen hat keine akzeptable Qualitität. Scheinwerfer mit RGBW LEDs stellen eine Verbesserung der Weißlichtqualität dar, können aber damit immernoch das sichtbare Spektrum füllen. Daher gehen Scheinwerferhersteller dazu über Scheinwerfer mit noch mehr farbenen LEDs zu bauen (Multichip). So hat der Clay Paky K-Eye K20 beispielsweise 6 LEDs mit Rot, Grün, Blau, Lime, Amber und Cyan. Das daraus resultierende Spektrum hat eine hohe Farb- und Unbuntqualität. Andere Scheinwerfer setzten wiederum auf eine reinweiße LED-Engine mit nur weißen LEDs. Der Martin Mac Encore Wash CLD beispielsweise erreicht mit seiner LED-Engine die noch zusätzlich ein CMY-Mischung hat auch hohe Farb- und Unbuntquälitäten.  
-%drüber gucken
 
 Für die Hauptmessungen werden vier Scheinwerfer mit Multichip-LED Engine und zwei Scheinwerfer mit reinweißer LED-Engine ausgewählt. Bei den Multichip-Scheinwerfer ist der zuvorgenannte Clay Paky K-Eye K20, mit 6 verschieden farbigen LEDs, dabei, als Alternative, der Robe Robin Dl7F Wash, mit 7 verschieden farbigen LEDs, und der weltweit verbreitete ETC Source Four LED Series 2 Lustr, ebenfalls mit 7 verschieden farbigen LEDs. Dazu kommt eine weiterer \glqq Standartscheinwerfer\grqq\ aus dem TV-Bereich: der GLP Impression X4 in der \glqq L\grqq\ - Variante. Dieser verfügt über eine rote, grüne und blaue, wie eine weiße LED in seinen LED-Arrays. Weiterhin gab es noch den Martin MAC Encore CLD Wash speziell für die Personenbeleuchtung ausgelegt mit einer reinweißen LED-Engine und den Ayrton Ghibli, ebenfalls mit einer reinweißen LED-Engine, als Beispiel für einen LED-Effektscheinwerfer. 
 Mit diesen Scheinwerfern soll die Auswirkung eines \glqq Red Tail\grqq\ überprüft werden.
@@ -1026,25 +1275,50 @@ Mit diesen Scheinwerfern soll die Auswirkung eines \glqq Red Tail\grqq\ überpr�
 
 \section{Messaufbau und Messungen}
 \label{sec_hmaufbau}
-Der Messaufbau gleicht dem der in der Vormessung (Kapitel \ref{sec_vmaum}). Mit 7m Abstand werden die Scheinwerfer zum Messgerät aufgebaut und über Zoom- und Abstandsvariation auf ca. 500 lux Beleuchtungstärke eingestellt, nachdem sie auf das Arri D5-Referenzweiß abgeglichen worden sind. Es wird wiederum mit dem JETI specbos 1211 mit dem Standartdiffusor gemessen und mit dem UPRtek 350S gegenkontrolliert. Alle Scheinwerfer werden so nahe wie möglich an den 1kW Stufenlinsenscheinwerfer mit den roten Filterfolien herangestellt, um den Fehler der verschiedenen Winkel so gering wie möglich zu halten. Der zu messende Scheinwerfer ist dabei im rechten Winkel zum Messgerät angeordnet, der Stufenlinsenscheinwerfer leicht angewinkelt. 
+Der Messaufbau gleicht dem der in der Vormessung (Kapitel \ref{sec_vmaum}). Mit 7m Abstand werden die Scheinwerfer zum Messgerät aufgebaut und über Zoom- und Abstandsvariation auf ca. 500 lux Beleuchtungstärke eingestellt, nachdem sie auf das Arri D5-Referenzweiß abgeglichen worden sind. Es wird wiederum mit dem JETI specbos 1211 mit dem Standartdiffusor gemessen und mit dem UPRtek M350S gegenkontrolliert. Alle Scheinwerfer werden so nahe wie möglich an den 1kW Stufenlinsenscheinwerfer mit den roten Filterfolien herangestellt, um den Fehler der verschiedenen Winkel so gering wie möglich zu halten. Der zu messende Scheinwerfer ist dabei im rechten Winkel zum Messgerät angeordnet, der Stufenlinsenscheinwerfer leicht angewinkelt (Abbildung \ref{messbild1}. 
 
-%Bild einfügen
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/messbild1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Aufbau des \glqq Red Tail\grqq\ mit dem MAC Encore Wash CLD)}\label{b_ref}
+\end{figure}
 
 Jeder Scheinwerfer wird also auf eine Farbtemperatur von 5395K des Referenzlichts eingestellt, mit einem möglichsten geringen Abstand zur Plank'schen Kurve ($ \Delta u'v'=\pm0,0001$) und einem sehr ähnlichem Farbort, um die Messungen vergleichbar zu machen. Wenn dem Scheinwerfer ein \glqq Red Tail\grqq\ hinzugemischt wird, wird der Scheinwerfer erneut auf die Referenz angeglichen. 
 
-%zuwenig?
+%Beispiel bringen
 
 \chapter{Messergebnisse}
 
 Die Tendenzen zeigen, dass der Ghibli, MAC Encore, Lustr und K-Eye K20 durch den Red Tail verbessert wurden. Wie in den Vormessungen zu sehen, zeigt sich dies in allen Farbwiedergabewerten, vorallendingen aber im TLCI. Der MAC Encore kann mit einem Rosco 027 \glqq Medium Red\grqq\ im TLCI sogar um 16 Punkte verbessert werden. Diese Scheinwerfer zeigen, dass der zusätzliche \glqq Red Tail\grqq\ eine Verbesserung des Spektrums darstellt, unabhänging davon, welches zusätzliche rot genutzt wird. 
-% Bild einfügen
+% Tabelle einfügen
 
-Die Erklärung liegt hier wie in der Vormessung an den beiden Vorteilen des \glqq Red Tail\grqq\ : Es wird auf der einen Seite der tiefrote Bereich der Scheinwerfer aufgefüllt und zum anderen werden zum Ausgleich des zusätzlichen tiefroten Anteils wieder wertvolle Anteile in der Mitte des Spektrums dazugemischt. Spannend ist, das beim Clay Paky K-Eye K20 nur der TLCI verbessert werden konnte. Dies hängt damit zusammen, dass dem K-Eye K20 mit \glqq Red Tail\grqq\ deutlich weniger Amber zur Verfügung steht und der 645nm Rot-Peak in die Höhe schießt. Das Spektrum wird also unausgeglichener und dafür von den Farbwiedergabewerten bestraft.\\
-%Verweis einfügen
-Der Impression X4L konnte nicht durch ein zusätzliches rot verbessert werden. Dies liegt daran, dass das Spektrum, des X4Ls vorallendingen aus schmalbandigen Peaks besteht, die das Spektrum nicht ausfüllen. Zusätzlich kann man mit der blauen LED, das Spektrum nicht weiter ausfüllen, da der Peak der weißen LED exakt mit dem der blauen LED übereinstimmt. Auch ein Angleichen des Spektrums mit einem \glqq Red Tail\grqq\ verbessert dieses extreme Spektrum nicht, sondern vergrößert das spektrale Tief im 595nm Wellenlängebereich sogar. Ein aufgefülltes Spektrum kann also mit einem \glqq Red Tail\grqq\ bereichert werden, während man bei einem schmalbandigen Spektrum für eine Auffüllung der Randbereiche nicht belohnt wird.\\
-%Bild einfügen
-Bei dem Robe Robin DL7F haben wir im High-CRI Modus auch keine Verbesserung mit einem \glqq Red Tail\grqq\ erzielen können. Das Spektrum des Robin DL7F ist durch viele Peaks und Täler gekennzeichnet, außer im Bereich von 510nm-550nm Wellenlänge, wo das Spektrum sehr breitbandig ist. Durch Angleichungen an den \glqq Red Tail\grqq\ wird das Lime vermindert, das Tal im gelben Spektralbereich noch tiefer und der rot Peak wird erhört. Das Spektrum wird also noch mehr in seine Extreme verzerrt und dass wird von den Farbwiedergabewerten bestraft.
-%Bild einfügen
+Die Erklärung liegt hier wie in der Vormessung an den beiden Vorteilen des \glqq Red Tail\grqq\ : Es wird auf der einen Seite der tiefrote Bereich der Scheinwerfer aufgefüllt und zum anderen werden zum Ausgleich des zusätzlichen tiefroten Anteils wieder wertvolle Anteile in der Mitte des Spektrums dazugemischt. Spannend ist, das beim Clay Paky K-Eye K20 nur der TLCI verbessert werden konnte. Dies hängt damit zusammen, dass dem K-Eye K20 mit \glqq Red Tail\grqq\ deutlich weniger Amber zur Verfügung steht und der 645nm Rot-Peak in die Höhe schießt. Das Spektrum wird also unausgeglichener und dafür von den Farbwiedergabewerten bestraft (Abbildung \ref{b_keye1}).
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/keye1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Vergleich des K-Eye K20 Spektrums bei 5395 K (bunt) mit dem Spektrum eines zusätzlichen Rosco 027 \glqq Medium Red\grqq . Entstandene Unterschiede sind besonders hervorgehoben.}\label{b_keye1}
+\end{figure}
+
+Der Impression X4L konnte nicht durch ein zusätzliches rot verbessert werden. Dies liegt daran, dass das Spektrum, des X4Ls vorallendingen aus schmalbandigen Peaks besteht, die das Spektrum nicht ausfüllen (Abbildung \ref{b_impression1}). Zusätzlich kann man mit der blauen LED, das Spektrum nicht weiter ausfüllen, da der Peak der weißen LED exakt mit dem der blauen LED übereinstimmt. Auch ein Angleichen des Spektrums mit einem \glqq Red Tail\grqq\ verbessert dieses extreme Spektrum nicht, sondern vergrößert das spektrale Tief im 595nm Wellenlängebereich sogar. Ein aufgefülltes Spektrum kann also mit einem \glqq Red Tail\grqq\ bereichert werden, während man bei einem schmalbandigen Spektrum für eine Auffüllung der Randbereiche nicht belohnt wird.\\
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/glp1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Vergleich des Impression X4L Spektrums bei 5395 K (bunt) mit dem Spektrum eines zusätzlichen Rosco 027 \glqq Medium Red\grqq . Täler und Peaks sind besonders hervorgehoben.}\label{b_glp1}
+\end{figure}
+
+
+Bei dem Robe Robin DL7F haben wir im High-CRI Modus auch keine Verbesserung mit einem \glqq Red Tail\grqq\ erzielen können. Das Spektrum des Robin DL7F ist durch viele Peaks und Täler gekennzeichnet, außer im Bereich von 510nm-550nm Wellenlänge, wo das Spektrum sehr breitbandig ist (Abbildung \ref{b_dl7f1}). Durch Angleichungen an den \glqq Red Tail\grqq\ wird das Lime vermindert, das Tal im gelben Spektralbereich noch tiefer und der rot Peak wird erhört. Das Spektrum wird also noch mehr in seine Extreme verzerrt und dass wird von den Farbwiedergabewerten bestraft.
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/dl7f1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Vergleich des DL7F Spektrums bei 5395 K (bunt) mit dem Spektrum eines zusätzlichen Rosco 027 \glqq Medium Red\grqq . Täler und Peaks sind besonders hervorgehoben.}\label{b_dl7f1}
+\end{figure}
 
 \section{Analyse der Farbwiedergabewerte}
 \label{sec_analfww}
@@ -1082,9 +1356,16 @@ Zu Demonstrationszwecken wird mit dem Mac Encore Wash CLD und dem K-Eye K20 mit 
 \section{Auswahl der Kamera und der Probanden}
 \label{sec_wahlderKamera}
 
-Die Kamerawahl trifft auf eine Sony HDC-4300 UHD mit Weitwinkelobjektiv. Diese Kamera nutzt drei Bildwandler und keinen Bayer-Sensor. Bei einem Bayer-Sensor wird das Bild in 50\% Grünanteil 25\% Rotanteil und 25\% Blauanteil aufgeteilt. Nur diese Farbanteile werden vom Sensor gespeichert, die restlichen 50\% Grünanteile und 75\% Rot- und Blauanteile des Bilders werden aus den Nachbarpixeln interpoliert. Die Folge daraus ist eine niedrigere Farbauflösung als mit 3 Bildwandlern\footnote{\cite[380-381]{schmidt}}. Da die Bilder auf ihre Farbigkeit verglichen werden sollen, wird sich bewusst für eine Kamera mit drei Bildwandlern entschieden(siehe Kaptitel \ref{sec_wandler}).\\
+Die Kamerawahl trifft auf eine Sony HDC-4300 UHD mit Weitwinkelobjektiv. Diese Kamera nutzt drei Bildwandler und keinen Bayer-Sensor. Bei einem Bayer-Sensor wird das Bild in 50\% Grünanteil 25\% Rotanteil und 25\% Blauanteil aufgeteilt. Nur diese Farbanteile werden vom Sensor gespeichert, die restlichen 50\% Grünanteile und 75\% Rot- und Blauanteile des Bilders werden aus den Nachbarpixeln interpoliert. Die Folge daraus ist eine niedrigere Farbauflösung als mit 3 Bildwandlern\footnote{\cite[380-381]{schmidt}}. Da die Bilder auf ihre Farbigkeit verglichen werden sollen, wird sich bewusst für eine Kamera mit drei Bildwandlern entschieden(Kaptitel \ref{sec_wandler}).\\
 
-Die Probanden werden nach möglichst unterschiedlichen Hauttönen ausgewählt. Leider sind am Aufnahmetag nicht alle Probanden erschienen und daher ist die Bandbreite der Hauttöne nicht so groß wie erhofft, aber dennoch aussagekräftig genug, um die Auswirkung des Red Tail beurteilen zu können. Denn nach Khan (Kap.)ist jeder Hauttyp stark im roten Spektralbereich vertreten. Die Probanden haben einen nordischen, einen südländischen, einen normalen und einen braun-gebrannten Hauttyp. /%Bild einfügen
+Die Probanden werden nach möglichst unterschiedlichen Hauttönen ausgewählt. Leider sind am Aufnahmetag nicht alle Probanden erschienen und daher ist die Bandbreite der Hauttöne nicht so groß wie erhofft, aber dennoch aussagekräftig genug, um die Auswirkung des Red Tail beurteilen zu können. Denn nach Khan Kapitel\ref{sec_hauttöne} ist jeder Hauttyp stark im roten Spektralbereich vertreten. Die Probanden haben einen nordischen, einen südländischen, einen normalen und einen braun-gebrannten Hauttyp (Abbildung \ref{b_umfrage1}). 
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/umfrage1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Bild der 4 Probanden mit dem Arri D5 Referenzlicht beleuchet}\label{b_umfrage1}
+\end{figure}
 
  
 \section{Erstellung der Bilder}
@@ -1111,13 +1392,33 @@ Dem Proband wird das Verfahren aus Kapitel \ref{sec_umfrageitu}  erklärt und da
 %mit Wilkens über D65 einstellung reden
 
 \chapter{Umfrageergebnisse}
-Die Tendenzen der Umfrage lassen erkennen, dass die Probanden die gezeigten Hauttöne, mit einem \glqq Red Tail\grqq\ beleuchtet, als natürlicher befinden. Dieses Verhalten zeigen die Kurven des Source Four LED Series 2 Lustr, des MAC Encore Wash CLD und des K-Eye K20. %Grafik einfügen
-Dies liegt zum einen daran, dass der zusätzliche tiefrote Anteil das Spektrum auffüllt, wo es für die Hauttöne wichtig ist. %Referenz zu Khan
-Zum anderen hilft die Anpassung an den \glqq Red Tail\grqq , dass Spektrum einwenig aufzufüllen und das Peak-Loch-Verhältnis des Scheinwerfers anzupassen. Daher werden die Bilder mit einem \glqq Red Tail\grqq\ nicht rotstichiger, sondern sie wirken durch die Anpassung eher so, wie man es in der Natur erwarten würde.
-%Grafik einfügen
+Die Tendenzen der Umfrage lassen erkennen, dass die Probanden die gezeigten Hauttöne, mit einem \glqq Red Tail\grqq\ beleuchtet, als natürlicher befinden. Dieses Verhalten zeigen die Kurven des Source Four LED Series 2 Lustr, des MAC Encore Wash CLD und des K-Eye K20 (Abbildung \ref{b_umfragetab}). 
 
-Das extreme Spektrum des Impression X4L sticht aus der Bilderreihe hervor und wirkt auf den Bildern rotstichig. Bei der Umfrage ist dieses Spektrum (mit oder ohne \glqq Red Tail\grqq) mit Abstand am besten bewertet worden. Das lässt sich darauf zurückführen, dass die Probanden ans Glühlicht gewöhnt sind. Blau- oder grünstichige Bilder von Menschen wirken krank und unnatürlich. Dagegen wirken rotstichige Bilder nicht falsch, da Menschen unter Glühlicht auch rötlicher aussehen. Außerdem wird die menschliche Haut röter, wenn man in der Sonne liegt. Man ist es also durchaus gewohnt, dass Hauttöne rötlich erscheinen und dadurch werden die Bilder des Impression X4L auch als natürlich gesehen. 
-%Grafik einfügen
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/umfragetab} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Auswertung der Umfrage mit einem 95\%- Konfidenzintervall (blau und graue Kurve)}\label{b_umfragetab}
+\end{figure}
+
+Dies liegt zum einen daran, dass der zusätzliche tiefrote Anteil das Spektrum auffüllt, wo es für die Hauttöne wichtig ist (Kapitel \ref{sec_hauttöne}).
+Zum anderen hilft die Anpassung an den \glqq Red Tail\grqq , dass Spektrum einwenig aufzufüllen und das Peak-Loch-Verhältnis des Scheinwerfers anzupassen. Daher werden die Bilder mit einem \glqq Red Tail\grqq\ nicht rotstichiger, sondern sie wirken durch die Anpassung eher so, wie man es in der Natur erwarten würde.
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/vergleich} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Alle drei Bilder wurden mit dem Source Four LED Series 2 Lustr beleuchtet. Das obere Bild ist ohne \glqq Red Tail\grqq . Dem mittleren wurde ein Rosco 027 \glqq Medium Red\grqq\ dazugemischt. Das untere Bild ist mit einem zusätzlichen Rosco 787 \glqq Marius Red\grqq\ erstellt worden. Die ausgedruckten Bilder sind nicht farbecht.} \label{b_vergleich}
+\end{figure}
+
+Das extreme Spektrum des Impression X4L sticht aus der Bilderreihe hervor und wirkt auf den Bildern rotstichig (Abbildung \ref{b_umfrageglp}). Bei der Umfrage ist dieses Spektrum (mit oder ohne \glqq Red Tail\grqq) mit Abstand am besten bewertet worden. Das lässt sich darauf zurückführen, dass die Probanden ans Glühlicht gewöhnt sind. Blau- oder grünstichige Bilder von Menschen wirken krank und unnatürlich. Dagegen wirken rotstichige Bilder nicht falsch, da Menschen unter Glühlicht auch rötlicher aussehen. Außerdem wird die menschliche Haut röter, wenn man in der Sonne liegt. Man ist es also durchaus gewohnt, dass Hauttöne rötlich erscheinen und dadurch werden die Bilder des Impression X4L auch als natürlich gesehen. 
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/umfrageglp} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Aufgezeichnetes Bild der Probanden beleuchtet mit dem Impression X4L ohne zusätzlichen tiefroten Spektralanteil.} \label{b_umfrageglp}
+\end{figure}
 
 Beim Robin DL7F ist beim dritten Bild mit dem Rosco 787 \glqq Marius Red\grqq\ ein kaputtes Bild in der Umfrage gelandet. Es ist deutlich sichtbar, dass die Kamera die Probanden zu hell darstellt und dadurch die Hauttöne sehr unnatürlich aussehen. Daher ist dieser Wert für die Umfrage ungültig. Dennoch haben die Probanden dieses Bild auch durchgehend schlecht bewertet und somit zeigt sich, dass das Verfahren des\glqq Report ITU-R BT.1082\grqq\ funktioniert. 
 Wenn man dem Ghibli ein Rosco 027 \glqq Medium Red\grqq\ dazumischt, und die Werte wieder auf den Ghilbi anpasst zeigen die Hauptmessung eine Verbesserung der Werte. Dagegen wirken die Probanden bei der Umfrage matt und krank und es ist keine Verbesserung sichtbar. Dies liegt am Spektrum des Ghibli, der mit seiner reinweißen LED-Engine Probleme hat, das Spektrum auszufüllen. Dem Ghibli wäre deutlich besser geholfen, wenn man das Loch im Spektrum von 470 nm bis 510 nm Wellenlänge und den Rotbereich des Spektrums aufbessern würde. Nur einen tiefroten Anteil zu ergänzen reicht nicht aus, und das macht sich auch optisch bemerkbar.\\
@@ -1128,24 +1429,18 @@ Vielen Probanden ist es schwer gefallen die Bilder einzuschätzen, da sich der r
 
 \chapter{Fazit}
 Sowohl im messtechnischen als auch im optischen Vergleich konnte mit dem \glqq Red Tail\grqq\ das Licht tendenziell verbessert werden. Dieses Verhalten zeigt sich vorallendingen beim TLCI um bis zu 16 Punkten. Ein zusätzlicher tiefroter Anteil verbessert den Scheinwerfer, wie in Kapitel \ref{sec_fazithm} dargestellt, auf der einen Seite durch den zusätzlichen Rotanteil und auf der anderen Seite durch die Anpassung an den \glqq Red Tail\grqq\ . Spektren, die sehr durch Peaks geprägt und / oder schmalbandig sind, können durch einen zusätzlichen tiefroten Spektralanteil nicht verbessert werden, da die Anpassung das Spektrum der Scheinwerfer noch extremer werden lässt (s. Daten von GLP und DL7F). Auch optisch stellt der \glqq Red Tail\grqq\ dort keine Verbesserung dar. Der Ghibli kann zwar messtechnisch verbessert werden, dies konnte aber nicht in der Umfrage festgestellt werden, weil sein Spektrum sich nicht besonders gut dafür eignet, Personen zu beleuchten. Ein TLCI von 50 zeigt dem Coloristen in der Nachbearbeitung, dass die \glqq Aufbereitung sehr zeitaufwendig\grqq\ sein wird (Kapitel \ref{sec_tlci}). Daher konnte der Ghibli optisch nicht überzeugen.\\
-Die Bilder sind alle mit einer Sony HDC-4300 UHD mit Weitwinkelobjektiv aufgezeichnet worden. Die Wirkung der Bilder sollte daher mit anderen Objektiven und Kameras überprüft werden. Auch bei anderen Hauttypen und Scheinwerfer gilt es den \glqq Red Tail\grqq\ zu untersuchen. Der zusätzliche tiefrote Spektralanteil bei einem LED-Scheinwerfer muss also immer im Zusammenhang mit dem Spektrum des Scheinwerfers, der filmenden Kamera und der zu beleuchtenden Hauttöne gesehen werden. Die Tendenzen dieser Arbeit zeigen unter der Berücksichtigung der genannten Parameter, dass der \glqq Red Tail\grqq\ den Scheinwerfer messtechnisch verbessert und optisch Hauttöne natürlicher aussehen lässt.
+Der zusätzliche tiefrote Spektralanteil bei einem LED-Scheinwerfer muss also immer im Zusammenhang mit dem Spektrum des Scheinwerfers, der filmenden Kamera und den zu beleuchtenden Hauttöne gesehen werden. Die Tendenzen dieser Arbeit zeigen unter der Berücksichtigung der genannten Parameter, dass der \glqq Red Tail\grqq\ das Licht der Scheinwerfer messtechnisch verbessert und optisch Hauttöne natürlicher aussehen lässt.
 
   
 
 
 \chapter{Ausblick}
-
-
-
-- ausgiebiger Vergleich zwischen Weißabgleichen
-- red tail speziell auf Hautton angepasst
-
-
-
-\section{Unterkapitel mit Mathematik, Bildern und Querverweisen}
-
-
-
+Die Tendenzen der Messungen können durch andere Untersuchungen noch gestärkt oder gemindert werden.
+Die Bilder sind beispielsweise alle mit einer Sony HDC-4300 UHD mit Weitwinkelobjektiv aufgezeichnet worden. Die Wirkung der Bilder sollte daher mit anderen Objektiven und Kameras überprüft werden. Können diese Tendenzen unabhängig vom Kameramodell und Objektiv reproduziert werden?\\
+Auch bei anderen Hauttypen und Scheinwerfern gilt es den \glqq Red Tail\grqq\ zu untersuchen. Die erstellten Bilder zeigen, dass Hauttöne unterschiedlich auf das zusätzliche Rot reagieren. Kann man den tiefenroten Spektralanteil auf bestimme Hauttöne anpassen? \\
+Ein ganz anderes Thema ist die Frage nach dem Weißabgleich. Die Umfrage wurde aus den Bildern gestaltet, auf denen die Scheinwerfer aufs Kameraweiß gezogen wurden. Würde die Umfrage ähnlich Ergbnisse liefern, wenn bei den Bildern die Kamera an die Scheinwerfer angepasst wurden? Ein ausgiebiger Vergleich dieser beiden Methoden kann auch eine Empfehlung für zukünftige Messverfahren im Zusammenhang mit Scheinwerfern und Kamera geben.\\
+Im Zusammenhang mit der Farbtemperatur steht offen, ob der \glqq Red Tail\grqq\ für jede Farbtemperatur eine tendenzielle Verbessung der lichttechnischen Parameter hervorruft. Ist im warmweißen Farbtemperaturbereich überhaupt ein tiefroter Spektralanteil nötig? Welche Farbtemperatur ist für den \glqq Red Tail\grqq\ ideal?\\
+Trotz der aufgezeigten Tendenzen bringt der \glqq Red Tail\grqq\ noch viele spannende Punkte auf, die dieses Thema fortführen könnten.   
 
 
 %--------------------- VERZEICHNISSE ----------------
@@ -1161,6 +1456,11 @@ Die Bilder sind alle mit einer Sony HDC-4300 UHD mit Weitwinkelobjektiv aufgezei
 % Formatierung für Internetquelle
 % Grundregel: Name, Vorname (falls vorhanden), VÖ-Jahr (falls vorhanden), Titel in Anführungszeichen, URL, Datum des letzten Aufrufs
 % zur Formatierung der URL unbedingt den url-Befehl benutzen!!!
+\bibitem[Roskothen(2017)]{rosko}
+Roskothen, Peter:
+\emph{\glqq Brennweite\grqq}
+\url{https://www.fotowissen.eu/brennweite/}, 12.11.2017, letzter Zugriff 10.08.2018
+
 \bibitem[jeti(2018)]{jetii}
 jeti:
 \emph{\glqq specbos 1211\grqq}
