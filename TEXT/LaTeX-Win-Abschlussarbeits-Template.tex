@@ -52,6 +52,44 @@ Zusätzlich werden Bilder mit einer Studiokamera erstellt, auf denen Probanden v
 %-----------------------Text--------------------------------
 
 \chapter{Einleitung}
+LED Scheinwerfer lösen immer mehr die konventionellen Lampen im TV- und Veranstaltungsbereich ab. Jedoch werden für Personenbeleuchtung im TV-Bereich selten LED-Scheinwerfer genutzt. Ein Grund dafür ist, dass diese Scheinwerfer meist entweder ein großen Output generieren und keine hohe Farbwiedergabequalität erreichen oder das eine hohe Lichtqualität auf Kosten des Outputs erzielt wird. Scheinwerferhersteller bringen immer bessere LED-Scheinwerfer auf den Markt, sodass diese Diskrepanz zwischen Qualität und Quantität in ein paar Jahren ausgemerzt sein wird.\\
+Es soll untersucht werden, ob der \glqq Red-Tail\grqq\ ein richtiger Schritt in diese Richtung sein kann, indem er wichtige spektrale Anteile für Hauttöne im Spektrum eines Scheinwerfers ergänzt. Wichtig ist dabei auch den Bogen zur Kamera zu spannen, da das Licht von einer Kamera deutlich anders bewertet wird, als vom Spektrometer. Unter anderem sollen folgende Fragen in dieser Arbeit aufgearbeitet werden:
+%mehr gelaber ausdenken
+
+\begin{itemize}
+  \item 
+  \end{itemize}  
+%fragen ausdenken
+
+\chapter{Danksagung}
+
+mo2 für die ermöglichung der arbeit
+matthias allhoff für die organisation der scheinwerfer
+manfred ollie Ollmar
+toh hann
+
+Lightpower für folien
+Robe für robe robin dl7f wash
+Clay Pkay für clay paky k-eye k20
+ETC für etc source four led series 2 lustr
+GLP für GLP Impression X4L
+Martin für Martin Mac Encore Wash CLD
+Ayrton für Ayrton Ghilbi
+
+BLOW UP Videoproduktion Hamburg für Kamera und equipment
+
+Matthias Wilkens
+
+Fabian Oving Lichtlabor
+
+Nathalie Mai Videolabor
+
+dank an probanden und umfrageprobanden
+
+dank an familie
+
+
+
 
 \chapter{Grundlagen und Kenngrößen der Lichttechnik} \label{chap_grundlagen}
 
@@ -151,7 +189,7 @@ Folgende Zahlen sind typisch für die Beleuchtungsstärke:
 Die Beleuchtungsstärke spielt in der Lichtplanung eine sehr große Rolle. Mit ihr werden auch Gleichmäßigkeiten und Ungelichmäßigkeiten in der Beleuchtung bestimmt, die zum Beispiel für ausgeleuchtete Sportveranstaltung entscheidend sind.
 
 \section{Lichtstärke I}\label{sec_candela}
-Die Lichtstärke I zeigt auf, wie stark Licht in eine bestimme Richtung abgestrahlt wird und wird in Candela (cd) angegeben. I wird aus dm Verhältnis von Lichtstrom $\Phi$ zu dem bestrahlten Raumwinkel $/Omega$ errechnet\footnote{\cite[27]{ris}} (Gleichung \ref{gl_candela1}).
+Die Lichtstärke I zeigt auf, wie stark Licht in eine bestimme Richtung abgestrahlt wird und wird in Candela (cd) angegeben. I wird aus dm Verhältnis von Lichtstrom $\Phi$ zu dem bestrahlten Raumwinkel $\Omega$ errechnet\footnote{\cite[27]{ris}} (Gleichung \ref{gl_candela1}).
  \begin{equation}\label{gl_candela1}
 	I=\frac{\Phi}{\Omega}	
 \end{equation}
@@ -236,15 +274,23 @@ In diesem Kapitel werden verschiedene Leuchtmittel vorgestellt. Ein Augenmerk so
 %Aufteilung der Scheinwerfer in verschiedene Gruppen
 
 \section{Glühlampe} \label{sec_glühlampe}
-Die Glühlampe ist ein Temperaturstrahler. Sie besteht aus einem gasgefülltem Kolben, in dem ein Wolframwendel durch Stromzufuhr erhitzt wird. Der erhitzte Glühwendel erzeugt eine Farbtemperatur von ca. 3200K\footnote{\cite[137]{mueller}}. Der Großanteil des Lichtspektrums einer Glühlampe liegt im Infrarot-Bereich und wird damit in Wärme umgesetzt. Es werden also nur ca. 5\% bis 15\% der Leistung in Licht umgewandelt\footnote{\cite[78]{ris}}.
-%Abbildung einfügen
+Die Glühlampe ist ein Temperaturstrahler. Sie besteht aus einem gasgefülltem Kolben, in dem ein Wolframwendel durch Stromzufuhr erhitzt wird. Der erhitzte Glühwendel erzeugt eine Farbtemperatur von ca. 3200K\footnote{\cite[137]{mueller}}. Der Großanteil des Lichtspektrums einer Glühlampe liegt im Infrarot-Bereich und wird damit in Wärme umgesetzt (Abbildung \ref{b_halogen}). Es werden also nur ca. 5\% bis 15\% der Leistung in Licht umgewandelt\footnote{\cite[78]{ris}}.
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{bilder/halogen} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Spektrum einer Glühlampe\protect\footnotemark}\label{b_halogen}
+\end{figure}
+\footnotetext{\url{https://unterwasser-fotografieren.de/wp-content/uploads/2017/09/cri-halogen-1024x430.jpg}}
+
 Weil die Lichtausbeute $\eta$ von 10 $\frac{lumen}{Watt}$ bis 15 $\frac{lumen}{Watt}$ zu gering ist, wird die Glühlampe in der EU nicht mehr hergestellt\footnote{\cite[78]{ris}}.
  
 \section{Halogenglühlampe} \label{sec_halogenglühlampe}
 Auch die Halogenglühlampe ist ein Temperaturstrahler. Sie besteht auch Glaskolben und Woflramwendel, ist allerdings mit Jod oder einer Bromverbindung gefüllt\footnote{\cite[82]{ris}}.
 Wenn nun der Wolframwendel erhitzt wird spalten sich Wolframatome vom Wendel ab. Diese Atome werden vom Jod respektive Brom gebunden und es entsteht ein Wolframhalogenid in dem Glaskolben. Wenn dieses Wolframhalogenid wiederum auf den erhitzen Wendel trifft, spaltet es sich in die Einzelteile auf. Das Wolfram gelangt zurück in den Wendel und der gasförmige Anteil fügt sich wieder in den Bereich des Glaskolben ein. Auf diese Weise entsteht ein Kreislauf, der der Halogenglühlampe effizienter als eine Glühlampe macht\footnote{\cite[83-84]{ris}} (Abbildung \ref{b_halogenkreis}).
 
-\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
 \includegraphics[width=0.7\textwidth]{bilder/halogenkreis} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
@@ -280,7 +326,15 @@ Hochdruckentladungslampen brauchen für den Zündvorgang ein Vorschaltgerät, um
 \caption {Aufbau einer Hochdruckentladungslampe\protect\footnotemark}\label{b_hochdruck}
 \end{figure}
 \footnotetext{\url{https://dammedia.ledvance.info/media/img/asset-296401/s,x,1440,y,0/334675.jpg}}
-\noindent Eine Halogenmetalldampflampe hat eine Lichtausbeute $\eta$ von beispielsweise 70 $\frac{lumen}{Watt}$.
+\noindent Eine Halogenmetalldampflampe hat eine Lichtausbeute $\eta$ von beispielsweise 70 $\frac{lumen}{Watt}$. Das typische Spektrum einer Hochdruckentladungslampe (HMI) hat leichte Peaks und sieht wie folgt aus (Abbildung \ref{b_hmi}).
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{bilder/hmi} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Spektrum einer Hochdruckentladungslampe\protect\footnotemark}\label{b_halogen}
+\end{figure}
+\footnotetext{\url{https://unterwasser-fotografieren.de/wp-content/uploads/2017/09/cri-hmi-blitz-1024x430.jpg}}
 
 \section{LEDs} \label{sec_led}
 Light-Emitting Diode sind heutzutage die modernsten Leuchtmittel. Mit LEDs werden immer mehr konventionelle Leuchtmittel ersetzt, weil sie große Vorteile, wie ein niedrigen Stormverbrauch und ein sehr hohe Lichtausbeute mit sich bringen. LEDs nutzen elektrische Spannung, um ihr  Halbleitermaterial zum Leuchten zu bringen. \footnote{\cite[150]{mueller}}. Da sich die Halbleiterbauelemente wie eine Diode verhalten ist ein Strom, der in Durchlassrichtung fließt, nötig, damit die LED Licht abstrahlt. Rote und Gelbe LED werden aus Aluminium-Indium-Galliumphosphid (AllnGaP) hergestellt und grüne und blaue LED aus Indium-Gallium-Nitrid (InGaN)\footnote{\cite[153]{ris}}.\\
@@ -312,6 +366,17 @@ Das lichterzeugende Element der LED ist meistens in der Vertiefung eines Metallh
 \footnotetext{\url{https://www.ecse.rpi.edu/~schubert/Light-Emitting-Diodes-dot-org/chap21/F21-07\%20Nichia\%20wh\%20LED\%20structu.jpg}}
 
 \noindent LEDs verlieren mit der Zeit durch die Hitze an Qualität. Scheinwerferhersteller versuchen durch komplexe Algorithmen für die LEDs diesen Qualitätsverlust zu kompensieren. Ebenso gibt es herstellungsbedingte Abweichungen bei LED's. Da die Vorgänge sehr kompliziert sind, werden die LED's nach der Herstellung in sogenannte Binnings eingeteilt. In einem Binnig sind also jeweils die LED's mit den ähnlichsten Eigenschaften zusammengefasst, so dass beim Scheinwerferbau nur sich sehr ähnliche LED's verwendet werden\footnote{\cite[153]{mueller}}.
+
+\noindent Eine LED hat eine maximale Lichtausbeute $\eta$ von bis zu 140 $\frac{lumen}{Watt}$. Das typische Spektrum einer kaltweißen LED hat einen blauen Peak und einen breitbandigen Phosphoranteil. Es sieht wie folgt aus (Abbildung \ref{b_ledspek}).
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{bilder/ledspek} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Spektrum einer kaltweißen LED\protect\footnotemark}\label{b_ledw}
+\end{figure}
+\footnotetext{\url{https://unterwasser-fotografieren.de/wp-content/uploads/2017/09/cri-led-kalt.jpg}}
+
 
 %Für Scheinwerfer im Veranstaltungsbereich werden mittlerweile verschiedene LED-Leuchtmittel verwendet. Am Anfang waren Scheinwerfer typisch, die mit einem RGB-Modul bestückt waren. Farben sind mit diesen Scheinwerfern gut darstellbar, ein gemischtes RGB-Weißlicht hingegen hat keine akzeptable Qualitität. Scheinwerfer mit RGBW LEDs stellen eine Verbesserung der Weißlichtqualität dar, können aber damit immernoch das sichtbare Spektrum füllen. Daher gehen Scheinwerferhersteller dazu über Scheinwerfer mit noch mehr farbenen LEDs zu bauen (Multichip). So hat der Clay Paky K-Eye K20 beispielsweise 6 LEDs mit Rot, Grün, Blau, Lime, Amber und Cyan. Das daraus resultierende Spektrum hat eine hohe Farb- und Unbuntqualität. Andere Scheinwerfer setzten wiederum auf eine reinweiße LED-Engine mit nur weißen LEDs. Der Martin Mac Encore Wash CLD beispielsweise erreicht mit seiner LED-Engine die noch zusätzlich ein CMY-Mischung hat auch hohe Farb- und Unbuntquälitäten.  
 %drüber gucken
@@ -361,7 +426,7 @@ Typische Farbtemperaturen sind:
 		\bottomrule
 		\end{tabular}
 		\caption{Verschiedene Beispiele für die Farbtemperatur\protect\footnotemark}	
-		\label{t_candela}
+		\label{t_cct}
 	\end{table}
 \footnotetext{\cite[29]{greule}}
 
@@ -867,8 +932,7 @@ Das Ergebnis einer Messung ist mit diesen Daten nicht mehr schnell ersichtlich, 
 \end{figure}
 \footnotetext{\cite{usdep}}
 
-Der TM-30 
-%fertig schreiben
+Der TM-30 ist mit einer der neuesten Farbwiedergabewerte und zeigt mit seinen 99 Refernzwerten, dass die CIE viel aus der Zeit des CRI gelernt hat. Eine Lampe muss nun das gesamte Spektrum abdecken, um gute Werte zu erzielen. Es helfen keine gezielte Peaks mehr. Die Farben des TM-30 stellen Farben aus dem echten Leben dar, jedoch fehlen auch hier gesättigte Farben. Daher ist auch dieser Farbwiedergabewert nicht \glqq perfekt\grqq\ . Die Hauptmessung werden zeigen, inwiefern sich der \glqq Red Tail\grqq\ im TM-30 wiederspiegelt und ob der Wert mit den gemessenen Tendenzen übereinstimmt.
 
 \chapter{Messgeräte für Farbmessung}
 Es gibt die verschiedensten lichttechnischen Messgeräte, die genutzt werden um Beleuchtungsstärke, Farbtemperatur oder Farbigkeit des Lichts zu messen. Da in der Hauptmessung fast ausschließlich LED-Scheinwerfer gemessen werden, ist es wichtig, dass die Messgeräte in der Lage sind, mit diesem zum Teil schmalbandigen Spektren umzugehen. Dazu eignen sich am besten Spektrometer, die durch ihre sehr filigrane Messweise einzelner Wellenlänge auch extremere Spektren auswerten können. Zusätzlich können sie aus dem gemessene Spektrum viele lichttechnische Daten errechnen und sind damit die \glqq Alleskönner\grqq\ unter den Messgeräten. In diesem Kapitel soll ihre Funktionsweise erörtert werden.
@@ -1047,7 +1111,7 @@ Ein Weißabgleich einer Kamera meint den Vorgang eines\emph{\glqq Unbuntabgleich
 \centering
 \includegraphics[width=1.0\textwidth]{bilder/arri} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Waveformmonitor Screenshot vom Weißabgleich des Arri D5 mit einer Grautreppe}\label{b_matrix}
+\caption {Waveformmonitor Screenshot vom Weißabgleich des Arri D5 mit einer Grautreppe}\label{b_wb}
 \end{figure}
 
 
@@ -1281,19 +1345,41 @@ Der Messaufbau gleicht dem der in der Vormessung (Kapitel \ref{sec_vmaum}). Mit 
 \centering
 \includegraphics[width=1.0\textwidth]{bilder/messbild1} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Aufbau des \glqq Red Tail\grqq\ mit dem MAC Encore Wash CLD)}\label{b_ref}
+\caption {Aufbau des \glqq Red Tail\grqq\ mit dem MAC Encore Wash CLD)}\label{b_messbild1}
 \end{figure}
 
 Jeder Scheinwerfer wird also auf eine Farbtemperatur von 5395K des Referenzlichts eingestellt, mit einem möglichsten geringen Abstand zur Plank'schen Kurve ($ \Delta u'v'=\pm0,0001$) und einem sehr ähnlichem Farbort, um die Messungen vergleichbar zu machen. Wenn dem Scheinwerfer ein \glqq Red Tail\grqq\ hinzugemischt wird, wird der Scheinwerfer erneut auf die Referenz angeglichen. 
 
-%Beispiel bringen
+Damit soviel Spektrale Energie wie möglich dem Spektrum erhalten bleibt, wird jeder Scheinwerfer mit allen Farben auf 100\% als Startwert genommen. Bei den LED Multichip-Scheinwerfern wird dann zunächst das Blau/Rot-Verhältnis so angepasst, dass die Zielfarbtemperatur in etwa erreicht wird. Dann wird über das Grün- (bzw. Limette) zu Rot (bzw. Amber) und Blau-Verhältnis bestimmt, dass der Abstand zur Plank'schen Kurve über den $\Delta u'v'$-Wert sehr gering wird. Oft ist es nach der $\Delta u'v'$-Anpassung erneut die Farbtemperatur zu korrigieren und danach wieder der $\Delta u'v'$. Auch die Helligkeit wird über Abstand der Lampe und Zoom so angepasst, dass alle Lampen eine Helligkeit von ca. 500 lux aufweisen. Da der Zoom meist nicht stabil ist, muss auch nachdem Zoom der Scheinwerfer angepasst werden. Aus demselben Grund wird der Dimmer der Lampen konstant auf 100\% gehalten und die Abstände angepasst, damit die Scheinwerfer vergleichbar bleiben. Der Robe DL7F wurde beispielsweise nur im Rot (98,5\%) und im Limette (94\%) angepasst und konnte in seinen restlichen Farben Gelb, Blau, Amber und Kongo Blau bei den maximalen Werten behalten (100\%). Dadurch bleibt fast seine ganze Spektrale Energie bei einer CCT von ca 5395 erhalten.\\
+Scheinwerfer mit reinweißer LED-Enginge werden über die CTC (bzw. CTO)-Funktion auf die Farbtemperatur eingestellt und dann über Rot, Grün und Blau-Werte angepasst. 
+
+Bei dem K-Eye K20 wurden beispielsweise die Farben durch Hinzugabe des tiefroten Spektralanteils wie folgend geändert (Tabelle \ref{t_drehen}):
+
+\begin{table}[htp] 
+		\rowcolors{1}{}{lgray} 
+		\centering
+		\begin{tabular}{llllllll}  % Spalten nach Ausrichtung: l, c, r, p{breite} 
+		\toprule
+		\multicolumn{8}{c}{\large\sffamily K-Eye K20 Anpassung}\\ 							
+		\midrule
+		Farbe & Rot & Grün & Blau & Amber & Cyan & Limette &  \glqq Red Tail\grqq\ \\
+		 5400 k best & 74,5 & 100 & 78 & 100 & 100 & 92,5 & 0\\
+		027 \glqq Medium Red\grqq\ & 89 & 99 & 57,7 & 83 & 100 & 100 & 25\\
+		\bottomrule
+		\end{tabular}
+		\caption{Farbwerte in Prozentangaben (Der tiefrote Spektralanteil wird mit dem Dimmerwert des Stufenlinsenscheinwerfers angegeben.)}	
+		\label{t_drehen}
+	\end{table}
+	
+Spannenderweise steht dem K-Eye K20 nach der Anpassung an den \glqq Red Tail\grqq\ mehr Rot und Limette zu Verfügung als ohne. Bei einem zusätzlichen tiefroten Spektralanteil könnte man erwartet, dass als Ausgleich der Rotwert des K-Eye K20 gesenkt werden müsste. Jedoch müssen die Helligkeiten von Blau und Amber um ca. 20\% gemindert werden, damit die korellierte Farbtemperatur von 5395 K bestehen bleibt.
+ 
 
 \chapter{Messergebnisse}
 
 Die Tendenzen zeigen, dass der Ghibli, MAC Encore, Lustr und K-Eye K20 durch den Red Tail verbessert wurden. Wie in den Vormessungen zu sehen, zeigt sich dies in allen Farbwiedergabewerten, vorallendingen aber im TLCI. Der MAC Encore kann mit einem Rosco 027 \glqq Medium Red\grqq\ im TLCI sogar um 16 Punkte verbessert werden. Diese Scheinwerfer zeigen, dass der zusätzliche \glqq Red Tail\grqq\ eine Verbesserung des Spektrums darstellt, unabhänging davon, welches zusätzliche rot genutzt wird. 
 % Tabelle einfügen
 
-Die Erklärung liegt hier wie in der Vormessung an den beiden Vorteilen des \glqq Red Tail\grqq\ : Es wird auf der einen Seite der tiefrote Bereich der Scheinwerfer aufgefüllt und zum anderen werden zum Ausgleich des zusätzlichen tiefroten Anteils wieder wertvolle Anteile in der Mitte des Spektrums dazugemischt. Spannend ist, das beim Clay Paky K-Eye K20 nur der TLCI verbessert werden konnte. Dies hängt damit zusammen, dass dem K-Eye K20 mit \glqq Red Tail\grqq\ deutlich weniger Amber zur Verfügung steht und der 645nm Rot-Peak in die Höhe schießt. Das Spektrum wird also unausgeglichener und dafür von den Farbwiedergabewerten bestraft (Abbildung \ref{b_keye1}).
+Die Erklärung liegt hier wie in der Vormessung an den beiden Vorteilen des \glqq Red Tail\grqq\ : Es wird auf der einen Seite der tiefrote Bereich der Scheinwerfer aufgefüllt und zum anderen werden zum Ausgleich des zusätzlichen tiefroten Anteils wieder wertvolle Anteile in der Mitte des Spektrums dazugemischt. Spannend ist, das beim Clay Paky K-Eye K20 nur der TLCI verbessert werden konnte. Dies hängt damit zusammen, dass dem K-Eye K20 mit \glqq Red Tail\grqq\ deutlich weniger Amber zur Verfügung steht und der 645nm Rot-Peak in die Höhe schießt. Das Spektrum wird also unausgeglichener und dafür von den Farbwiedergabewerten schlechter beurteilt (Abbildung \ref{b_keye1}).
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
 \includegraphics[width=1.0\textwidth]{bilder/keye1} 
@@ -1309,7 +1395,6 @@ Der Impression X4L konnte nicht durch ein zusätzliches rot verbessert werden. D
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
 \caption {Vergleich des Impression X4L Spektrums bei 5395 K (bunt) mit dem Spektrum eines zusätzlichen Rosco 027 \glqq Medium Red\grqq . Täler und Peaks sind besonders hervorgehoben.}\label{b_glp1}
 \end{figure}
-
 
 Bei dem Robe Robin DL7F haben wir im High-CRI Modus auch keine Verbesserung mit einem \glqq Red Tail\grqq\ erzielen können. Das Spektrum des Robin DL7F ist durch viele Peaks und Täler gekennzeichnet, außer im Bereich von 510nm-550nm Wellenlänge, wo das Spektrum sehr breitbandig ist (Abbildung \ref{b_dl7f1}). Durch Angleichungen an den \glqq Red Tail\grqq\ wird das Lime vermindert, das Tal im gelben Spektralbereich noch tiefer und der rot Peak wird erhört. Das Spektrum wird also noch mehr in seine Extreme verzerrt und dass wird von den Farbwiedergabewerten bestraft.
 
@@ -1451,11 +1536,76 @@ Trotz der aufgezeigten Tendenzen bringt der \glqq Red Tail\grqq\ noch viele span
 %--------------------- LITERATURLISTE ---------------
 % Die Einträge sollen alphabetisch sortiert sein.
 
+\chapter{Anhang}
+
+\section{Vormessung}
+
+\subsection{Arri D5}
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{vormessung/arriD5vorspec} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Arri D5: Spektrum} 
+\end{figure}
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.5\textwidth]{vormessung/arriD5vorcct} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Arri D5: Beleuchtungsstärke, CCT, $\Delta$UV und Farbortkoordinaten} 
+\end{figure}
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{vormessung/arriD5vorxy} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Arri D5: XYZ-Farbraum Detailansicht} 
+\end{figure}
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{vormessung/arriD5vorcri} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Arri D5: CRI} 
+\end{figure}
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{vormessung/arriD5vorcqs} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Arri D5: CQS} 
+\end{figure}
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{vormessung/arriD5vortlci} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Arri D5: TLCI} 
+\end{figure}
+
+\begin{figure}[htp]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{vormessung/arriD5vortm} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Arri D5: TM-30} 
+\end{figure}
+
+
+
+
+%------------------------------------------------------------
 \begin{thebibliography}{}
 
 % Formatierung für Internetquelle
 % Grundregel: Name, Vorname (falls vorhanden), VÖ-Jahr (falls vorhanden), Titel in Anführungszeichen, URL, Datum des letzten Aufrufs
 % zur Formatierung der URL unbedingt den url-Befehl benutzen!!!
+
+\bibitem[Trilux(2018)]{trilux}
+Roskothen, Peter:
+\emph{\glqq Lichtausbeute von Lampen\grqq}
+\url{https://www.trilux.com/de/beleuchtungspraxis/leuchtmittel/leuchtmittel-eigenschaften/lichtausbeute/}, 2018, letzter Zugriff 05.08.2018
+
 \bibitem[Roskothen(2017)]{rosko}
 Roskothen, Peter:
 \emph{\glqq Brennweite\grqq}
@@ -1515,12 +1665,6 @@ DocCheck Flexikon:
 Production Partner:
 \emph{\glqq Farbwiedergabe: TM-30-15, CRI und Co.\grqq}
 \url{https://www.production-partner.de/basics/farbwiedergabe-tm-30-15-cri-und-co/}, 22.02.2018, letzter Zugriff 20.06.2018
-
-\bibitem[Gigahertz-Optik(2012)]{Gigahertz}
-Gigahertz-Optik:
-\emph{\glqq Grundladen der Lichtmesstechnik\grqq}
-\url{https://www.gigahertz-optik.de/de-de/grundlagen-lichtmesstechnik/}, 2012, letzter Zugriff 20.06.2018
-
 
 % Formatierung für Aufsatz / Paper: Titel in Anführungszeichen, Zeitschriftentitel kursiv
 
@@ -1630,9 +1774,6 @@ Khanh, Tran Quoc (Autor) \& Bodrogi, Peter (Autor) \& Vinh, Trinh Quang (Autor):
 Sowodniok, Ulrike: 
 \glqq Funktionaler Stimmklang -- Ein Prozess mit Nachhalligkeit\grqq, 
 in: Spehr, Georg (Hrsg.): \emph{Funktionale Klänge}, transcript 2009
-
-
-
 
 % Formatierung für Aufsatz / Paper: Titel in Anführungszeichen, Zeitschriftentitel kursiv
 \bibitem[Stephenson(1990)]{stephenson}
