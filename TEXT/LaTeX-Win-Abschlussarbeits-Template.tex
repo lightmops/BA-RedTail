@@ -109,8 +109,6 @@ Die Reflexion und Transmission von Licht kann in verschiedenen Abstufungen vorko
 \end{figure}
 
 \footnotetext{\url{https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXKyO2dzW7jXXbs_PqxZDRF2vKnJT-8qKf5w5mRAVG6SDatTk}}
- 
-
 
 \section{Lichtstrom $\Phi$} \label{sec_lumen}
 Der Lichtstrom $\Phi$ steht für die Lichtleistung einer Lichtquelle und wird in der Einheit Lumen (lm) angegeben (Abbildung \ref{b_lumen}). $\Phi$ lehnt sich an der Helligkeitsempfindung des Auges an, der V($\lambda$)-Kurve (Kapitel \ref{sec_auge}). Daher sind Aussagen über die Strahlungsleistung in der Beleuchtungstechnik nur von peripherer Bedeutung\footnote{\cite[23]{ris}}. Man kann aber den Lichtstrom ins Verhältnis zur Strahlungsleistung setzten und so die Lichtausbeute $\eta$ in $\frac{lm}{W}$ berechnen\footnote{\cite[35]{greule}}. Mit dem $\eta$-Wert kann man aufzeigen wie effizient ein Leuchtmittel seine Strahlungsleistung in Lichtleistung umsetzt. Der Maximalwert von $\eta$ liegt bei $\eta_{max}=683$ $\frac{lm}{W}$ , dass nur durch eine monochromatisch grüne (555 nm) Lichtquelle erzeugt werden kann, weil dieses Licht am hellsten für das menschliche Auge ist\footnote{\cite[36]{greule}} (Kapitel \ref{sec_auge}).
@@ -1247,7 +1245,7 @@ Abhängig davon, ob das Testbild mit vollausgesteuerten RGB-Farbanteilen (100/10
 \centering
 \includegraphics[width=0.6\textwidth]{bilder/vektorskop} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {\glqq TE106\grqq\ Darstellung der Vektorskopeinteilung mit der Q- und I-Achse\protect\footnotemark}\label{b_vektorskop}
+\caption {Darstellung der Vektorskopeinteilung mit der Q- und I-Achse\protect\footnotemark}\label{b_vektorskop}
 \end{figure}
 \footnotetext{\url{https://upload.wikimedia.org/wikipedia/commons/7/7b/Vectorscope_graticule.png}}
 
@@ -1265,8 +1263,17 @@ Bei den Rottönen hat man bewusst darauf geachtet, dass sich diese am Rand des S
 \section{Aufbau und Messungen}
 \label{sec_vmaum}
 
-Für die Messung wird der Scheinwerfer direkt neben dem folierten Stufenlinsenscheinwerfer plaziert, um den Messfehler durch unterschiedliche Winkel der Scheinwerfer so gering wie möglich zu halten. Der JETI Specbos 1211, mit dem Standart Diffusor bestückt, wird als primäres Messgerät genutzt. Es wird aus 7m Entfernung direkt gemessen, damit man vergleichbare Helligkeiten erreicht (500lux). 
-%Zeichnung einfügen
+Für die Messung wird der Scheinwerfer direkt neben dem folierten Stufenlinsenscheinwerfer platziert, um den Messfehler durch unterschiedliche Winkel der Scheinwerfer so gering wie möglich zu halten (Abbildung \ref{b_aufbaumessung1}). Der JETI Specbos 1211, mit dem Standart Diffusor bestückt, wird als primäres Messgerät genutzt. Es wird aus 7m Entfernung direkt gemessen, damit man vergleichbare Helligkeiten erreicht (500lux). Wichtig ist dabei, dass das Messgerät auf der selben Höhe wie der Scheinwerfer angeordnet ist, damit wirklich die Mitte des Lichtkegels den Messkopf trifft.
+Angesteuert werden die Scheinwerfer mit einer MA Lighting \glqq GrandMA 2 light\grqq\ Lichtsteuerkonsole. Das Lichtpult ermöglicht eine sehr feine Anpassung der Farbkanäle der Scheinwerfer.
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=0.9\textwidth]{bilder/aufbaumessung1} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Skizzierung des Messaufbaus. Die Stufenlinse mit Filterfolie (rot) wird zusammen mit den Scheinwerfern (blau) auf den JETI specbos 1211 ausgerichtet.}\label{b_aufbaumessung1}
+\end{figure}
+
+
 
 Den Scheinwerfern wird dann in 10\% Schritten das rotgefilterte Licht des Stufenlinsenschwerfers hinzugemischt. Die Farben des Scheinwerfers werden bei jedem Schritt erneut auf die gleiche Farbtemperatur und gleichem Abstand zum Plank'schen Kurvenzug gedreht, damit die Werte vergleichbar bleiben.
 
@@ -1339,7 +1346,7 @@ Mit diesen Scheinwerfern soll die Auswirkung eines \glqq Red Tail\grqq\ überpr�
 
 \section{Messaufbau und Messungen}
 \label{sec_hmaufbau}
-Der Messaufbau gleicht dem der in der Vormessung (Kapitel \ref{sec_vmaum}). Mit 7m Abstand werden die Scheinwerfer zum Messgerät aufgebaut und über Zoom- und Abstandsvariation auf ca. 500 lux Beleuchtungstärke eingestellt, nachdem sie auf das Arri D5-Referenzweiß abgeglichen worden sind. Es wird wiederum mit dem JETI specbos 1211 mit dem Standartdiffusor gemessen und mit dem UPRtek M350S gegenkontrolliert. Alle Scheinwerfer werden so nahe wie möglich an den 1kW Stufenlinsenscheinwerfer mit den roten Filterfolien herangestellt, um den Fehler der verschiedenen Winkel so gering wie möglich zu halten. Der zu messende Scheinwerfer ist dabei im rechten Winkel zum Messgerät angeordnet, der Stufenlinsenscheinwerfer leicht angewinkelt (Abbildung \ref{messbild1}. 
+Der Messaufbau gleicht dem der in der Vormessung (Abbildung \ref{b_aufbaumessung1}). Mit 7m Abstand werden die Scheinwerfer zum Messgerät aufgebaut und über Zoom- und Abstandsvariation auf ca. 500 lux Beleuchtungstärke eingestellt, nachdem sie auf das Arri D5-Referenzweiß abgeglichen worden sind. Es wird wiederum mit dem JETI specbos 1211 mit dem Standartdiffusor gemessen und mit dem UPRtek M350S gegenkontrolliert. Alle Scheinwerfer werden so nahe wie möglich an den 1kW Stufenlinsenscheinwerfer mit den roten Filterfolien herangestellt, um den Fehler der verschiedenen Winkel so gering wie möglich zu halten. Der zu messende Scheinwerfer ist dabei im rechten Winkel zum Messgerät angeordnet, der Stufenlinsenscheinwerfer leicht angewinkelt (Abbildung \ref{b_messbild1}). 
 
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
@@ -1348,7 +1355,7 @@ Der Messaufbau gleicht dem der in der Vormessung (Kapitel \ref{sec_vmaum}). Mit 
 \caption {Aufbau des \glqq Red Tail\grqq\ mit dem MAC Encore Wash CLD)}\label{b_messbild1}
 \end{figure}
 
-Jeder Scheinwerfer wird also auf eine Farbtemperatur von 5395K des Referenzlichts eingestellt, mit einem möglichsten geringen Abstand zur Plank'schen Kurve ($ \Delta u'v'=\pm0,0001$) und einem sehr ähnlichem Farbort, um die Messungen vergleichbar zu machen. Wenn dem Scheinwerfer ein \glqq Red Tail\grqq\ hinzugemischt wird, wird der Scheinwerfer erneut auf die Referenz angeglichen. 
+Jeder Scheinwerfer wird über die GrandMA 2 light auf eine Farbtemperatur von 5395K des Referenzlichts eingestellt, mit einem möglichsten geringen Abstand zur Plank'schen Kurve ($ \Delta u'v'=\pm0,0001$) und einem sehr ähnlichem Farbort, um die Messungen vergleichbar zu machen. Wenn dem Scheinwerfer ein \glqq Red Tail\grqq\ hinzugemischt wird, wird der Scheinwerfer erneut auf die Referenz angeglichen. 
 
 Damit soviel Spektrale Energie wie möglich dem Spektrum erhalten bleibt, wird jeder Scheinwerfer mit allen Farben auf 100\% als Startwert genommen. Bei den LED Multichip-Scheinwerfern wird dann zunächst das Blau/Rot-Verhältnis so angepasst, dass die Zielfarbtemperatur in etwa erreicht wird. Dann wird über das Grün- (bzw. Limette) zu Rot (bzw. Amber) und Blau-Verhältnis bestimmt, dass der Abstand zur Plank'schen Kurve über den $\Delta u'v'$-Wert sehr gering wird. Oft ist es nach der $\Delta u'v'$-Anpassung erneut die Farbtemperatur zu korrigieren und danach wieder der $\Delta u'v'$. Auch die Helligkeit wird über Abstand der Lampe und Zoom so angepasst, dass alle Lampen eine Helligkeit von ca. 500 lux aufweisen. Da der Zoom meist nicht stabil ist, muss auch nachdem Zoom der Scheinwerfer angepasst werden. Aus demselben Grund wird der Dimmer der Lampen konstant auf 100\% gehalten und die Abstände angepasst, damit die Scheinwerfer vergleichbar bleiben. Der Robe DL7F wurde beispielsweise nur im Rot (98,5\%) und im Limette (94\%) angepasst und konnte in seinen restlichen Farben Gelb, Blau, Amber und Kongo Blau bei den maximalen Werten behalten (100\%). Dadurch bleibt fast seine ganze Spektrale Energie bei einer CCT von ca 5395 erhalten.\\
 Scheinwerfer mit reinweißer LED-Enginge werden über die CTC (bzw. CTO)-Funktion auf die Farbtemperatur eingestellt und dann über Rot, Grün und Blau-Werte angepasst. 
@@ -1455,8 +1462,17 @@ Die Probanden werden nach möglichst unterschiedlichen Hauttönen ausgewählt. L
  
 \section{Erstellung der Bilder}
 \label{sec_erstellungbilder}
-Bei der Erstellung der Bilder werden die Probanden auf selber Augenhöhe nebeneinander gestellt. In der Mitte steht eine Graustufenkarte für den Weißabgleich. Nachdem die Scheinwerfer und Kamera angepasst sind, wie in Kapitel \ref{sec_anpassunglampen} beschrieben, werden die Probanden für 10 Sekunden gefilmt. Dabei wird am Anfang der Aufzeichnung ein Tablet mit den aktuellen Einstellungen der Scheinwerfer und Kamera gezeigt, damit später die Daten eindeutig zugeordnet werden können.\\
+Bei der Erstellung der Bilder werden die Probanden auf selber Augenhöhe nebeneinander gestellt. In der Mitte steht eine Graustufenkarte für den Weißabgleich. Nachdem die Scheinwerfer und Kamera angepasst sind, wie in Kapitel \ref{sec_anpassunglampen} beschrieben, werden die Probanden für 10 Sekunden gefilmt (Abbildung \ref{b_aufbaumessung2}). Dabei wird am Anfang der Aufzeichnung ein Tablet mit den aktuellen Einstellungen der Scheinwerfer und Kamera gezeigt, damit später die Daten eindeutig zugeordnet werden können.\\
 Nach den Aufzeichnungen mit den Probanden wird, nochmal die Graustufenkarte für jede Einstellung einzeln aufgezeichnet, damit man auf dem Waveformmonitor das Weiß der Scheinwerfer messen kann. Durch diesen Ablauf sind Messungenauigkeiten bei der Aufzeichnung des Waveformmonitors möglich. 
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/aufbaumessung2} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Skizzierung des Messaufbaus. Die Stufenlinse mit Filterfolie (rot) wird zusammen mit den Scheinwerfern (blau) auf die Grautreppentafel ausgerichtet (hinter den Personen eingezeichnet). Darauf wird die Kamera dann ggf. Weiß abgeglichen}\label{b_aufbaumessung2}
+\end{figure}
+
+
 
 \section{Umfrage nach Rec. ITU-R  BT.500-11}
 \label{sec_umfrageitu}
@@ -1477,14 +1493,9 @@ Dem Proband wird das Verfahren aus Kapitel \ref{sec_umfrageitu}  erklärt und da
 %mit Wilkens über D65 einstellung reden
 
 \chapter{Umfrageergebnisse}
-Die Tendenzen der Umfrage lassen erkennen, dass die Probanden die gezeigten Hauttöne, mit einem \glqq Red Tail\grqq\ beleuchtet, als natürlicher befinden. Dieses Verhalten zeigen die Kurven des Source Four LED Series 2 Lustr, des MAC Encore Wash CLD und des K-Eye K20 (Abbildung \ref{b_umfragetab}). 
+Die Probanden waren im Durchschnitt 25 Jahre alt. Es haben dreizehn Männer und sieben Frauen an der Umfrage teilgenommen. Die meisten der Probanden haben eine mittelere bis gute Lichtvorkenntnis. 
+Aus den vergebenen Werten für die Bilder lassen sich die Tendenzen erkennen, dass die Probanden die gezeigten Hauttöne, mit einem \glqq Red Tail\grqq\ beleuchtet, als natürlicher befinden. Dieses Verhalten zeigen die Kurven des Source Four LED Series 2 Lustr, des MAC Encore Wash CLD und des K-Eye K20 (Abbildung %anhang. 
 
-\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
-\centering
-\includegraphics[width=1.0\textwidth]{bilder/umfragetab} 
-% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Auswertung der Umfrage mit einem 95\%- Konfidenzintervall (blau und graue Kurve)}\label{b_umfragetab}
-\end{figure}
 
 Dies liegt zum einen daran, dass der zusätzliche tiefrote Anteil das Spektrum auffüllt, wo es für die Hauttöne wichtig ist (Kapitel \ref{sec_hauttöne}).
 Zum anderen hilft die Anpassung an den \glqq Red Tail\grqq , dass Spektrum einwenig aufzufüllen und das Peak-Loch-Verhältnis des Scheinwerfers anzupassen. Daher werden die Bilder mit einem \glqq Red Tail\grqq\ nicht rotstichiger, sondern sie wirken durch die Anpassung eher so, wie man es in der Natur erwarten würde.
@@ -1493,10 +1504,19 @@ Zum anderen hilft die Anpassung an den \glqq Red Tail\grqq , dass Spektrum einwe
 \centering
 \includegraphics[width=1.0\textwidth]{bilder/vergleich} 
 % Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
-\caption {Alle drei Bilder wurden mit dem Source Four LED Series 2 Lustr beleuchtet. Das obere Bild ist ohne \glqq Red Tail\grqq . Dem mittleren wurde ein Rosco 027 \glqq Medium Red\grqq\ dazugemischt. Das untere Bild ist mit einem zusätzlichen Rosco 787 \glqq Marius Red\grqq\ erstellt worden. Die ausgedruckten Bilder sind nicht farbecht.} \label{b_vergleich}
+\caption {Alle drei Bilder wurden mit dem Source Four LED Series 2 Lustr beleuchtet. Das untere Bild ist ohne \glqq Red Tail\grqq . Dem mittleren wurde ein Rosco 027 \glqq Medium Red\grqq\ dazugemischt. Das obere Bild ist mit einem zusätzlichen Rosco 787 \glqq Marius Red\grqq\ erstellt worden. Die ausgedruckten Bilder sind nicht farbecht.} \label{b_vergleich}
 \end{figure}
 
-Das extreme Spektrum des Impression X4L sticht aus der Bilderreihe hervor und wirkt auf den Bildern rotstichig (Abbildung \ref{b_umfrageglp}). Bei der Umfrage ist dieses Spektrum (mit oder ohne \glqq Red Tail\grqq) mit Abstand am besten bewertet worden. Das lässt sich darauf zurückführen, dass die Probanden ans Glühlicht gewöhnt sind. Blau- oder grünstichige Bilder von Menschen wirken krank und unnatürlich. Dagegen wirken rotstichige Bilder nicht falsch, da Menschen unter Glühlicht auch rötlicher aussehen. Außerdem wird die menschliche Haut röter, wenn man in der Sonne liegt. Man ist es also durchaus gewohnt, dass Hauttöne rötlich erscheinen und dadurch werden die Bilder des Impression X4L auch als natürlich gesehen. 
+Das extreme Spektrum des Impression X4L sticht aus der Bilderreihe hervor und wirkt auf den Bildern rotstichig (Abbildung \ref{b_umfrageglpbild}). 
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/umfrageglpbild} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Aufgezeichnetes Bild der Probanden beleuchtet mit dem Impression X4L ohne zusätzlichen tiefroten Spektralanteil.} \label{b_umfrageglpbild}
+\end{figure}
+
+Bei der Umfrage ist dieses Spektrum (mit oder ohne \glqq Red Tail\grqq) mit Abstand am besten bewertet worden(Abbildung \ref{b_umfrageglp}). Das lässt sich darauf zurückführen, dass die Probanden ans Glühlicht gewöhnt sind. Blau- oder grünstichige Bilder von Menschen wirken krank und unnatürlich. Dagegen wirken rotstichige Bilder nicht falsch, da Menschen unter Glühlicht auch rötlicher aussehen. Außerdem wird die menschliche Haut röter, wenn man in der Sonne liegt. Man ist es also durchaus gewohnt, dass Hauttöne rötlich erscheinen und dadurch werden die Bilder des Impression X4L auch als natürlich gesehen. 
 
 \begin{figure}[H]     % h=here, t=top, b=bottom, p=page
 \centering
@@ -1505,8 +1525,29 @@ Das extreme Spektrum des Impression X4L sticht aus der Bilderreihe hervor und wi
 \caption {Aufgezeichnetes Bild der Probanden beleuchtet mit dem Impression X4L ohne zusätzlichen tiefroten Spektralanteil.} \label{b_umfrageglp}
 \end{figure}
 
-Beim Robin DL7F ist beim dritten Bild mit dem Rosco 787 \glqq Marius Red\grqq\ ein kaputtes Bild in der Umfrage gelandet. Es ist deutlich sichtbar, dass die Kamera die Probanden zu hell darstellt und dadurch die Hauttöne sehr unnatürlich aussehen. Daher ist dieser Wert für die Umfrage ungültig. Dennoch haben die Probanden dieses Bild auch durchgehend schlecht bewertet und somit zeigt sich, dass das Verfahren des\glqq Report ITU-R BT.1082\grqq\ funktioniert. 
-Wenn man dem Ghibli ein Rosco 027 \glqq Medium Red\grqq\ dazumischt, und die Werte wieder auf den Ghilbi anpasst zeigen die Hauptmessung eine Verbesserung der Werte. Dagegen wirken die Probanden bei der Umfrage matt und krank und es ist keine Verbesserung sichtbar. Dies liegt am Spektrum des Ghibli, der mit seiner reinweißen LED-Engine Probleme hat, das Spektrum auszufüllen. Dem Ghibli wäre deutlich besser geholfen, wenn man das Loch im Spektrum von 470 nm bis 510 nm Wellenlänge und den Rotbereich des Spektrums aufbessern würde. Nur einen tiefroten Anteil zu ergänzen reicht nicht aus, und das macht sich auch optisch bemerkbar.\\
+
+Beim Robin DL7F Wash ist beim dritten Bild mit dem Rosco 787 \glqq Marius Red\grqq\ ein falsches Bild in der Umfrage gelandet. Es ist deutlich sichtbar, dass die Kamera die Probanden zu hell darstellt und dadurch die Hauttöne sehr unnatürlich aussehen. Daher ist dieser Wert für die Umfrage ungültig. Dennoch haben die Probanden dieses Bild auch durchgehend schlecht bewertet und somit zeigt sich, dass das Verfahren des\glqq Report ITU-R BT.1082\grqq\ funktioniert.
+umfragedl7fkaputt
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/umfragedl7fkaputt} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Aufgezeichnetes Bild der Probanden beleuchtet mit dem DL7F Wash. Dieses Bild wurde durch falsche Kameraeinstellungen zu hell.} \label{b_umfragedl7fkaputt}
+\end{figure}
+
+
+
+Wenn man dem Ghibli ein Rosco 027 \glqq Medium Red\grqq\ dazumischt, und die Werte wieder auf den Ghilbi anpasst zeigen die Hauptmessung eine Verbesserung der Werte. Dagegen wirken die Probanden bei der Umfrage matt und krank und es ist keine Verbesserung sichtbar (Abbildung \ref{b_vergleich2}). Dies liegt am Spektrum des Ghibli, der mit seiner reinweißen LED-Engine Probleme hat, das Spektrum auszufüllen. Dem Ghibli wäre deutlich besser geholfen, wenn man das Loch im Spektrum von 470 nm bis 510 nm Wellenlänge und den Rotbereich des Spektrums aufbessern würde. Nur einen tiefroten Anteil zu ergänzen reicht nicht aus, und das macht sich auch optisch bemerkbar.\\
+
+\begin{figure}[H]     % h=here, t=top, b=bottom, p=page
+\centering
+\includegraphics[width=1.0\textwidth]{bilder/vergleich2} 
+% Bilddatei aus dem Unterverzeichnis bilder holen, skalieren auf 0.8*Satzspiegel
+\caption {Alle drei Bilder wurden mit dem Ghibli beleuchtet. Das untere Bild ist ohne \glqq Red Tail\grqq . Dem mittleren wurde ein Rosco 027 \glqq Medium Red\grqq\ dazugemischt. Das obere Bild ist mit einem zusätzlichen Rosco 787 \glqq Marius Red\grqq\ erstellt worden. Die ausgedruckten Bilder sind nicht farbecht.} \label{b_vergleich2}
+\end{figure}
+
+
 Vielen Probanden ist es schwer gefallen die Bilder einzuschätzen, da sich der rechte nordische Hauttyp deutlich von den anderen Hauttypen unterscheidet. Daher ist es zu einem Konflikt in der Entscheidung gekommen, wie das Bild zu beurteilen sei, wenn der helle Hautton auf dem Bild natürlich wirkte, nicht aber die anderen Hauttypen. Anderen Probanden wiederum hat dieser Unterschied geholfen, die Bilder besser einschätzen zu können. Da die vorgeschlagene Länge einer Umfrage in dem \glqq Report ITU-R BT.1082\grqq\ eine halbe Stunde nicht überschreiten sollte hat man sich für den Vergleich aller Hauttypen gleichzeitig entschieden. Ansonsten vervierfacht sich die Anzahl der 38 Bilder und damit erhöht sich die Länge der Umfrage auf eine Stunde. 
 
 
@@ -1537,6 +1578,35 @@ Trotz der aufgezeigten Tendenzen bringt der \glqq Red Tail\grqq\ noch viele span
 % Die Einträge sollen alphabetisch sortiert sein.
 
 \chapter{Anhang}
+
+\section{Materialliste}
+
+\begin{itemize}
+\item Arri True Blue D5 mit Vorschaltgerät
+\item Arri Sun 5 mit Vorschaltgerät
+\item Clay Paky K-Eye K20
+\item ETC Source Four LED Series 2 Lustr
+\item GLP Impression X4L
+\item Leonardo De Sisti 1kW Stufenlinsenscheinwerfer
+\item Martin MAC Encore Wash CLD
+\item Robe Robin DL7F Wash
+\item MA Lighting GrandMA 2 light
+\item JETI specbos 1211
+\item UPRtek MK350S
+\item Sony RCP-1500
+\item Sony HDC-2500 mit Weitwinkelobjektiv
+\item Sony HDCU 2500 CCU
+\item Sony PVM-2541
+\item Tektronix WFM5250 
+\item Tektronik WFM700
+\item Blackmagic UltraStudio Mini Monitor
+\item Grautreppentesttafel
+\item Farbtesttafel
+\item Rosco 027 \glqq Medium Red\grqq\
+\item Rosco 787 \glqq Marius Red\grqq\
+\item Rosco 789 \glqq Blood Red\grqq\
+\end{itemize}
+
 
 \section{Vormessung}
 
