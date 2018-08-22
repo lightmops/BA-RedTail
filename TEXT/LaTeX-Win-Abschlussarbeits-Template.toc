@@ -51,28 +51,32 @@
 \contentsline {section}{\numberline {10.5}Videotechnische Messger\IeC {\"a}te}{72}{section.10.5}
 \contentsline {subsection}{\numberline {10.5.1}Waveformmonitor}{72}{subsection.10.5.1}
 \contentsline {subsection}{\numberline {10.5.2}Vektorskop}{73}{subsection.10.5.2}
-\contentsline {chapter}{\numberline {11}Vormessungen}{76}{chapter.11}
-\contentsline {section}{\numberline {11.1}Aufbau und Messungen}{76}{section.11.1}
-\contentsline {section}{\numberline {11.2}Fazit aus der Vormessung}{77}{section.11.2}
-\contentsline {section}{\numberline {11.3}Referenzlicht}{81}{section.11.3}
-\contentsline {chapter}{\numberline {12}Hauptmessung}{83}{chapter.12}
-\contentsline {section}{\numberline {12.1}Messaufbau und Messungen}{83}{section.12.1}
-\contentsline {chapter}{\numberline {13}Messergebnisse}{86}{chapter.13}
-\contentsline {section}{\numberline {13.1}Analyse der Farbwiedergabewerte}{89}{section.13.1}
-\contentsline {section}{\numberline {13.2}Fazit aus den Hauptmessungen}{89}{section.13.2}
-\contentsline {chapter}{\numberline {14}Umfrage}{91}{chapter.14}
-\contentsline {section}{\numberline {14.1}Anpassung der Scheinwerfer}{91}{section.14.1}
-\contentsline {section}{\numberline {14.2}Auswahl der Kamera und der Probanden}{92}{section.14.2}
-\contentsline {section}{\numberline {14.3}Erstellung der Bilder}{92}{section.14.3}
-\contentsline {section}{\numberline {14.4}Umfrage nach Rec. ITU-R BT.500-11}{93}{section.14.4}
-\contentsline {section}{\numberline {14.5}Aufbau und Durchf\IeC {\"u}hrung der Umfrage}{94}{section.14.5}
-\contentsline {chapter}{\numberline {15}Umfrageergebnisse}{96}{chapter.15}
-\contentsline {chapter}{\numberline {16}Fazit}{100}{chapter.16}
-\contentsline {chapter}{\numberline {17}Ausblick}{101}{chapter.17}
+\contentsline {chapter}{\numberline {11}Messungen}{76}{chapter.11}
+\contentsline {section}{\numberline {11.1}Grund\IeC {\"u}berlegungen}{76}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Rott\IeC {\"o}ne des \glqq Red Tail\grqq }{76}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}Scheinwerfer}{77}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.3}Referenzlicht}{78}{subsection.11.1.3}
+\contentsline {section}{\numberline {11.2}Messaufbau}{79}{section.11.2}
+\contentsline {section}{\numberline {11.3}Vormessung}{79}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}Durchf\IeC {\"u}hrung der Vormessung}{79}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.2}Analyse der Vormessung}{81}{subsection.11.3.2}
+\contentsline {subsection}{\numberline {11.3.3}Fazit aus der Vormessung}{84}{subsection.11.3.3}
+\contentsline {section}{\numberline {11.4}Hauptmessung}{84}{section.11.4}
+\contentsline {subsection}{\numberline {11.4.1}Durchf\IeC {\"u}hrung der Hauptmessung}{85}{subsection.11.4.1}
+\contentsline {subsection}{\numberline {11.4.2}Analyse der Hauptmessung}{86}{subsection.11.4.2}
+\contentsline {subsection}{\numberline {11.4.3}Fazit aus der Hauptmessung}{89}{subsection.11.4.3}
+\contentsline {chapter}{\numberline {12}Aufnahme der Bilder}{90}{chapter.12}
+\contentsline {section}{\numberline {12.1}Auswahl der Kamera und der Probanden}{90}{section.12.1}
+\contentsline {section}{\numberline {12.2}Anpassung der Scheinwerfer}{91}{section.12.2}
+\contentsline {section}{\numberline {12.3}Erstellung der Bilder}{92}{section.12.3}
+\contentsline {chapter}{\numberline {13}Umfrage}{93}{chapter.13}
+\contentsline {section}{\numberline {13.1}Umfrage nach Rec. ITU-R BT.500-11}{93}{section.13.1}
+\contentsline {section}{\numberline {13.2}Aufbau und Durchf\IeC {\"u}hrung der Umfrage}{94}{section.13.2}
+\contentsline {section}{\numberline {13.3}Umfrageergebnisse}{95}{section.13.3}
+\contentsline {chapter}{\numberline {14}Fazit}{100}{chapter.14}
+\contentsline {chapter}{\numberline {15}Ausblick}{101}{chapter.15}
 \contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{102}{chapter*.4}
 \contentsline {chapter}{\nonumberline Tabellenverzeichnis}{106}{chapter*.5}
-\contentsline {chapter}{\numberline {18}Anhang}{107}{chapter.18}
-\contentsline {section}{\numberline {18.1}Materialliste}{107}{section.18.1}
-\contentsline {section}{\numberline {18.2}Vormessung}{108}{section.18.2}
-\contentsline {subsection}{\numberline {18.2.1}Arri D5}{108}{subsection.18.2.1}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{112}{chapter*.6}
+\contentsline {chapter}{\numberline {16}Anhang}{107}{chapter.16}
+\contentsline {section}{\numberline {16.1}Materialliste}{107}{section.16.1}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{109}{chapter*.6}
