@@ -4,71 +4,75 @@
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung}{6}{chapter.1}
 \contentsline {chapter}{\numberline {2}Danksagung}{7}{chapter.2}
-\contentsline {chapter}{\numberline {3}Grundlagen und Kenngr\IeC {\"o}\IeC {\ss }en der Lichttechnik}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Stoffkennzahlen}{8}{section.3.1}
-\contentsline {section}{\numberline {3.2}Lichtstrom $\Phi $}{9}{section.3.2}
+\contentsline {chapter}{\numberline {3}Grundlagen und Kenngr\IeC {\"o}\IeC {\ss }en der Lichttechnik}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Lichtstrom $\Phi $}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Lichtausbeute $\eta $}{10}{section.3.2}
 \contentsline {section}{\numberline {3.3}Beleuchtungsst\IeC {\"a}rke E}{10}{section.3.3}
 \contentsline {section}{\numberline {3.4}Lichtst\IeC {\"a}rke I}{11}{section.3.4}
 \contentsline {section}{\numberline {3.5}Leuchtdichte L}{13}{section.3.5}
-\contentsline {chapter}{\numberline {4}Leuchtmittel}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Gl\IeC {\"u}hlampe}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}Halogengl\IeC {\"u}hlampe}{16}{section.4.2}
-\contentsline {section}{\numberline {4.3}Entladungslampen}{17}{section.4.3}
-\contentsline {section}{\numberline {4.4}LEDs}{19}{section.4.4}
-\contentsline {section}{\numberline {4.5}Farbtemperatur}{21}{section.4.5}
-\contentsline {chapter}{\numberline {5}Farben}{24}{chapter.5}
-\contentsline {section}{\numberline {5.1}Farben mit dem Auge sehen}{24}{section.5.1}
-\contentsline {section}{\numberline {5.2}Theorien der Farbwahrnehmung}{25}{section.5.2}
-\contentsline {section}{\numberline {5.3}Farbmischung}{27}{section.5.3}
-\contentsline {section}{\numberline {5.4}Hautt\IeC {\"o}ne}{30}{section.5.4}
-\contentsline {chapter}{\numberline {6}Farbr\IeC {\"a}ume}{32}{chapter.6}
-\contentsline {section}{\numberline {6.1}RGB Farbraum}{32}{section.6.1}
-\contentsline {section}{\numberline {6.2}CIE-XYZ Farbraum}{35}{section.6.2}
-\contentsline {section}{\numberline {6.3}CIE-unity chromity scale-Farbtafel (CIE-UCS)}{38}{section.6.3}
-\contentsline {chapter}{\numberline {7}Farbwiedergabewerte}{41}{chapter.7}
-\contentsline {section}{\numberline {7.1}CIE: Color Rendering Index (CRI)}{41}{section.7.1}
-\contentsline {section}{\numberline {7.2}NIST: Color Quality Scale (CQS)}{44}{section.7.2}
-\contentsline {section}{\numberline {7.3}EBU: Television Lighting Consistency Index (TLCI)}{47}{section.7.3}
-\contentsline {section}{\numberline {7.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{51}{section.7.4}
-\contentsline {chapter}{\numberline {8}Messger\IeC {\"a}te f\IeC {\"u}r Farbmessung}{56}{chapter.8}
-\contentsline {section}{\numberline {8.1}Spektrometer}{56}{section.8.1}
-\contentsline {chapter}{\numberline {9}Grundlagen Videotechnik}{59}{chapter.9}
-\contentsline {section}{\numberline {9.1}Grundeinstellung einer Kamera}{59}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Vorverst\IeC {\"a}rkung}{59}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Blende}{59}{subsection.9.1.2}
-\contentsline {subsection}{\numberline {9.1.3}Sch\IeC {\"a}rfentiefe}{60}{subsection.9.1.3}
-\contentsline {subsection}{\numberline {9.1.4}Kniefunktion}{61}{subsection.9.1.4}
-\contentsline {subsection}{\numberline {9.1.5}$\gamma $-Kennlinie}{61}{subsection.9.1.5}
-\contentsline {subsection}{\numberline {9.1.6}Linear Matrix}{61}{subsection.9.1.6}
-\contentsline {subsection}{\numberline {9.1.7}Wei\IeC {\ss }abgleich}{63}{subsection.9.1.7}
-\contentsline {section}{\numberline {9.2}Farbbildwandlertechnik einer Kamera}{64}{section.9.2}
-\contentsline {section}{\numberline {9.3}RGB-Signal}{66}{section.9.3}
-\contentsline {section}{\numberline {9.4}Komponenten-Signal}{66}{section.9.4}
-\contentsline {section}{\numberline {9.5}Videotechnische Messger\IeC {\"a}te}{68}{section.9.5}
-\contentsline {subsection}{\numberline {9.5.1}Waveformmonitor}{68}{subsection.9.5.1}
-\contentsline {subsection}{\numberline {9.5.2}Vektorskop}{69}{subsection.9.5.2}
-\contentsline {chapter}{\numberline {10}Vormessungen}{72}{chapter.10}
-\contentsline {section}{\numberline {10.1}Aufbau und Messungen}{72}{section.10.1}
-\contentsline {section}{\numberline {10.2}Fazit aus der Vormessung}{73}{section.10.2}
-\contentsline {section}{\numberline {10.3}Referenzlicht}{77}{section.10.3}
-\contentsline {chapter}{\numberline {11}Hauptmessung}{79}{chapter.11}
-\contentsline {section}{\numberline {11.1}Messaufbau und Messungen}{79}{section.11.1}
-\contentsline {chapter}{\numberline {12}Messergebnisse}{82}{chapter.12}
-\contentsline {section}{\numberline {12.1}Analyse der Farbwiedergabewerte}{85}{section.12.1}
-\contentsline {section}{\numberline {12.2}Fazit aus den Hauptmessungen}{85}{section.12.2}
-\contentsline {chapter}{\numberline {13}Umfrage}{87}{chapter.13}
-\contentsline {section}{\numberline {13.1}Anpassung der Scheinwerfer}{87}{section.13.1}
-\contentsline {section}{\numberline {13.2}Auswahl der Kamera und der Probanden}{88}{section.13.2}
-\contentsline {section}{\numberline {13.3}Erstellung der Bilder}{89}{section.13.3}
-\contentsline {section}{\numberline {13.4}Umfrage nach Rec. ITU-R BT.500-11}{89}{section.13.4}
-\contentsline {section}{\numberline {13.5}Aufbau und Durchf\IeC {\"u}hrung der Umfrage}{90}{section.13.5}
-\contentsline {chapter}{\numberline {14}Umfrageergebnisse}{92}{chapter.14}
-\contentsline {chapter}{\numberline {15}Fazit}{96}{chapter.15}
-\contentsline {chapter}{\numberline {16}Ausblick}{97}{chapter.16}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{98}{chapter*.4}
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{102}{chapter*.5}
-\contentsline {chapter}{\numberline {17}Anhang}{103}{chapter.17}
-\contentsline {section}{\numberline {17.1}Materialliste}{103}{section.17.1}
-\contentsline {section}{\numberline {17.2}Vormessung}{104}{section.17.2}
-\contentsline {subsection}{\numberline {17.2.1}Arri D5}{104}{subsection.17.2.1}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{108}{chapter*.6}
+\contentsline {section}{\numberline {3.6}Stoffkennzahlen}{14}{section.3.6}
+\contentsline {chapter}{\numberline {4}Farben des Lichts}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Farben mit dem Auge sehen}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Theorien der Farbwahrnehmung}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}Additive Farbmischung}{18}{section.4.3}
+\contentsline {section}{\numberline {4.4}Subtraktive Farbmischung}{21}{section.4.4}
+\contentsline {section}{\numberline {4.5}Hautt\IeC {\"o}ne}{22}{section.4.5}
+\contentsline {chapter}{\numberline {5}Farbr\IeC {\"a}ume}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}RGB Farbraum}{24}{section.5.1}
+\contentsline {section}{\numberline {5.2}CIE-XYZ Farbraum}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}CIE-unity chromity scale-Farbtafel (CIE-UCS)}{31}{section.5.3}
+\contentsline {chapter}{\numberline {6}Farbtemperatur}{33}{chapter.6}
+\contentsline {chapter}{\numberline {7}Farbwiedergabewerte}{35}{chapter.7}
+\contentsline {section}{\numberline {7.1}CIE: Color Rendering Index (CRI)}{35}{section.7.1}
+\contentsline {section}{\numberline {7.2}NIST: Color Quality Scale (CQS)}{38}{section.7.2}
+\contentsline {section}{\numberline {7.3}EBU: Television Lighting Consistency Index (TLCI)}{41}{section.7.3}
+\contentsline {section}{\numberline {7.4}IES Method for Evaluating Light Source Color Rendition (TM-30-15)}{46}{section.7.4}
+\contentsline {chapter}{\numberline {8}Leuchtmittel}{51}{chapter.8}
+\contentsline {section}{\numberline {8.1}Gl\IeC {\"u}hlampe}{51}{section.8.1}
+\contentsline {section}{\numberline {8.2}Halogengl\IeC {\"u}hlampe}{52}{section.8.2}
+\contentsline {section}{\numberline {8.3}Entladungslampen}{53}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Niederdruckentladungslampen}{53}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Hochdruckentladungslampen}{54}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}LEDs}{56}{section.8.4}
+\contentsline {chapter}{\numberline {9}Messger\IeC {\"a}te f\IeC {\"u}r Farbmessung}{59}{chapter.9}
+\contentsline {section}{\numberline {9.1}Spektrometer}{59}{section.9.1}
+\contentsline {chapter}{\numberline {10}Grundlagen Videotechnik}{62}{chapter.10}
+\contentsline {section}{\numberline {10.1}Grundeinstellung einer Kamera}{62}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Vorverst\IeC {\"a}rkung}{62}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Blende}{62}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Sch\IeC {\"a}rfentiefe}{63}{subsection.10.1.3}
+\contentsline {subsection}{\numberline {10.1.4}Kniefunktion}{64}{subsection.10.1.4}
+\contentsline {subsection}{\numberline {10.1.5}$\gamma $-Kennlinie}{64}{subsection.10.1.5}
+\contentsline {subsection}{\numberline {10.1.6}Linear Matrix}{65}{subsection.10.1.6}
+\contentsline {subsection}{\numberline {10.1.7}Wei\IeC {\ss }abgleich}{66}{subsection.10.1.7}
+\contentsline {section}{\numberline {10.2}Farbbildwandlertechnik einer Kamera}{68}{section.10.2}
+\contentsline {section}{\numberline {10.3}RGB-Signal}{70}{section.10.3}
+\contentsline {section}{\numberline {10.4}Komponenten-Signal}{70}{section.10.4}
+\contentsline {section}{\numberline {10.5}Videotechnische Messger\IeC {\"a}te}{72}{section.10.5}
+\contentsline {subsection}{\numberline {10.5.1}Waveformmonitor}{72}{subsection.10.5.1}
+\contentsline {subsection}{\numberline {10.5.2}Vektorskop}{73}{subsection.10.5.2}
+\contentsline {chapter}{\numberline {11}Vormessungen}{76}{chapter.11}
+\contentsline {section}{\numberline {11.1}Aufbau und Messungen}{76}{section.11.1}
+\contentsline {section}{\numberline {11.2}Fazit aus der Vormessung}{77}{section.11.2}
+\contentsline {section}{\numberline {11.3}Referenzlicht}{81}{section.11.3}
+\contentsline {chapter}{\numberline {12}Hauptmessung}{83}{chapter.12}
+\contentsline {section}{\numberline {12.1}Messaufbau und Messungen}{83}{section.12.1}
+\contentsline {chapter}{\numberline {13}Messergebnisse}{86}{chapter.13}
+\contentsline {section}{\numberline {13.1}Analyse der Farbwiedergabewerte}{89}{section.13.1}
+\contentsline {section}{\numberline {13.2}Fazit aus den Hauptmessungen}{89}{section.13.2}
+\contentsline {chapter}{\numberline {14}Umfrage}{91}{chapter.14}
+\contentsline {section}{\numberline {14.1}Anpassung der Scheinwerfer}{91}{section.14.1}
+\contentsline {section}{\numberline {14.2}Auswahl der Kamera und der Probanden}{92}{section.14.2}
+\contentsline {section}{\numberline {14.3}Erstellung der Bilder}{92}{section.14.3}
+\contentsline {section}{\numberline {14.4}Umfrage nach Rec. ITU-R BT.500-11}{93}{section.14.4}
+\contentsline {section}{\numberline {14.5}Aufbau und Durchf\IeC {\"u}hrung der Umfrage}{94}{section.14.5}
+\contentsline {chapter}{\numberline {15}Umfrageergebnisse}{96}{chapter.15}
+\contentsline {chapter}{\numberline {16}Fazit}{100}{chapter.16}
+\contentsline {chapter}{\numberline {17}Ausblick}{101}{chapter.17}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{102}{chapter*.4}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{106}{chapter*.5}
+\contentsline {chapter}{\numberline {18}Anhang}{107}{chapter.18}
+\contentsline {section}{\numberline {18.1}Materialliste}{107}{section.18.1}
+\contentsline {section}{\numberline {18.2}Vormessung}{108}{section.18.2}
+\contentsline {subsection}{\numberline {18.2.1}Arri D5}{108}{subsection.18.2.1}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{112}{chapter*.6}

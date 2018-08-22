@@ -1,70 +1,74 @@
 \BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Danksagung}{}% 2
 \BOOKMARK [0][-]{chapter.3}{Grundlagen und Kenngr\366\337en der Lichttechnik}{}% 3
-\BOOKMARK [1][-]{section.3.1}{Stoffkennzahlen}{chapter.3}% 4
-\BOOKMARK [1][-]{section.3.2}{Lichtstrom }{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.1}{Lichtstrom }{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Lichtausbeute }{chapter.3}% 5
 \BOOKMARK [1][-]{section.3.3}{Beleuchtungsst\344rke E}{chapter.3}% 6
 \BOOKMARK [1][-]{section.3.4}{Lichtst\344rke I}{chapter.3}% 7
 \BOOKMARK [1][-]{section.3.5}{Leuchtdichte L}{chapter.3}% 8
-\BOOKMARK [0][-]{chapter.4}{Leuchtmittel}{}% 9
-\BOOKMARK [1][-]{section.4.1}{Gl\374hlampe}{chapter.4}% 10
-\BOOKMARK [1][-]{section.4.2}{Halogengl\374hlampe}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.3}{Entladungslampen}{chapter.4}% 12
-\BOOKMARK [1][-]{section.4.4}{LEDs}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.5}{Farbtemperatur}{chapter.4}% 14
-\BOOKMARK [0][-]{chapter.5}{Farben}{}% 15
-\BOOKMARK [1][-]{section.5.1}{Farben mit dem Auge sehen}{chapter.5}% 16
-\BOOKMARK [1][-]{section.5.2}{Theorien der Farbwahrnehmung}{chapter.5}% 17
-\BOOKMARK [1][-]{section.5.3}{Farbmischung}{chapter.5}% 18
-\BOOKMARK [1][-]{section.5.4}{Hautt\366ne}{chapter.5}% 19
-\BOOKMARK [0][-]{chapter.6}{Farbr\344ume}{}% 20
-\BOOKMARK [1][-]{section.6.1}{RGB Farbraum}{chapter.6}% 21
-\BOOKMARK [1][-]{section.6.2}{CIE-XYZ Farbraum}{chapter.6}% 22
-\BOOKMARK [1][-]{section.6.3}{CIE-unity chromity scale-Farbtafel \(CIE-UCS\)}{chapter.6}% 23
-\BOOKMARK [0][-]{chapter.7}{Farbwiedergabewerte}{}% 24
-\BOOKMARK [1][-]{section.7.1}{CIE: Color Rendering Index \(CRI\)}{chapter.7}% 25
-\BOOKMARK [1][-]{section.7.2}{NIST: Color Quality Scale \(CQS\)}{chapter.7}% 26
-\BOOKMARK [1][-]{section.7.3}{EBU: Television Lighting Consistency Index \(TLCI\)}{chapter.7}% 27
-\BOOKMARK [1][-]{section.7.4}{IES Method for Evaluating Light Source Color Rendition \(TM-30-15\)}{chapter.7}% 28
-\BOOKMARK [0][-]{chapter.8}{Messger\344te f\374r Farbmessung}{}% 29
-\BOOKMARK [1][-]{section.8.1}{Spektrometer}{chapter.8}% 30
-\BOOKMARK [0][-]{chapter.9}{Grundlagen Videotechnik}{}% 31
-\BOOKMARK [1][-]{section.9.1}{Grundeinstellung einer Kamera}{chapter.9}% 32
-\BOOKMARK [2][-]{subsection.9.1.1}{Vorverst\344rkung}{section.9.1}% 33
-\BOOKMARK [2][-]{subsection.9.1.2}{Blende}{section.9.1}% 34
-\BOOKMARK [2][-]{subsection.9.1.3}{Sch\344rfentiefe}{section.9.1}% 35
-\BOOKMARK [2][-]{subsection.9.1.4}{Kniefunktion}{section.9.1}% 36
-\BOOKMARK [2][-]{subsection.9.1.5}{-Kennlinie}{section.9.1}% 37
-\BOOKMARK [2][-]{subsection.9.1.6}{Linear Matrix}{section.9.1}% 38
-\BOOKMARK [2][-]{subsection.9.1.7}{Wei\337abgleich}{section.9.1}% 39
-\BOOKMARK [1][-]{section.9.2}{Farbbildwandlertechnik einer Kamera}{chapter.9}% 40
-\BOOKMARK [1][-]{section.9.3}{RGB-Signal}{chapter.9}% 41
-\BOOKMARK [1][-]{section.9.4}{Komponenten-Signal}{chapter.9}% 42
-\BOOKMARK [1][-]{section.9.5}{Videotechnische Messger\344te}{chapter.9}% 43
-\BOOKMARK [2][-]{subsection.9.5.1}{Waveformmonitor}{section.9.5}% 44
-\BOOKMARK [2][-]{subsection.9.5.2}{Vektorskop}{section.9.5}% 45
-\BOOKMARK [0][-]{chapter.10}{Vormessungen}{}% 46
-\BOOKMARK [1][-]{section.10.1}{Aufbau und Messungen}{chapter.10}% 47
-\BOOKMARK [1][-]{section.10.2}{Fazit aus der Vormessung}{chapter.10}% 48
-\BOOKMARK [1][-]{section.10.3}{Referenzlicht}{chapter.10}% 49
-\BOOKMARK [0][-]{chapter.11}{Hauptmessung}{}% 50
-\BOOKMARK [1][-]{section.11.1}{Messaufbau und Messungen}{chapter.11}% 51
-\BOOKMARK [0][-]{chapter.12}{Messergebnisse}{}% 52
-\BOOKMARK [1][-]{section.12.1}{Analyse der Farbwiedergabewerte}{chapter.12}% 53
-\BOOKMARK [1][-]{section.12.2}{Fazit aus den Hauptmessungen}{chapter.12}% 54
-\BOOKMARK [0][-]{chapter.13}{Umfrage}{}% 55
-\BOOKMARK [1][-]{section.13.1}{Anpassung der Scheinwerfer}{chapter.13}% 56
-\BOOKMARK [1][-]{section.13.2}{Auswahl der Kamera und der Probanden}{chapter.13}% 57
-\BOOKMARK [1][-]{section.13.3}{Erstellung der Bilder}{chapter.13}% 58
-\BOOKMARK [1][-]{section.13.4}{Umfrage nach Rec. ITU-R BT.500-11}{chapter.13}% 59
-\BOOKMARK [1][-]{section.13.5}{Aufbau und Durchf\374hrung der Umfrage}{chapter.13}% 60
-\BOOKMARK [0][-]{chapter.14}{Umfrageergebnisse}{}% 61
-\BOOKMARK [0][-]{chapter.15}{Fazit}{}% 62
-\BOOKMARK [0][-]{chapter.16}{Ausblick}{}% 63
-\BOOKMARK [0][-]{chapter*.4}{Abbildungsverzeichnis}{}% 64
-\BOOKMARK [0][-]{chapter*.5}{Tabellenverzeichnis}{}% 65
-\BOOKMARK [0][-]{chapter.17}{Anhang}{}% 66
-\BOOKMARK [1][-]{section.17.1}{Materialliste}{chapter.17}% 67
-\BOOKMARK [1][-]{section.17.2}{Vormessung}{chapter.17}% 68
-\BOOKMARK [2][-]{subsection.17.2.1}{Arri D5}{section.17.2}% 69
-\BOOKMARK [0][-]{chapter*.6}{Literaturverzeichnis}{}% 70
+\BOOKMARK [1][-]{section.3.6}{Stoffkennzahlen}{chapter.3}% 9
+\BOOKMARK [0][-]{chapter.4}{Farben des Lichts}{}% 10
+\BOOKMARK [1][-]{section.4.1}{Farben mit dem Auge sehen}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.2}{Theorien der Farbwahrnehmung}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.3}{Additive Farbmischung}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.4}{Subtraktive Farbmischung}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.5}{Hautt\366ne}{chapter.4}% 15
+\BOOKMARK [0][-]{chapter.5}{Farbr\344ume}{}% 16
+\BOOKMARK [1][-]{section.5.1}{RGB Farbraum}{chapter.5}% 17
+\BOOKMARK [1][-]{section.5.2}{CIE-XYZ Farbraum}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.3}{CIE-unity chromity scale-Farbtafel \(CIE-UCS\)}{chapter.5}% 19
+\BOOKMARK [0][-]{chapter.6}{Farbtemperatur}{}% 20
+\BOOKMARK [0][-]{chapter.7}{Farbwiedergabewerte}{}% 21
+\BOOKMARK [1][-]{section.7.1}{CIE: Color Rendering Index \(CRI\)}{chapter.7}% 22
+\BOOKMARK [1][-]{section.7.2}{NIST: Color Quality Scale \(CQS\)}{chapter.7}% 23
+\BOOKMARK [1][-]{section.7.3}{EBU: Television Lighting Consistency Index \(TLCI\)}{chapter.7}% 24
+\BOOKMARK [1][-]{section.7.4}{IES Method for Evaluating Light Source Color Rendition \(TM-30-15\)}{chapter.7}% 25
+\BOOKMARK [0][-]{chapter.8}{Leuchtmittel}{}% 26
+\BOOKMARK [1][-]{section.8.1}{Gl\374hlampe}{chapter.8}% 27
+\BOOKMARK [1][-]{section.8.2}{Halogengl\374hlampe}{chapter.8}% 28
+\BOOKMARK [1][-]{section.8.3}{Entladungslampen}{chapter.8}% 29
+\BOOKMARK [2][-]{subsection.8.3.1}{Niederdruckentladungslampen}{section.8.3}% 30
+\BOOKMARK [2][-]{subsection.8.3.2}{Hochdruckentladungslampen}{section.8.3}% 31
+\BOOKMARK [1][-]{section.8.4}{LEDs}{chapter.8}% 32
+\BOOKMARK [0][-]{chapter.9}{Messger\344te f\374r Farbmessung}{}% 33
+\BOOKMARK [1][-]{section.9.1}{Spektrometer}{chapter.9}% 34
+\BOOKMARK [0][-]{chapter.10}{Grundlagen Videotechnik}{}% 35
+\BOOKMARK [1][-]{section.10.1}{Grundeinstellung einer Kamera}{chapter.10}% 36
+\BOOKMARK [2][-]{subsection.10.1.1}{Vorverst\344rkung}{section.10.1}% 37
+\BOOKMARK [2][-]{subsection.10.1.2}{Blende}{section.10.1}% 38
+\BOOKMARK [2][-]{subsection.10.1.3}{Sch\344rfentiefe}{section.10.1}% 39
+\BOOKMARK [2][-]{subsection.10.1.4}{Kniefunktion}{section.10.1}% 40
+\BOOKMARK [2][-]{subsection.10.1.5}{-Kennlinie}{section.10.1}% 41
+\BOOKMARK [2][-]{subsection.10.1.6}{Linear Matrix}{section.10.1}% 42
+\BOOKMARK [2][-]{subsection.10.1.7}{Wei\337abgleich}{section.10.1}% 43
+\BOOKMARK [1][-]{section.10.2}{Farbbildwandlertechnik einer Kamera}{chapter.10}% 44
+\BOOKMARK [1][-]{section.10.3}{RGB-Signal}{chapter.10}% 45
+\BOOKMARK [1][-]{section.10.4}{Komponenten-Signal}{chapter.10}% 46
+\BOOKMARK [1][-]{section.10.5}{Videotechnische Messger\344te}{chapter.10}% 47
+\BOOKMARK [2][-]{subsection.10.5.1}{Waveformmonitor}{section.10.5}% 48
+\BOOKMARK [2][-]{subsection.10.5.2}{Vektorskop}{section.10.5}% 49
+\BOOKMARK [0][-]{chapter.11}{Vormessungen}{}% 50
+\BOOKMARK [1][-]{section.11.1}{Aufbau und Messungen}{chapter.11}% 51
+\BOOKMARK [1][-]{section.11.2}{Fazit aus der Vormessung}{chapter.11}% 52
+\BOOKMARK [1][-]{section.11.3}{Referenzlicht}{chapter.11}% 53
+\BOOKMARK [0][-]{chapter.12}{Hauptmessung}{}% 54
+\BOOKMARK [1][-]{section.12.1}{Messaufbau und Messungen}{chapter.12}% 55
+\BOOKMARK [0][-]{chapter.13}{Messergebnisse}{}% 56
+\BOOKMARK [1][-]{section.13.1}{Analyse der Farbwiedergabewerte}{chapter.13}% 57
+\BOOKMARK [1][-]{section.13.2}{Fazit aus den Hauptmessungen}{chapter.13}% 58
+\BOOKMARK [0][-]{chapter.14}{Umfrage}{}% 59
+\BOOKMARK [1][-]{section.14.1}{Anpassung der Scheinwerfer}{chapter.14}% 60
+\BOOKMARK [1][-]{section.14.2}{Auswahl der Kamera und der Probanden}{chapter.14}% 61
+\BOOKMARK [1][-]{section.14.3}{Erstellung der Bilder}{chapter.14}% 62
+\BOOKMARK [1][-]{section.14.4}{Umfrage nach Rec. ITU-R BT.500-11}{chapter.14}% 63
+\BOOKMARK [1][-]{section.14.5}{Aufbau und Durchf\374hrung der Umfrage}{chapter.14}% 64
+\BOOKMARK [0][-]{chapter.15}{Umfrageergebnisse}{}% 65
+\BOOKMARK [0][-]{chapter.16}{Fazit}{}% 66
+\BOOKMARK [0][-]{chapter.17}{Ausblick}{}% 67
+\BOOKMARK [0][-]{chapter*.4}{Abbildungsverzeichnis}{}% 68
+\BOOKMARK [0][-]{chapter*.5}{Tabellenverzeichnis}{}% 69
+\BOOKMARK [0][-]{chapter.18}{Anhang}{}% 70
+\BOOKMARK [1][-]{section.18.1}{Materialliste}{chapter.18}% 71
+\BOOKMARK [1][-]{section.18.2}{Vormessung}{chapter.18}% 72
+\BOOKMARK [2][-]{subsection.18.2.1}{Arri D5}{section.18.2}% 73
+\BOOKMARK [0][-]{chapter*.6}{Literaturverzeichnis}{}% 74

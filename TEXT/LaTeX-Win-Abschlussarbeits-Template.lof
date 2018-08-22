@@ -5,97 +5,99 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Darstellung verschiedener Reflexion- (oben) und Transmissionsarten (unten) \footnotemark }}{8}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Der Lichtstrom gibt an, wie viel sichtbares Licht eine Lichtquelle abstrahlt. \footnotemark }}{9}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Die Beleuchtungsst\IeC {\"a}rke gibt an, wie viel Lichtstrom auf eine bestimme Fl\IeC {\"a}che trifft.\footnotemark }}{11}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Die Lichtst\IeC {\"a}rke gibt an, wie viel Lichtstrom auf eine bestimme Richtung im Raum verteilt ist.\footnotemark }}{12}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Die Leuchtdichte hat einen Bezug auf die menschliche Helligkeitswahrnehmung.\footnotemark }}{13}{figure.3.5}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Der Lichtstrom gibt an, wie viel sichtbares Licht eine Lichtquelle abstrahlt\footnotemark .}}{9}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Die Beleuchtungsst\IeC {\"a}rke gibt an, wie viel Lichtstrom auf eine bestimme Fl\IeC {\"a}che trifft\footnotemark .}}{10}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Die Lichtst\IeC {\"a}rke gibt an, wie viel Lichtstrom auf eine bestimme Richtung im Raum verteilt ist\footnotemark .}}{12}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Die Leuchtdichte hat einen Bezug auf die menschliche Helligkeitswahrnehmung\footnotemark .}}{13}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Darstellung verschiedener Reflexion- (oben) und Transmissionsarten (unten) \footnotemark }}{14}{figure.3.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Spektrum einer Gl\IeC {\"u}hlampe\footnotemark }}{15}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Darstellung des Halogen Kreisprozesses\footnotemark }}{16}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Aufbau einer Leuchtstoffr\IeC {\"o}hre\footnotemark }}{17}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Aufbau einer Hochdruckentladungslampe\footnotemark }}{18}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Spektrum einer Hochdruckentladungslampe\footnotemark }}{19}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Aufbau einer LED\footnotemark }}{20}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Aufbau einer wei\IeC {\ss }en LED\footnotemark }}{21}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Spektrum einer kaltwei\IeC {\ss }en LED\footnotemark }}{21}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Spektrale Kurven verschiedener Farbtemperaturen des schwarzen Strahlers. (Der bunteingef\IeC {\"a}rbte Bereich stellt das sichtbare Lichtspektrum dar.)\footnotemark }}{22}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Spektrale Kurven verschiedener Farbtemperaturen des schwarzen Strahlers. (Der bunteingef\IeC {\"a}rbte Bereich stellt das sichtbare Lichtspektrum dar.)\footnotemark }}{23}{figure.4.10}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Die V($\lambda $)-Kurve zeigt, wie das Auge die verschiedenen Wellenl\IeC {\"a}nge beim photopischen Sehen gewichtet. Die wei\IeC {\ss }e Kurve (V'($\lambda $)) beschreibt, wie sich das Farbsehen beim Nachtsehen verschiebt\footnotemark .}}{16}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Die Kurven zeigen die Empfindlichkeiten der S-Zapfen (blau), der M-Zapfen (gr\IeC {\"u}n) und der L-Zapfen (rot) und ihre Maxima. Auff\IeC {\"a}llig ist, dass sich die Bereiche der M- und L-Zapfen gr\IeC {\"o}\IeC {\ss }tenteils \IeC {\"u}berlappen und die Zapfen f\IeC {\"u}r den (tief)roten Spektralbereich kaum empfindlich sind\footnotemark .}}{17}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Darstellung der \glqq Zonentheorie\grqq \ von v. Kries\footnotemark }}{18}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Die drei Grundfarben Rot, Gr\IeC {\"u}n und Blau der additiven Farbmischung ergeben zusammen wei\IeC {\ss } (unbunt)\footnotemark .}}{19}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Die drei Grundfarben Cyan, Magenta und Gelb der subtraktiven Farbmischung ergeben zusammen schwarz (unbunt)\footnotemark .}}{21}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Spektrale Strahldichtefaktoren der 15 Hautt\IeC {\"o}ne gemessen von Vinh und Khanh.\footnotemark }}{22}{figure.4.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Die V($\lambda $)-Kurve zeigt, wie das Auge die verschiedenen Wellenl\IeC {\"a}nge beim photopischen Sehen gewichtet. Die wei\IeC {\ss }e Kurve (V'($\lambda $)) beschreibt, wie sich das Farbsehen beim Nachtsehen verschiebt. \footnotemark }}{25}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Die Kurven zeigen die Empfindlichkeiten der S-Zapfen (blau), der M-Zapfen (gr\IeC {\"u}n) und der L-Zapfen (rot) und ihre Maxima. Auff\IeC {\"a}llig ist, dass sich die Bereiche der M- und L-Zapfen gr\IeC {\"o}\IeC {\ss }tenteils \IeC {\"u}berlappen und die Zapfen f\IeC {\"u}r den (tief)roten Spektralbereich kaum empfindlich sind.\footnotemark }}{26}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Darstellung der \glqq Zonentheorie\grqq \ von v. Kries \footnotemark }}{27}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Die drei Grundfarben Rot, Gr\IeC {\"u}n und Blau der additiven Farbmischung ergeben zusammen wei\IeC {\ss } (unbunt).\footnotemark }}{28}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Die drei Grundfarben Cyan, Magenta und Gelb der subtraktiven Farbmischung ergeben zusammen schwarz (unbunt).\footnotemark }}{30}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Spektrale Strahldichtefaktoren der 15 Hautt\IeC {\"o}ne gemessen von Vinh und Khanh.\footnotemark }}{31}{figure.5.6}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Beim RGB-W\IeC {\"u}rfel werden alle Prim\IeC {\"a}rvalenzen R, G, B als gleich lange Vektoren angenommen\footnotemark .}}{25}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Schematische Darstellung des Farbzuordnungsexperiments von Wright und Guild\footnotemark .}}{26}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces XYZ-Spektralwertfunktionen\footnotemark }}{27}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Darstellung der CIE-XYZ Farbtafel eines $2^\circ $ Normalbeobachter\footnotemark .}}{28}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Detailansicht des XYZ-Farbraumes mit den \glqq Geraden \IeC {\"a}hnlichster Farbtemperatur\grqq \ \footnotemark .}}{29}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Abbildung der MacAdam Ellipsen im XYZ-Farbraum\footnotemark }}{30}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Abbildung der MacAdam Ellipsen auf der UCS-Farbtafel \footnotemark }}{31}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Darstellung des $\Delta $u'v' auf der UCS-Farbtafel}}{32}{figure.5.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Beim RGB-W\IeC {\"u}rfel werden alle Prim\IeC {\"a}rvalenzen R, G, B als gleich lange Vektoren angenommen.\footnotemark }}{33}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Schematische Darstellung des Farbzuordnungsexperiments von Wright und Guild.\footnotemark }}{34}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Die XYZ-Spektralwertfunktionen, angepasst aus den r.\footnotemark }}{35}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Darstellung der CIE-XYZ Farbtafel eines $2^\circ $ Normalbeobachter.\footnotemark }}{36}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Detailansicht des XYZ-Farbraumes mit den \glqq Geraden \IeC {\"a}hnlichster Farbtemperatur\grqq \ \footnotemark }}{37}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Abbildung der MacAdam Ellipsen im XYZ-Farbraum\footnotemark }}{38}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Abbildung der MacAdam Ellipsen auf der UCS-Farbtafel \footnotemark }}{39}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Darstellung des $\Delta $u'v' auf der UCS-Farbtafel}}{40}{figure.6.8}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Spektrale Kurven verschiedener Farbtemperaturen des schwarzen Strahlers. (Der bunteingef\IeC {\"a}rbte Bereich stellt das sichtbare Lichtspektrum dar.)\footnotemark }}{33}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Spektrale Kurven verschiedener Farbtemperaturen des schwarzen Strahlers. (Der bunteingef\IeC {\"a}rbte Bereich stellt das sichtbare Lichtspektrum dar.)\footnotemark }}{34}{figure.6.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Alle Referenzfarben des Farbwiedergabeindexes: $R_{1}$ Altrosa, $R_{2}$ Senfgelb, $R_{3}$ Gelbgr\IeC {\"u}n, $R_{4}$ Hellgr\IeC {\"u}n, $R_{5}$ T\IeC {\"u}rkisblau, $R_{6}$ Himmelblau, $R_{7}$ Asterviolett, $R_{8}$ Fliederviolett, $R_{9}$ Rot ges\IeC {\"a}ttigt, $R_{10}$ Gelb ges\IeC {\"a}ttigt, $R_{11}$ Gr\IeC {\"u}n ges\IeC {\"a}ttigt, $R_{12}$ Blau ges\IeC {\"a}ttigt und $R_{13}$ Rosa (Hautfarbe), $R_{14}$ Blattgr\IeC {\"u}n \footnotemark }}{43}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Messung einer warmwei\IeC {\ss }en LED-Leuchte (Ausschnitt aus dem Demofile des Programmes \glqq LiVal\grqq \ von der Firma JETI): Links ist das Lichtspektrum der Leuchte dargestellt, rechts die gemessenen CRI-Werte \footnotemark }}{43}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Alle Referenzfarben des CQS mit voller S\IeC {\"a}ttigung\footnotemark }}{44}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ von der Firma JETI: Demo Spektrum einer warmwei\IeC {\ss }en LED (2942K) mit $Q_{f} = 81$}}{45}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ von der Firma JETI: Die f\IeC {\"u}nfzehn Referenzfarben(blau) im CIELAB-Farbraum im Vergleich zu den gemessenen Werten (rot)}}{46}{figure.7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Blockschaltbild einer TLCI-Wertbestimmung \footnotemark }}{47}{figure.7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces TLCI-Ergebnisprotokoll eines Arri L7-C LED Fresnelscheinwerfers\footnotemark }}{50}{figure.7.7}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Alle 99 Referenzfarben des TM-30\footnotemark }}{52}{figure.7.8}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Koordinatensystem aus $R_{f}$ und $R_{g}$: Die hellgraue Zone steht f\IeC {\"u}r TM-30-Werte die nicht auf der Plank'schen Kurve liegen und die dunkelgraue Zone steht f\IeC {\"u}r alle Werte, die nicht mehr als \glqq wei\IeC {\ss }\grqq \ angesehen werden. \footnotemark }}{53}{figure.7.9}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Wie sich die Farben der Testleuchte verhalten ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete. \footnotemark }}{54}{figure.7.10}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Wie sich die Farben der Testleuchte verhalten ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete.\footnotemark }}{55}{figure.7.11}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Alle Referenzfarben des Farbwiedergabeindexes: $R_{1}$ Altrosa, $R_{2}$ Senfgelb, $R_{3}$ Gelbgr\IeC {\"u}n, $R_{4}$ Hellgr\IeC {\"u}n, $R_{5}$ T\IeC {\"u}rkisblau, $R_{6}$ Himmelblau, $R_{7}$ Asterviolett, $R_{8}$ Fliederviolett, $R_{9}$ Rot ges\IeC {\"a}ttigt, $R_{10}$ Gelb ges\IeC {\"a}ttigt, $R_{11}$ Gr\IeC {\"u}n ges\IeC {\"a}ttigt, $R_{12}$ Blau ges\IeC {\"a}ttigt und $R_{13}$ Rosa (Hautfarbe), $R_{14}$ Blattgr\IeC {\"u}n\footnotemark }}{37}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Messung einer warmwei\IeC {\ss }en LED-Leuchte (Ausschnitt aus dem Demofile des Programmes \glqq LiVal\grqq \ der Firma JETI): Links ist das Lichtspektrum der Leuchte dargestellt, rechts die gemessenen CRI-Werte \footnotemark }}{38}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Alle Referenzfarben des CQS mit voller S\IeC {\"a}ttigung\footnotemark }}{38}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ der Firma JETI: Demo Spektrum einer warmwei\IeC {\ss }en LED (2942K) mit $Q_{f} = 81$}}{39}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ von der Firma JETI: Die f\IeC {\"u}nfzehn Referenzfarben(blau) im CIELAB-Farbraum im Vergleich zu den gemessenen Werten (rot)}}{40}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Blockschaltbild einer TLCI-Wertbestimmung \footnotemark }}{41}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces TLCI-Ergebnisprotokoll eines Arri L7-C LED Fresnelscheinwerfers\footnotemark }}{44}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Alle 99 Referenzfarben des TM-30\footnotemark }}{46}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Koordinatensystem aus $R_{f}$ und $R_{g}$ mit eingezeichnetem TM-30 (rot): Die hellgraue Zone steht f\IeC {\"u}r TM-30-Werte die nicht auf der Plank'schen Kurve liegen, wohingegen die dunkelgraue Zone f\IeC {\"u}r alle Werte steht, die nicht mehr als \glqq wei\IeC {\ss }\grqq \ angesehen werden\footnotemark .}}{48}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Wie sich die Farben der Testleuchte verh\IeC {\"a}lt, ist in der Vektorgraphik des $R_{g}$-Wertes anschaulich dargestellt. Der schwarze Kreis stellt die Referenzleuchte dar, der rote die getestete\footnotemark .}}{49}{figure.7.10}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Ausschnitt aus dem Programm \glqq LiVal\grqq \ von der Firma JETI: Messprotokoll des TM-30}}{50}{figure.7.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Hauptmessger\IeC {\"a}t}}{56}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Sekund\IeC {\"a}rmessger\IeC {\"a}t}}{56}{figure.8.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Abbildung der Interferenz am optischen Gitter\footnotemark }}{57}{figure.8.3}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Spektrum einer Gl\IeC {\"u}hlampe\footnotemark }}{51}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Darstellung des Halogen Kreisprozesses\footnotemark }}{52}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Aufbau einer Leuchtstoffr\IeC {\"o}hre\footnotemark }}{53}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Spektrum einer Tageslichtleuchstofflampe\footnotemark }}{54}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Aufbau einer Hochdruckentladungslampe\footnotemark }}{55}{figure.8.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Spektrum einer Hochdruckentladungslampe\footnotemark }}{56}{figure.8.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Aufbau einer LED\footnotemark }}{57}{figure.8.7}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Aufbau einer wei\IeC {\ss }en LED\footnotemark }}{58}{figure.8.8}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Spektrum einer kaltwei\IeC {\ss }en LED\footnotemark }}{58}{figure.8.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Darstellung verschiedener Blendzahlen\footnotemark }}{60}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Darstellung der Sch\IeC {\"a}rfentiefe im Bezug zur Blende\footnotemark }}{61}{figure.9.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Darstellung der $\gamma $Vorentzerrung und R\IeC {\"u}ckkorrektur\footnotemark }}{62}{figure.9.3}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Darstellung der $\gamma $-Vorentzerrung und R\IeC {\"u}ckkorrektur\footnotemark }}{62}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Waveformmonitor Screenshot vom Wei\IeC {\ss }abgleich des Arri D5 mit einer Grautreppe}}{64}{figure.9.5}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Bayer Pattern auf einem Kamerachip\footnotemark }}{65}{figure.9.6}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Schematischer Aufbau eines Farbbildwandlers\footnotemark }}{65}{figure.9.7}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Transmission eines Strahlteilers\footnotemark }}{66}{figure.9.8}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Funktionsweise eines Oszilloskops\footnotemark }}{68}{figure.9.9}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Frontansicht eines Waveformmonitors der Firma Tektronix\footnotemark }}{69}{figure.9.10}
-\contentsline {figure}{\numberline {9.11}{\ignorespaces \glqq TE106\grqq \ Color Bar Test Chart der Firma Image Engineering\footnotemark }}{70}{figure.9.11}
-\contentsline {figure}{\numberline {9.12}{\ignorespaces Darstellung der Vektorskopeinteilung mit der Q- und I-Achse\footnotemark }}{71}{figure.9.12}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Hauptmessger\IeC {\"a}t}}{59}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Sekund\IeC {\"a}rmessger\IeC {\"a}t}}{59}{figure.9.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Abbildung der Interferenz am optischen Gitter\footnotemark }}{60}{figure.9.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Skizzierung des Messaufbaus. Die Stufenlinse mit Filterfolie (rot) wird zusammen mit den Scheinwerfern (blau) auf den JETI specbos 1211 ausgerichtet.}}{73}{figure.10.1}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Alle 10 Spektren der Vormessung des K-Eye K20 mit einem zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq \ (das farbige Spektrum wurde ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil gemessen.)}}{74}{figure.10.2}
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Mit 50\% \glqq Red Tail\grqq \ (farbig) wird das Spektrum schlechter. Die Roten Kreise weisen auf die entstehenden Peaks (Blau / Rot / Limette) und T\IeC {\"a}ler (Amber / Cyan) hin.}}{75}{figure.10.3}
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Alle 10 Spektren der Vormessung des K-Eye K20 mit einem zus\IeC {\"a}tzlichen Rosco 789 \glqq Blood Red\grqq \ (das farbige Spektrum wurde ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil gemessen.)}}{76}{figure.10.4}
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Alle 10 Spektren der Vormessung des MAC Encore Wash CLD mit einem zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq \ (das farbige Spektrum wurde ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil gemessen)}}{77}{figure.10.5}
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Spektrum des Refernenzscheinwerfers ARRI D5)}}{78}{figure.10.6}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Darstellung verschiedener Blendzahlen\footnotemark }}{63}{figure.10.1}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Darstellung der Sch\IeC {\"a}rfentiefe im Bezug zur Blende\footnotemark }}{64}{figure.10.2}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Darstellung der $\gamma $Vorentzerrungskurve und inversen R\IeC {\"u}ckkorrekurve\footnotemark }}{65}{figure.10.3}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Linear Matrix der Kamera\footnotemark }}{66}{figure.10.4}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Waveformmonitor Screenshot vom Wei\IeC {\ss }abgleich des Arri D5 mit einer Grautreppe}}{67}{figure.10.5}
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Bayer Pattern auf einem Kamerachip\footnotemark }}{68}{figure.10.6}
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Schematischer Aufbau eines Farbbildwandlers\footnotemark }}{69}{figure.10.7}
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Transmission eines Strahlteilers\footnotemark }}{69}{figure.10.8}
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Funktionsweise eines Oszilloskops\footnotemark }}{72}{figure.10.9}
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Frontansicht eines Waveformmonitors der Firma Tektronix\footnotemark }}{73}{figure.10.10}
+\contentsline {figure}{\numberline {10.11}{\ignorespaces \glqq TE106\grqq \ Color Bar Test Chart der Firma Image Engineering\footnotemark }}{74}{figure.10.11}
+\contentsline {figure}{\numberline {10.12}{\ignorespaces Darstellung der Vektorskopeinteilung mit der Q- und I-Achse\footnotemark }}{75}{figure.10.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Aufbau des \glqq Red Tail\grqq \ mit dem MAC Encore Wash CLD)}}{80}{figure.11.1}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Skizzierung des Messaufbaus. Die Stufenlinse mit Filterfolie (rot) wird zusammen mit den Scheinwerfern (blau) auf den JETI specbos 1211 ausgerichtet.}}{77}{figure.11.1}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Alle 10 Spektren der Vormessung des K-Eye K20 mit einem zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq \ (das farbige Spektrum wurde ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil gemessen.)}}{78}{figure.11.2}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Mit 50\% \glqq Red Tail\grqq \ (farbig) wird das Spektrum schlechter. Die Roten Kreise weisen auf die entstehenden Peaks (Blau / Rot / Limette) und T\IeC {\"a}ler (Amber / Cyan) hin.}}{79}{figure.11.3}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Alle 10 Spektren der Vormessung des K-Eye K20 mit einem zus\IeC {\"a}tzlichen Rosco 789 \glqq Blood Red\grqq \ (das farbige Spektrum wurde ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil gemessen.)}}{80}{figure.11.4}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Alle 10 Spektren der Vormessung des MAC Encore Wash CLD mit einem zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq \ (das farbige Spektrum wurde ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil gemessen)}}{81}{figure.11.5}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Spektrum des Refernenzscheinwerfers ARRI D5)}}{82}{figure.11.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Vergleich des K-Eye K20 Spektrums bei 5395 K (bunt) mit dem Spektrum eines zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq . Entstandene Unterschiede sind besonders hervorgehoben.}}{83}{figure.12.1}
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Vergleich des Impression X4L Spektrums bei 5395 K (bunt) mit dem Spektrum eines zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq . T\IeC {\"a}ler und Peaks sind besonders hervorgehoben.}}{84}{figure.12.2}
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Vergleich des DL7F Spektrums bei 5395 K (bunt) mit dem Spektrum eines zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq . T\IeC {\"a}ler und Peaks sind besonders hervorgehoben.}}{85}{figure.12.3}
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Aufbau des \glqq Red Tail\grqq \ mit dem MAC Encore Wash CLD)}}{84}{figure.12.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Bild der 4 Probanden mit dem Arri D5 Referenzlicht beleuchet}}{88}{figure.13.1}
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Skizzierung des Messaufbaus. Die Stufenlinse mit Filterfolie (rot) wird zusammen mit den Scheinwerfern (blau) auf die Grautreppentafel ausgerichtet (hinter den Personen eingezeichnet). Darauf wird die Kamera dann ggf. Wei\IeC {\ss } abgeglichen}}{89}{figure.13.2}
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Vergleich des K-Eye K20 Spektrums bei 5395 K (bunt) mit dem Spektrum eines zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq . Entstandene Unterschiede sind besonders hervorgehoben.}}{87}{figure.13.1}
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Vergleich des Impression X4L Spektrums bei 5395 K (bunt) mit dem Spektrum eines zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq . T\IeC {\"a}ler und Peaks sind besonders hervorgehoben.}}{88}{figure.13.2}
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Vergleich des DL7F Spektrums bei 5395 K (bunt) mit dem Spektrum eines zus\IeC {\"a}tzlichen Rosco 027 \glqq Medium Red\grqq . T\IeC {\"a}ler und Peaks sind besonders hervorgehoben.}}{89}{figure.13.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Alle drei Bilder wurden mit dem Source Four LED Series 2 Lustr beleuchtet. Das untere Bild ist ohne \glqq Red Tail\grqq . Dem mittleren wurde ein Rosco 027 \glqq Medium Red\grqq \ dazugemischt. Das obere Bild ist mit einem zus\IeC {\"a}tzlichen Rosco 787 \glqq Marius Red\grqq \ erstellt worden. Die ausgedruckten Bilder sind nicht farbecht.}}{92}{figure.14.1}
-\contentsline {figure}{\numberline {14.2}{\ignorespaces Aufgezeichnetes Bild der Probanden beleuchtet mit dem Impression X4L ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil.}}{93}{figure.14.2}
-\contentsline {figure}{\numberline {14.3}{\ignorespaces Aufgezeichnetes Bild der Probanden beleuchtet mit dem Impression X4L ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil.}}{94}{figure.14.3}
-\contentsline {figure}{\numberline {14.4}{\ignorespaces Aufgezeichnetes Bild der Probanden beleuchtet mit dem DL7F Wash. Dieses Bild wurde durch falsche Kameraeinstellungen zu hell.}}{94}{figure.14.4}
-\contentsline {figure}{\numberline {14.5}{\ignorespaces Alle drei Bilder wurden mit dem Ghibli beleuchtet. Das untere Bild ist ohne \glqq Red Tail\grqq . Dem mittleren wurde ein Rosco 027 \glqq Medium Red\grqq \ dazugemischt. Das obere Bild ist mit einem zus\IeC {\"a}tzlichen Rosco 787 \glqq Marius Red\grqq \ erstellt worden. Die ausgedruckten Bilder sind nicht farbecht.}}{95}{figure.14.5}
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Bild der 4 Probanden mit dem Arri D5 Referenzlicht beleuchet}}{92}{figure.14.1}
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Skizzierung des Messaufbaus. Die Stufenlinse mit Filterfolie (rot) wird zusammen mit den Scheinwerfern (blau) auf die Grautreppentafel ausgerichtet (hinter den Personen eingezeichnet). Darauf wird die Kamera dann wei\IeC {\ss } abgeglichen}}{93}{figure.14.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Alle drei Bilder wurden mit dem Source Four LED Series 2 Lustr beleuchtet. Das untere Bild ist ohne \glqq Red Tail\grqq . Dem mittleren wurde ein Rosco 027 \glqq Medium Red\grqq \ dazugemischt. Das obere Bild ist mit einem zus\IeC {\"a}tzlichen Rosco 787 \glqq Marius Red\grqq \ erstellt worden. Die ausgedruckten Bilder sind nicht farbecht.}}{96}{figure.15.1}
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Aufgezeichnetes Bild der Probanden beleuchtet mit dem Impression X4L ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil.}}{97}{figure.15.2}
+\contentsline {figure}{\numberline {15.3}{\ignorespaces Aufgezeichnetes Bild der Probanden beleuchtet mit dem Impression X4L ohne zus\IeC {\"a}tzlichen tiefroten Spektralanteil.}}{98}{figure.15.3}
+\contentsline {figure}{\numberline {15.4}{\ignorespaces Aufgezeichnetes Bild der Probanden beleuchtet mit dem DL7F Wash. Dieses Bild wurde durch falsche Kameraeinstellungen zu hell.}}{98}{figure.15.4}
+\contentsline {figure}{\numberline {15.5}{\ignorespaces Alle drei Bilder wurden mit dem Ghibli beleuchtet. Das untere Bild ist ohne \glqq Red Tail\grqq . Dem mittleren wurde ein Rosco 027 \glqq Medium Red\grqq \ dazugemischt. Das obere Bild ist mit einem zus\IeC {\"a}tzlichen Rosco 787 \glqq Marius Red\grqq \ erstellt worden. Die ausgedruckten Bilder sind nicht farbecht.}}{99}{figure.15.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {17.1}{\ignorespaces Arri D5: Spektrum}}{104}{figure.17.1}
-\contentsline {figure}{\numberline {17.2}{\ignorespaces Arri D5: Beleuchtungsst\IeC {\"a}rke, CCT, $\Delta $UV und Farbortkoordinaten}}{105}{figure.17.2}
-\contentsline {figure}{\numberline {17.3}{\ignorespaces Arri D5: XYZ-Farbraum Detailansicht}}{105}{figure.17.3}
-\contentsline {figure}{\numberline {17.4}{\ignorespaces Arri D5: CRI}}{106}{figure.17.4}
-\contentsline {figure}{\numberline {17.5}{\ignorespaces Arri D5: CQS}}{106}{figure.17.5}
-\contentsline {figure}{\numberline {17.6}{\ignorespaces Arri D5: TLCI}}{107}{figure.17.6}
-\contentsline {figure}{\numberline {17.7}{\ignorespaces Arri D5: TM-30}}{107}{figure.17.7}
+\contentsline {figure}{\numberline {18.1}{\ignorespaces Arri D5: Spektrum}}{108}{figure.18.1}
+\contentsline {figure}{\numberline {18.2}{\ignorespaces Arri D5: Beleuchtungsst\IeC {\"a}rke, CCT, $\Delta $UV und Farbortkoordinaten}}{109}{figure.18.2}
+\contentsline {figure}{\numberline {18.3}{\ignorespaces Arri D5: XYZ-Farbraum Detailansicht}}{109}{figure.18.3}
+\contentsline {figure}{\numberline {18.4}{\ignorespaces Arri D5: CRI}}{110}{figure.18.4}
+\contentsline {figure}{\numberline {18.5}{\ignorespaces Arri D5: CQS}}{110}{figure.18.5}
+\contentsline {figure}{\numberline {18.6}{\ignorespaces Arri D5: TLCI}}{111}{figure.18.6}
+\contentsline {figure}{\numberline {18.7}{\ignorespaces Arri D5: TM-30}}{111}{figure.18.7}
 \addvspace {10\p@ }
